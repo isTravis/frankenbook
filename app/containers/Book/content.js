@@ -15,7 +15,7 @@ export default {
           "children": [
             {
               "type": "Element",
-              "tagName": "p",
+              "tagName": "h1",
               "children": [
                 {
                   "type": "Text",

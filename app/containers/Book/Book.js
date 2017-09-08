@@ -22,6 +22,12 @@ class Book extends Component {
 			});
 			const className = content.attributes && content.attributes.className && content.attributes.className.join(' ');
 			switch (content.tagName) {
+			case 'h1':
+				return <h1 className={className} children={childrenContent} />;
+			case 'h2':
+				return <h2 className={className} children={childrenContent} />;
+			case 'h3':
+				return <h3 className={className} children={childrenContent} />;
 			case 'div':
 				return <div className={className} children={childrenContent} />;
 			case 'p':
