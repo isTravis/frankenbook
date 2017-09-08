@@ -3,6 +3,7 @@
 
 const fs = require('fs');
 const himalaya = require('himalaya');
+const hash = require('object-hash');
 
 const html = fs.readFileSync('static/source.html', { encoding: 'utf8' });
 
@@ -26,21 +27,13 @@ function removeEmptyNodes (nodes) {
 		if (node.children && !node.children.length) {
 			node.children = undefined;
 		}
+		if (node.type === 'Element' && node.tagName !== 'div') {
+			node.hash = hash.sha1(node).substring(0, 6);
+		}
 		node.type = undefined;
 		return node;
 	});
 }
-
-// function stripWhitespace (nodes) {
-// 	return nodes.map((node) => {
-// 		if (node.type === 'Element') {
-// 			node.children = stripWhitespace(node.children);
-// 		} else {
-// 			node.content = node.content.trim();
-// 		}
-// 		return node;
-// 	});
-// }
 
 function removeWhitespace(nodes) {
 	return removeEmptyNodes(nodes);
