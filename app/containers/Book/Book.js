@@ -3,8 +3,8 @@ import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import { withRouter } from 'react-router-dom';
 import Footer from 'components/Footer/Footer';
-import bookContent from './content';
 
+const bookContent = require('source.json');
 require('./book.scss');
 
 const propTypes = {
@@ -13,7 +13,7 @@ const propTypes = {
 
 class Book extends Component {
 	static renderContent(content) {
-		if (content.type === 'Text') {
+		if (content.content) {
 			return content.content;
 		}
 		if (content.children) {
@@ -57,7 +57,6 @@ class Book extends Component {
 					<div className={'container'}>
 						<div className={'row'}>
 							<div className={'col-12'}>
-								<h1>Here is some content!</h1>
 								{Book.renderContent(bookContent)}
 							</div>
 						</div>

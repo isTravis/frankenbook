@@ -15,7 +15,7 @@ module.exports = {
 		publicPath: '/',
 	},
 	resolve: {
-		modules: [resolve(__dirname, '../app'), 'node_modules']
+		modules: [resolve(__dirname, '../app'), resolve(__dirname, '../static'), 'node_modules']
 	},
 	context: resolve(__dirname, '../app'),
 	devtool: '#eval',
@@ -62,6 +62,10 @@ module.exports = {
 				use: [
 					{ loader: 'file-loader', query: { name: 'fonts/[hash].[ext]' } }
 				]
+			},
+			{
+				test: /\.json$/,
+				loader: 'json-loader'
 			}
 		],
 	},
