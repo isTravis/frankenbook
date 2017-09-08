@@ -1,0 +1,25 @@
+.header {
+	background-color: #EAEAE4;
+	box-shadow: 0 0 4px 0 rgba(0,0,0,0.56);
+	.headerItems {
+		height: 40px;
+		display: flex;
+		align-items: center;		
+	}
+	.headerItemsLeft {
+		float: left;
+	}
+	.headerItemsRight {
+		float: right;
+	}
+	.headerLogo {
+		height: 40px;
+	}
+	.homeLogo {
+		height: 150px;
+	}
+	.avatar-button.pt-button.pt-large {
+		padding: 0px 5px;
+	}
+
+}
