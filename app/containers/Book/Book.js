@@ -1,7 +1,9 @@
+/* eslint-disable react/no-children-props */
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import { withRouter } from 'react-router-dom';
 import Footer from 'components/Footer/Footer';
+import bookContent from './content';
 
 require('./book.scss');
 
@@ -10,7 +12,38 @@ const propTypes = {
 };
 
 class Book extends Component {
+	static renderContent(content) {
+		if (content.type === 'Text') {
+			return content.content;
+		}
+		if (content.children) {
+			const childrenContent = content.children.map((child)=> {
+				return Book.renderContent(child);
+			});
+			const className = content.attributes && content.attributes.className && content.attributes.className.join(' ');
+			switch (content.tagName) {
+			case 'div':
+				return <div className={className} children={childrenContent} />;
+			case 'p':
+				return <p className={className} children={childrenContent} />;
+			case 'span':
+				return <span className={className} children={childrenContent} />;
+			case 'i':
+				return <i className={className} children={childrenContent} />;
+			case 'a':
+				return <a className={className} children={childrenContent} />;
+			case 'sup':
+				return <sup className={className} children={childrenContent} />;
+			default:
+				return <div className={className} children={childrenContent} />;
+			}
+		}
+		return null;
+	}
+
 	render() {
+		console.log(bookContent);
+
 		return (
 			<div>
 				<div className={'book'}>
@@ -19,6 +52,7 @@ class Book extends Component {
 						<div className={'row'}>
 							<div className={'col-12'}>
 								<h1>Here is some content!</h1>
+								{Book.renderContent(bookContent)}
 							</div>
 						</div>
 					</div>

@@ -14,7 +14,8 @@
     "prod": "npm run build && serve ./dist -s",
     "lint": "eslint app webpack stories .storybook",
     "start": "webpack-dev-server --env.mode=app --config webpack/webpackConfigDev.js",
-    "storybook": "start-storybook -p 9001 -c .storybook -s ./static"
+    "storybook": "start-storybook -p 9001 -c .storybook -s ./static",
+    "convert": "himalaya static/source.html static/source.json"
   },
   "dependencies": {
     "@blueprintjs/core": "^1.25.1",
@@ -41,6 +42,7 @@
     "eslint-plugin-react": "^7.3.0",
     "extract-text-webpack-plugin": "^3.0.0",
     "file-loader": "^0.11.2",
+    "himalaya": "^0.2.12",
     "html-webpack-plugin": "^2.30.1",
     "node-sass": "^4.5.2",
     "normalize.css": "^7.0.0",
