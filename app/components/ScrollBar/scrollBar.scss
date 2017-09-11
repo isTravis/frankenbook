@@ -1,5 +1,16 @@
 .scroll-bar {
 	// background-color: red;
+	.tab, .bar {
+		opacity: 0;
+		transition: .25s linear opacity;
+	}
+	&:hover {
+		.tab, .bar {
+			opacity: 1;
+		}
+		background-color: rgba(255, 255, 255, 0.7);
+	}
+	
 	height: calc(100vh - 56px);
 	width: 85px;
 	position: fixed;
@@ -8,19 +19,28 @@
 	// overflow: hidden;
 	cursor: row-resize;
 	user-select: none;
-	background-color: rgba(255, 255, 255, 0.7);
+	background-color: rgba(255, 255, 255, 0.0);
+	.position {
+		position: absolute;
+		width: 10px;
+		height: 26px;
+		transform: translateY(-13px);
+		background: grey;
+		right: 0;
+		z-index: 4;
+	}
 	.bar {
 		position: absolute;
-		width: 100%;
-		height: 5px;
-		background: green;
-		left: 0;
+		width: 40px;
+		height: 2px;
+		background: orange;
+		right: 15px;
 		z-index: 3;
 		.current {
 			position: absolute;
 			padding: 5px;
 			background-color: orange;
-			right: 100%;
+			right: calc(100% + 15px);
 			white-space: nowrap;
 			font-size: 14px;
 			top: -12px;
@@ -32,7 +52,7 @@
 		padding: 0px 5px;
 		height: 14px;
 		position: absolute;
-		right: 5px;
+		right: 15px;
 		text-align: right;
 		white-space: nowrap;
 		&.h1 {
@@ -40,7 +60,7 @@
 			z-index: 2;
 		}
 		&.h2 {
-			background: pink;
+			background: #BBB;
 			width: 20px;
 			height: 5px;
 			overflow: hidden;

@@ -114,7 +114,6 @@ class Book extends Component {
 
 		return (
 			<div className={'book'}>
-
 				<div style={{ position: 'absolute' }}>
 					<Link className={'pt-button'} to={'/?start=075db3&finish=ab0e34'}>Small</Link>
 					<Link className={'pt-button'} to={'/'}>Big</Link>
@@ -123,6 +122,17 @@ class Book extends Component {
 					<ScrollBar toc={Book.toc} documentClassName={'book-wrapper'} />
 				}
 				<div className={'book-wrapper'}>
+					<div className={'container'}>
+						<div className={'row'}>
+							<div className={'col-12'}>
+								<h1>Frankenstein</h1>
+								<p>Here is a bunch of content.</p>
+								<h1>Onto Essays</h1>
+								<h1>Lenses</h1>
+								<p>Select your lenses by doing the following;</p>
+							</div>
+						</div>
+					</div>
 					<div className={'book-content'}>
 						{this.renderContent(bookContent)}
 					</div>

@@ -79,8 +79,9 @@
 	.book-content {
 		max-width: none;
 		padding: 0;
+		h1 {
+			page-break-before: always;
+		}
 	}
-	h1 {
-		page-break-before: always;
-	}
+	
 }

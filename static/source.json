@@ -2,6 +2,14 @@
   "tagName": "div",
   "children": [
     {
+      "tagName": "img",
+      "attributes": {
+        "src": "images/cover.jpg",
+        "alt": "Frankenstein cover"
+      },
+      "hash": "893f24"
+    },
+    {
       "tagName": "h1",
       "children": [
         {

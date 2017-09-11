@@ -138,6 +138,7 @@ class ScrollBar extends Component {
 	render() {
 		return (
 			<div className={'scroll-bar'}>
+				<div className={'position'} style={{ top: `${this.state.percentage}%`}} />
 				<div className={'bar'} style={{ top: `${this.state.percentage}%`}}>
 					<div className={'current'}>{this.state.currentVal}</div>
 				</div>
