@@ -25,15 +25,15 @@ class Book extends Component {
 		this.renderContent = this.renderContent.bind(this);
 	}
 
-	componentWillReceiveProps() {
-		this.seenStart = false;
-		this.seenFinish = false;
-	}
 	componentWillMount() {
 		Book.getRoots(bookContent);
 	}
 	componentDidMount() {
 		this.setState({ docRendered: true });
+	}
+	componentWillReceiveProps() {
+		this.seenStart = false;
+		this.seenFinish = false;
 	}
 	renderContent(content) {
 		const queryObject = queryString.parse(this.props.location.search);
@@ -51,6 +51,9 @@ class Book extends Component {
 
 		if (content.content) {
 			return content.content;
+		}
+		if (content.attributes && content.attributes.src) {
+			return <img src={content.attributes.src} alt={content.attributes.alt} />;
 		}
 		if (content.children) {
 			const childrenContent = content.children.map((child)=> {
@@ -83,6 +86,8 @@ class Book extends Component {
 				return <a {...attributes} />;
 			case 'sup':
 				return <sup {...attributes} />;
+			case 'blockquote':
+				return <blockquote {...attributes} />;
 			default:
 				return <div {...attributes} />;
 			}
@@ -93,7 +98,7 @@ class Book extends Component {
 	static toc = [];
 
 	static getRoots(content) {
-		if (content.tagName === 'h1' || content.tagName === 'h2') {
+		if (content.tagName === 'h1' || content.tagName === 'h2' || content.tagName === 'h3') {
 			Book.toc.push({ tagName: content.tagName, content: content.children[0].content, hash: content.hash });
 		}
 		if (content.children) {
@@ -119,10 +124,7 @@ class Book extends Component {
 				}
 				<div className={'book-wrapper'}>
 					<div className={'book-content'}>
-						
-						<div className={'text'}>
-							{this.renderContent(bookContent)}
-						</div>
+						{this.renderContent(bookContent)}
 					</div>
 				</div>
 			</div>

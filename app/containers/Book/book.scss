@@ -8,7 +8,8 @@
 	padding-right: 50px;
 	max-height: calc(100vh - 56px);
 }
-.text {
+
+.book-content {
 	
 	max-width: 700px;
 	padding: 0px 2vw;
@@ -23,6 +24,9 @@
 	-moz-font-feature-settings: "liga" on;
 	& *:first-child {
 		margin-top: 0px;
+	}
+	h1 {
+		padding-top: 3em;
 	}
 	h2, h3 {
 		margin-top: 56px;
@@ -57,5 +61,26 @@
 	li {
 		margin: 0;
 	    margin-bottom: .65em;
+	}
+	blockquote {
+		border-left: 2px solid rgba(0, 0, 0, 0.15);
+		margin: 0em;
+		padding: 1em;
+	}
+}
+
+@media print {
+	.book-wrapper {
+		overflow: visible;
+		max-height: none;
+		width: auto;
+		padding: 0;
+	}
+	.book-content {
+		max-width: none;
+		padding: 0;
+	}
+	h1 {
+		page-break-before: always;
 	}
 }

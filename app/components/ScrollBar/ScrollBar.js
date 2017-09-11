@@ -19,6 +19,7 @@ class ScrollBar extends Component {
 		super(props);
 		this.state = {
 			percentage: 0,
+			currentVal: undefined,
 		};
 
 		this.wrapperElem = document.getElementsByClassName(this.props.documentClassName)[0];
@@ -51,7 +52,8 @@ class ScrollBar extends Component {
 			const top = elem.offsetTop;
 			const total = this.wrapperElem.scrollHeight;
 			const percentage = top / total * 100;
-			output[item.hash] = `calc(${percentage}% - 6px)`;
+			// output[item.hash] = `calc(${percentage}% - 6px)`;
+			output[item.hash] = percentage;
 		});
 		return output;
 		
@@ -61,7 +63,22 @@ class ScrollBar extends Component {
 		// console.log('scroll');
 		const percentage = this.wrapperElem.scrollTop/(this.wrapperElem.scrollHeight) * 100;
 		// console.log(percentage);
-		this.setState({ percentage: percentage });
+
+		const percentages = this.props.toc.map((item)=> {
+			return { ...item, percentage: this.topOffsets[item.hash] }
+		}).sort((foo, bar)=> {
+			if (foo.percentage > bar.percentage) { return 1; }
+			if (foo.percentage < bar.percentage) { return -1; }
+			return 0;
+		});
+		const active = percentages.reduce((prev, curr)=> {
+			if (curr.percentage < percentage) { return curr; }
+			return prev; 
+		}, percentages[0]);
+		
+
+		this.setState({ percentage: percentage, currentVal: active.content });
+
 	}
 
 	mouseDownEvent(evt) {
@@ -73,6 +90,22 @@ class ScrollBar extends Component {
 		this.wrapperElem.scroll(0, percentage * this.wrapperElem.scrollHeight);
 		document.getElementsByClassName('scroll-bar')[0].addEventListener('mousemove', this.mouseMoveEvent);
 		document.getElementsByClassName('scroll-bar')[0].addEventListener('mouseup', this.mouseUpEvent);
+
+		// const percentages = this.props.toc.map((item)=> {
+		// 	return { ...item, percentage: this.topOffsets[item.hash] }
+		// }).sort((foo, bar)=> {
+		// 	if (foo.percentage > bar.percentage) { return 1; }
+		// 	if (foo.percentage < bar.percentage) { return -1; }
+		// 	return 0;
+		// });
+		// const active = percentages.reduce((prev, curr)=> {
+		// 	if (curr.percentage < (percentage * 100)) { return curr; }
+		// 	return prev; 
+		// }, undefined);
+		// console.log(percentage);
+		// console.log(percentages);
+		// this.setState({ currentVal: active.content });
+
 	}
 
 	mouseMoveEvent(evt) {
@@ -82,6 +115,19 @@ class ScrollBar extends Component {
 		const clientHeight = document.documentElement.clientHeight;
 		const percentage = (clientClick - topPadding) / (clientHeight - topPadding);
 		this.wrapperElem.scroll(0, percentage * this.wrapperElem.scrollHeight);
+
+		// const percentages = this.props.toc.map((item)=> {
+		// 	return { ...item, percentage: this.topOffsets[item.hash] }
+		// }).sort((foo, bar)=> {
+		// 	if (foo.percentage > bar.percentage) { return 1; }
+		// 	if (foo.percentage < bar.percentage) { return -1; }
+		// 	return 0;
+		// });
+		// const active = percentages.reduce((prev, curr)=> {
+		// 	if (curr.percentage < (percentage * 100)) { return curr; }
+		// 	return prev; 
+		// }, undefined);
+		// this.setState({ currentVal: active.content });
 	}
 
 	mouseUpEvent(evt) {
@@ -92,10 +138,13 @@ class ScrollBar extends Component {
 	render() {
 		return (
 			<div className={'scroll-bar'}>
-				<div className={'bar'} style={{ top: `${this.state.percentage}%`}}/>
+				<div className={'bar'} style={{ top: `${this.state.percentage}%`}}>
+					<div className={'current'}>{this.state.currentVal}</div>
+				</div>
+
 				{this.props.toc.map((item)=> {
 					return (
-						<div className={'tab'} key={item.hash} style={{ top: this.topOffsets[item.hash] }}>
+						<div className={`tab ${item.tagName === 'h1' ? 'h1' : 'h2'}`} key={item.hash} style={{ top: `calc(${this.topOffsets[item.hash]}% - 6px)` }}>
 							{item.content}
 						</div>
 					);

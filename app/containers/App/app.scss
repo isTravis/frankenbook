@@ -27,6 +27,12 @@ body {
 	pointer-events: none;
 }
 
+@media print {
+	body {
+		padding-top: 0;
+	}
+}
+
 // Import Custom Icon Fonts
 // ****************************
 @font-face {

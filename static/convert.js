@@ -5,7 +5,7 @@ const fs = require('fs');
 const himalaya = require('himalaya');
 const hash = require('object-hash');
 
-const html = fs.readFileSync('static/source.html', { encoding: 'utf8' });
+const html = fs.readFileSync('static/bookSource.html', { encoding: 'utf8' });
 
 
 function removeEmptyNodes (nodes) {
