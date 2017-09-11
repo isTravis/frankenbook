@@ -3,6 +3,7 @@ const webpack = require('webpack');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const ExtractTextPlugin = require('extract-text-webpack-plugin');
 const SWPrecacheWebpackPlugin = require('sw-precache-webpack-plugin');
+const autoprefixer = require('autoprefixer');
 
 const extractSass = new ExtractTextPlugin({
 	filename: '[name].[contenthash].css',
@@ -44,7 +45,8 @@ module.exports = {
 				use: extractSass.extract({
 					use: [
 						{ loader: 'css-loader', options: { minimize: true } },
-						{ loader: 'sass-loader' }
+						{ loader: 'postcss-loader', options: { plugins: ()=> [autoprefixer] } },
+						{ loader: 'sass-loader' },
 					],
 				})
 			},
@@ -67,6 +69,13 @@ module.exports = {
 		],
 	},
 	plugins: [
+		// new webpack.LoaderOptionsPlugin({
+		// 	options: {
+		// 		postcss: [
+		// 			autoprefixer(),
+		// 		]
+		// 	}
+		// }),
 		new webpack.DefinePlugin({
 			'process.env': {
 				NODE_ENV: JSON.stringify('production'),

@@ -87,7 +87,7 @@ class ScrollBar extends Component {
 		const clientClick = evt.clientY;
 		const clientHeight = document.documentElement.clientHeight;
 		const percentage = (clientClick - topPadding) / (clientHeight - topPadding);
-		this.wrapperElem.scroll(0, percentage * this.wrapperElem.scrollHeight);
+		this.wrapperElem.scrollTop = percentage * this.wrapperElem.scrollHeight;
 		document.getElementsByClassName('scroll-bar')[0].addEventListener('mousemove', this.mouseMoveEvent);
 		document.getElementsByClassName('scroll-bar')[0].addEventListener('mouseup', this.mouseUpEvent);
 
@@ -105,7 +105,6 @@ class ScrollBar extends Component {
 		// console.log(percentage);
 		// console.log(percentages);
 		// this.setState({ currentVal: active.content });
-
 	}
 
 	mouseMoveEvent(evt) {
@@ -114,7 +113,7 @@ class ScrollBar extends Component {
 		const clientClick = evt.clientY;
 		const clientHeight = document.documentElement.clientHeight;
 		const percentage = (clientClick - topPadding) / (clientHeight - topPadding);
-		this.wrapperElem.scroll(0, percentage * this.wrapperElem.scrollHeight);
+		this.wrapperElem.scrollTop = percentage * this.wrapperElem.scrollHeight;
 
 		// const percentages = this.props.toc.map((item)=> {
 		// 	return { ...item, percentage: this.topOffsets[item.hash] }
