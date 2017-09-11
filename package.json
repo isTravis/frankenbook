@@ -15,7 +15,8 @@
     "lint": "eslint app webpack stories .storybook",
     "start": "webpack-dev-server --env.mode=app --config webpack/webpackConfigDev.js",
     "storybook": "start-storybook -p 9001 -c .storybook -s ./static",
-    "convert": "node static/convert.js"
+    "convert": "node static/convert.js",
+    "convert-annotations": "node static/convertAnnotations.js"
   },
   "dependencies": {
     "@blueprintjs/core": "^1.25.1",

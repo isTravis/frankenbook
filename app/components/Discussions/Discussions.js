@@ -14,9 +14,13 @@ class Discussions extends Component {
 		this.state = {
 			isOpen: false,
 		};
+		this.openDiscussions = this.openDiscussions.bind(this);
 	}
 
-	
+	openDiscussions() {
+		this.setState({ isOpen: true });
+	}
+
 	render() {
 		const counts = this.props.discussions.filter((item)=> {
 			return item.anchor === this.props.parentHash;
@@ -30,17 +34,37 @@ class Discussions extends Component {
 			})
 			return prev;
 		}, {});
+		
 		if (!Object.keys(counts).length) {
 			return null;
 		}
-		console.log(counts);
+
+		if (!this.state.isOpen) {
+			return (
+				<span className={'discussions-small'} onClick={this.openDiscussions}>
+					{Object.keys(counts).map((key)=> {
+						return <span className={`key ${key}`}>{counts[key]}</span>
+					})}
+				</span>
+			);
+		}
+
 		return (
-			<span className={'discussions'}>
-				{Object.keys(counts).map((key)=> {
-					return <span className={`key ${key}`}>{counts[key]}</span>
+			<div className={'discussions-large pt-card pt-elevation-2'}>
+				{this.props.discussions.filter((item)=> {
+					return item.anchor === this.props.parentHash;
+				}).map((item)=> {
+					return (
+						<div className={'discussion-item'}>
+							{JSON.stringify(item.content)}
+						</div>
+					);
 				})}
-			</span>
+
+
+			</div>
 		);
+		
 	}
 };
 
