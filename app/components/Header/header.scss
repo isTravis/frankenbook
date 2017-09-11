@@ -1,6 +1,11 @@
 .header {
 	background-color: #EAEAE4;
 	box-shadow: 0 0 4px 0 rgba(0,0,0,0.56);
+	position: fixed;
+	width: 100%;
+	top: 0;
+	z-index: 1000;
+	
 	.headerItems {
 		height: 40px;
 		display: flex;

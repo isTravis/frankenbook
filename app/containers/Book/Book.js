@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import { withRouter, Link } from 'react-router-dom';
 import queryString from 'query-string';
-import Footer from 'components/Footer/Footer';
+import ScrollBar from 'components/ScrollBar/ScrollBar';
 
 const bookContent = require('source.json');
 require('./book.scss');
@@ -16,6 +16,10 @@ class Book extends Component {
 	constructor(props) {
 		super(props);
 
+		this.state = {
+			docRendered: false,
+		};
+
 		this.seenStart = false;
 		this.seenFinish = false;
 		this.renderContent = this.renderContent.bind(this);
@@ -24,6 +28,12 @@ class Book extends Component {
 	componentWillReceiveProps() {
 		this.seenStart = false;
 		this.seenFinish = false;
+	}
+	componentWillMount() {
+		Book.getRoots(bookContent);
+	}
+	componentDidMount() {
+		this.setState({ docRendered: true });
 	}
 	renderContent(content) {
 		const queryObject = queryString.parse(this.props.location.search);
@@ -94,28 +104,27 @@ class Book extends Component {
 	}
 
 	render() {
-		Book.getRoots(bookContent);
 		console.log(bookContent);
 		console.log(Book.toc);
 
 		return (
-			<div>
-				<div className={'book'}>
+			<div className={'book'}>
 
-					<div className={'container'}>
-						<div className={'row'}>
-							<div className={'col-12'}>
-								<Link className={'pt-button'} to={'/?start=075db3&finish=ab0e34'}>Small</Link>
-								<Link className={'pt-button'} to={'/'}>Big</Link>
-								{this.renderContent(bookContent)}
-							</div>
-						</div>
+				{this.state.docRendered &&
+					<ScrollBar toc={Book.toc} documentClassName={'book-wrapper'} />
+				}
+
+				<div style={{ position: 'absolute' }}>
+					<Link className={'pt-button'} to={'/?start=075db3&finish=ab0e34'}>Small</Link>
+					<Link className={'pt-button'} to={'/'}>Big</Link>
+				</div>
+				<div className={'book-wrapper'}>
+					<div className={'book-content'}>
+						{this.renderContent(bookContent)}
 					</div>
 				</div>
-
-				<Footer />
-
 			</div>
+
 		);
 	}
 }
