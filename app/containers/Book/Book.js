@@ -110,17 +110,19 @@ class Book extends Component {
 		return (
 			<div className={'book'}>
 
-				{this.state.docRendered &&
-					<ScrollBar toc={Book.toc} documentClassName={'book-wrapper'} />
-				}
-
 				<div style={{ position: 'absolute' }}>
 					<Link className={'pt-button'} to={'/?start=075db3&finish=ab0e34'}>Small</Link>
 					<Link className={'pt-button'} to={'/'}>Big</Link>
 				</div>
+				{this.state.docRendered &&
+					<ScrollBar toc={Book.toc} documentClassName={'book-wrapper'} />
+				}
 				<div className={'book-wrapper'}>
 					<div className={'book-content'}>
-						{this.renderContent(bookContent)}
+						
+						<div className={'text'}>
+							{this.renderContent(bookContent)}
+						</div>
 					</div>
 				</div>
 			</div>
