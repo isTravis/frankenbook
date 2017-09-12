@@ -143,7 +143,6 @@ class Book extends Component {
 	render() {
 		console.log(bookContent);
 		console.log(Book.toc);
-		
 
 		return (
 			<div className={'book'}>
@@ -151,10 +150,10 @@ class Book extends Component {
 					.key.${'Engineering'}, .tag.${'Engineering'} { background-color: ${'#2387aa'}; } 
 					.key.${'Ethics'}, .tag.${'Ethics'} { background-color: ${'#14ac88'}; } 
 				`}</style>
-				<div style={{ position: 'absolute' }}>
+				{/* <div style={{ position: 'absolute' }}>
 					<Link className={'pt-button'} to={'/?start=075db3&finish=ab0e34'}>Small</Link>
 					<Link className={'pt-button'} to={'/'}>Big</Link>
-				</div>
+				</div> */}
 				{this.state.docRendered &&
 					<ScrollBar toc={Book.toc} documentClassName={'book-wrapper'} />
 				}
@@ -167,6 +166,7 @@ class Book extends Component {
 								<h1>Onto Essays</h1>
 								<h1>Lenses</h1>
 								<p>Select your lenses by doing the following;</p>
+								{/* <img src={'images/coverWide.jpg'} alt={'Book Cover'} /> */}
 							</div>
 						</div>
 					</div>

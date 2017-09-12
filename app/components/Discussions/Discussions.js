@@ -28,6 +28,7 @@ class Discussions extends Component {
 	}
 
 	renderContent(content) {
+		if (!content) { return <div>Empty content</div>; }
 		if (content.content) {
 			return content.content;
 		}

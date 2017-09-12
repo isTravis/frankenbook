@@ -31,6 +31,17 @@ class App extends Component {
 		const appData = this.props.appData.data || {};
 		const loginData = this.props.loginData.data || {};
 
+		const lensData = [
+			{
+				title: 'Engineering',
+				slug: 'engineering',
+			},
+			{
+				title: 'Ethics',
+				slug: 'ethics',
+			},
+		];
+
 		return (
 			<div>
 				<Helmet>
@@ -46,6 +57,8 @@ class App extends Component {
 					userInitials={loginData.initials}
 					userSlug={loginData.slug}
 					userAvatar={loginData.avatar}
+					lensData={lensData}
+					location={this.props.location}
 					logoutHandler={App.logoutHandler}
 				/>
 

@@ -27,6 +27,10 @@ body {
 	pointer-events: none;
 }
 
+.pt-portal {
+	z-index: 1001;
+}
+
 @media print {
 	body {
 		padding-top: 0;

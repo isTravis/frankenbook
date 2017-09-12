@@ -3,6 +3,7 @@ import PropTypes from 'prop-types';
 import { Link } from 'react-router-dom';
 import Avatar from 'components/Avatar/Avatar';
 import { Popover, PopoverInteractionKind, Position, Menu, MenuItem, MenuDivider } from '@blueprintjs/core';
+import queryString from 'query-string';
 
 require('./header.scss');
 
@@ -11,7 +12,8 @@ const propTypes = {
 	userInitials: PropTypes.string,
 	userSlug: PropTypes.string,
 	userAvatar: PropTypes.string,
-
+	lensData: PropTypes.array.isRequired,
+	location: PropTypes.object.isRequired,
 	logoutHandler: PropTypes.func.isRequired,
 };
 
@@ -24,6 +26,38 @@ const defaultProps = {
 
 const Header = function(props) {
 	const loggedIn = !!props.userSlug;
+	const defaults = ['engineering', 'ethics'];
+
+	const getLensQuery = function(lens) {
+		const queryObject = queryString.parse(props.location.search);
+		const lenses = queryObject.lenses && queryObject.lenses.split('+');
+
+		// No Lense query
+		if (!lenses) {
+			const nextLenses = defaults.filter((item)=> { return item !== lens; });
+			return queryString.stringify({ lenses: nextLenses.join('+') }, { encode: false });
+		}
+
+		// Empty lenses query - i.e. no lenses are being shown
+		if (lenses[0] === 'none') {
+			const nextLenses = [lens];
+			return queryString.stringify({ lenses: nextLenses.join('+') }, { encode: false });
+		}
+
+		// Lens is not in the array - add it in
+		if (lenses.indexOf(lens) === -1) {
+			lenses.push(lens);
+			const nextLenses = lenses;
+			return queryString.stringify({ lenses: nextLenses.join('+') }, { encode: false });
+		}
+
+		// Lens is in the array - remove it
+		const nextLenses = lenses.filter((item)=> { return item !== lens; });
+		if (!nextLenses.length) {
+			return queryString.stringify({ lenses: 'none' });
+		}
+		return queryString.stringify({ lenses: nextLenses.join('+') }, { encode: false });
+	};
 
 	return (
 		<nav className={'header'}>
@@ -35,12 +69,35 @@ const Header = function(props) {
 							<Link to={'/'}>
 								<img alt={'header logo'} className={'headerLogo'} src={'/headerLogo.png'} />
 							</Link>
+
+							<Popover
+								content={
+									<Menu>
+										{props.lensData.map((lens)=> {
+											return (
+												<li key={lens.slug}>
+													<Link className={'pt-menu-item'} replace to={`/?${getLensQuery(lens.slug)}`}>
+														{lens.title}
+													</Link>
+												</li>
+											);
+										})}
+									</Menu>
+								}
+								interactionKind={PopoverInteractionKind.CLICK}
+								position={Position.BOTTOM_LEFT}
+								popoverClassName={'pt-minimal'}
+								transitionDuration={-1}
+								inheritDarkTheme={false}
+							>
+								<button className="pt-button lens-dropdown">
+									Active Lenses:
+									<span className="pt-icon-standard pt-icon-caret-down pt-align-right" />
+								</button>
+							</Popover>
 						</div>
 
 						<div className={'headerItems headerItemsRight'}>
-
-							{/* Search button */}
-							<Link to={'/search'} className="pt-button pt-large pt-minimal pt-icon-search" />
 
 							{/* User avatar and menu */}
 							{loggedIn &&

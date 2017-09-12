@@ -7,6 +7,9 @@
 	width: calc(100vw + 50px);
 	padding-right: 50px;
 	max-height: calc(100vh - 56px);
+	img {
+		max-width: 100%;
+	}
 }
 
 .book-content {
