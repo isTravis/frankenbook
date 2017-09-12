@@ -30,7 +30,9 @@ const Header = function(props) {
 
 	const getLensQuery = function(lens) {
 		const queryObject = queryString.parse(props.location.search);
-		const lenses = queryObject.lenses && queryObject.lenses.split('+');
+
+		const lenses = queryObject.lenses && queryObject.lenses.replace(/\s/gi, '+').split('+');
+		console.log(queryObject, lenses);
 
 		// No Lense query
 		if (!lenses) {
