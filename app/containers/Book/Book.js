@@ -105,7 +105,7 @@ class Book extends Component {
 				return (
 					<p {...attributes}>
 						{childrenContent}
-
+						{/*<div className={'side'}>Link · Discuss</div>*/}
 						<Discussions parentHash={content.hash} discussions={this.discussions} />
 					</p>
 				);

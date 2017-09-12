@@ -111,7 +111,7 @@ class Discussions extends Component {
 						return item.anchor === this.props.parentHash;
 					}).map((item)=> {
 						return (
-							<div className={'discussion-item'}>
+							<div className={'discussion-item'} key={item.link}>
 								<div className={'image'}>
 									<img src={'icon.png'} alt={item.author} />
 								</div>
