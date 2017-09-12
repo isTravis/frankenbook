@@ -26,8 +26,7 @@ function checkForFootnotes(nodes) {
 		if (node.type === 'Element') {
 			checkForFootnotes(node.children);
 		}
-		
-	})
+	});
 }
 
 function footnoteLink(node) {
@@ -42,7 +41,7 @@ function footnoteLink(node) {
 
 function footnoteAuthor(node) {
 	if (!node.children && node.tagName !== 'div') { return null; }
-	if (node.tagName === 'div' && node.attributes.className && node.attributes.className.indexOf('footnote-author') > -1) { return node.children[0].content; }
+	if (node.tagName === 'div' && node.attributes.className && node.attributes.className.indexOf('footnote-author') > -1) { return node.children[0].content.replace('.',''); }
 	return node.children.reduce((prev, curr)=> {
 		const currLink = footnoteAuthor(curr);
 		if (currLink) { return currLink; }
@@ -60,26 +59,26 @@ function footnoteContent(node) {
 	}, null);
 }
 
-
-function buildParagraphLinks(node) {
-	if (!node.children) { return null; }
-	if (node.tagName === 'p') {
-		findLinks(node, node.hash);	
-	}
-	node.children.forEach((item)=> {
-		buildParagraphLinks(item);
-	})
-}
-
 function findLinks(node, hash) {
 	if (node.tagName === 'span' && node.attributes && node.attributes.id && node.attributes.id.indexOf('link-') > -1) { paragraphLinks[node.attributes.id] = hash; }
 	// if (node.tagName === 'a' && node.attributes.href) { paragraphLinks[node.attributes.href] = hash; }
 	if (node.children) {
 		node.children.forEach((item)=> {
 			findLinks(item, hash);
-		})
+		});
 	}
 }
+
+function buildParagraphLinks(node) {
+	if (!node.children) { return null; }
+	if (node.tagName === 'p') {
+		findLinks(node, node.hash);
+	}
+	node.children.forEach((item)=> {
+		buildParagraphLinks(item);
+	});
+}
+
 
 const paragraphLinks = {};
 buildParagraphLinks(documentJSON);
@@ -111,19 +110,24 @@ const goodFootnotes = footnotes.filter((item)=> {
 	return footnoteLink(item);
 });
 
+const labelOptions = [
+	['Engineering'],
+	['Ethics'],
+	['Engineering', 'Ethics'],
+];
 const goodFootnoteObjects = goodFootnotes.map((item)=> {
 	return {
 		link: footnoteLink(item),
 		author: footnoteAuthor(item),
 		content: footnoteContent(item),
-		anchor: paragraphLinks[footnoteLink(item).replace('#','')],
-		labels: ['Engineering'],
+		anchor: paragraphLinks[footnoteLink(item).replace('#', '')],
+		labels: labelOptions[Math.floor(Math.random() * 3)],
 	};
 }).filter((item)=> {
 	return item.anchor;
 });
 
-console.log(JSON.stringify(goodFootnoteObjects, null, 2));
+// console.log(JSON.stringify(goodFootnoteObjects, null, 2));
 
 
 fs.writeFile('static/sourceAnnotations.json', JSON.stringify(goodFootnoteObjects, null, 2), 'utf8', ()=> {

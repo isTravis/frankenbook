@@ -56,16 +56,15 @@ class ScrollBar extends Component {
 			output[item.hash] = percentage;
 		});
 		return output;
-		
 	}
 
-	scrollEvent(evt) {
+	scrollEvent() {
 		// console.log('scroll');
 		const percentage = this.wrapperElem.scrollTop/(this.wrapperElem.scrollHeight) * 100;
 		// console.log(percentage);
 
 		const percentages = this.props.toc.map((item)=> {
-			return { ...item, percentage: this.topOffsets[item.hash] }
+			return { ...item, percentage: this.topOffsets[item.hash] };
 		}).sort((foo, bar)=> {
 			if (foo.percentage > bar.percentage) { return 1; }
 			if (foo.percentage < bar.percentage) { return -1; }
@@ -73,12 +72,10 @@ class ScrollBar extends Component {
 		});
 		const active = percentages.reduce((prev, curr)=> {
 			if (curr.percentage < percentage) { return curr; }
-			return prev; 
+			return prev;
 		}, percentages[0]);
-		
 
 		this.setState({ percentage: percentage, currentVal: active.content });
-
 	}
 
 	mouseDownEvent(evt) {

@@ -1,7 +1,7 @@
 [
   {
     "link": "#link-103",
-    "author": "Mary Margaret Fonow.",
+    "author": "Mary Margaret Fonow",
     "content": {
       "type": "Element",
       "tagName": "div",
@@ -13,18 +13,19 @@
       "children": [
         {
           "type": "Text",
-          "content": "The setting for the story is Geneva, Switzerland, one of the oldest major capitals of Europe, and Victor is from one of its noblest families. He uses his scientific training to create a new life but then fails to take responsibility for loving and caring for that life. He is shocked and disgusted when his creation doesn’t turn out as he planned. Yet he is also mostly unaware that his failure to take care of his creation in turn has created the creature he fears and rejects. Mary and her family traveled in more liberal and even radical circles, and she abhorred and flaunted the conventional mores of high society. In "
+          "content": "The setting for the story is Geneva, Switzerland, one of the oldest major capitals of Europe, and Victor is from one of its noblest families. He uses his scientific training to create a new life but then fails to take responsibility for loving and caring for that life. He is shocked and disgusted when his creation doesn’t turn out as he planned. Yet he is also mostly unaware that his failure to take care of his creation in turn has created the creature he fears and rejects. Mary and her family traveled in more liberal and even radical circles, and she abhorred and flaunted the conventional mores of high society. In Frankenstein, is she calling attention to the propensity of those at the top to ignore the consequences of their actions? Social status cannot fully protect individuals from unintended consequences. Scientists and engineers who are often at the highest ranks of the academy need to be more mindful of the unintended consequences of their discoveries."
         }
       ]
     },
     "anchor": "e4a466",
     "labels": [
-      "Engineering"
+      "Engineering",
+      "Ethics"
     ]
   },
   {
     "link": "#link-104",
-    "author": "Braden Allenby.",
+    "author": "Braden Allenby",
     "content": {
       "type": "Element",
       "tagName": "div",
@@ -42,12 +43,12 @@
     },
     "anchor": "ffded5",
     "labels": [
-      "Engineering"
+      "Ethics"
     ]
   },
   {
     "link": "#link-105",
-    "author": "David H. Guston.",
+    "author": "David H Guston.",
     "content": {
       "type": "Element",
       "tagName": "div",
@@ -67,70 +68,14 @@
           "attributes": {},
           "children": [
             {
-              "type": "Element",
-              "tagName": "span",
-              "attributes": {},
-              "children": [
-                {
-                  "type": "Text",
-                  "content": "Natural philosophy"
-                }
-              ]
-            },
-            {
               "type": "Text",
-              "content": " and "
-            },
-            {
-              "type": "Element",
-              "tagName": "span",
-              "attributes": {},
-              "children": [
-                {
-                  "type": "Text",
-                  "content": "natural philosopher"
-                }
-              ]
-            },
-            {
-              "type": "Text",
-              "content": " were broadly encompassing terms for the theoretical and empirical inquiry into the natural world and those who conducted such inquiries. The latter was used prior to the rise of the term "
-            },
-            {
-              "type": "Element",
-              "tagName": "span",
-              "attributes": {},
-              "children": [
-                {
-                  "type": "Text",
-                  "content": "scientist"
-                }
-              ]
-            },
-            {
-              "type": "Text",
-              "content": ", which was not coined until 1834, although Mary does use the word "
-            },
-            {
-              "type": "Element",
-              "tagName": "span",
-              "attributes": {},
-              "children": [
-                {
-                  "type": "Text",
-                  "content": "scientifical"
-                }
-              ]
-            },
-            {
-              "type": "Text",
-              "content": ": “our family was not scientifical,” says Victor in describing the Frankensteins (p. 22)."
+              "content": "Natural philosophy and natural philosopher were broadly encompassing terms for the theoretical and empirical inquiry into the natural world and those who conducted such inquiries. The latter was used prior to the rise of the term scientist, which was not coined until 1834, although Mary does use the word scientifical: “our family was not scientifical,” says Victor in describing the Frankensteins (p. 22)."
             }
           ]
         },
         {
           "type": "Text",
-          "content": "\n\t\t\t\t"
+          "content": "\n\n\t\t\t\t"
         },
         {
           "type": "Element",
@@ -151,12 +96,12 @@
     },
     "anchor": "b70a26",
     "labels": [
-      "Engineering"
+      "Ethics"
     ]
   },
   {
     "link": "#link-106",
-    "author": "Joel A. Klein.",
+    "author": "Joel A Klein.",
     "content": {
       "type": "Element",
       "tagName": "div",
@@ -174,12 +119,13 @@
     },
     "anchor": "43113a",
     "labels": [
-      "Engineering"
+      "Engineering",
+      "Ethics"
     ]
   },
   {
     "link": "#link-107",
-    "author": "Joel A. Klein.",
+    "author": "Joel A Klein.",
     "content": {
       "type": "Element",
       "tagName": "div",
@@ -197,12 +143,12 @@
     },
     "anchor": "460d75",
     "labels": [
-      "Engineering"
+      "Ethics"
     ]
   },
   {
     "link": "#link-108",
-    "author": "Sara Brownell.",
+    "author": "Sara Brownell",
     "content": {
       "type": "Element",
       "tagName": "div",
@@ -220,12 +166,13 @@
     },
     "anchor": "2947ef",
     "labels": [
-      "Engineering"
+      "Engineering",
+      "Ethics"
     ]
   },
   {
     "link": "#link-109",
-    "author": "Allison Kavey.",
+    "author": "Allison Kavey",
     "content": {
       "type": "Element",
       "tagName": "div",
@@ -269,12 +216,13 @@
     },
     "anchor": "2947ef",
     "labels": [
-      "Engineering"
+      "Engineering",
+      "Ethics"
     ]
   },
   {
     "link": "#link-110",
-    "author": "JJ LaTourelle.",
+    "author": "JJ LaTourelle",
     "content": {
       "type": "Element",
       "tagName": "div",
@@ -292,12 +240,12 @@
     },
     "anchor": "2947ef",
     "labels": [
-      "Engineering"
+      "Ethics"
     ]
   },
   {
     "link": "#link-111",
-    "author": "Sara Brownell.",
+    "author": "Sara Brownell",
     "content": {
       "type": "Element",
       "tagName": "div",
@@ -315,12 +263,12 @@
     },
     "anchor": "01c3ce",
     "labels": [
-      "Engineering"
+      "Ethics"
     ]
   },
   {
     "link": "#link-112",
-    "author": "Dehlia Hannah.",
+    "author": "Dehlia Hannah",
     "content": {
       "type": "Element",
       "tagName": "div",
@@ -338,12 +286,13 @@
     },
     "anchor": "440bf3",
     "labels": [
-      "Engineering"
+      "Engineering",
+      "Ethics"
     ]
   },
   {
     "link": "#link-113",
-    "author": "David H. Guston.",
+    "author": "David H Guston.",
     "content": {
       "type": "Element",
       "tagName": "div",
@@ -361,12 +310,13 @@
     },
     "anchor": "2edf0c",
     "labels": [
-      "Engineering"
+      "Engineering",
+      "Ethics"
     ]
   },
   {
     "link": "#link-114",
-    "author": "David H. Guston.",
+    "author": "David H Guston.",
     "content": {
       "type": "Element",
       "tagName": "div",
@@ -389,7 +339,7 @@
   },
   {
     "link": "#link-115",
-    "author": "Joel Gereboff.",
+    "author": "Joel Gereboff",
     "content": {
       "type": "Element",
       "tagName": "div",
@@ -407,12 +357,12 @@
     },
     "anchor": "bfb949",
     "labels": [
-      "Engineering"
+      "Ethics"
     ]
   },
   {
     "link": "#link-116",
-    "author": "Sean A. Hays.",
+    "author": "Sean A Hays.",
     "content": {
       "type": "Element",
       "tagName": "div",
@@ -430,12 +380,12 @@
     },
     "anchor": "bfb949",
     "labels": [
-      "Engineering"
+      "Ethics"
     ]
   },
   {
     "link": "#link-117",
-    "author": "Sara Brownell.",
+    "author": "Sara Brownell",
     "content": {
       "type": "Element",
       "tagName": "div",
@@ -458,7 +408,7 @@
   },
   {
     "link": "#link-118",
-    "author": "Sara Brownell.",
+    "author": "Sara Brownell",
     "content": {
       "type": "Element",
       "tagName": "div",
@@ -476,12 +426,12 @@
     },
     "anchor": "58e97b",
     "labels": [
-      "Engineering"
+      "Ethics"
     ]
   },
   {
     "link": "#link-119",
-    "author": "Braden Allenby.",
+    "author": "Braden Allenby",
     "content": {
       "type": "Element",
       "tagName": "div",
@@ -499,12 +449,12 @@
     },
     "anchor": "9dfa8d",
     "labels": [
-      "Engineering"
+      "Ethics"
     ]
   },
   {
     "link": "#link-120",
-    "author": "Hannah Rogers.",
+    "author": "Hannah Rogers",
     "content": {
       "type": "Element",
       "tagName": "div",
@@ -548,12 +498,13 @@
     },
     "anchor": "9dfa8d",
     "labels": [
-      "Engineering"
+      "Engineering",
+      "Ethics"
     ]
   },
   {
     "link": "#link-121",
-    "author": "David H. Guston.",
+    "author": "David H Guston.",
     "content": {
       "type": "Element",
       "tagName": "div",
@@ -576,7 +527,7 @@
   },
   {
     "link": "#link-122",
-    "author": "Carlos Castillo-Chavez.",
+    "author": "Carlos Castillo-Chavez",
     "content": {
       "type": "Element",
       "tagName": "div",
@@ -594,12 +545,12 @@
     },
     "anchor": "d61f16",
     "labels": [
-      "Engineering"
+      "Ethics"
     ]
   },
   {
     "link": "#link-123",
-    "author": "Miguel Astor-Aguilera.",
+    "author": "Miguel Astor-Aguilera",
     "content": {
       "type": "Element",
       "tagName": "div",
@@ -617,12 +568,13 @@
     },
     "anchor": "5ea43e",
     "labels": [
-      "Engineering"
+      "Engineering",
+      "Ethics"
     ]
   },
   {
     "link": "#link-124",
-    "author": "Robert Cook-Deegan.",
+    "author": "Robert Cook-Deegan",
     "content": {
       "type": "Element",
       "tagName": "div",
@@ -645,7 +597,7 @@
   },
   {
     "link": "#link-125",
-    "author": "Miguel Astor-Aguilera.",
+    "author": "Miguel Astor-Aguilera",
     "content": {
       "type": "Element",
       "tagName": "div",
@@ -663,12 +615,12 @@
     },
     "anchor": "067f90",
     "labels": [
-      "Engineering"
+      "Ethics"
     ]
   },
   {
     "link": "#link-126",
-    "author": "Pablo Schyfter.",
+    "author": "Pablo Schyfter",
     "content": {
       "type": "Element",
       "tagName": "div",
@@ -701,12 +653,13 @@
     },
     "anchor": "067f90",
     "labels": [
-      "Engineering"
+      "Engineering",
+      "Ethics"
     ]
   },
   {
     "link": "#link-127",
-    "author": "Hannah Rogers.",
+    "author": "Hannah Rogers",
     "content": {
       "type": "Element",
       "tagName": "div",
@@ -724,12 +677,13 @@
     },
     "anchor": "067f90",
     "labels": [
-      "Engineering"
+      "Engineering",
+      "Ethics"
     ]
   },
   {
     "link": "#link-128",
-    "author": "Dominic Berry.",
+    "author": "Dominic Berry",
     "content": {
       "type": "Element",
       "tagName": "div",
@@ -792,48 +746,50 @@
     },
     "anchor": "067f90",
     "labels": [
-      "Engineering"
+      "Ethics"
     ]
   },
   {
     "link": "#link-129",
-    "author": "Jonathon Keats.",
+    "author": "Jonathon Keats",
     "content": null,
     "anchor": "4b2b9b",
     "labels": [
-      "Engineering"
+      "Engineering",
+      "Ethics"
     ]
   },
   {
     "link": "#link-130",
-    "author": "Melissa Wilson Sayres.",
+    "author": "Melissa Wilson Sayres",
     "content": null,
     "anchor": "4b2b9b",
     "labels": [
-      "Engineering"
+      "Ethics"
     ]
   },
   {
     "link": "#link-131",
-    "author": "Miguel Astor-Aguilera.",
+    "author": "Miguel Astor-Aguilera",
     "content": null,
     "anchor": "4b2b9b",
     "labels": [
-      "Engineering"
+      "Engineering",
+      "Ethics"
     ]
   },
   {
     "link": "#link-132",
-    "author": "David H. Guston.",
+    "author": "David H Guston.",
     "content": null,
     "anchor": "4b2b9b",
     "labels": [
-      "Engineering"
+      "Ethics"
     ]
   },
   {
     "link": "#link-133",
-    "author": "Joey Eschrich.",
+    "author": "Joey Eschrich",
     "content": null,
     "anchor": "43a4a8",
     "labels": [
@@ -842,52 +798,55 @@
   },
   {
     "link": "#link-134",
-    "author": "David H. Guston and Jason Scott Robert.",
+    "author": "David H Guston and Jason Scott Robert.",
     "content": null,
     "anchor": "43a4a8",
     "labels": [
-      "Engineering"
+      "Engineering",
+      "Ethics"
     ]
   },
   {
     "link": "#link-135",
-    "author": "Joel Gereboff.",
+    "author": "Joel Gereboff",
     "content": null,
     "anchor": "43a4a8",
     "labels": [
-      "Engineering"
+      "Engineering",
+      "Ethics"
     ]
   },
   {
     "link": "#link-136",
-    "author": "Joel Gereboff.",
+    "author": "Joel Gereboff",
     "content": null,
     "anchor": "990b9a",
     "labels": [
-      "Engineering"
+      "Engineering",
+      "Ethics"
     ]
   },
   {
     "link": "#link-137",
-    "author": "Stephanie Naufel.",
+    "author": "Stephanie Naufel",
     "content": null,
     "anchor": "7063c1",
     "labels": [
-      "Engineering"
+      "Ethics"
     ]
   },
   {
     "link": "#link-138",
-    "author": "Joel Gereboff.",
+    "author": "Joel Gereboff",
     "content": null,
     "anchor": "b7f0b5",
     "labels": [
-      "Engineering"
+      "Ethics"
     ]
   },
   {
     "link": "#link-139",
-    "author": "Stephani Etheridge Woodson.",
+    "author": "Stephani Etheridge Woodson",
     "content": null,
     "anchor": "b7f0b5",
     "labels": [
@@ -896,16 +855,17 @@
   },
   {
     "link": "#link-140",
-    "author": "Miguel Astor-Aguilera.",
+    "author": "Miguel Astor-Aguilera",
     "content": null,
     "anchor": "87b0ad",
     "labels": [
-      "Engineering"
+      "Engineering",
+      "Ethics"
     ]
   },
   {
     "link": "#link-141",
-    "author": "Judith Guston.",
+    "author": "Judith Guston",
     "content": null,
     "anchor": "cf96d2",
     "labels": [
@@ -914,11 +874,12 @@
   },
   {
     "link": "#link-142",
-    "author": "Nicole Piemonte.",
+    "author": "Nicole Piemonte",
     "content": null,
     "anchor": "d4dd40",
     "labels": [
-      "Engineering"
+      "Engineering",
+      "Ethics"
     ]
   },
   {
@@ -932,74 +893,79 @@
   },
   {
     "link": "#link-144",
-    "author": "Nicole Piemonte.",
+    "author": "Nicole Piemonte",
     "content": null,
     "anchor": "da42d1",
     "labels": [
-      "Engineering"
+      "Ethics"
     ]
   },
   {
     "link": "#link-145",
-    "author": "Nicole Piemonte.",
+    "author": "Nicole Piemonte",
     "content": null,
     "anchor": "899357",
     "labels": [
-      "Engineering"
+      "Engineering",
+      "Ethics"
     ]
   },
   {
     "link": "#link-146",
-    "author": "Joel Gereboff.",
+    "author": "Joel Gereboff",
     "content": null,
     "anchor": "899357",
     "labels": [
-      "Engineering"
+      "Engineering",
+      "Ethics"
     ]
   },
   {
     "link": "#link-147",
-    "author": "Hannah Rogers.",
+    "author": "Hannah Rogers",
     "content": null,
     "anchor": "d5e770",
     "labels": [
-      "Engineering"
+      "Ethics"
     ]
   },
   {
     "link": "#link-148",
-    "author": "April Miller.",
+    "author": "April Miller",
     "content": null,
     "anchor": "49349f",
     "labels": [
-      "Engineering"
+      "Engineering",
+      "Ethics"
     ]
   },
   {
     "link": "#link-149",
-    "author": "Joel Gereboff.",
+    "author": "Joel Gereboff",
     "content": null,
     "anchor": "90817e",
     "labels": [
-      "Engineering"
+      "Engineering",
+      "Ethics"
     ]
   },
   {
     "link": "#link-150",
-    "author": "Joel Gereboff.",
+    "author": "Joel Gereboff",
     "content": null,
     "anchor": "ece3ff",
     "labels": [
-      "Engineering"
+      "Engineering",
+      "Ethics"
     ]
   },
   {
     "link": "#link-151",
-    "author": "Mary Margaret Fonow.",
+    "author": "Mary Margaret Fonow",
     "content": null,
     "anchor": "2f4b90",
     "labels": [
-      "Engineering"
+      "Ethics"
     ]
   },
   {
@@ -1008,7 +974,8 @@
     "content": null,
     "anchor": "3c432d",
     "labels": [
-      "Engineering"
+      "Engineering",
+      "Ethics"
     ]
   },
   {
@@ -1017,7 +984,8 @@
     "content": null,
     "anchor": "3c432d",
     "labels": [
-      "Engineering"
+      "Engineering",
+      "Ethics"
     ]
   },
   {
@@ -1044,7 +1012,8 @@
     "content": null,
     "anchor": "856f35",
     "labels": [
-      "Engineering"
+      "Engineering",
+      "Ethics"
     ]
   },
   {
@@ -1053,7 +1022,7 @@
     "content": null,
     "anchor": "9aabf7",
     "labels": [
-      "Engineering"
+      "Ethics"
     ]
   },
   {
@@ -1062,7 +1031,8 @@
     "content": null,
     "anchor": "9aabf7",
     "labels": [
-      "Engineering"
+      "Engineering",
+      "Ethics"
     ]
   },
   {
@@ -1071,7 +1041,8 @@
     "content": null,
     "anchor": "9aabf7",
     "labels": [
-      "Engineering"
+      "Engineering",
+      "Ethics"
     ]
   },
   {
@@ -1080,7 +1051,7 @@
     "content": null,
     "anchor": "7efd6f",
     "labels": [
-      "Engineering"
+      "Ethics"
     ]
   },
   {
@@ -1089,7 +1060,8 @@
     "content": null,
     "anchor": "fa25cc",
     "labels": [
-      "Engineering"
+      "Engineering",
+      "Ethics"
     ]
   },
   {
@@ -1107,7 +1079,7 @@
     "content": null,
     "anchor": "99cce0",
     "labels": [
-      "Engineering"
+      "Ethics"
     ]
   },
   {
@@ -1125,7 +1097,8 @@
     "content": null,
     "anchor": "a4cf91",
     "labels": [
-      "Engineering"
+      "Engineering",
+      "Ethics"
     ]
   },
   {
@@ -1134,7 +1107,7 @@
     "content": null,
     "anchor": "969b19",
     "labels": [
-      "Engineering"
+      "Ethics"
     ]
   },
   {
@@ -1152,7 +1125,8 @@
     "content": null,
     "anchor": "7467da",
     "labels": [
-      "Engineering"
+      "Engineering",
+      "Ethics"
     ]
   },
   {
@@ -1161,7 +1135,8 @@
     "content": null,
     "anchor": "6f2862",
     "labels": [
-      "Engineering"
+      "Engineering",
+      "Ethics"
     ]
   },
   {
@@ -1188,7 +1163,7 @@
     "content": null,
     "anchor": "887722",
     "labels": [
-      "Engineering"
+      "Ethics"
     ]
   },
   {
@@ -1197,7 +1172,8 @@
     "content": null,
     "anchor": "7c47ec",
     "labels": [
-      "Engineering"
+      "Engineering",
+      "Ethics"
     ]
   },
   {
@@ -1206,7 +1182,8 @@
     "content": null,
     "anchor": "a1b94a",
     "labels": [
-      "Engineering"
+      "Engineering",
+      "Ethics"
     ]
   },
   {
@@ -1215,7 +1192,8 @@
     "content": null,
     "anchor": "a1b94a",
     "labels": [
-      "Engineering"
+      "Engineering",
+      "Ethics"
     ]
   },
   {
@@ -1224,7 +1202,8 @@
     "content": null,
     "anchor": "a1b94a",
     "labels": [
-      "Engineering"
+      "Engineering",
+      "Ethics"
     ]
   },
   {
@@ -1251,7 +1230,7 @@
     "content": null,
     "anchor": "a51de2",
     "labels": [
-      "Engineering"
+      "Ethics"
     ]
   },
   {
@@ -1260,7 +1239,7 @@
     "content": null,
     "anchor": "ee6095",
     "labels": [
-      "Engineering"
+      "Ethics"
     ]
   },
   {
@@ -1269,7 +1248,8 @@
     "content": null,
     "anchor": "992593",
     "labels": [
-      "Engineering"
+      "Engineering",
+      "Ethics"
     ]
   },
   {
@@ -1278,7 +1258,8 @@
     "content": null,
     "anchor": "5a94a9",
     "labels": [
-      "Engineering"
+      "Engineering",
+      "Ethics"
     ]
   },
   {
@@ -1287,7 +1268,7 @@
     "content": null,
     "anchor": "c77b46",
     "labels": [
-      "Engineering"
+      "Ethics"
     ]
   },
   {
@@ -1305,7 +1286,7 @@
     "content": null,
     "anchor": "3773df",
     "labels": [
-      "Engineering"
+      "Ethics"
     ]
   },
   {
@@ -1314,7 +1295,8 @@
     "content": null,
     "anchor": "c36216",
     "labels": [
-      "Engineering"
+      "Engineering",
+      "Ethics"
     ]
   },
   {
@@ -1323,7 +1305,7 @@
     "content": null,
     "anchor": "9c3f8f",
     "labels": [
-      "Engineering"
+      "Ethics"
     ]
   },
   {
@@ -1332,7 +1314,7 @@
     "content": null,
     "anchor": "8df5e4",
     "labels": [
-      "Engineering"
+      "Ethics"
     ]
   },
   {
@@ -1341,7 +1323,7 @@
     "content": null,
     "anchor": "0dd384",
     "labels": [
-      "Engineering"
+      "Ethics"
     ]
   },
   {
@@ -1350,7 +1332,7 @@
     "content": null,
     "anchor": "773d19",
     "labels": [
-      "Engineering"
+      "Ethics"
     ]
   },
   {
@@ -1359,7 +1341,8 @@
     "content": null,
     "anchor": "506f43",
     "labels": [
-      "Engineering"
+      "Engineering",
+      "Ethics"
     ]
   },
   {
@@ -1368,7 +1351,8 @@
     "content": null,
     "anchor": "2b9a27",
     "labels": [
-      "Engineering"
+      "Engineering",
+      "Ethics"
     ]
   },
   {
@@ -1377,7 +1361,7 @@
     "content": null,
     "anchor": "36b1fb",
     "labels": [
-      "Engineering"
+      "Ethics"
     ]
   },
   {
@@ -1386,7 +1370,7 @@
     "content": null,
     "anchor": "c014a1",
     "labels": [
-      "Engineering"
+      "Ethics"
     ]
   },
   {
@@ -1404,7 +1388,8 @@
     "content": null,
     "anchor": "bd3d34",
     "labels": [
-      "Engineering"
+      "Engineering",
+      "Ethics"
     ]
   },
   {
@@ -1413,7 +1398,7 @@
     "content": null,
     "anchor": "2f702a",
     "labels": [
-      "Engineering"
+      "Ethics"
     ]
   },
   {
@@ -1440,7 +1425,8 @@
     "content": null,
     "anchor": "47cfd4",
     "labels": [
-      "Engineering"
+      "Engineering",
+      "Ethics"
     ]
   },
   {
@@ -1467,7 +1453,7 @@
     "content": null,
     "anchor": "f8fc30",
     "labels": [
-      "Engineering"
+      "Ethics"
     ]
   },
   {
@@ -1476,7 +1462,7 @@
     "content": null,
     "anchor": "43fb01",
     "labels": [
-      "Engineering"
+      "Ethics"
     ]
   },
   {
@@ -1485,7 +1471,7 @@
     "content": null,
     "anchor": "69f0b1",
     "labels": [
-      "Engineering"
+      "Ethics"
     ]
   },
   {
@@ -1494,7 +1480,8 @@
     "content": null,
     "anchor": "a77f92",
     "labels": [
-      "Engineering"
+      "Engineering",
+      "Ethics"
     ]
   },
   {
@@ -1539,7 +1526,8 @@
     "content": null,
     "anchor": "efc81c",
     "labels": [
-      "Engineering"
+      "Engineering",
+      "Ethics"
     ]
   },
   {
@@ -1548,7 +1536,8 @@
     "content": null,
     "anchor": "2a7199",
     "labels": [
-      "Engineering"
+      "Engineering",
+      "Ethics"
     ]
   },
   {
@@ -1557,7 +1546,7 @@
     "content": null,
     "anchor": "af1794",
     "labels": [
-      "Engineering"
+      "Ethics"
     ]
   },
   {
@@ -1575,7 +1564,8 @@
     "content": null,
     "anchor": "e89914",
     "labels": [
-      "Engineering"
+      "Engineering",
+      "Ethics"
     ]
   },
   {
