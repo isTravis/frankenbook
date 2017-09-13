@@ -40,20 +40,23 @@ body {
 // Import Custom Icon Fonts
 // ****************************
 @font-face {
-	font-family: 'pubpub-icons';
-	src:  url('/icons/pubpub-icons.eot');
-	src:  url('/icons/pubpub-icons.eot#iefix') format('embedded-opentype'),
-		url('/icons/pubpub-icons.ttf') format('truetype'),
-		url('/icons/pubpub-icons.woff') format('woff'),
-		url('/icons/pubpub-icons.svg#pubpub-icons') format('svg');
+	font-family: 'frankenstein-font';
+	src:  url('/icons/frankenstein-font.eot');
+	src:  url('/icons/frankenstein-font.eot#iefix') format('embedded-opentype'),
+		url('/icons/frankenstein-font.ttf') format('truetype'),
+		url('/icons/frankenstein-font.woff') format('woff'),
+		url('/icons/frankenstein-font.svg#pubpub-icons') format('svg');
 }
 
-.pt-icon-team:before { font-family: 'pubpub-icons' !important; content: "\e903"; }
-.pt-icon-edit2:before { font-family: 'pubpub-icons' !important; content: "\e904"; }
-.pt-icon-doc:before { font-family: 'pubpub-icons' !important; content: "\e902"; }
-.pt-icon-admin:before { font-family: 'pubpub-icons' !important; content: "\e900"; }
-.pt-icon-lock2:before { font-family: 'pubpub-icons' !important; content: "\e901"; }
-.pt-icon-google-scholar:before { font-family: 'pubpub-icons' !important; content: "\e828"; }
-.pt-icon-orcid:before { font-family: 'pubpub-icons' !important; content: "\e840"; }
-.pt-icon-facebook:before { font-family: 'pubpub-icons' !important; content: "\ea90"; }
-.pt-icon-twitter:before { font-family: 'pubpub-icons' !important; content: "\ea96"; }
+.pt-icon-motivations:before { font-family: 'frankenstein-font' !important; content: "\e900"; }
+.pt-icon-equity:before { font-family: 'frankenstein-font' !important; content: "\e901"; }
+.pt-icon-influence:before { font-family: 'frankenstein-font' !important; content: "\e902"; }
+.pt-icon-shelley:before { font-family: 'frankenstein-font' !important; content: "\e903"; }
+.pt-icon-philosophy:before { font-family: 'frankenstein-font' !important; content: "\e904"; }
+.pt-icon-health:before { font-family: 'frankenstein-font' !important; content: "\e905"; }
+.pt-icon-science:before { font-family: 'frankenstein-font' !important; content: "\e906"; }
+.pt-icon-tech:before { font-family: 'frankenstein-font' !important; content: "\e907"; }
+.pt-icon-GoogleScholar:before { font-family: 'frankenstein-font' !important; content: "\e828"; }
+.pt-icon-Orcid:before { font-family: 'frankenstein-font' !important; content: "\e840"; }
+.pt-icon-facebook:before { font-family: 'frankenstein-font' !important; content: "\ea90"; }
+.pt-icon-twitter:before { font-family: 'frankenstein-font' !important; content: "\ea96"; }

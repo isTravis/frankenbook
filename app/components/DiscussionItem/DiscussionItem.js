@@ -83,11 +83,11 @@ class Discussions extends Component {
 						{this.renderContent(item.content)}
 					</div>
 					{this.state.replyOpen &&
-						<div className={'secondary'}>
+						<div className={'replies'}>
 							<InputField
 								placeholder={'Reply to this discussions'}
 							/>
-							
+
 						</div>
 					}
 				</div>

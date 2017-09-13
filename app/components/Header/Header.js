@@ -27,7 +27,7 @@ const defaultProps = {
 
 const Header = function(props) {
 	const loggedIn = !!props.userSlug;
-	const defaults = ['engineering', 'ethics'];
+	const defaults = ['technology', 'philpol'];
 	const lensDataObject = props.lensData.reduce((prev, curr)=> {
 		prev[curr.slug] = curr;
 		return prev;
@@ -39,7 +39,9 @@ const Header = function(props) {
 
 		// No Lense query
 		if (!lenses) {
-			const nextLenses = defaults.filter((item)=> { return item !== lens; });
+			const nextLenses = defaults.indexOf(lens) > -1
+				? defaults.filter((item)=> { return item !== lens; })
+				: [...defaults, lens];
 			return queryString.stringify({ lenses: nextLenses.join('+') }, { encode: false });
 		}
 

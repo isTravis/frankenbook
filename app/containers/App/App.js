@@ -32,22 +32,78 @@ class App extends Component {
 		const loginData = this.props.loginData.data || {};
 
 		const lensData = [
+		// 	{
+		// 		title: 'Engineering',
+		// 		slug: 'engineering',
+		// 		description: 'All about engineering',
+		// 		color: '#27ae60',
+		// 		icon: 'edit',
+		// 	},
+		// 	{
+		// 		title: 'Ethics',
+		// 		slug: 'ethics',
+		// 		description: 'All about Ethics and things like that. An introspection into how we do things that are manifested in ways that arent exactly what they seem.',
+		// 		color: '#d35400',
+		// 		icon: 'application',
+		// 	},
+		// ];
 			{
-				title: 'Engineering',
-				slug: 'engineering',
-				description: 'All about engineering',
-				color: '#27ae60',
-				icon: 'edit',
+				title: 'Technology',
+				slug: 'technology',
+				description: 'Emerging Frankensteinian technologies, from AI to geoengineering, plus historical technologies connected to the novel.',
+				icon: 'tech',
+				color: '#c0392b',
 			},
 			{
-				title: 'Ethics',
-				slug: 'ethics',
-				description: 'All about Ethics and things like that. An introspection into how we do things that are manifested in ways that arent exactly what they seem.',
+				title: 'Science',
+				slug: 'science',
+				description: 'Natural science today and in the past, from ancients and alchemists to Romantic scientists like Davy, Lamarck, and the Herschels.',
+				icon: 'science',
 				color: '#d35400',
-				icon: 'application',
 			},
+			{
+				title: 'Health & Medicine',
+				slug: 'healthmed',
+				description: 'Digging into Frankenstein’s preoccupation with health, disease, and the body.',
+				icon: 'health',
+				color: '#8e44ad',
+			},
+			{
+				title: 'Philosophy & Politics',
+				slug: 'philpol',
+				description: 'From Locke and Rousseau to Sartre and Nussbaum, the big ideas that animate Frankenstein, and that help us reframe and reinterpret the novel today.',
+				icon: 'philosophy',
+				color: '#2980b9',
+			},
+			{
+				title: 'Mary Shelley',
+				slug: 'mary',
+				description: 'The woman at the heart of it all: Mary Shelley’s life; her trials, travails, and adventures; her friends and family; and her literary oeuvre.',
+				icon: 'shelley',
+				color: '#16a085',
+			},
+			{
+				title: 'Influences & Adaptations',
+				slug: 'infladap',
+				description: 'Which stories, novels, and poems influenced Shelley when she was writing Frankenstein? How has Frankenstein echoed and proliferated throughout pop culture and public discourse over the past 200 years?',
+				icon: 'influence',
+				color: '#27ae60',
+			},
+			{
+				title: 'Equity & Inclusion',
+				slug: 'equitincl',
+				description: 'Frankenstein is a poignant story about the pain and destruction wrought by prejudice and social exclusion, written by a woman living in a deeply inequitable culture. How does the novel illuminate these issues, and how have people continued to deploy Frankenstein as a symbol in the struggle for justice?  ',
+				icon: 'equity',
+				color: '#1abc9c',
+			},
+			{
+				title: 'Motivations & Sentiments',
+				slug: 'motivments',
+				description: 'The emotions, values, ideals, and obsessions that drive human ingenuity, from the tortured and inspired character of Victor Frankenstein, to the Romantic scientists of Mary Shelley’s day, to the creators and innovators of the twenty-first century.',
+				icon: 'motivations',
+				color: '#3498db',
+			}
 		];
-
 		return (
 			<div>
 				<Helmet>
