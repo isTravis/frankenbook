@@ -88,7 +88,6 @@ class Book extends Component {
 						<Discussions
 							parentHash={content.hash}
 							discussions={this.discussions}
-							location={this.props.location}
 						/>
 					</p>
 				);
@@ -131,8 +130,8 @@ class Book extends Component {
 		return (
 			<div className={'book'}>
 				<style>{`
-					.key.${'Engineering'}, .tag.${'Engineering'} { background-color: ${'#2387aa'}; } 
-					.key.${'Ethics'}, .tag.${'Ethics'} { background-color: ${'#14ac88'}; } 
+					.key.${'Engineering'}, .pt-tag.${'Engineering'} { background-color: ${'#2387aa'}; } 
+					.key.${'Ethics'}, .pt-tag.${'Ethics'} { background-color: ${'#14ac88'}; } 
 				`}</style>
 				{/* <div style={{ position: 'absolute' }}>
 					<Link className={'pt-button'} to={'/?start=075db3&finish=ab0e34'}>Small</Link>
