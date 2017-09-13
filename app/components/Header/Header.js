@@ -78,7 +78,6 @@ const Header = function(props) {
 							</Link>
 
 							<Popover
-								isOpen={true}
 								content={
 									<Menu>
 										{props.lensData.sort((foo, bar)=> {
