@@ -35,10 +35,16 @@ class App extends Component {
 			{
 				title: 'Engineering',
 				slug: 'engineering',
+				description: 'All about engineering',
+				color: '#27ae60',
+				icon: 'edit',
 			},
 			{
 				title: 'Ethics',
 				slug: 'ethics',
+				description: 'All about Ethics and things like that. An introspection into how we do things that are manifested in ways that arent exactly what they seem.',
+				color: '#d35400',
+				icon: 'application',
 			},
 		];
 

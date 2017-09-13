@@ -2,6 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { Link } from 'react-router-dom';
 import Avatar from 'components/Avatar/Avatar';
+import LensDropdownItem from 'components/LensDropdownItem/LensDropdownItem';
 import { Popover, PopoverInteractionKind, Position, Menu, MenuItem, MenuDivider } from '@blueprintjs/core';
 import queryString from 'query-string';
 
@@ -27,10 +28,12 @@ const defaultProps = {
 const Header = function(props) {
 	const loggedIn = !!props.userSlug;
 	const defaults = ['engineering', 'ethics'];
-
+	const lensDataObject = props.lensData.reduce((prev, curr)=> {
+		prev[curr.slug] = curr;
+		return prev;
+	}, {});
 	const getLensQuery = function(lens) {
 		const queryObject = queryString.parse(props.location.search);
-
 		const lenses = queryObject.lenses && queryObject.lenses.replace(/\s/gi, '+').split('+');
 		console.log(queryObject, lenses);
 
@@ -61,6 +64,8 @@ const Header = function(props) {
 		return queryString.stringify({ lenses: nextLenses.join('+') }, { encode: false });
 	};
 
+	const queryObject = queryString.parse(props.location.search);
+	const activeLenses = queryObject.lenses && queryObject.lenses.replace(/\s/gi, '+').split('+') || defaults;
 	return (
 		<nav className={'header'}>
 			<div className={'container'}>
@@ -73,15 +78,24 @@ const Header = function(props) {
 							</Link>
 
 							<Popover
+								isOpen={true}
 								content={
 									<Menu>
-										{props.lensData.map((lens)=> {
+										{props.lensData.sort((foo, bar)=> {
+											if (foo.slug > bar.slug) { return 1; }
+											if (foo.slug < bar.slug) { return -1; }
+											return 0;
+										}).map((lens)=> {
 											return (
-												<li key={lens.slug}>
-													<Link className={'pt-menu-item'} replace to={`/?${getLensQuery(lens.slug)}`}>
-														{lens.title}
-													</Link>
-												</li>
+												<LensDropdownItem
+													key={lens.slug}
+													to={`/?${getLensQuery(lens.slug)}`}
+													title={lens.title}
+													description={lens.description}
+													color={lens.color}
+													icon={lens.icon}
+													isActive={activeLenses.indexOf(lens.slug) > -1}
+												/>
 											);
 										})}
 									</Menu>
@@ -93,13 +107,30 @@ const Header = function(props) {
 								inheritDarkTheme={false}
 							>
 								<button className="pt-button lens-dropdown">
-									Active Lenses:
+									{activeLenses[0] !== 'none' &&
+										<span>
+											Active Lenses:
+											{activeLenses.sort((foo, bar)=> {
+												if (foo > bar) { return 1; }
+												if (foo < bar) { return -1; }
+												return 0;
+											}).map((item)=> {
+												const data = lensDataObject[item];
+												// return <span>{lensDataObject[item]}</span>;
+												return <span className={`pt-icon-standard pt-icon-${data.icon}`} style={{ color: data.color, paddingLeft: '0.5em' }} />;
+											})}
+										</span>
+									}
+									{activeLenses[0] === 'none' &&
+										<span>No Active Lenses</span>
+									}
 									<span className="pt-icon-standard pt-icon-caret-down pt-align-right" />
 								</button>
 							</Popover>
 						</div>
 
 						<div className={'headerItems headerItemsRight'}>
+							<a href={'https://docs.google.com'} target={'_blank'} className="pt-button pt-large pt-minimal">Dev Notes</a>
 
 							{/* User avatar and menu */}
 							{loggedIn &&

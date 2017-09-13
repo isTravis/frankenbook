@@ -1,0 +1,23 @@
+.lens-dropdown-item.pt-menu-item {
+	display: flex;
+	opacity: 0.5;
+	&.active {
+		opacity: 1;
+	}
+	.pt-icon-standard {
+		font-size: 30px;
+	}
+	.details {
+		padding-left: 0.5em;
+		flex-grow: 1;
+		flex-shrink: 1;
+		max-width: 300px;
+		white-space: normal;
+		.title {
+			display: block;
+			font-weight: 600;
+			font-size: 1.1em;
+			padding-bottom: 5px;
+		}
+	}
+}

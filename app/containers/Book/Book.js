@@ -26,27 +26,6 @@ class Book extends Component {
 		this.renderContent = this.renderContent.bind(this);
 
 		this.discussions = require('sourceAnnotations.json');
-		// this.discussions = [
-		// 	{
-		// 		anchor: 'e4a466',
-		// 		content: 'The setting for the story is Geneva, Switzerland, one of the oldest major capitals of Europe, and Victor is from one of its noblest families. He uses his scientific training to create a new life but then fails to take responsibility for loving and caring for that life. He is shocked and disgusted when his creation doesn’t turn out as he planned. Yet he is also mostly unaware that his failure to take care of his creation in turn has created the creature he fears and rejects. Mary and her family traveled in more liberal and even radical circles, and she abhorred and flaunted the conventional mores of high society. In Frankenstein, is she calling attention to the propensity of those at the top to ignore the consequences of their actions? Social status cannot fully protect individuals from unintended consequences. Scientists and engineers who are often at the highest ranks of the academy need to be more mindful of the unintended consequences of their discoveries.',
-		// 		author: 'Mary Margaret Fonow',
-		// 		labels: ['Engineering', 'Ethics']
-		// 	},
-		// 	{
-		// 		anchor: '69927a',
-		// 		content: 'The setting for the story is Audubon, Switzerland, one of the oldest major capitals of Europe, and Victor is from one of its noblest families. He uses his scientific training to create a new life but then fails to take responsibility for loving and caring for that life. He is shocked and disgusted when his creation doesn’t turn out as he planned. Yet he is also mostly unaware that his failure to take care of his creation in turn has created the creature he fears and rejects. Mary and her family traveled in more liberal and even radical circles, and she abhorred and flaunted the conventional mores of high society. In Frankenstein, is she calling attention to the propensity of those at the top to ignore the consequences of their actions? Social status cannot fully protect individuals from unintended consequences. Scientists and engineers who are often at the highest ranks of the academy need to be more mindful of the unintended consequences of their discoveries.',
-		// 		author: 'Jonathon Margaret Fonow',
-		// 		labels: ['Ethics']
-		// 	},
-		// 	{
-		// 		anchor: 'e4a466',
-		// 		content: 'The setting for the story is France, Switzerland, one of the oldest major capitals of Europe, and Victor is from one of its noblest families. He uses his scientific training to create a new life but then fails to take responsibility for loving and caring for that life. He is shocked and disgusted when his creation doesn’t turn out as he planned. Yet he is also mostly unaware that his failure to take care of his creation in turn has created the creature he fears and rejects. Mary and her family traveled in more liberal and even radical circles, and she abhorred and flaunted the conventional mores of high society. In Frankenstein, is she calling attention to the propensity of those at the top to ignore the consequences of their actions? Social status cannot fully protect individuals from unintended consequences. Scientists and engineers who are often at the highest ranks of the academy need to be more mindful of the unintended consequences of their discoveries.',
-		// 		author: 'Mary Margaret Duchen',
-		// 		labels: ['Engineering']
-		// 	},
-
-		// ];
 	}
 
 	componentWillMount() {
@@ -105,8 +84,12 @@ class Book extends Component {
 				return (
 					<p {...attributes}>
 						{childrenContent}
-						{/*<div className={'side'}>Link · Discuss</div>*/}
-						<Discussions parentHash={content.hash} discussions={this.discussions} />
+						{/* <div className={'side'}>Link · Discuss</div> */}
+						<Discussions
+							parentHash={content.hash}
+							discussions={this.discussions}
+							location={this.props.location}
+						/>
 					</p>
 				);
 			case 'span':
@@ -131,7 +114,11 @@ class Book extends Component {
 
 	static getRoots(content) {
 		if (content.tagName === 'h1' || content.tagName === 'h2' || content.tagName === 'h3') {
-			Book.toc.push({ tagName: content.tagName, content: content.children[0].content, hash: content.hash });
+			Book.toc.push({
+				tagName: content.tagName,
+				content: content.children[0].content,
+				hash: content.hash
+			});
 		}
 		if (content.children) {
 			content.children.map((child)=> {
@@ -141,9 +128,6 @@ class Book extends Component {
 	}
 
 	render() {
-		console.log(bookContent);
-		console.log(Book.toc);
-
 		return (
 			<div className={'book'}>
 				<style>{`
