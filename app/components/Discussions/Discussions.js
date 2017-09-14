@@ -7,6 +7,7 @@ require('./discussions.scss');
 const propTypes = {
 	parentHash: PropTypes.string.isRequired,
 	discussions: PropTypes.array,
+	handleReplySubmit: PropTypes.func.isRequired,
 };
 
 const defaultProps = {
@@ -54,7 +55,7 @@ class Discussions extends Component {
 				{!this.state.isOpen &&
 					<span className={'tags-wrapper'} tabIndex={-1} role={'button'} onClick={this.openDiscussions}>
 						{Object.keys(counts).map((key)=> {
-							return <span className={`key ${key}`}>{counts[key]}</span>;
+							return <span key={`${this.props.parentHash}-${key}`} className={`key ${key}`}>{counts[key]}</span>;
 						})}
 					</span>
 				}
@@ -70,7 +71,7 @@ class Discussions extends Component {
 						{this.props.discussions.filter((item)=> {
 							return item.anchor === this.props.parentHash;
 						}).map((item)=> {
-							return <DiscussionItem discussion={item} />;
+							return <DiscussionItem key={item.id} discussion={item} handleReplySubmit={this.props.handleReplySubmit} />;
 						})}
 					</div>
 				}

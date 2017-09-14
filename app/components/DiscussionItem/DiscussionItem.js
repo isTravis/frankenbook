@@ -33,8 +33,8 @@ class DiscussionItem extends Component {
 	onReplySubmit() {
 		this.props.handleReplySubmit({
 			author: 'Me',
-			anchor: 'ac6578',
-			parent: 'uuid-123-as3-d12f',
+			anchor: this.props.discussion.anchor,
+			parent: this.props.discussion.id,
 			content: this.state.replyText,
 		});
 	}
@@ -91,7 +91,7 @@ class DiscussionItem extends Component {
 					<div className={'author'}>
 						<div className={'name'}>{item.author.fullName}</div>
 						{item.labels.map((label)=> {
-							return <div className={`pt-tag ${label.slug}`}>{label.title}</div>;
+							return <div key={`${item.id}-${label.id}`} className={`pt-tag ${label.slug}`}>{label.title}</div>;
 						})}
 					</div>
 					<div className={'content-body'}>

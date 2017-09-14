@@ -10,6 +10,10 @@ export const GET_DISCUSSIONS_DATA_LOAD = 'discussions/GET_DISCUSSIONS_DATA_LOAD'
 export const GET_DISCUSSIONS_DATA_SUCCESS = 'discussions/GET_DISCUSSIONS_DATA_SUCCESS';
 export const GET_DISCUSSIONS_DATA_FAIL = 'discussions/GET_DISCUSSIONS_DATA_FAIL';
 
+export const POST_DISCUSSION_LOAD = 'discussions/POST_DISCUSSION_LOAD';
+export const POST_DISCUSSION_SUCCESS = 'discussions/POST_DISCUSSION_SUCCESS';
+export const POST_DISCUSSION_FAIL = 'discussions/POST_DISCUSSION_FAIL';
+
 /*--------*/
 // Define Action creators
 //
@@ -26,6 +30,28 @@ export function getDiscussionsData(slugs) {
 		})
 		.catch((error) => {
 			dispatch({ type: GET_DISCUSSIONS_DATA_FAIL, error });
+		});
+	};
+}
+
+export function postDiscussion(discussionObject) {
+	return (dispatch) => {
+		dispatch({ type: POST_DISCUSSION_LOAD });
+		return apiFetch('/discussions', {
+			method: 'POST',
+			headers: {
+				Accept: 'application/json',
+				'Content-Type': 'application/json'
+			},
+			body: JSON.stringify({
+				...discussionObject
+			})
+		})
+		.then((result) => {
+			dispatch({ type: POST_DISCUSSION_SUCCESS, result });
+		})
+		.catch((error) => {
+			dispatch({ type: POST_DISCUSSION_FAIL, error });
 		});
 	};
 }

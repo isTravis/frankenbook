@@ -6,11 +6,13 @@ import { withRouter, Link } from 'react-router-dom';
 import queryString from 'query-string';
 import ScrollBar from 'components/ScrollBar/ScrollBar';
 import Discussions from 'components/Discussions/Discussions';
+import { postDiscussion } from 'actions/discussions';
 
 const bookContent = require('source.json');
 require('./book.scss');
 
 const propTypes = {
+	dispatch: PropTypes.func.isRequired,
 	location: PropTypes.object.isRequired,
 	lensesData: PropTypes.object.isRequired,
 	discussionsData: PropTypes.object.isRequired,
@@ -27,8 +29,7 @@ class Book extends Component {
 		this.seenStart = false;
 		this.seenFinish = false;
 		this.renderContent = this.renderContent.bind(this);
-
-		// this.discussions = require('sourceAnnotations.json');
+		this.handleReplySubmit = this.handleReplySubmit.bind(this);
 	}
 
 	componentWillMount() {
@@ -41,6 +42,11 @@ class Book extends Component {
 		this.seenStart = false;
 		this.seenFinish = false;
 	}
+
+	handleReplySubmit(discussionObject) {
+		this.props.dispatch(postDiscussion(discussionObject));
+	}
+
 	renderContent(content) {
 		const queryObject = queryString.parse(this.props.location.search);
 		if (content.hash === queryObject.start) { this.seenStart = true; }
@@ -65,11 +71,11 @@ class Book extends Component {
 			const childrenContent = content.children.map((child)=> {
 				return this.renderContent(child);
 			});
-			const className = content.attributes && content.attributes.className && content.attributes.className.join(' ');
+			const className = content.attributes && content.attributes.className && content.attributes.className.join(' ') || '';
 			const id = content.attributes && content.attributes.id || '';
 			const hash = content.hash || '';
 			const attributes = {
-				className: className,
+				className: content.tagName === 'p' ? `${className} p`.trim() : className,
 				children: childrenContent,
 				key: `section-${hash}`.trim(),
 				id: `${id} ${hash}`.trim(),
@@ -85,14 +91,15 @@ class Book extends Component {
 				return <div {...attributes} />;
 			case 'p':
 				return (
-					<p {...attributes}>
+					<div {...attributes}>
 						{childrenContent}
 						{/* <div className={'side'}>Link · Discuss</div> */}
 						<Discussions
 							parentHash={content.hash}
 							discussions={this.props.discussionsData.data}
+							handleReplySubmit={this.handleReplySubmit}
 						/>
-					</p>
+					</div>
 				);
 			case 'span':
 				return <span {...attributes} />;
