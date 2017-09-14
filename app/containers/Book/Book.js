@@ -13,6 +13,7 @@ require('./book.scss');
 const propTypes = {
 	location: PropTypes.object.isRequired,
 	lensesData: PropTypes.object.isRequired,
+	discussionsData: PropTypes.object.isRequired,
 };
 
 class Book extends Component {
@@ -27,7 +28,7 @@ class Book extends Component {
 		this.seenFinish = false;
 		this.renderContent = this.renderContent.bind(this);
 
-		this.discussions = require('sourceAnnotations.json');
+		// this.discussions = require('sourceAnnotations.json');
 	}
 
 	componentWillMount() {
@@ -89,7 +90,7 @@ class Book extends Component {
 						{/* <div className={'side'}>Link · Discuss</div> */}
 						<Discussions
 							parentHash={content.hash}
-							discussions={this.discussions}
+							discussions={this.props.discussionsData.data}
 						/>
 					</p>
 				);
@@ -129,16 +130,14 @@ class Book extends Component {
 	}
 
 	render() {
+		const lensesData = this.props.lensesData.data || [];
 		return (
 			<div className={'book'}>
-				<style>{`
-					.key.${'Engineering'}, .pt-tag.${'Engineering'} { background-color: ${'#2387aa'}; } 
-					.key.${'Ethics'}, .pt-tag.${'Ethics'} { background-color: ${'#14ac88'}; } 
-				`}</style>
-				{/* <div style={{ position: 'absolute' }}>
-					<Link className={'pt-button'} to={'/?start=075db3&finish=ab0e34'}>Small</Link>
-					<Link className={'pt-button'} to={'/'}>Big</Link>
-				</div> */}
+				<style>
+					{lensesData.map((lens)=> {
+						return `.key.${lens.slug}, .pt-tag.${lens.slug} { background-color: ${lens.color}; } `;
+					})}
+				</style>
 				{this.state.docRendered &&
 					<ScrollBar toc={Book.toc} documentClassName={'book-wrapper'} />
 				}
@@ -167,6 +166,7 @@ class Book extends Component {
 
 Book.propTypes = propTypes;
 export default withRouter(connect(state => ({
+	discussionsData: state.discussions,
 	lensesData: state.lenses,
 	loginData: state.login
 }))(Book));

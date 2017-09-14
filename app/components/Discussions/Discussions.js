@@ -6,7 +6,11 @@ require('./discussions.scss');
 
 const propTypes = {
 	parentHash: PropTypes.string.isRequired,
-	discussions: PropTypes.array.isRequired,
+	discussions: PropTypes.array,
+};
+
+const defaultProps = {
+	discussions: [],
 };
 
 class Discussions extends Component {
@@ -17,7 +21,6 @@ class Discussions extends Component {
 		};
 		this.openDiscussions = this.openDiscussions.bind(this);
 		this.closeDiscussions = this.closeDiscussions.bind(this);
-		// this.renderContent = this.renderContent.bind(this);
 	}
 
 	openDiscussions() {
@@ -28,56 +31,15 @@ class Discussions extends Component {
 		this.setState({ isOpen: false });
 	}
 
-	// renderContent(content) {
-	// 	if (!content) { return <div>Empty content</div>; }
-	// 	if (content.content) {
-	// 		return content.content;
-	// 	}
-	// 	if (content.children) {
-	// 		const childrenContent = content.children.map((child)=> {
-	// 			return this.renderContent(child);
-	// 		});
-	// 		const attributes = {
-	// 			children: childrenContent,
-	// 		};
-	// 		switch (content.tagName) {
-	// 		case 'h1':
-	// 			return <h1 {...attributes} />;
-	// 		case 'h2':
-	// 			return <h2 {...attributes} />;
-	// 		case 'h3':
-	// 			return <h3 {...attributes} />;
-	// 		case 'div':
-	// 			return <div {...attributes} />;
-	// 		case 'p':
-	// 			return <p {...attributes} />;
-	// 		case 'span':
-	// 			return <span {...attributes} />;
-	// 		case 'i':
-	// 			return <i {...attributes} />;
-	// 		case 'a':
-	// 			return <a {...attributes} />;
-	// 		case 'sup':
-	// 			// return <sup {...attributes} />;
-	// 			return null;
-	// 		case 'blockquote':
-	// 			return <blockquote {...attributes} />;
-	// 		default:
-	// 			return <div {...attributes} />;
-	// 		}
-	// 	}
-	// 	return null;
-	// }
-
 	render() {
 		const counts = this.props.discussions.filter((item)=> {
 			return item.anchor === this.props.parentHash;
 		}).reduce((prev, curr)=> {
 			curr.labels.forEach((label)=> {
-				if (prev[label]) {
-					prev[label] += 1;
+				if (prev[label.slug]) {
+					prev[label.slug] += 1;
 				} else {
-					prev[label] = 1;
+					prev[label.slug] = 1;
 				}
 			});
 			return prev;
@@ -117,5 +79,6 @@ class Discussions extends Component {
 	}
 }
 
+Discussions.defaultProps = defaultProps;
 Discussions.propTypes = propTypes;
 export default Discussions;

@@ -85,13 +85,13 @@ class DiscussionItem extends Component {
 		return (
 			<div className={'discussion-item'}>
 				<div className={'image'}>
-					<img src={'icon.png'} alt={item.author} />
+					<img src={'icon.png'} alt={item.author.fullName} />
 				</div>
 				<div className={'content'}>
 					<div className={'author'}>
-						<div className={'name'}>{item.author}</div>
+						<div className={'name'}>{item.author.fullName}</div>
 						{item.labels.map((label)=> {
-							return <div className={`pt-tag ${label}`}>{label}</div>;
+							return <div className={`pt-tag ${label.slug}`}>{label.title}</div>;
 						})}
 					</div>
 					<div className={'content-body'}>
