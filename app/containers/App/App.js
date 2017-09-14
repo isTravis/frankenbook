@@ -4,8 +4,10 @@ import Helmet from 'react-helmet';
 import PropTypes from 'prop-types';
 import { Route, withRouter, Switch } from 'react-router-dom';
 import Async from 'react-code-splitting';
+import queryString from 'query-string';
 
 import Header from 'components/Header/Header';
+import { getLensesData } from 'actions/lenses';
 
 require('./app.scss');
 
@@ -26,27 +28,31 @@ class App extends Component {
 		// console.log('Logout');
 	}
 
+	static dispatchLensesQuery(props) {
+		const defaults = ['technology', 'philpol'];
+		const queryObject = queryString.parse(props.location.search);
+		const lenses = queryObject.lenses && queryObject.lenses.replace(/\s/gi, '+').split('+');
+		const activeLenses = lenses || defaults;
+		props.dispatch(getLensesData(activeLenses.join('+')));
+	}
+
+	componentWillMount() {
+		App.dispatchLensesQuery(this.props);
+	}
+
+	componentWillReceiveProps(nextProps) {
+		const prevQueryObject = queryString.parse(this.props.location.search);
+		const nextQueryObject = queryString.parse(nextProps.location.search);
+		if (prevQueryObject.lenses !== nextQueryObject.lenses) {
+			App.dispatchLensesQuery(nextProps);
+		}
+	}
 
 	render() {
 		const appData = this.props.appData.data || {};
 		const loginData = this.props.loginData.data || {};
 
 		const lensData = [
-		// 	{
-		// 		title: 'Engineering',
-		// 		slug: 'engineering',
-		// 		description: 'All about engineering',
-		// 		color: '#27ae60',
-		// 		icon: 'edit',
-		// 	},
-		// 	{
-		// 		title: 'Ethics',
-		// 		slug: 'ethics',
-		// 		description: 'All about Ethics and things like that. An introspection into how we do things that are manifested in ways that arent exactly what they seem.',
-		// 		color: '#d35400',
-		// 		icon: 'application',
-		// 	},
-		// ];
 			{
 				title: 'Technology',
 				slug: 'technology',

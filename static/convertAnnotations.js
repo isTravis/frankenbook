@@ -41,7 +41,7 @@ function footnoteLink(node) {
 
 function footnoteAuthor(node) {
 	if (!node.children && node.tagName !== 'div') { return null; }
-	if (node.tagName === 'div' && node.attributes.className && node.attributes.className.indexOf('footnote-author') > -1) { return node.children[0].content.replace('.',''); }
+	if (node.tagName === 'div' && node.attributes.className && node.attributes.className.indexOf('footnote-author') > -1) { return node.children[0].content.replace('.', ''); }
 	return node.children.reduce((prev, curr)=> {
 		const currLink = footnoteAuthor(curr);
 		if (currLink) { return currLink; }
