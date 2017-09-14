@@ -5,6 +5,7 @@ import Avatar from 'components/Avatar/Avatar';
 import LensDropdownItem from 'components/LensDropdownItem/LensDropdownItem';
 import { Popover, PopoverInteractionKind, Position, Menu, MenuItem, MenuDivider } from '@blueprintjs/core';
 import queryString from 'query-string';
+import { defaultLenses } from 'utilities';
 
 require('./header.scss');
 
@@ -13,7 +14,7 @@ const propTypes = {
 	userInitials: PropTypes.string,
 	userSlug: PropTypes.string,
 	userAvatar: PropTypes.string,
-	lensData: PropTypes.array.isRequired,
+	lensesData: PropTypes.array,
 	location: PropTypes.object.isRequired,
 	logoutHandler: PropTypes.func.isRequired,
 };
@@ -23,12 +24,12 @@ const defaultProps = {
 	userInitials: undefined,
 	userSlug: undefined,
 	userAvatar: undefined,
+	lensesData: undefined,
 };
 
 const Header = function(props) {
 	const loggedIn = !!props.userSlug;
-	const defaults = ['technology', 'philpol'];
-	const lensDataObject = props.lensData.reduce((prev, curr)=> {
+	const lensDataObject = props.lensesData && props.lensesData.reduce((prev, curr)=> {
 		prev[curr.slug] = curr;
 		return prev;
 	}, {});
@@ -38,9 +39,9 @@ const Header = function(props) {
 
 		// No Lense query
 		if (!lenses) {
-			const nextLenses = defaults.indexOf(lens) > -1
-				? defaults.filter((item)=> { return item !== lens; })
-				: [...defaults, lens];
+			const nextLenses = defaultLenses.indexOf(lens) > -1
+				? defaultLenses.filter((item)=> { return item !== lens; })
+				: [...defaultLenses, lens];
 			return queryString.stringify({ lenses: nextLenses.join('+') }, { encode: false });
 		}
 
@@ -66,7 +67,7 @@ const Header = function(props) {
 	};
 
 	const queryObject = queryString.parse(props.location.search);
-	const activeLenses = queryObject.lenses && queryObject.lenses.replace(/\s/gi, '+').split('+') || defaults;
+	const activeLenses = queryObject.lenses && queryObject.lenses.replace(/\s/gi, '+').split('+') || defaultLenses;
 	return (
 		<nav className={'header'}>
 			<div className={'container'}>
@@ -78,55 +79,57 @@ const Header = function(props) {
 								<img alt={'header logo'} className={'headerLogo'} src={'/headerLogo.png'} />
 							</Link>
 
-							<Popover
-								content={
-									<Menu>
-										{props.lensData.sort((foo, bar)=> {
-											if (foo.slug > bar.slug) { return 1; }
-											if (foo.slug < bar.slug) { return -1; }
-											return 0;
-										}).map((lens)=> {
-											return (
-												<LensDropdownItem
-													key={lens.slug}
-													to={`/?${getLensQuery(lens.slug)}`}
-													title={lens.title}
-													description={lens.description}
-													color={lens.color}
-													icon={lens.icon}
-													isActive={activeLenses.indexOf(lens.slug) > -1}
-												/>
-											);
-										})}
-									</Menu>
-								}
-								interactionKind={PopoverInteractionKind.CLICK}
-								position={Position.BOTTOM_LEFT}
-								popoverClassName={'pt-minimal'}
-								transitionDuration={-1}
-								inheritDarkTheme={false}
-							>
-								<button className="pt-button lens-dropdown">
-									{activeLenses[0] !== 'none' &&
-										<span>
-											Active Lenses:
-											{activeLenses.sort((foo, bar)=> {
-												if (foo > bar) { return 1; }
-												if (foo < bar) { return -1; }
+							{lensDataObject &&
+								<Popover
+									content={
+										<Menu>
+											{props.lensesData.sort((foo, bar)=> {
+												if (foo.slug > bar.slug) { return 1; }
+												if (foo.slug < bar.slug) { return -1; }
 												return 0;
-											}).map((item)=> {
-												const data = lensDataObject[item];
-												// return <span>{lensDataObject[item]}</span>;
-												return <span key={`mini-${data.slug}`} className={`pt-icon-standard pt-icon-${data.icon}`} style={{ color: data.color, paddingLeft: '0.5em' }} />;
+											}).map((lens)=> {
+												return (
+													<LensDropdownItem
+														key={lens.slug}
+														to={`/?${getLensQuery(lens.slug)}`}
+														title={lens.title}
+														description={lens.description}
+														color={lens.color}
+														icon={lens.icon}
+														isActive={activeLenses.indexOf(lens.slug) > -1}
+													/>
+												);
 											})}
-										</span>
+										</Menu>
 									}
-									{activeLenses[0] === 'none' &&
-										<span>No Active Lenses</span>
-									}
-									<span className="pt-icon-standard pt-icon-caret-down pt-align-right" />
-								</button>
-							</Popover>
+									interactionKind={PopoverInteractionKind.CLICK}
+									position={Position.BOTTOM_LEFT}
+									popoverClassName={'pt-minimal'}
+									transitionDuration={-1}
+									inheritDarkTheme={false}
+								>
+									<button className="pt-button lens-dropdown">
+										{activeLenses[0] !== 'none' &&
+											<span>
+												Active Lenses:
+												{activeLenses.sort((foo, bar)=> {
+													if (foo > bar) { return 1; }
+													if (foo < bar) { return -1; }
+													return 0;
+												}).map((item)=> {
+													const data = lensDataObject[item];
+													// return <span>{lensDataObject[item]}</span>;
+													return <span key={`mini-${data.slug}`} className={`pt-icon-standard pt-icon-${data.icon}`} style={{ color: data.color, paddingLeft: '0.5em' }} />;
+												})}
+											</span>
+										}
+										{activeLenses[0] === 'none' &&
+											<span>No Active Lenses</span>
+										}
+										<span className="pt-icon-standard pt-icon-caret-down pt-align-right" />
+									</button>
+								</Popover>
+							}
 						</div>
 
 						<div className={'headerItems headerItemsRight'}>

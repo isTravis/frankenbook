@@ -1,5 +1,6 @@
 /* eslint-disable react/no-children-prop */
 import React, { Component } from 'react';
+import { connect } from 'react-redux';
 import PropTypes from 'prop-types';
 import { withRouter, Link } from 'react-router-dom';
 import queryString from 'query-string';
@@ -11,6 +12,7 @@ require('./book.scss');
 
 const propTypes = {
 	location: PropTypes.object.isRequired,
+	lensesData: PropTypes.object.isRequired,
 };
 
 class Book extends Component {
@@ -164,4 +166,7 @@ class Book extends Component {
 }
 
 Book.propTypes = propTypes;
-export default withRouter(Book);
+export default withRouter(connect(state => ({
+	lensesData: state.lenses,
+	loginData: state.login
+}))(Book));
