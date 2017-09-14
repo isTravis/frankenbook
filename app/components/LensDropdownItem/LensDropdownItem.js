@@ -5,11 +5,8 @@ import { Link } from 'react-router-dom';
 require('./lensDropdownItem.scss');
 
 const propTypes = {
-	title: PropTypes.string.isRequired,
-	description: PropTypes.string.isRequired,
-	icon: PropTypes.string.isRequired,
-	color: PropTypes.string.isRequired,
 	to: PropTypes.string.isRequired,
+	lensObject: PropTypes.object.isRequired,
 	isActive: PropTypes.bool,
 };
 
@@ -18,13 +15,15 @@ const defaultProps = {
 };
 
 const LensDropdownItem = function(props) {
-	const colorStyle = { color: props.isActive ? props.color : 'inherit' };
+	const lens = props.lensObject;
+	const colorStyle = { color: props.isActive ? lens.color : 'inherit' };
+
 	return (
 		<Link to={props.to} replace className={`pt-menu-item lens-dropdown-item ${props.isActive ? 'active' : ''}`}>
-			<span className={`pt-icon-standard pt-icon-${props.icon}`} style={colorStyle} />
+			<span className={`pt-icon-standard pt-icon-${lens.icon}`} style={colorStyle} />
 			<div className={'details'}>
-				<div className={'title'} style={colorStyle}>{props.title}</div>
-				<div className={'description'}>{props.description}</div>
+				<div className={'title'} style={colorStyle}>{lens.title} · {lens.discussionsCount}</div>
+				<div className={'description'}>{lens.description}</div>
 			</div>
 		</Link>
 	);

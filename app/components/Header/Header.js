@@ -92,10 +92,7 @@ const Header = function(props) {
 													<LensDropdownItem
 														key={lens.slug}
 														to={`/?${getLensQuery(lens.slug)}`}
-														title={lens.title}
-														description={lens.description}
-														color={lens.color}
-														icon={lens.icon}
+														lensObject={lens}
 														isActive={activeLenses.indexOf(lens.slug) > -1}
 													/>
 												);
