@@ -35,7 +35,6 @@ const Header = function(props) {
 	const getLensQuery = function(lens) {
 		const queryObject = queryString.parse(props.location.search);
 		const lenses = queryObject.lenses && queryObject.lenses.replace(/\s/gi, '+').split('+');
-		console.log(queryObject, lenses);
 
 		// No Lense query
 		if (!lenses) {
@@ -118,7 +117,7 @@ const Header = function(props) {
 											}).map((item)=> {
 												const data = lensDataObject[item];
 												// return <span>{lensDataObject[item]}</span>;
-												return <span className={`pt-icon-standard pt-icon-${data.icon}`} style={{ color: data.color, paddingLeft: '0.5em' }} />;
+												return <span key={`mini-${data.slug}`} className={`pt-icon-standard pt-icon-${data.icon}`} style={{ color: data.color, paddingLeft: '0.5em' }} />;
 											})}
 										</span>
 									}

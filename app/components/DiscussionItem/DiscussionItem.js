@@ -6,9 +6,10 @@ require('./discussionItem.scss');
 
 const propTypes = {
 	discussion: PropTypes.object.isRequired,
+	handleReplySubmit: PropTypes.func.isRequired,
 };
 
-class Discussions extends Component {
+class DiscussionItem extends Component {
 	constructor(props) {
 		super(props);
 		this.state = {
@@ -16,6 +17,8 @@ class Discussions extends Component {
 			replyText: '',
 		};
 		this.toggleReply = this.toggleReply.bind(this);
+		this.onReplyChange = this.onReplyChange.bind(this);
+		this.onReplySubmit = this.onReplySubmit.bind(this);
 		this.renderContent = this.renderContent.bind(this);
 	}
 
@@ -23,6 +26,18 @@ class Discussions extends Component {
 		this.setState({ replyOpen: !this.state.replyOpen });
 	}
 
+	onReplyChange(evt) {
+		this.setState({ replyText: evt.target.value });
+	}
+
+	onReplySubmit() {
+		this.props.handleReplySubmit({
+			author: 'Me',
+			anchor: 'ac6578',
+			parent: 'uuid-123-as3-d12f',
+			content: this.state.replyText,
+		});
+	}
 
 	renderContent(content) {
 		if (!content) { return <div>Empty content</div>; }
@@ -84,10 +99,15 @@ class Discussions extends Component {
 					</div>
 					{this.state.replyOpen &&
 						<div className={'replies'}>
-							<InputField
-								placeholder={'Reply to this discussions'}
+							<textarea
+								placeholder={'Reply to discussion'}
+								className={'pt-input pt-fill'}
+								value={this.state.replyText}
+								onChange={this.onReplyChange}
 							/>
-
+							<button onClick={this.onReplySubmit} className={'pt-button pt-intent-primary'}>
+								Submit
+							</button>
 						</div>
 					}
 				</div>
@@ -101,5 +121,5 @@ class Discussions extends Component {
 	}
 }
 
-Discussions.propTypes = propTypes;
-export default Discussions;
+DiscussionItem.propTypes = propTypes;
+export default DiscussionItem;

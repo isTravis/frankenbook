@@ -54,6 +54,11 @@
 	}
 	.replies {
 		padding-top: 1em;
+		textarea {
+			min-height: 56px;
+			max-height: 300px;
+			resize: vertical;
+		}
 	}
 	.buttons {
 	}

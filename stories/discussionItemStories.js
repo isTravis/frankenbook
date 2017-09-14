@@ -36,6 +36,6 @@ storiesOf('DiscussionItem', module)
 			.key.${'Engineering'}, .pt-tag.${'Engineering'} { background-color: ${'#2387aa'}; } 
 			.key.${'Ethics'}, .pt-tag.${'Ethics'} { background-color: ${'#14ac88'}; } 
 		`}</style>
-		<DiscussionItem discussion={discussion} />
+		<DiscussionItem discussion={discussion} handleReplySubmit={(val)=>{ console.log(val)}}/>
 	</div>
 ));

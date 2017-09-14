@@ -129,6 +129,10 @@ const goodFootnoteObjects = goodFootnotes.map((item)=> {
 
 // console.log(JSON.stringify(goodFootnoteObjects, null, 2));
 
+// Create Users based on unique names
+// Turn discussions into objects. { anchor, content, author(uuid) }
+// Create lenses
+// Create labels
 
 fs.writeFile('static/sourceAnnotations.json', JSON.stringify(goodFootnoteObjects, null, 2), 'utf8', ()=> {
 	console.log('Finished Processing');
