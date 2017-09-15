@@ -17,6 +17,7 @@ require('./app.scss');
 const Book = () => <Async load={import('containers/Book/Book')} />;
 const Login = () => <Async load={import('containers/Login/Login')} />;
 const NoMatch = () => <Async load={import('containers/NoMatch/NoMatch')} />;
+const Signup = () => <Async load={import('containers/Signup/Signup')} />;
 const User = () => <Async load={import('containers/User/User')} />;
 
 const propTypes = {
@@ -97,7 +98,7 @@ class App extends Component {
 
 					<Route exact path="/" component={Book} />
 					<Route exact path="/login" component={Login} />
-					<Route exact path="/signup" component={NoMatch} />
+					<Route exact path="/signup" component={Signup} />
 					<Route exact path="/user/:slug" component={User} />
 					<Route exact path="/:slug" component={NoMatch} />
 				</Switch>

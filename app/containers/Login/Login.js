@@ -78,6 +78,7 @@ class Login extends Component {
 									className={'pt-button pt-intent-primary'}
 									onClick={this.onLoginSubmit}
 									text={'Login'}
+									disabled={!this.state.email || !this.state.password}
 									loading={this.props.loginData.isLoading}
 								/>
 							</form>
@@ -93,16 +94,3 @@ Login.propTypes = propTypes;
 export default withRouter(connect(state => ({
 	loginData: state.login,
 }))(Login));
-
-// fetch('http://localhost:9876/login', {
-// 	method: 'POST',
-// 	credentials: 'include',
-// 	headers: {
-// 		Accept: 'application/json',
-// 		'Content-Type': 'application/json'
-// 	},
-// 	body: JSON.stringify({
-// 		password: 'password',
-// 		email: '1858ashton51@yahoo.com'
-// 	})
-// });
