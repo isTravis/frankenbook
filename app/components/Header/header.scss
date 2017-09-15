@@ -32,6 +32,22 @@
 
 }
 
+@media only screen and (max-width: 45em) {  /* 720px */
+	.header {
+		.lens-dropdown {
+			margin-left: 20px;
+			span {
+				display: none;
+			}
+			span.pt-icon-standard {
+				display: inline-block;
+				margin-left: 0px;
+			}
+		}	
+	}
+	
+}
+
 @media print {
 	.header {
 		display: none;
