@@ -2,7 +2,7 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import PropTypes from 'prop-types';
-import { withRouter, Link } from 'react-router-dom';
+import { withRouter } from 'react-router-dom';
 import queryString from 'query-string';
 import ScrollBar from 'components/ScrollBar/ScrollBar';
 import Discussions from 'components/Discussions/Discussions';
@@ -26,21 +26,36 @@ class Book extends Component {
 			docRendered: false,
 		};
 
+		this.toc = [];
+		this.getRoots(bookContent);
+
 		this.seenStart = false;
 		this.seenFinish = false;
 		this.renderContent = this.renderContent.bind(this);
 		this.handleReplySubmit = this.handleReplySubmit.bind(this);
 	}
 
-	componentWillMount() {
-		Book.getRoots(bookContent);
-	}
 	componentDidMount() {
 		this.setState({ docRendered: true });
 	}
 	componentWillReceiveProps() {
 		this.seenStart = false;
 		this.seenFinish = false;
+	}
+
+	getRoots(content) {
+		if (content.tagName === 'h1' || content.tagName === 'h2' || content.tagName === 'h3') {
+			this.toc.push({
+				tagName: content.tagName,
+				content: content.children[0].content,
+				hash: content.hash
+			});
+		}
+		if (content.children) {
+			content.children.map((child)=> {
+				return this.getRoots(child);
+			});
+		}
 	}
 
 	handleReplySubmit(discussionObject) {
@@ -119,23 +134,6 @@ class Book extends Component {
 		return null;
 	}
 
-	static toc = [];
-
-	static getRoots(content) {
-		if (content.tagName === 'h1' || content.tagName === 'h2' || content.tagName === 'h3') {
-			Book.toc.push({
-				tagName: content.tagName,
-				content: content.children[0].content,
-				hash: content.hash
-			});
-		}
-		if (content.children) {
-			content.children.map((child)=> {
-				return Book.getRoots(child);
-			});
-		}
-	}
-
 	render() {
 		const lensesData = this.props.lensesData.data || [];
 		return (
@@ -146,7 +144,7 @@ class Book extends Component {
 					})}
 				</style>
 				{this.state.docRendered &&
-					<ScrollBar toc={Book.toc} documentClassName={'book-wrapper'} />
+					<ScrollBar toc={this.toc} documentClassName={'book-wrapper'} />
 				}
 				<div className={'book-wrapper'}>
 					<div className={'container'}>

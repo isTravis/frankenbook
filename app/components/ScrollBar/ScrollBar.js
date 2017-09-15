@@ -4,7 +4,7 @@ import PropTypes from 'prop-types';
 require('./scrollBar.scss');
 
 const propTypes = {
-	alwaysShow: PropTypes.bool,
+	// alwaysShow: PropTypes.bool,
 	toc: PropTypes.array.isRequired,
 	documentClassName: PropTypes.string.isRequired
 
@@ -33,13 +33,11 @@ class ScrollBar extends Component {
 	}
 
 	componentDidMount() {
-		// const elem = document.getElementsByClassName(this.props.documentClassName)[0];
 		this.wrapperElem.addEventListener('scroll', this.scrollEvent);
 		document.getElementsByClassName('scroll-bar')[0].addEventListener('mousedown', this.mouseDownEvent);
 	}
 
 	componentWillUnmount() {
-		// const elem = document.getElementsByClassName(this.props.documentClassName)[0];
 		this.wrapperElem.removeEventListener('scroll', this.scrollEvent);
 		document.getElementsByClassName('scroll-bar')[0].removeEventListener('mousedown', this.mouseDownEvent);
 	}
@@ -48,20 +46,18 @@ class ScrollBar extends Component {
 		const output = {};
 		items.forEach((item)=> {
 			const elem = document.getElementById(item.hash);
-			if (!elem) { return 0; }
-			const top = elem.offsetTop;
-			const total = this.wrapperElem.scrollHeight;
-			const percentage = top / total * 100;
-			// output[item.hash] = `calc(${percentage}% - 6px)`;
-			output[item.hash] = percentage;
+			if (elem) {
+				const top = elem.offsetTop;
+				const total = this.wrapperElem.scrollHeight;
+				const percentage = (top / total) * 100;
+				output[item.hash] = percentage;
+			}
 		});
 		return output;
 	}
 
 	scrollEvent() {
-		// console.log('scroll');
-		const percentage = this.wrapperElem.scrollTop/(this.wrapperElem.scrollHeight) * 100;
-		// console.log(percentage);
+		const percentage = (this.wrapperElem.scrollTop / this.wrapperElem.scrollHeight) * 100;
 
 		const percentages = this.props.toc.map((item)=> {
 			return { ...item, percentage: this.topOffsets[item.hash] };
@@ -80,62 +76,32 @@ class ScrollBar extends Component {
 
 	mouseDownEvent(evt) {
 		const topPadding = 56;
-		// const elem = document.getElementsByClassName(this.props.documentClassName)[0];
 		const clientClick = evt.clientY;
 		const clientHeight = document.documentElement.clientHeight;
 		const percentage = (clientClick - topPadding) / (clientHeight - topPadding);
 		this.wrapperElem.scrollTop = percentage * this.wrapperElem.scrollHeight;
 		document.getElementsByClassName('scroll-bar')[0].addEventListener('mousemove', this.mouseMoveEvent);
 		document.getElementsByClassName('scroll-bar')[0].addEventListener('mouseup', this.mouseUpEvent);
-
-		// const percentages = this.props.toc.map((item)=> {
-		// 	return { ...item, percentage: this.topOffsets[item.hash] }
-		// }).sort((foo, bar)=> {
-		// 	if (foo.percentage > bar.percentage) { return 1; }
-		// 	if (foo.percentage < bar.percentage) { return -1; }
-		// 	return 0;
-		// });
-		// const active = percentages.reduce((prev, curr)=> {
-		// 	if (curr.percentage < (percentage * 100)) { return curr; }
-		// 	return prev; 
-		// }, undefined);
-		// console.log(percentage);
-		// console.log(percentages);
-		// this.setState({ currentVal: active.content });
 	}
 
 	mouseMoveEvent(evt) {
 		const topPadding = 56;
-		// const elem = document.getElementsByClassName(this.props.documentClassName)[0];
 		const clientClick = evt.clientY;
 		const clientHeight = document.documentElement.clientHeight;
 		const percentage = (clientClick - topPadding) / (clientHeight - topPadding);
 		this.wrapperElem.scrollTop = percentage * this.wrapperElem.scrollHeight;
-
-		// const percentages = this.props.toc.map((item)=> {
-		// 	return { ...item, percentage: this.topOffsets[item.hash] }
-		// }).sort((foo, bar)=> {
-		// 	if (foo.percentage > bar.percentage) { return 1; }
-		// 	if (foo.percentage < bar.percentage) { return -1; }
-		// 	return 0;
-		// });
-		// const active = percentages.reduce((prev, curr)=> {
-		// 	if (curr.percentage < (percentage * 100)) { return curr; }
-		// 	return prev; 
-		// }, undefined);
-		// this.setState({ currentVal: active.content });
 	}
 
-	mouseUpEvent(evt) {
+	mouseUpEvent() {
 		document.getElementsByClassName('scroll-bar')[0].removeEventListener('mousemove', this.mouseMoveEvent);
 		document.getElementsByClassName('scroll-bar')[0].removeEventListener('mouseup', this.mouseUpEvent);
 	}
-	
+
 	render() {
 		return (
 			<div className={'scroll-bar'}>
-				<div className={'position'} style={{ top: `${this.state.percentage}%`}} />
-				<div className={'bar'} style={{ top: `${this.state.percentage}%`}}>
+				<div className={'position'} style={{ top: `${this.state.percentage}%` }} />
+				<div className={'bar'} style={{ top: `${this.state.percentage}%` }}>
 					<div className={'current'}>{this.state.currentVal}</div>
 				</div>
 
@@ -146,11 +112,11 @@ class ScrollBar extends Component {
 						</div>
 					);
 				})}
-				
+
 			</div>
 		);
 	}
-};
+}
 
 ScrollBar.defaultProps = defaultProps;
 ScrollBar.propTypes = propTypes;
