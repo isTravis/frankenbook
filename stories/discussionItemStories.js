@@ -5,7 +5,9 @@ import DiscussionItem from 'components/DiscussionItem/DiscussionItem';
 
 const discussion = {
   "link": "#link-103",
-  "author": "Mary Margaret Fonow",
+  "author": {
+    fullName: "Mary Margaret Fonow",
+  },
   "content": {
     "type": "Element",
     "tagName": "div",

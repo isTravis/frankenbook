@@ -39,7 +39,7 @@ class Login extends Component {
 	onLoginSubmit(evt) {
 		evt.preventDefault();
 		this.props.dispatch(postLogin(
-			this.state.email.toLowerCase(), 
+			this.state.email.toLowerCase(),
 			SHA3(this.state.password).toString(encHex))
 		);
 	}
@@ -53,7 +53,6 @@ class Login extends Component {
 	}
 
 	render() {
-		console.log(Test);
 		return (
 			<div className={'login'}>
 				<Helmet>
