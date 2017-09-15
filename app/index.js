@@ -15,9 +15,13 @@ require('./manageServiceWorker');
 Raven.config('https://3b01f3a858544efb92cd7fed0e513f36@sentry.io/217789').install();
 FocusStyleManager.onlyShowFocusOnTabs();
 
+const gaId = window.location.origin.indexOf('localhost:')
+	? undefined
+	: 'UA-106547284-1';
+	
 const Root = () => (
 	<Provider store={store}>
-		<BrowserRouter id="UA-106547284-1">
+		<BrowserRouter id={gaId}>
 			<ManageScroll>
 				<App />
 			</ManageScroll>
