@@ -145,18 +145,6 @@ const Header = function(props) {
 														<div className={'subtext'}>View Profile</div>
 													</Link>
 												</li>
-												<MenuDivider />
-												<li>
-													<Link to={'/pub-create'} className="pt-menu-item pt-popover-dismiss">
-														Create New Pub
-													</Link>
-												</li>
-												<li>
-													<Link to={`/user/${props.userSlug}/pubs`} className="pt-menu-item pt-popover-dismiss">
-														Your Pubs
-													</Link>
-												</li>
-												<MenuDivider />
 												<MenuItem text={'Logout'} onClick={props.onLogout} />
 											</Menu>
 										}

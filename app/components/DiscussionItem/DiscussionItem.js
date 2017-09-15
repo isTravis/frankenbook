@@ -1,13 +1,17 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import { Link } from 'react-router-dom';
-import InputField from 'components/InputField/InputField';
+import Avatar from 'components/Avatar/Avatar';
 
 require('./discussionItem.scss');
 
 const propTypes = {
 	discussion: PropTypes.object.isRequired,
-	handleReplySubmit: PropTypes.func.isRequired,
+	handleReplySubmit: PropTypes.func,
+};
+
+const defaultProps = {
+	handleReplySubmit: undefined,
 };
 
 class DiscussionItem extends Component {
@@ -87,9 +91,14 @@ class DiscussionItem extends Component {
 			<div className={'discussion-item'}>
 				<div className={'image'}>
 					<Link to={`/user/${item.author.slug}`}>
-						<img src={'icon.png'} alt={item.author.fullName} />
+						<Avatar
+							userAvatar={item.author.avatar}
+							userInitials={item.author.initials}
+							width={24}
+						/>
 					</Link>
 				</div>
+
 				<div className={'content'}>
 					<div className={'author'}>
 						<Link to={`/user/${item.author.slug}`} className={'name'}>{item.author.fullName}</Link>
@@ -114,15 +123,19 @@ class DiscussionItem extends Component {
 						</div>
 					}
 				</div>
-				<div className={'buttons'}>
-					<button className={'pt-button pt-small'} onClick={this.toggleReply}>
-						{this.state.replyOpen ? 'Close' : 'Reply'}
-					</button>
-				</div>
+
+				{this.props.handleReplySubmit &&
+					<div className={'buttons'}>
+						<button className={'pt-button pt-small'} onClick={this.toggleReply}>
+							{this.state.replyOpen ? 'Close' : 'Reply'}
+						</button>
+					</div>
+				}
 			</div>
 		);
 	}
 }
 
+DiscussionItem.defaultProps = defaultProps;
 DiscussionItem.propTypes = propTypes;
 export default DiscussionItem;

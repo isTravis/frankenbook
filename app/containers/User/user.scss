@@ -1,6 +1,11 @@
 .user {
-	.header, .nav {
+	.user-header-wrapper, .nav {
 		margin-top: 3em; 
+	}
+	.nav-title {
+		border-bottom: 1px solid #777;
+		font-size: 1.2em;
+		padding: 0.25em 0em;
 	}
 	.content .row {
 		margin: 1em 0em;
