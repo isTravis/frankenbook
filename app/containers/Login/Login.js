@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import Helmet from 'react-helmet';
 import PropTypes from 'prop-types';
-import { withRouter } from 'react-router-dom';
+import { withRouter, Link } from 'react-router-dom';
 import SHA3 from 'crypto-js/sha3';
 import encHex from 'crypto-js/enc-hex';
 import { Button } from '@blueprintjs/core';
@@ -88,6 +88,8 @@ class Login extends Component {
 									loading={this.props.loginData.isLoading}
 								/>
 							</form>
+
+							<Link to={'/signup'} className={'switch-message'}>Don't have an account? Click to Signup</Link>
 						</div>
 					</div>
 				</div>

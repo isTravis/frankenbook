@@ -132,7 +132,7 @@ const Header = function(props) {
 
 						{!props.appLoading &&
 							<div className={'headerItems headerItemsRight'}>
-								<a href={'https://docs.google.com'} target={'_blank'} className="pt-button pt-large pt-minimal">Dev Notes</a>
+								<a href={'https://docs.google.com/document/d/14iyybF3AOg7uNFjI0PqXfHejBq3pKL_niVGARKQdGR0/edit?usp=sharing'} target={'_blank'} className="pt-button pt-large pt-minimal">Dev Notes</a>
 
 								{/* User avatar and menu */}
 								{loggedIn &&

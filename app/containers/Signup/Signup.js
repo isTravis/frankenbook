@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import Helmet from 'react-helmet';
 import PropTypes from 'prop-types';
-import { withRouter } from 'react-router-dom';
+import { withRouter, Link } from 'react-router-dom';
 import { Button, NonIdealState } from '@blueprintjs/core';
 import InputField from 'components/InputField/InputField';
 import { postSignup } from 'actions/signup';
@@ -71,6 +71,7 @@ class Signup extends Component {
 											loading={this.props.signupData.isLoading}
 										/>
 									</form>
+									<Link to={'/login'} className={'switch-message'}>Already have an account? Click to Login</Link>
 								</div>
 							}
 
