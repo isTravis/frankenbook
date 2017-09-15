@@ -12,7 +12,7 @@ import store from './store';
 
 require('./manageServiceWorker');
 
-Raven.config('https://3b01f3a858544efb92cd7fed0e513f36@sentry.io/217789').install()
+Raven.config('https://3b01f3a858544efb92cd7fed0e513f36@sentry.io/217789').install();
 FocusStyleManager.onlyShowFocusOnTabs();
 
 const Root = () => (
