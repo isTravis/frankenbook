@@ -19,6 +19,7 @@ const Login = () => <Async load={import('containers/Login/Login')} />;
 const NoMatch = () => <Async load={import('containers/NoMatch/NoMatch')} />;
 const Signup = () => <Async load={import('containers/Signup/Signup')} />;
 const User = () => <Async load={import('containers/User/User')} />;
+const UserCreate = () => <Async load={import('containers/UserCreate/UserCreate')} />;
 
 const propTypes = {
 	dispatch: PropTypes.func.isRequired,
@@ -99,6 +100,7 @@ class App extends Component {
 					<Route exact path="/" component={Book} />
 					<Route exact path="/login" component={Login} />
 					<Route exact path="/signup" component={Signup} />
+					<Route exact path="/user/create/:hash" component={UserCreate} />
 					<Route exact path="/user/:slug" component={User} />
 					<Route exact path="/:slug" component={NoMatch} />
 				</Switch>

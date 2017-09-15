@@ -57,7 +57,7 @@
     },
     "anchor": "ffded5",
     "labels": [
-      "Ethics"
+      "Engineering"
     ]
   },
   {
@@ -193,7 +193,6 @@
     },
     "anchor": "43113a",
     "labels": [
-      "Engineering",
       "Ethics"
     ]
   },
@@ -226,7 +225,7 @@
         },
         {
           "type": "Text",
-          "content": " that falsely purported&mdash;but was widely believed&mdash;to be by Albertus did. The texts whose ideas on alchemy and life were most influential, however, were attributed to&mdash;although likely not penned by&mdash;the Renaissance physician and iconoclast Paracelsus (1493–1541). In one of these, a work titled "
+          "content": " that falsely purported—but was widely believed—to be by Albertus did. The texts whose ideas on alchemy and life were most influential, however, were attributed to—although likely not penned by—the Renaissance physician and iconoclast Paracelsus (1493–1541). In one of these, a work titled "
         },
         {
           "type": "Element",
@@ -241,12 +240,13 @@
         },
         {
           "type": "Text",
-          "content": ", the author describes the artificial creation of a little human called a “homunculus” in a process vaguely similar to Victor’s animation of “lifeless matter” (pp. 34, 37). Heating a sealed flask containing putrefying semen would produce a human form after forty days, and the fully formed homunculus&mdash;which would have marvelous powers and knowledge&mdash;would be complete after forty weeks of feeding with a preparation of human blood."
+          "content": ", the author describes the artificial creation of a little human called a “homunculus” in a process vaguely similar to Victor’s animation of “lifeless matter” (pp. 34, 37). Heating a sealed flask containing putrefying semen would produce a human form after forty days, and the fully formed homunculus—which would have marvelous powers and knowledge—would be complete after forty weeks of feeding with a preparation of human blood."
         }
       ]
     },
     "anchor": "460d75",
     "labels": [
+      "Engineering",
       "Ethics"
     ]
   },
@@ -356,7 +356,7 @@
             },
             {
               "type": "Text",
-              "content": " clearly engages with Neoplatonic philosophy and sees a clear path by which the study of God’s work improves the adept, it is unique in that Agrippa also includes the possibility for the living adept to transcend the natural sphere through magical work and to re-enter the godhead. Through the spiritual improvement (requiring the adept to shed human desires and ambitions) required to attain such magical skills, Agrippa believes the adept would use his magical skills to continue the world order conceived by God&mdash;perhaps seeing the adept as an important source of defense in the case of an apocalypse. It is not clear, however, what would happen if a disciplined but evil adept achieved the godhead&mdash;perhaps he could derail the order of the world. At any rate, Victor’s sense that he can equal God might have come from this text because he read it outside the context of Renaissance theology and without understanding the tremendous discipline required of a magical adept. His creature serves as an object lesson about the threats posed by undisciplined, ambition-fueled, and ego-driven science. It does not operate as a corrective to the problems of Renaissance natural philosophy solved by modern science but instead serves as evidence for the importance of the increasingly common peer-reviewed and institutionally defined investigations that came to be known as science in the early nineteenth century.\n\t\t\t\t"
+              "content": " clearly engages with Neoplatonic philosophy and sees a clear path by which the study of God’s work improves the adept, it is unique in that Agrippa also includes the possibility for the living adept to transcend the natural sphere through magical work and to re-enter the godhead. Through the spiritual improvement (requiring the adept to shed human desires and ambitions) required to attain such magical skills, Agrippa believes the adept would use his magical skills to continue the world order conceived by God—perhaps seeing the adept as an important source of defense in the case of an apocalypse. It is not clear, however, what would happen if a disciplined but evil adept achieved the godhead—perhaps he could derail the order of the world. At any rate, Victor’s sense that he can equal God might have come from this text because he read it outside the context of Renaissance theology and without understanding the tremendous discipline required of a magical adept. His creature serves as an object lesson about the threats posed by undisciplined, ambition-fueled, and ego-driven science. It does not operate as a corrective to the problems of Renaissance natural philosophy solved by modern science but instead serves as evidence for the importance of the increasingly common peer-reviewed and institutionally defined investigations that came to be known as science in the early nineteenth century.\n\t\t\t\t"
             }
           ]
         },
@@ -368,7 +368,7 @@
     },
     "anchor": "2947ef",
     "labels": [
-      "Ethics"
+      "Engineering"
     ]
   },
   {
@@ -432,13 +432,13 @@
       "children": [
         {
           "type": "Text",
-          "content": "Dramatic encounters with natural phenomena are inspirations for scientific as well as literary imagination. This passage reconstructs the way that the philosopher Francis Bacon (1561–1626) thought that scientists come to understand natural phenomena and, in turn, use their understanding to construct technologies that make use of the same underlying processes. In describing how Victor’s father translates the mechanisms of thunder and lightning into various technologies—a small electrical machine (perhaps a galvanic pile and Leyden jar) and a kite that attracts and conducts electricity (after Benjamin Franklin’s experiment), both of which were part of Percy Shelley’s education&mdash;the passage foreshadows Victor’s eventual use of electricity to animate the creature he creates. The sense of wonder the narrator describes at witnessing the storm is important: delight, curiosity, awe, and other emotions motivate scientific inquiry by captivating the imagination and emotions. Mary likely shared some of her protagonist’s emotions as she endured the relentless rains and thunderstorms that plagued Geneva in the summer of 1816."
+          "content": "Dramatic encounters with natural phenomena are inspirations for scientific as well as literary imagination. This passage reconstructs the way that the philosopher Francis Bacon (1561–1626) thought that scientists come to understand natural phenomena and, in turn, use their understanding to construct technologies that make use of the same underlying processes. In describing how Victor’s father translates the mechanisms of thunder and lightning into various technologies—a small electrical machine (perhaps a galvanic pile and Leyden jar) and a kite that attracts and conducts electricity (after Benjamin Franklin’s experiment), both of which were part of Percy Shelley’s education—the passage foreshadows Victor’s eventual use of electricity to animate the creature he creates. The sense of wonder the narrator describes at witnessing the storm is important: delight, curiosity, awe, and other emotions motivate scientific inquiry by captivating the imagination and emotions. Mary likely shared some of her protagonist’s emotions as she endured the relentless rains and thunderstorms that plagued Geneva in the summer of 1816."
         }
       ]
     },
     "anchor": "440bf3",
     "labels": [
-      "Ethics"
+      "Engineering"
     ]
   },
   {
@@ -509,13 +509,14 @@
         },
         {
           "type": "Text",
-          "content": " (Natural history) echoed Pliny the Elder’s. In a century in which natural historians were still attempting to understand whether and how species changed, Buffon proposed a theory that New World species, including humans, were degenerate compared to Old World species. His theory led to a heated correspondence with Thomas Jefferson, who sent samples of robust North American wildlife&mdash;including a stuffed moose&mdash;across the Atlantic to him."
+          "content": " (Natural history) echoed Pliny the Elder’s. In a century in which natural historians were still attempting to understand whether and how species changed, Buffon proposed a theory that New World species, including humans, were degenerate compared to Old World species. His theory led to a heated correspondence with Thomas Jefferson, who sent samples of robust North American wildlife—including a stuffed moose—across the Atlantic to him."
         }
       ]
     },
     "anchor": "2edf0c",
     "labels": [
-      "Engineering"
+      "Engineering",
+      "Ethics"
     ]
   },
   {
@@ -538,6 +539,7 @@
     },
     "anchor": "bfb949",
     "labels": [
+      "Engineering",
       "Ethics"
     ]
   },
@@ -555,13 +557,12 @@
       "children": [
         {
           "type": "Text",
-          "content": "When Victor describes his grief at the death of his mother, he focuses on its impact on him. He grieves her absence rather than feeling sorrow for the pain she experienced in dying or for the experiences of life she will now miss. Victor’s grief at his mother’s death plays a central role in shaping his character going forward. It is the mirror of the creature’s experience in the novel. Victor grieves the presence of an absence&mdash;that is, his mother. The creature grieves the presence of an absence&mdash;that is, a friend, fellow, and mate. Given all that Victor knows of grief and loss, we would expect him to be more sympathetic to the creature’s plight. He seems blind to the many things he has in common with his creation. Perhaps he is willfully blind because he must continueto dehumanize his creation in order to distance himself from it and from his responsibility for it. It remains to be seen whether scientists and engineers, as creators, can afford to recognize themselves in their work or can afford not to."
+          "content": "When Victor describes his grief at the death of his mother, he focuses on its impact on him. He grieves her absence rather than feeling sorrow for the pain she experienced in dying or for the experiences of life she will now miss. Victor’s grief at his mother’s death plays a central role in shaping his character going forward. It is the mirror of the creature’s experience in the novel. Victor grieves the presence of an absence—that is, his mother. The creature grieves the presence of an absence—that is, a friend, fellow, and mate. Given all that Victor knows of grief and loss, we would expect him to be more sympathetic to the creature’s plight. He seems blind to the many things he has in common with his creation. Perhaps he is willfully blind because he must continueto dehumanize his creation in order to distance himself from it and from his responsibility for it. It remains to be seen whether scientists and engineers, as creators, can afford to recognize themselves in their work or can afford not to."
         }
       ]
     },
     "anchor": "bfb949",
     "labels": [
-      "Engineering",
       "Ethics"
     ]
   },
@@ -731,6 +732,7 @@
     },
     "anchor": "9dfa8d",
     "labels": [
+      "Engineering",
       "Ethics"
     ]
   },
@@ -748,7 +750,7 @@
       "children": [
         {
           "type": "Text",
-          "content": "A major rationale for the autonomy of science and scientists&mdash;that is, their ability to make their own choices free from interference by governments or lay people&mdash;in their pursuit of knowledge is the presumed certainty of the superior instrumental outcome of that pursuit, regardless of the potential presence of error or bias. According to chemist and philosopher of science Michael Polanyi, the ideal organization is “scientists, freely making their own choice of problems and pursuing them in the light of their own personal judgment” (1962, 54)."
+          "content": "A major rationale for the autonomy of science and scientists—that is, their ability to make their own choices free from interference by governments or lay people—in their pursuit of knowledge is the presumed certainty of the superior instrumental outcome of that pursuit, regardless of the potential presence of error or bias. According to chemist and philosopher of science Michael Polanyi, the ideal organization is “scientists, freely making their own choice of problems and pursuing them in the light of their own personal judgment” (1962, 54)."
         }
       ]
     },
@@ -771,13 +773,12 @@
       "children": [
         {
           "type": "Text",
-          "content": "The idea of a having a single scientific mentor is not ideal, and Victor knows this well. He is mentored by two complementary, imperfect, and valuable individuals&mdash;namely, M. Krempe and M. Waldman. We see that scientific mentoring does not take place in a vacuum. Developmental psychologist Jean Piaget described the process of intellectual development with the words “intelligence organizes the world by organizing itself” (quoted in Chess and Hassibi 1978, 63). One reading of Piaget suggests that he models learning as a complex adaptive system, and so as the human body experiences stimuli, it begins to organize and anticipate stimuli, creating complex systems of mental actions and anticipated results in an effort to predict and control stimuli to generate more favorable results. As a result, collaborative interactions among individuals with different perspectives and experiences (mentor and mentee) provide conversational stimuli for developing new understandings. L. S. Vygotsky, citing Piaget, describes a similar process: “Such observations [of child argumentation] prompted Piaget to conclude that communication produces the need for checking and confirming thoughts, a process that is characteristic of adult thought” (1978, 90). Mentor–mentee dynamics create the stimuli that drive Victor’s curiosity, creativity, and learning. M. Waldman, who loves chemistry, notes that “I have not neglected the other branches of science” (p. 31), impressing the importance of interdisciplinary learning on Victor. As this passage shows, passion for learning is also the outcome of dual mentorship: “natural philosophy, and particularly chemistry, in the most comprehensive sense of the term, became nearly my sole occupation.” Finally, the search for knowledge, regardless of direction, drives Victor’s research. Discipline, passion, focus, and effective diverse mentorship philosophies characterize Victor’s status at this time."
+          "content": "The idea of a having a single scientific mentor is not ideal, and Victor knows this well. He is mentored by two complementary, imperfect, and valuable individuals—namely, M. Krempe and M. Waldman. We see that scientific mentoring does not take place in a vacuum. Developmental psychologist Jean Piaget described the process of intellectual development with the words “intelligence organizes the world by organizing itself” (quoted in Chess and Hassibi 1978, 63). One reading of Piaget suggests that he models learning as a complex adaptive system, and so as the human body experiences stimuli, it begins to organize and anticipate stimuli, creating complex systems of mental actions and anticipated results in an effort to predict and control stimuli to generate more favorable results. As a result, collaborative interactions among individuals with different perspectives and experiences (mentor and mentee) provide conversational stimuli for developing new understandings. L. S. Vygotsky, citing Piaget, describes a similar process: “Such observations [of child argumentation] prompted Piaget to conclude that communication produces the need for checking and confirming thoughts, a process that is characteristic of adult thought” (1978, 90). Mentor–mentee dynamics create the stimuli that drive Victor’s curiosity, creativity, and learning. M. Waldman, who loves chemistry, notes that “I have not neglected the other branches of science” (p. 31), impressing the importance of interdisciplinary learning on Victor. As this passage shows, passion for learning is also the outcome of dual mentorship: “natural philosophy, and particularly chemistry, in the most comprehensive sense of the term, became nearly my sole occupation.” Finally, the search for knowledge, regardless of direction, drives Victor’s research. Discipline, passion, focus, and effective diverse mentorship philosophies characterize Victor’s status at this time."
         }
       ]
     },
     "anchor": "d61f16",
     "labels": [
-      "Engineering",
       "Ethics"
     ]
   },
@@ -801,7 +802,7 @@
     },
     "anchor": "5ea43e",
     "labels": [
-      "Engineering"
+      "Ethics"
     ]
   },
   {
@@ -869,7 +870,6 @@
     },
     "anchor": "e5b5f4",
     "labels": [
-      "Engineering",
       "Ethics"
     ]
   },
@@ -908,8 +908,7 @@
     },
     "anchor": "067f90",
     "labels": [
-      "Engineering",
-      "Ethics"
+      "Engineering"
     ]
   },
   {
@@ -965,7 +964,7 @@
           "children": [
             {
               "type": "Text",
-              "content": "\n\t\t\t\t\tVictor’s “frame” is a product of part-by-part fabrication and lacks “animation”&mdash;then a term for the state of being alive. His power makes the idle machine something living. In a sense, the story presents a separation between body and consciousness similar to the one championed by Descartes. And yet no deity is at work. Victor installs life into his constructed “frame” using only his scientific prowess.\n\t\t\t\t"
+              "content": "\n\t\t\t\t\tVictor’s “frame” is a product of part-by-part fabrication and lacks “animation”—then a term for the state of being alive. His power makes the idle machine something living. In a sense, the story presents a separation between body and consciousness similar to the one championed by Descartes. And yet no deity is at work. Victor installs life into his constructed “frame” using only his scientific prowess.\n\t\t\t\t"
             }
           ]
         },
@@ -992,8 +991,7 @@
     },
     "anchor": "067f90",
     "labels": [
-      "Engineering",
-      "Ethics"
+      "Engineering"
     ]
   },
   {
@@ -1046,7 +1044,6 @@
     },
     "anchor": "067f90",
     "labels": [
-      "Engineering",
       "Ethics"
     ]
   },
@@ -1103,7 +1100,7 @@
             },
             {
               "type": "Text",
-              "content": ", we can therefore question scientific work and its ownership. Although we might arbitrarily decide that humans are exempt from being classed as property&mdash;a decision not yet achieved in Mary’s time&mdash;what of the creature? Is it right to think of the term "
+              "content": ", we can therefore question scientific work and its ownership. Although we might arbitrarily decide that humans are exempt from being classed as property—a decision not yet achieved in Mary’s time—what of the creature? Is it right to think of the term "
             },
             {
               "type": "Element",
@@ -1130,7 +1127,6 @@
     },
     "anchor": "067f90",
     "labels": [
-      "Engineering",
       "Ethics"
     ]
   },
@@ -1193,7 +1189,7 @@
         },
         {
           "type": "Text",
-          "content": " JCVI-syn1.0, which the J. Craig Venter Institute made in 2010 by inserting a lab-assembled genome into a bacterium. The promise of synthetic biology is total genetic control of organisms that can bless us with new foods, drugs, and fuels. The peril is that the future behavior of such bespoke organisms, like that of the Čapeks’ robots, cannot be completely predicted. AI is arguably even more hubristic&mdash;and perilous&mdash;because of the potential for machine intelligence to exceed&mdash;or be incomprehensible by&mdash;human intelligence. From a superhuman AI’s perspective, arrogant "
+          "content": " JCVI-syn1.0, which the J. Craig Venter Institute made in 2010 by inserting a lab-assembled genome into a bacterium. The promise of synthetic biology is total genetic control of organisms that can bless us with new foods, drugs, and fuels. The peril is that the future behavior of such bespoke organisms, like that of the Čapeks’ robots, cannot be completely predicted. AI is arguably even more hubristic—and perilous—;because of the potential for machine intelligence to exceed—or be incomprehensible by—human intelligence. From a superhuman AI’s perspective, arrogant "
         },
         {
           "type": "Element",
@@ -1214,7 +1210,8 @@
     },
     "anchor": "4b2b9b",
     "labels": [
-      "Engineering"
+      "Engineering",
+      "Ethics"
     ]
   },
   {
@@ -1237,8 +1234,7 @@
     },
     "anchor": "4b2b9b",
     "labels": [
-      "Engineering",
-      "Ethics"
+      "Engineering"
     ]
   },
   {
@@ -1261,8 +1257,7 @@
     },
     "anchor": "4b2b9b",
     "labels": [
-      "Engineering",
-      "Ethics"
+      "Engineering"
     ]
   },
   {
@@ -1285,7 +1280,7 @@
     },
     "anchor": "4b2b9b",
     "labels": [
-      "Ethics"
+      "Engineering"
     ]
   },
   {
@@ -1341,7 +1336,7 @@
           "children": [
             {
               "type": "Text",
-              "content": "\n\t\t\t\t\tAn individual depends in countless ways on being recognized as a social being&mdash;as a person with feelings and rights, enjoying fellowship in social groups, relying on institutions to provide support, to safeguard our rights, and to care for us when we are in need. Victor’s decision to conduct his work in isolation and his abandonment of the creature at birth makes it impossible for the creature ever to achieve this social legibility and to participate functionally in society.\n\t\t\t\t"
+              "content": "\n\t\t\t\t\tAn individual depends in countless ways on being recognized as a social being—as a person with feelings and rights, enjoying fellowship in social groups, relying on institutions to provide support, to safeguard our rights, and to care for us when we are in need. Victor’s decision to conduct his work in isolation and his abandonment of the creature at birth makes it impossible for the creature ever to achieve this social legibility and to participate functionally in society.\n\t\t\t\t"
             }
           ]
         },
@@ -1386,13 +1381,12 @@
       "children": [
         {
           "type": "Text",
-          "content": "Victor’s grave robbing and torture of animals raise the following questions: Do the ends ever justify the means in research or in other areas? If useful data can be gathered through unethical means, should they be? And if such data are so gathered, ought they to form part of the evidence base of science? Analysis of the history of human experimentation in the twentieth century comes solidly down on the negative answer, based on experiences like those of concentration camp inmates experimented on by Nazi doctors during World War II and of African Americans and Guatemalans experimented on by US Public Health Service researchers in the decades following the war. The principles of bioethics hold that human beings may never be used solely as experimental means to a scientific end, but human autonomy can also create an affirmative role for self-sacrifice, allowing people ethically to volunteer for dangerous experiments. Some bioethicists also argue that if a practice is physically or viscerally repugnant&mdash;“the horrors of my secret toil,” in Victor’s words (p. 38)&mdash;then the practice is at least suspect of being morally repugnant. For a time, the ethical debate about human embryonic stem cell research focused on whether medical science should be permitted to progress based on research that was putatively unethical in its destruction of human embryos to derive human pluripotent stem cells. Is such research always spoiled as the fruit of evil exploits?"
+          "content": "Victor’s grave robbing and torture of animals raise the following questions: Do the ends ever justify the means in research or in other areas? If useful data can be gathered through unethical means, should they be? And if such data are so gathered, ought they to form part of the evidence base of science? Analysis of the history of human experimentation in the twentieth century comes solidly down on the negative answer, based on experiences like those of concentration camp inmates experimented on by Nazi doctors during World War II and of African Americans and Guatemalans experimented on by US Public Health Service researchers in the decades following the war. The principles of bioethics hold that human beings may never be used solely as experimental means to a scientific end, but human autonomy can also create an affirmative role for self-sacrifice, allowing people ethically to volunteer for dangerous experiments. Some bioethicists also argue that if a practice is physically or viscerally repugnant—“the horrors of my secret toil,” in Victor’s words (p. 38)—then the practice is at least suspect of being morally repugnant. For a time, the ethical debate about human embryonic stem cell research focused on whether medical science should be permitted to progress based on research that was putatively unethical in its destruction of human embryos to derive human pluripotent stem cells. Is such research always spoiled as the fruit of evil exploits?"
         }
       ]
     },
     "anchor": "43a4a8",
     "labels": [
-      "Engineering",
       "Ethics"
     ]
   },
@@ -1485,8 +1479,7 @@
     },
     "anchor": "b7f0b5",
     "labels": [
-      "Engineering",
-      "Ethics"
+      "Engineering"
     ]
   },
   {
@@ -1503,7 +1496,7 @@
       "children": [
         {
           "type": "Text",
-          "content": "Victor characterizes the moment he succeeds in bringing his creation to life&mdash;when the creation opens his eyes and gazes back&mdash;as a “catastrophe.” Contrast this scene with the same moment of creation of intelligence noted in Genesis 1:32: “God saw all that he had made, and it was very good.” An enduring conversation in the philosophy of beauty asks whether beauty is more an innate property of the “thing” being considered or resides instead in the eye of the beholder. Conflations of beauty and goodness are also quite common in both popular culture and philosophical inquiry. In many ways, this entire novel explores the relationship between beauty, goodness, and perceptions. In the end, Victor’s characterization of his creature depends more on Victor himself than on the creature’s identity. Outward perceptions of beauty or the lack thereof influence how others understand the creature and whether they perceive his actions as “good” or “evil.” Imagine how the story would unfold if Victor were instead to have looked upon his creature at this very moment and felt that it “was good.” In the scene as given in the novel, Victor looks for himself in the creature’s eyes and finds someone else."
+          "content": "Victor characterizes the moment he succeeds in bringing his creation to life—when the creation opens his eyes and gazes back—as a “catastrophe.” Contrast this scene with the same moment of creation of intelligence noted in Genesis 1:32: “God saw all that he had made, and it was very good.” An enduring conversation in the philosophy of beauty asks whether beauty is more an innate property of the “thing” being considered or resides instead in the eye of the beholder. Conflations of beauty and goodness are also quite common in both popular culture and philosophical inquiry. In many ways, this entire novel explores the relationship between beauty, goodness, and perceptions. In the end, Victor’s characterization of his creature depends more on Victor himself than on the creature’s identity. Outward perceptions of beauty or the lack thereof influence how others understand the creature and whether they perceive his actions as “good” or “evil.” Imagine how the story would unfold if Victor were instead to have looked upon his creature at this very moment and felt that it “was good.” In the scene as given in the novel, Victor looks for himself in the creature’s eyes and finds someone else."
         }
       ]
     },
@@ -1551,7 +1544,7 @@
       "children": [
         {
           "type": "Text",
-          "content": "Egyptian mummies were present in the British Museum since the mid-1750s, donated by private antiquity collectors. British attention to ancient Egypt broadened during Napoleon’s campaign of 1798–1801; his inclusion of scholars with his army was mocked in England as wartime propaganda, but the French documented and exported antiquities that were later transferred to London after their defeat. Probably more important than these events to the interpretation of Mary’s text, however, is the use of the purported curative powder “mummia” or “mummy,” which had been available throughout Europe since the twelfth century. Referred to as both medicine and pigment by early English writers including Edmund Spenser, William Shakespeare, and John Donne, mummia was either the bituminous substance used in mummification to dry out body cavities after the removal of organs or the ground-up body parts of mummies themselves when this bituminous substance was in short supply. Mary’s reference to mummies here and later in Walton’s characterization of the texture and color of the creature’s hand (p. 183) may serve several purposes: (1) Ancient mummification enabled the preserved body to be available for use by the spirit in the afterlife&mdash;another kind of reanimation of a dead body. (2) The creature’s mummylike hand would have exhibited the characteristic darkened skin produced by the drying material, whereas the creature’s facial skin is elsewhere described as yellow, further highlighting his patchwork nature. (3) In light of the mutilation of mummified bodies for questionable medicinal treatments, is it possible that Mary used the term "
+          "content": "Egyptian mummies were present in the British Museum since the mid-1750s, donated by private antiquity collectors. British attention to ancient Egypt broadened during Napoleon’s campaign of 1798–1801; his inclusion of scholars with his army was mocked in England as wartime propaganda, but the French documented and exported antiquities that were later transferred to London after their defeat. Probably more important than these events to the interpretation of Mary’s text, however, is the use of the purported curative powder “mummia” or “mummy,” which had been available throughout Europe since the twelfth century. Referred to as both medicine and pigment by early English writers including Edmund Spenser, William Shakespeare, and John Donne, mummia was either the bituminous substance used in mummification to dry out body cavities after the removal of organs or the ground-up body parts of mummies themselves when this bituminous substance was in short supply. Mary’s reference to mummies here and later in Walton’s characterization of the texture and color of the creature’s hand (p. 183) may serve several purposes: (1) Ancient mummification enabled the preserved body to be available for use by the spirit in the afterlife—another kind of reanimation of a dead body. (2) The creature’s mummylike hand would have exhibited the characteristic darkened skin produced by the drying material, whereas the creature’s facial skin is elsewhere described as yellow, further highlighting his patchwork nature. (3) In light of the mutilation of mummified bodies for questionable medicinal treatments, is it possible that Mary used the term "
         },
         {
           "type": "Element",
@@ -1572,7 +1565,8 @@
     },
     "anchor": "cf96d2",
     "labels": [
-      "Engineering"
+      "Engineering",
+      "Ethics"
     ]
   },
   {
@@ -1618,7 +1612,7 @@
     },
     "anchor": "c4b765",
     "labels": [
-      "Ethics"
+      "Engineering"
     ]
   },
   {
@@ -1635,12 +1629,13 @@
       "children": [
         {
           "type": "Text",
-          "content": "Narrative reflection has transformative power&mdash;the process of writing one’s story can actually change one’s understanding of the story. Because reflecting on and writing about an experience can influence how a person feels about the experience, it is possible for Victor to “write himself” into better spirits. Note in this regard that Mary does not at this point describe Victor as having made any notes on his experiments, even for his private use, if not for publication. For more on reflective writing, see Bolton 2014."
+          "content": "Narrative reflection has transformative power—the process of writing one’s story can actually change one’s understanding of the story. Because reflecting on and writing about an experience can influence how a person feels about the experience, it is possible for Victor to “write himself” into better spirits. Note in this regard that Mary does not at this point describe Victor as having made any notes on his experiments, even for his private use, if not for publication. For more on reflective writing, see Bolton 2014."
         }
       ]
     },
     "anchor": "da42d1",
     "labels": [
+      "Engineering",
       "Ethics"
     ]
   },
@@ -1740,7 +1735,8 @@
     },
     "anchor": "d5e770",
     "labels": [
-      "Engineering"
+      "Engineering",
+      "Ethics"
     ]
   },
   {
@@ -1801,7 +1797,6 @@
     },
     "anchor": "90817e",
     "labels": [
-      "Engineering",
       "Ethics"
     ]
   },
@@ -1825,8 +1820,7 @@
     },
     "anchor": "ece3ff",
     "labels": [
-      "Engineering",
-      "Ethics"
+      "Engineering"
     ]
   },
   {
@@ -1843,7 +1837,7 @@
       "children": [
         {
           "type": "Text",
-          "content": "This passage reflects the type of justice known as retributive, which relies on punishment to balance the wrong done to the victim and his or her family and to act as a deterrent to others from future acts of wrong-doing. In this worldview, justice is served when someone pays for the suffering caused to another. Mary is warning the reader that a rush to judgment, especially if revenge is the driving motive, might hurt innocent people, creating a new form of injustice. This is what happens when the innocent Justine is wrongly executed for the death of William. Science and technology are also implicated in the apparatus of crime and punishment in a number of ways, including the creation of various tools of execution, such as the guillotine&mdash;which was a terrible new invention at the time of the French Revolution&mdash;the electric chair, lethal injections, and so on. In modern capital punishment in the United States, medical personnel are present to verify the prisoner’s death, and psychiatrists play a role in determining whether someone is mentally healthy enough to stand trial or if there are mitigating circumstances due to mental defect. Fingerprinting, handwriting analysis, DNA testing, and other forensic sciences have had disputatious histories, both in terms of how they have been received as evidence in the courtroom and how they have called on courts to understand scientific evidence. Scientific studies have also cast light on the fallibility of eyewitness testimony, and many convictions have been overturned by exculpatory DNA evidence. The power of forensic evidence is such in the public imagination, however, that a “"
+          "content": "This passage reflects the type of justice known as retributive, which relies on punishment to balance the wrong done to the victim and his or her family and to act as a deterrent to others from future acts of wrong-doing. In this worldview, justice is served when someone pays for the suffering caused to another. Mary is warning the reader that a rush to judgment, especially if revenge is the driving motive, might hurt innocent people, creating a new form of injustice. This is what happens when the innocent Justine is wrongly executed for the death of William. Science and technology are also implicated in the apparatus of crime and punishment in a number of ways, including the creation of various tools of execution, such as the guillotine—which was a terrible new invention at the time of the French Revolution—the electric chair, lethal injections, and so on. In modern capital punishment in the United States, medical personnel are present to verify the prisoner’s death, and psychiatrists play a role in determining whether someone is mentally healthy enough to stand trial or if there are mitigating circumstances due to mental defect. Fingerprinting, handwriting analysis, DNA testing, and other forensic sciences have had disputatious histories, both in terms of how they have been received as evidence in the courtroom and how they have called on courts to understand scientific evidence. Scientific studies have also cast light on the fallibility of eyewitness testimony, and many convictions have been overturned by exculpatory DNA evidence. The power of forensic evidence is such in the public imagination, however, that a “"
         },
         {
           "type": "Element",
@@ -1858,645 +1852,645 @@
         },
         {
           "type": "Text",
-          "content": " effect”&mdash;amed after the popular television show about crime scene investigators using high-tech forensic analysis&mdash;has been identified in jurors who want to see scientific evidence of guilt even if those scientific standards are derived from fiction."
+          "content": " effect”—amed after the popular television show about crime scene investigators using high-tech forensic analysis—has been identified in jurors who want to see scientific evidence of guilt even if those scientific standards are derived from fiction."
         }
       ]
     },
     "anchor": "2f4b90",
     "labels": [
-      "Engineering"
-    ]
-  },
-  {
-    "link": "#link-267",
-    "author": "Joel Gereboff",
-    "content": {
-      "type": "Element",
-      "tagName": "div",
-      "attributes": {
-        "className": [
-          "footnote-content"
-        ]
-      },
-      "children": [
-        {
-          "type": "Text",
-          "content": "\n\t\t\t\t"
-        },
-        {
-          "type": "Element",
-          "tagName": "p",
-          "attributes": {},
-          "children": [
-            {
-              "type": "Text",
-              "content": "\n\t\t\t\t\tThe concept of guilt may well be a bit more complicated than it first appears. The two most common understandings of guilt are at work in the text, prompting us to think about the idea of guilt in relation to both Victor and the creature. First, guilt describes the person who is responsible for an act that is unethical or illegal or both. Second, guilt describes the feelings that arise after an act&mdash;feelings that can be said to haunt a person and potentially shape his or her future actions.\n\t\t\t\t"
-            }
-          ]
-        },
-        {
-          "type": "Text",
-          "content": "\n\t\t\t\t"
-        },
-        {
-          "type": "Element",
-          "tagName": "p",
-          "attributes": {},
-          "children": [
-            {
-              "type": "Text",
-              "content": "\n\t\t\t\t\tThe second understanding of guilt is clarified by psychoanalytic thought, which theorizes that guilt can be at work even when a person does not consciously attribute his or her actions to its effects. For more on this understanding, see Sigmund Freud, "
-            },
-            {
-              "type": "Element",
-              "tagName": "i",
-              "attributes": {},
-              "children": [
-                {
-                  "type": "Text",
-                  "content": "Civilization and Its Discontents"
-                }
-              ]
-            },
-            {
-              "type": "Text",
-              "content": " [1930] 1961. Freud’s arguments about the inextricable link between guilt and civilization make for a fascinating parallel to "
-            },
-            {
-              "type": "Element",
-              "tagName": "i",
-              "attributes": {},
-              "children": [
-                {
-                  "type": "Text",
-                  "content": "Frankenstein"
-                }
-              ]
-            },
-            {
-              "type": "Text",
-              "content": ".\n\t\t\t\t"
-            }
-          ]
-        },
-        {
-          "type": "Text",
-          "content": "\n\t\t\t\t"
-        },
-        {
-          "type": "Element",
-          "tagName": "p",
-          "attributes": {},
-          "children": [
-            {
-              "type": "Text",
-              "content": "\n\t\t\t\t\tIn the first understanding, guilt is also attributed to a person for failing to do what he or she believes is required in a situation. For example, Victor could be seen as guilty for his failure to make the creature’s existence public, especially at the trial of Justine. As Shakespeare has Claudius say in "
-            },
-            {
-              "type": "Element",
-              "tagName": "i",
-              "attributes": {},
-              "children": [
-                {
-                  "type": "Text",
-                  "content": "Hamlet"
-                }
-              ]
-            },
-            {
-              "type": "Text",
-              "content": ", “[M]y stronger guilt defeats my strong intent” (III.iii.44).\n\t\t\t\t"
-            }
-          ]
-        },
-        {
-          "type": "Text",
-          "content": "\n\t\t\t\t"
-        },
-        {
-          "type": "Element",
-          "tagName": "p",
-          "attributes": {},
-          "children": [
-            {
-              "type": "Text",
-              "content": "\n\t\t\t\t\tLater in the novel, Victor makes a universal claim about the consequences of guilt: “Ah! it is well for the unfortunate to be resigned, but for the guilty there is no peace” (p. 158).\n\t\t\t\t"
-            }
-          ]
-        },
-        {
-          "type": "Text",
-          "content": "\n\t\t\t"
-        },
-        {
-          "type": "Element",
-          "tagName": "div",
-          "attributes": {},
-          "children": [
-            {
-              "type": "Text",
-              "content": "\n\t\t\t"
-            },
-            {
-              "type": "Element",
-              "tagName": "div",
-              "attributes": {
-                "className": [
-                  "footnote-author"
-                ]
-              },
-              "children": [
-                {
-                  "type": "Text",
-                  "content": "Ramsey Eric Ramsey."
-                }
-              ]
-            },
-            {
-              "type": "Text",
-              "content": "\n\t\t"
-            }
-          ]
-        },
-        {
-          "type": "Text",
-          "content": "\n\t\t\n\t\t"
-        },
-        {
-          "type": "Element",
-          "tagName": "div",
-          "attributes": {
-            "className": [
-              "footnote"
-            ]
-          },
-          "children": [
-            {
-              "type": "Text",
-              "content": "\n\t\t\t"
-            },
-            {
-              "type": "Element",
-              "tagName": "span",
-              "attributes": {
-                "id": "link-225"
-              },
-              "children": [
-                {
-                  "type": "Element",
-                  "tagName": "a",
-                  "attributes": {
-                    "href": "#link-266"
-                  },
-                  "children": [
-                    {
-                      "type": "Text",
-                      "content": "2."
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "Text",
-              "content": " \n\t\t\t"
-            },
-            {
-              "type": "Element",
-              "tagName": "div",
-              "attributes": {
-                "className": [
-                  "footnote-content"
-                ]
-              },
-              "children": [
-                {
-                  "type": "Text",
-                  "content": "The interior anguish Victor experiences is given heightened expression here. Language has limitations, and Victor finds he cannot disclose his interior conflicts. He has a tortured conscience. Intense sensations of remorse and guilt disrupt his efforts to achieve and maintain a serene conscience, a sense of being right. No words can express the hell and torture he is feeling."
-                }
-              ]
-            },
-            {
-              "type": "Text",
-              "content": "\n\t\t\t"
-            },
-            {
-              "type": "Element",
-              "tagName": "div",
-              "attributes": {
-                "className": [
-                  "footnote-author"
-                ]
-              },
-              "children": [
-                {
-                  "type": "Text",
-                  "content": "Joel Gereboff."
-                }
-              ]
-            },
-            {
-              "type": "Text",
-              "content": "\n\t\t"
-            }
-          ]
-        },
-        {
-          "type": "Text",
-          "content": "\n\t\t\n\t\t"
-        },
-        {
-          "type": "Element",
-          "tagName": "div",
-          "attributes": {
-            "className": [
-              "footnote"
-            ]
-          },
-          "children": [
-            {
-              "type": "Text",
-              "content": "\n\t\t\t"
-            },
-            {
-              "type": "Element",
-              "tagName": "span",
-              "attributes": {
-                "id": "link-226"
-              },
-              "children": [
-                {
-                  "type": "Element",
-                  "tagName": "a",
-                  "attributes": {
-                    "href": "#link-267"
-                  },
-                  "children": [
-                    {
-                      "type": "Text",
-                      "content": "3."
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "Text",
-              "content": "\n\t\t\t"
-            },
-            {
-              "type": "Element",
-              "tagName": "div",
-              "attributes": {
-                "className": [
-                  "footnote-content"
-                ]
-              },
-              "children": [
-                {
-                  "type": "Text",
-                  "content": "Victor again feels guilt about not disclosing the existence of the destructive creature that he has created. Yet he continues to fail to recognize and concede that his treatment and desertion of the creature, not the initial creation, have brought about the destruction. In this instance, Victor does sense the potential impact of his desertion on his family and others but remains blind to his earlier desertion of his own creation."
-                }
-              ]
-            },
-            {
-              "type": "Text",
-              "content": "\n\t\t\t"
-            }
-          ]
-        },
-        {
-          "type": "Attribute",
-          "content": "class=\"footnote-author\""
-        },
-        {
-          "type": "Tag-end"
-        },
-        {
-          "type": "Text",
-          "content": "Joel Gereboff."
-        }
-      ]
-    },
-    "anchor": "a00af1",
-    "labels": [
-      "Engineering"
-    ]
-  },
-  {
-    "link": "#link-267",
-    "author": "Joel Gereboff",
-    "content": {
-      "type": "Element",
-      "tagName": "div",
-      "attributes": {
-        "className": [
-          "footnote-content"
-        ]
-      },
-      "children": [
-        {
-          "type": "Text",
-          "content": "\n\t\t\t\t"
-        },
-        {
-          "type": "Element",
-          "tagName": "p",
-          "attributes": {},
-          "children": [
-            {
-              "type": "Text",
-              "content": "\n\t\t\t\t\tThe concept of guilt may well be a bit more complicated than it first appears. The two most common understandings of guilt are at work in the text, prompting us to think about the idea of guilt in relation to both Victor and the creature. First, guilt describes the person who is responsible for an act that is unethical or illegal or both. Second, guilt describes the feelings that arise after an act&mdash;feelings that can be said to haunt a person and potentially shape his or her future actions.\n\t\t\t\t"
-            }
-          ]
-        },
-        {
-          "type": "Text",
-          "content": "\n\t\t\t\t"
-        },
-        {
-          "type": "Element",
-          "tagName": "p",
-          "attributes": {},
-          "children": [
-            {
-              "type": "Text",
-              "content": "\n\t\t\t\t\tThe second understanding of guilt is clarified by psychoanalytic thought, which theorizes that guilt can be at work even when a person does not consciously attribute his or her actions to its effects. For more on this understanding, see Sigmund Freud, "
-            },
-            {
-              "type": "Element",
-              "tagName": "i",
-              "attributes": {},
-              "children": [
-                {
-                  "type": "Text",
-                  "content": "Civilization and Its Discontents"
-                }
-              ]
-            },
-            {
-              "type": "Text",
-              "content": " [1930] 1961. Freud’s arguments about the inextricable link between guilt and civilization make for a fascinating parallel to "
-            },
-            {
-              "type": "Element",
-              "tagName": "i",
-              "attributes": {},
-              "children": [
-                {
-                  "type": "Text",
-                  "content": "Frankenstein"
-                }
-              ]
-            },
-            {
-              "type": "Text",
-              "content": ".\n\t\t\t\t"
-            }
-          ]
-        },
-        {
-          "type": "Text",
-          "content": "\n\t\t\t\t"
-        },
-        {
-          "type": "Element",
-          "tagName": "p",
-          "attributes": {},
-          "children": [
-            {
-              "type": "Text",
-              "content": "\n\t\t\t\t\tIn the first understanding, guilt is also attributed to a person for failing to do what he or she believes is required in a situation. For example, Victor could be seen as guilty for his failure to make the creature’s existence public, especially at the trial of Justine. As Shakespeare has Claudius say in "
-            },
-            {
-              "type": "Element",
-              "tagName": "i",
-              "attributes": {},
-              "children": [
-                {
-                  "type": "Text",
-                  "content": "Hamlet"
-                }
-              ]
-            },
-            {
-              "type": "Text",
-              "content": ", “[M]y stronger guilt defeats my strong intent” (III.iii.44).\n\t\t\t\t"
-            }
-          ]
-        },
-        {
-          "type": "Text",
-          "content": "\n\t\t\t\t"
-        },
-        {
-          "type": "Element",
-          "tagName": "p",
-          "attributes": {},
-          "children": [
-            {
-              "type": "Text",
-              "content": "\n\t\t\t\t\tLater in the novel, Victor makes a universal claim about the consequences of guilt: “Ah! it is well for the unfortunate to be resigned, but for the guilty there is no peace” (p. 158).\n\t\t\t\t"
-            }
-          ]
-        },
-        {
-          "type": "Text",
-          "content": "\n\t\t\t"
-        },
-        {
-          "type": "Element",
-          "tagName": "div",
-          "attributes": {},
-          "children": [
-            {
-              "type": "Text",
-              "content": "\n\t\t\t"
-            },
-            {
-              "type": "Element",
-              "tagName": "div",
-              "attributes": {
-                "className": [
-                  "footnote-author"
-                ]
-              },
-              "children": [
-                {
-                  "type": "Text",
-                  "content": "Ramsey Eric Ramsey."
-                }
-              ]
-            },
-            {
-              "type": "Text",
-              "content": "\n\t\t"
-            }
-          ]
-        },
-        {
-          "type": "Text",
-          "content": "\n\t\t\n\t\t"
-        },
-        {
-          "type": "Element",
-          "tagName": "div",
-          "attributes": {
-            "className": [
-              "footnote"
-            ]
-          },
-          "children": [
-            {
-              "type": "Text",
-              "content": "\n\t\t\t"
-            },
-            {
-              "type": "Element",
-              "tagName": "span",
-              "attributes": {
-                "id": "link-225"
-              },
-              "children": [
-                {
-                  "type": "Element",
-                  "tagName": "a",
-                  "attributes": {
-                    "href": "#link-266"
-                  },
-                  "children": [
-                    {
-                      "type": "Text",
-                      "content": "2."
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "Text",
-              "content": " \n\t\t\t"
-            },
-            {
-              "type": "Element",
-              "tagName": "div",
-              "attributes": {
-                "className": [
-                  "footnote-content"
-                ]
-              },
-              "children": [
-                {
-                  "type": "Text",
-                  "content": "The interior anguish Victor experiences is given heightened expression here. Language has limitations, and Victor finds he cannot disclose his interior conflicts. He has a tortured conscience. Intense sensations of remorse and guilt disrupt his efforts to achieve and maintain a serene conscience, a sense of being right. No words can express the hell and torture he is feeling."
-                }
-              ]
-            },
-            {
-              "type": "Text",
-              "content": "\n\t\t\t"
-            },
-            {
-              "type": "Element",
-              "tagName": "div",
-              "attributes": {
-                "className": [
-                  "footnote-author"
-                ]
-              },
-              "children": [
-                {
-                  "type": "Text",
-                  "content": "Joel Gereboff."
-                }
-              ]
-            },
-            {
-              "type": "Text",
-              "content": "\n\t\t"
-            }
-          ]
-        },
-        {
-          "type": "Text",
-          "content": "\n\t\t\n\t\t"
-        },
-        {
-          "type": "Element",
-          "tagName": "div",
-          "attributes": {
-            "className": [
-              "footnote"
-            ]
-          },
-          "children": [
-            {
-              "type": "Text",
-              "content": "\n\t\t\t"
-            },
-            {
-              "type": "Element",
-              "tagName": "span",
-              "attributes": {
-                "id": "link-226"
-              },
-              "children": [
-                {
-                  "type": "Element",
-                  "tagName": "a",
-                  "attributes": {
-                    "href": "#link-267"
-                  },
-                  "children": [
-                    {
-                      "type": "Text",
-                      "content": "3."
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "Text",
-              "content": "\n\t\t\t"
-            },
-            {
-              "type": "Element",
-              "tagName": "div",
-              "attributes": {
-                "className": [
-                  "footnote-content"
-                ]
-              },
-              "children": [
-                {
-                  "type": "Text",
-                  "content": "Victor again feels guilt about not disclosing the existence of the destructive creature that he has created. Yet he continues to fail to recognize and concede that his treatment and desertion of the creature, not the initial creation, have brought about the destruction. In this instance, Victor does sense the potential impact of his desertion on his family and others but remains blind to his earlier desertion of his own creation."
-                }
-              ]
-            },
-            {
-              "type": "Text",
-              "content": "\n\t\t\t"
-            }
-          ]
-        },
-        {
-          "type": "Attribute",
-          "content": "class=\"footnote-author\""
-        },
-        {
-          "type": "Tag-end"
-        },
-        {
-          "type": "Text",
-          "content": "Joel Gereboff."
-        }
-      ]
-    },
-    "anchor": "a00af1",
-    "labels": [
       "Engineering",
+      "Ethics"
+    ]
+  },
+  {
+    "link": "#link-267",
+    "author": "Joel Gereboff",
+    "content": {
+      "type": "Element",
+      "tagName": "div",
+      "attributes": {
+        "className": [
+          "footnote-content"
+        ]
+      },
+      "children": [
+        {
+          "type": "Text",
+          "content": "\n\t\t\t\t"
+        },
+        {
+          "type": "Element",
+          "tagName": "p",
+          "attributes": {},
+          "children": [
+            {
+              "type": "Text",
+              "content": "\n\t\t\t\t\tThe concept of guilt may well be a bit more complicated than it first appears. The two most common understandings of guilt are at work in the text, prompting us to think about the idea of guilt in relation to both Victor and the creature. First, guilt describes the person who is responsible for an act that is unethical or illegal or both. Second, guilt describes the feelings that arise after an act—feelings that can be said to haunt a person and potentially shape his or her future actions.\n\t\t\t\t"
+            }
+          ]
+        },
+        {
+          "type": "Text",
+          "content": "\n\t\t\t\t"
+        },
+        {
+          "type": "Element",
+          "tagName": "p",
+          "attributes": {},
+          "children": [
+            {
+              "type": "Text",
+              "content": "\n\t\t\t\t\tThe second understanding of guilt is clarified by psychoanalytic thought, which theorizes that guilt can be at work even when a person does not consciously attribute his or her actions to its effects. For more on this understanding, see Sigmund Freud, "
+            },
+            {
+              "type": "Element",
+              "tagName": "i",
+              "attributes": {},
+              "children": [
+                {
+                  "type": "Text",
+                  "content": "Civilization and Its Discontents"
+                }
+              ]
+            },
+            {
+              "type": "Text",
+              "content": " [1930] 1961. Freud’s arguments about the inextricable link between guilt and civilization make for a fascinating parallel to "
+            },
+            {
+              "type": "Element",
+              "tagName": "i",
+              "attributes": {},
+              "children": [
+                {
+                  "type": "Text",
+                  "content": "Frankenstein"
+                }
+              ]
+            },
+            {
+              "type": "Text",
+              "content": ".\n\t\t\t\t"
+            }
+          ]
+        },
+        {
+          "type": "Text",
+          "content": "\n\t\t\t\t"
+        },
+        {
+          "type": "Element",
+          "tagName": "p",
+          "attributes": {},
+          "children": [
+            {
+              "type": "Text",
+              "content": "\n\t\t\t\t\tIn the first understanding, guilt is also attributed to a person for failing to do what he or she believes is required in a situation. For example, Victor could be seen as guilty for his failure to make the creature’s existence public, especially at the trial of Justine. As Shakespeare has Claudius say in "
+            },
+            {
+              "type": "Element",
+              "tagName": "i",
+              "attributes": {},
+              "children": [
+                {
+                  "type": "Text",
+                  "content": "Hamlet"
+                }
+              ]
+            },
+            {
+              "type": "Text",
+              "content": ", “[M]y stronger guilt defeats my strong intent” (III.iii.44).\n\t\t\t\t"
+            }
+          ]
+        },
+        {
+          "type": "Text",
+          "content": "\n\t\t\t\t"
+        },
+        {
+          "type": "Element",
+          "tagName": "p",
+          "attributes": {},
+          "children": [
+            {
+              "type": "Text",
+              "content": "\n\t\t\t\t\tLater in the novel, Victor makes a universal claim about the consequences of guilt: “Ah! it is well for the unfortunate to be resigned, but for the guilty there is no peace” (p. 158).\n\t\t\t\t"
+            }
+          ]
+        },
+        {
+          "type": "Text",
+          "content": "\n\t\t\t"
+        },
+        {
+          "type": "Element",
+          "tagName": "div",
+          "attributes": {},
+          "children": [
+            {
+              "type": "Text",
+              "content": "\n\t\t\t"
+            },
+            {
+              "type": "Element",
+              "tagName": "div",
+              "attributes": {
+                "className": [
+                  "footnote-author"
+                ]
+              },
+              "children": [
+                {
+                  "type": "Text",
+                  "content": "Ramsey Eric Ramsey."
+                }
+              ]
+            },
+            {
+              "type": "Text",
+              "content": "\n\t\t"
+            }
+          ]
+        },
+        {
+          "type": "Text",
+          "content": "\n\t\t\n\t\t"
+        },
+        {
+          "type": "Element",
+          "tagName": "div",
+          "attributes": {
+            "className": [
+              "footnote"
+            ]
+          },
+          "children": [
+            {
+              "type": "Text",
+              "content": "\n\t\t\t"
+            },
+            {
+              "type": "Element",
+              "tagName": "span",
+              "attributes": {
+                "id": "link-225"
+              },
+              "children": [
+                {
+                  "type": "Element",
+                  "tagName": "a",
+                  "attributes": {
+                    "href": "#link-266"
+                  },
+                  "children": [
+                    {
+                      "type": "Text",
+                      "content": "2."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "Text",
+              "content": " \n\t\t\t"
+            },
+            {
+              "type": "Element",
+              "tagName": "div",
+              "attributes": {
+                "className": [
+                  "footnote-content"
+                ]
+              },
+              "children": [
+                {
+                  "type": "Text",
+                  "content": "The interior anguish Victor experiences is given heightened expression here. Language has limitations, and Victor finds he cannot disclose his interior conflicts. He has a tortured conscience. Intense sensations of remorse and guilt disrupt his efforts to achieve and maintain a serene conscience, a sense of being right. No words can express the hell and torture he is feeling."
+                }
+              ]
+            },
+            {
+              "type": "Text",
+              "content": "\n\t\t\t"
+            },
+            {
+              "type": "Element",
+              "tagName": "div",
+              "attributes": {
+                "className": [
+                  "footnote-author"
+                ]
+              },
+              "children": [
+                {
+                  "type": "Text",
+                  "content": "Joel Gereboff."
+                }
+              ]
+            },
+            {
+              "type": "Text",
+              "content": "\n\t\t"
+            }
+          ]
+        },
+        {
+          "type": "Text",
+          "content": "\n\t\t\n\t\t"
+        },
+        {
+          "type": "Element",
+          "tagName": "div",
+          "attributes": {
+            "className": [
+              "footnote"
+            ]
+          },
+          "children": [
+            {
+              "type": "Text",
+              "content": "\n\t\t\t"
+            },
+            {
+              "type": "Element",
+              "tagName": "span",
+              "attributes": {
+                "id": "link-226"
+              },
+              "children": [
+                {
+                  "type": "Element",
+                  "tagName": "a",
+                  "attributes": {
+                    "href": "#link-267"
+                  },
+                  "children": [
+                    {
+                      "type": "Text",
+                      "content": "3."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "Text",
+              "content": "\n\t\t\t"
+            },
+            {
+              "type": "Element",
+              "tagName": "div",
+              "attributes": {
+                "className": [
+                  "footnote-content"
+                ]
+              },
+              "children": [
+                {
+                  "type": "Text",
+                  "content": "Victor again feels guilt about not disclosing the existence of the destructive creature that he has created. Yet he continues to fail to recognize and concede that his treatment and desertion of the creature, not the initial creation, have brought about the destruction. In this instance, Victor does sense the potential impact of his desertion on his family and others but remains blind to his earlier desertion of his own creation."
+                }
+              ]
+            },
+            {
+              "type": "Text",
+              "content": "\n\t\t\t"
+            }
+          ]
+        },
+        {
+          "type": "Attribute",
+          "content": "class=\"footnote-author\""
+        },
+        {
+          "type": "Tag-end"
+        },
+        {
+          "type": "Text",
+          "content": "Joel Gereboff."
+        }
+      ]
+    },
+    "anchor": "a00af1",
+    "labels": [
+      "Engineering"
+    ]
+  },
+  {
+    "link": "#link-267",
+    "author": "Joel Gereboff",
+    "content": {
+      "type": "Element",
+      "tagName": "div",
+      "attributes": {
+        "className": [
+          "footnote-content"
+        ]
+      },
+      "children": [
+        {
+          "type": "Text",
+          "content": "\n\t\t\t\t"
+        },
+        {
+          "type": "Element",
+          "tagName": "p",
+          "attributes": {},
+          "children": [
+            {
+              "type": "Text",
+              "content": "\n\t\t\t\t\tThe concept of guilt may well be a bit more complicated than it first appears. The two most common understandings of guilt are at work in the text, prompting us to think about the idea of guilt in relation to both Victor and the creature. First, guilt describes the person who is responsible for an act that is unethical or illegal or both. Second, guilt describes the feelings that arise after an act—feelings that can be said to haunt a person and potentially shape his or her future actions.\n\t\t\t\t"
+            }
+          ]
+        },
+        {
+          "type": "Text",
+          "content": "\n\t\t\t\t"
+        },
+        {
+          "type": "Element",
+          "tagName": "p",
+          "attributes": {},
+          "children": [
+            {
+              "type": "Text",
+              "content": "\n\t\t\t\t\tThe second understanding of guilt is clarified by psychoanalytic thought, which theorizes that guilt can be at work even when a person does not consciously attribute his or her actions to its effects. For more on this understanding, see Sigmund Freud, "
+            },
+            {
+              "type": "Element",
+              "tagName": "i",
+              "attributes": {},
+              "children": [
+                {
+                  "type": "Text",
+                  "content": "Civilization and Its Discontents"
+                }
+              ]
+            },
+            {
+              "type": "Text",
+              "content": " [1930] 1961. Freud’s arguments about the inextricable link between guilt and civilization make for a fascinating parallel to "
+            },
+            {
+              "type": "Element",
+              "tagName": "i",
+              "attributes": {},
+              "children": [
+                {
+                  "type": "Text",
+                  "content": "Frankenstein"
+                }
+              ]
+            },
+            {
+              "type": "Text",
+              "content": ".\n\t\t\t\t"
+            }
+          ]
+        },
+        {
+          "type": "Text",
+          "content": "\n\t\t\t\t"
+        },
+        {
+          "type": "Element",
+          "tagName": "p",
+          "attributes": {},
+          "children": [
+            {
+              "type": "Text",
+              "content": "\n\t\t\t\t\tIn the first understanding, guilt is also attributed to a person for failing to do what he or she believes is required in a situation. For example, Victor could be seen as guilty for his failure to make the creature’s existence public, especially at the trial of Justine. As Shakespeare has Claudius say in "
+            },
+            {
+              "type": "Element",
+              "tagName": "i",
+              "attributes": {},
+              "children": [
+                {
+                  "type": "Text",
+                  "content": "Hamlet"
+                }
+              ]
+            },
+            {
+              "type": "Text",
+              "content": ", “[M]y stronger guilt defeats my strong intent” (III.iii.44).\n\t\t\t\t"
+            }
+          ]
+        },
+        {
+          "type": "Text",
+          "content": "\n\t\t\t\t"
+        },
+        {
+          "type": "Element",
+          "tagName": "p",
+          "attributes": {},
+          "children": [
+            {
+              "type": "Text",
+              "content": "\n\t\t\t\t\tLater in the novel, Victor makes a universal claim about the consequences of guilt: “Ah! it is well for the unfortunate to be resigned, but for the guilty there is no peace” (p. 158).\n\t\t\t\t"
+            }
+          ]
+        },
+        {
+          "type": "Text",
+          "content": "\n\t\t\t"
+        },
+        {
+          "type": "Element",
+          "tagName": "div",
+          "attributes": {},
+          "children": [
+            {
+              "type": "Text",
+              "content": "\n\t\t\t"
+            },
+            {
+              "type": "Element",
+              "tagName": "div",
+              "attributes": {
+                "className": [
+                  "footnote-author"
+                ]
+              },
+              "children": [
+                {
+                  "type": "Text",
+                  "content": "Ramsey Eric Ramsey."
+                }
+              ]
+            },
+            {
+              "type": "Text",
+              "content": "\n\t\t"
+            }
+          ]
+        },
+        {
+          "type": "Text",
+          "content": "\n\t\t\n\t\t"
+        },
+        {
+          "type": "Element",
+          "tagName": "div",
+          "attributes": {
+            "className": [
+              "footnote"
+            ]
+          },
+          "children": [
+            {
+              "type": "Text",
+              "content": "\n\t\t\t"
+            },
+            {
+              "type": "Element",
+              "tagName": "span",
+              "attributes": {
+                "id": "link-225"
+              },
+              "children": [
+                {
+                  "type": "Element",
+                  "tagName": "a",
+                  "attributes": {
+                    "href": "#link-266"
+                  },
+                  "children": [
+                    {
+                      "type": "Text",
+                      "content": "2."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "Text",
+              "content": " \n\t\t\t"
+            },
+            {
+              "type": "Element",
+              "tagName": "div",
+              "attributes": {
+                "className": [
+                  "footnote-content"
+                ]
+              },
+              "children": [
+                {
+                  "type": "Text",
+                  "content": "The interior anguish Victor experiences is given heightened expression here. Language has limitations, and Victor finds he cannot disclose his interior conflicts. He has a tortured conscience. Intense sensations of remorse and guilt disrupt his efforts to achieve and maintain a serene conscience, a sense of being right. No words can express the hell and torture he is feeling."
+                }
+              ]
+            },
+            {
+              "type": "Text",
+              "content": "\n\t\t\t"
+            },
+            {
+              "type": "Element",
+              "tagName": "div",
+              "attributes": {
+                "className": [
+                  "footnote-author"
+                ]
+              },
+              "children": [
+                {
+                  "type": "Text",
+                  "content": "Joel Gereboff."
+                }
+              ]
+            },
+            {
+              "type": "Text",
+              "content": "\n\t\t"
+            }
+          ]
+        },
+        {
+          "type": "Text",
+          "content": "\n\t\t\n\t\t"
+        },
+        {
+          "type": "Element",
+          "tagName": "div",
+          "attributes": {
+            "className": [
+              "footnote"
+            ]
+          },
+          "children": [
+            {
+              "type": "Text",
+              "content": "\n\t\t\t"
+            },
+            {
+              "type": "Element",
+              "tagName": "span",
+              "attributes": {
+                "id": "link-226"
+              },
+              "children": [
+                {
+                  "type": "Element",
+                  "tagName": "a",
+                  "attributes": {
+                    "href": "#link-267"
+                  },
+                  "children": [
+                    {
+                      "type": "Text",
+                      "content": "3."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "Text",
+              "content": "\n\t\t\t"
+            },
+            {
+              "type": "Element",
+              "tagName": "div",
+              "attributes": {
+                "className": [
+                  "footnote-content"
+                ]
+              },
+              "children": [
+                {
+                  "type": "Text",
+                  "content": "Victor again feels guilt about not disclosing the existence of the destructive creature that he has created. Yet he continues to fail to recognize and concede that his treatment and desertion of the creature, not the initial creation, have brought about the destruction. In this instance, Victor does sense the potential impact of his desertion on his family and others but remains blind to his earlier desertion of his own creation."
+                }
+              ]
+            },
+            {
+              "type": "Text",
+              "content": "\n\t\t\t"
+            }
+          ]
+        },
+        {
+          "type": "Attribute",
+          "content": "class=\"footnote-author\""
+        },
+        {
+          "type": "Tag-end"
+        },
+        {
+          "type": "Text",
+          "content": "Joel Gereboff."
+        }
+      ]
+    },
+    "anchor": "a00af1",
+    "labels": [
       "Ethics"
     ]
   },
@@ -2520,7 +2514,7 @@
     },
     "anchor": "3c432d",
     "labels": [
-      "Ethics"
+      "Engineering"
     ]
   },
   {
@@ -2543,8 +2537,7 @@
     },
     "anchor": "a00af1",
     "labels": [
-      "Engineering",
-      "Ethics"
+      "Engineering"
     ]
   },
   {
@@ -2612,7 +2605,7 @@
     },
     "anchor": "3891fe",
     "labels": [
-      "Engineering"
+      "Ethics"
     ]
   },
   {
@@ -2629,7 +2622,7 @@
       "children": [
         {
           "type": "Text",
-          "content": "After the death of Justine Moritz, Elizabeth is confronted with the unpredictability and temporality of life&mdash;that is, the awareness that life is forever changing and moving forward even when its trajectory is one we would never choose for ourselves. In contrast to Victor, who at least initially was preoccupied with notions of fate and destiny, Elizabeth cannot help but see the world as unjust and capricious (see note 11 on existentialism, p. 80 in this volume)."
+          "content": "After the death of Justine Moritz, Elizabeth is confronted with the unpredictability and temporality of life—that is, the awareness that life is forever changing and moving forward even when its trajectory is one we would never choose for ourselves. In contrast to Victor, who at least initially was preoccupied with notions of fate and destiny, Elizabeth cannot help but see the world as unjust and capricious (see note 11 on existentialism, p. 80 in this volume)."
         }
       ]
     },
@@ -2658,7 +2651,7 @@
     },
     "anchor": "9aabf7",
     "labels": [
-      "Engineering"
+      "Ethics"
     ]
   },
   {
@@ -2696,7 +2689,8 @@
     },
     "anchor": "9aabf7",
     "labels": [
-      "Engineering"
+      "Engineering",
+      "Ethics"
     ]
   },
   {
@@ -2719,8 +2713,7 @@
     },
     "anchor": "9aabf7",
     "labels": [
-      "Engineering",
-      "Ethics"
+      "Engineering"
     ]
   },
   {
@@ -2766,7 +2759,7 @@
     },
     "anchor": "fa25cc",
     "labels": [
-      "Ethics"
+      "Engineering"
     ]
   },
   {
@@ -2807,13 +2800,14 @@
       "children": [
         {
           "type": "Text",
-          "content": "Victor has reason to distrust the creature. As in Aesop’s fable of the boy who cries wolf, once trust is lost, it is difficult to rebuild. Here Victor is moved to compassion by the creature’s request, but he remembers the evil acts the creature has performed and now wonders if he can believe anything the creature says. Consider the research claims of scientists who have been caught in a lie&mdash;every claim after the lie is suddenly suspect, regardless of its authenticity. For example, Hwang Woo-suk, a Korean scientist, fraudulently claimed he had created human embryonic stem cells through cloning, so his return to the scientific world of cloning has been reduced to the cloning of animals."
+          "content": "Victor has reason to distrust the creature. As in Aesop’s fable of the boy who cries wolf, once trust is lost, it is difficult to rebuild. Here Victor is moved to compassion by the creature’s request, but he remembers the evil acts the creature has performed and now wonders if he can believe anything the creature says. Consider the research claims of scientists who have been caught in a lie—every claim after the lie is suddenly suspect, regardless of its authenticity. For example, Hwang Woo-suk, a Korean scientist, fraudulently claimed he had created human embryonic stem cells through cloning, so his return to the scientific world of cloning has been reduced to the cloning of animals."
         }
       ]
     },
     "anchor": "0dd384",
     "labels": [
-      "Engineering"
+      "Engineering",
+      "Ethics"
     ]
   },
   {
@@ -2836,7 +2830,7 @@
     },
     "anchor": "99cce0",
     "labels": [
-      "Ethics"
+      "Engineering"
     ]
   },
   {
@@ -2882,7 +2876,7 @@
     },
     "anchor": "969b19",
     "labels": [
-      "Ethics"
+      "Engineering"
     ]
   },
   {
@@ -2905,7 +2899,8 @@
     },
     "anchor": "7467da",
     "labels": [
-      "Engineering"
+      "Engineering",
+      "Ethics"
     ]
   },
   {
@@ -2931,7 +2926,7 @@
           "children": [
             {
               "type": "Text",
-              "content": "\n\t\t\t\t\tAlthough compassion&mdash;empathy or sympathy with the plight of others&mdash;and other positive sentiments and virtues may seem inherent personal characteristics, "
+              "content": "\n\t\t\t\t\tAlthough compassion—empathy or sympathy with the plight of others—and other positive sentiments and virtues may seem inherent personal characteristics, "
             },
             {
               "type": "Element",
@@ -2973,7 +2968,8 @@
     },
     "anchor": "7467da",
     "labels": [
-      "Engineering"
+      "Engineering",
+      "Ethics"
     ]
   },
   {
@@ -2990,7 +2986,7 @@
       "children": [
         {
           "type": "Text",
-          "content": "The creature is a good if simple empiricist, understanding words for concrete objects but having more difficulty with words that represent abstract concepts. Perhaps at this stage in his development, he&mdash;much like Victor&mdash;can master objects but not feelings, causes but not concepts."
+          "content": "The creature is a good if simple empiricist, understanding words for concrete objects but having more difficulty with words that represent abstract concepts. Perhaps at this stage in his development, he—much like Victor—can master objects but not feelings, causes but not concepts."
         }
       ]
     },
@@ -3037,7 +3033,7 @@
           "children": [
             {
               "type": "Text",
-              "content": "\n\t\t\t\t\tWe must recognize that other people, especially those different from us, are not just sources of exclusion and anguish. The creature’s monologue is also a story of human development&mdash;from securing the most basic means of survival to engaging with language and literature&mdash;and it emphasizes, too, the essential role of communing with others unlike us in achieving self-consciousness and fulfillment. Thus, it reveals the creature’s deep desire to interact with humans, a different species, and then with a created romantic partner of a different sex.\n\t\t\t\t"
+              "content": "\n\t\t\t\t\tWe must recognize that other people, especially those different from us, are not just sources of exclusion and anguish. The creature’s monologue is also a story of human development—from securing the most basic means of survival to engaging with language and literature—and it emphasizes, too, the essential role of communing with others unlike us in achieving self-consciousness and fulfillment. Thus, it reveals the creature’s deep desire to interact with humans, a different species, and then with a created romantic partner of a different sex.\n\t\t\t\t"
             }
           ]
         },
@@ -3079,7 +3075,8 @@
     },
     "anchor": "b0fdf1",
     "labels": [
-      "Engineering"
+      "Engineering",
+      "Ethics"
     ]
   },
   {
@@ -3096,7 +3093,7 @@
       "children": [
         {
           "type": "Text",
-          "content": "The creature experiences fear and terror because his reflection reveals that he looks much different from others whom he has encountered. In this way, his self-knowledge is informed by others&mdash;that is, he sees, knows, and understands himself as society sees, knows, and understands him. This scene suggests that individual or personal identity is developed in part via cultural constructions of what it is beautiful, normal, acceptable, moral, and so forth. We come to know ourselves&mdash;and even to fear ourselves&mdash;through our encounters with others, and what society deems as “normal” often influences our self-perceptions."
+          "content": "The creature experiences fear and terror because his reflection reveals that he looks much different from others whom he has encountered. In this way, his self-knowledge is informed by others—that is, he sees, knows, and understands himself as society sees, knows, and understands him. This scene suggests that individual or personal identity is developed in part via cultural constructions of what it is beautiful, normal, acceptable, moral, and so forth. We come to know ourselves—and even to fear ourselves—through our encounters with others, and what society deems as “normal” often influences our self-perceptions."
         }
       ]
     },
@@ -3125,7 +3122,6 @@
     },
     "anchor": "887722",
     "labels": [
-      "Engineering",
       "Ethics"
     ]
   },
@@ -3149,8 +3145,7 @@
     },
     "anchor": "7c47ec",
     "labels": [
-      "Engineering",
-      "Ethics"
+      "Engineering"
     ]
   },
   {
@@ -3286,7 +3281,6 @@
     },
     "anchor": "a1b94a",
     "labels": [
-      "Engineering",
       "Ethics"
     ]
   },
@@ -3304,7 +3298,7 @@
       "children": [
         {
           "type": "Text",
-          "content": "These musings from Victor’s creation invite us to consider what or who determines our self-identity. Do we determine our own ideas of identity? Or do others&mdash;family, friends, general society, or a creator&mdash;determine them? The creature’s social interactions leave him without sympathy from the members of any of these categories, and thus he struggles to understand who or what he is and what his role in life is. Developmental psychologist Erik Eriksen (1902–1994) theorized that identity or our consciousness of self forms in eight stages by evolving through our social interactions. The creature’s questions model Eriksen’s adolescent stage of asking questions such as “Who am I?” and “What can I be?” by comparing self to others. It is especially poignant that Mary leaves the creature without a name for the duration of the book. His namelessness further highlights the fact that he has no clear identity and no good way to define one."
+          "content": "These musings from Victor’s creation invite us to consider what or who determines our self-identity. Do we determine our own ideas of identity? Or do others—family, friends, general society, or a creator—determine them? The creature’s social interactions leave him without sympathy from the members of any of these categories, and thus he struggles to understand who or what he is and what his role in life is. Developmental psychologist Erik Eriksen (1902–1994) theorized that identity or our consciousness of self forms in eight stages by evolving through our social interactions. The creature’s questions model Eriksen’s adolescent stage of asking questions such as “Who am I?” and “What can I be?” by comparing self to others. It is especially poignant that Mary leaves the creature without a name for the duration of the book. His namelessness further highlights the fact that he has no clear identity and no good way to define one."
         }
       ]
     },
@@ -3328,7 +3322,7 @@
       "children": [
         {
           "type": "Text",
-          "content": "Mary cautions against Victor’s myopic perspective that creation&mdash;bringing into existence&mdash;is all that matters. The creature is made but un-parented, forced into solitary life, and exiled from mainstream society. In his treatment of the creature, Victor shows no concern for social development, the human need for acceptance, and the importance of memory and shared experiences to the creature’s initial and eventual selfhood and well-being. Although Victor later recognizes his younger self in Henry Clerval’s desire for knowledge, a sign of Victor’s own concrete identity, he fails to use any understanding of this self-recognition in his creation. This episode helps us reflect on the idea that scientific discovery and creation are fully value laden, and bound up in the assumptions and guiding philosophies of the scientists who discover and create."
+          "content": "Mary cautions against Victor’s myopic perspective that creation—bringing into existence—is all that matters. The creature is made but un-parented, forced into solitary life, and exiled from mainstream society. In his treatment of the creature, Victor shows no concern for social development, the human need for acceptance, and the importance of memory and shared experiences to the creature’s initial and eventual selfhood and well-being. Although Victor later recognizes his younger self in Henry Clerval’s desire for knowledge, a sign of Victor’s own concrete identity, he fails to use any understanding of this self-recognition in his creation. This episode helps us reflect on the idea that scientific discovery and creation are fully value laden, and bound up in the assumptions and guiding philosophies of the scientists who discover and create."
         }
       ]
     },
@@ -3496,7 +3490,8 @@
     },
     "anchor": "ee6095",
     "labels": [
-      "Engineering"
+      "Engineering",
+      "Ethics"
     ]
   },
   {
@@ -3633,8 +3628,7 @@
     },
     "anchor": "5a94a9",
     "labels": [
-      "Engineering",
-      "Ethics"
+      "Engineering"
     ]
   },
   {
@@ -3651,13 +3645,13 @@
       "children": [
         {
           "type": "Text",
-          "content": "Communion represents connection, a sharing or holding of things in common that is central to achieving our full humanity. Social scientists today refer to communion in terms of intimacy or perhaps love or even social support. Research has recently discovered what Mary intuited two centuries ago&mdash;positive relationships are what keep us healthy and happy. We experience the irony of watching Victor pursue his goal of creating life while isolating himself from what he later learns is most life-giving&mdash;communion with family, friends, and lovers. And though he gives biological life to his creation, he fails to give him what is most meaningful&mdash;communion. Many of us seem driven to try alternative means of happiness (creation of our own monsters, perhaps) before we realize that relationships are not superfluous but are instead essential in our lives. Victor’s disdain for and rejection of his own creation (his dehumanization of the creation) become not only his own undoing but also the causal agent for the transfiguration of his creation’s natural state of benevolence to one of violence (the creation’s ill-guided attempts at discharging existential loneliness and pain). Had Victor considered communion an essential part of “life,” he would have changed the plight of his creation (who notes that communion, with even one person, would change his course) and his own plight. Mary artfully presents the human experience as a process of seeking communion and discharging the pain of disconnection. One is left to wonder if every person must endure loss before understanding the value of communion and whether today’s inventors and innovators keep communion more central in their imaginations than Victor does."
+          "content": "Communion represents connection, a sharing or holding of things in common that is central to achieving our full humanity. Social scientists today refer to communion in terms of intimacy or perhaps love or even social support. Research has recently discovered what Mary intuited two centuries ago—positive relationships are what keep us healthy and happy. We experience the irony of watching Victor pursue his goal of creating life while isolating himself from what he later learns is most life-giving—communion with family, friends, and lovers. And though he gives biological life to his creation, he fails to give him what is most meaningful—communion. Many of us seem driven to try alternative means of happiness (creation of our own monsters, perhaps) before we realize that relationships are not superfluous but are instead essential in our lives. Victor’s disdain for and rejection of his own creation (his dehumanization of the creation) become not only his own undoing but also the causal agent for the transfiguration of his creation’s natural state of benevolence to one of violence (the creation’s ill-guided attempts at discharging existential loneliness and pain). Had Victor considered communion an essential part of “life,” he would have changed the plight of his creation (who notes that communion, with even one person, would change his course) and his own plight. Mary artfully presents the human experience as a process of seeking communion and discharging the pain of disconnection. One is left to wonder if every person must endure loss before understanding the value of communion and whether today’s inventors and innovators keep communion more central in their imaginations than Victor does."
         }
       ]
     },
     "anchor": "c77b46",
     "labels": [
-      "Ethics"
+      "Engineering"
     ]
   },
   {
@@ -3725,7 +3719,7 @@
     },
     "anchor": "c77b46",
     "labels": [
-      "Engineering"
+      "Ethics"
     ]
   },
   {
@@ -3742,13 +3736,12 @@
       "children": [
         {
           "type": "Text",
-          "content": "Animal behavior has been shaped by millions of years of evolution. As animals, humans have some behaviors that are conserved and shared with many other species. Fear, for example, is common in the animal kingdom, and it serves a useful purpose by making sure we stay out of dangerous situations. Similarly, selfishness, or the focus on getting the resources we need to survive, is something life has practiced since it began. But what about love? And compassion? What about altruism? Are humans the only creatures to do things that benefit others but don’t directly benefit themselves? No. It turns out that altruistic behavior is observed across life&mdash;from the prairie dog that will alert its neighbors to a nearby predator (but in doing so puts itself at risk) to slime molds that live most of their lives as single cells but must decide to cooperate if they are to reproduce (and in making that decision become part of the 20 percent that sacrifice themselves). Like many other life forms, humans may be selfish at times but have a tremendous capacity to put the needs of others before themselves. The question is, under what circumstances?"
+          "content": "Animal behavior has been shaped by millions of years of evolution. As animals, humans have some behaviors that are conserved and shared with many other species. Fear, for example, is common in the animal kingdom, and it serves a useful purpose by making sure we stay out of dangerous situations. Similarly, selfishness, or the focus on getting the resources we need to survive, is something life has practiced since it began. But what about love? And compassion? What about altruism? Are humans the only creatures to do things that benefit others but don’t directly benefit themselves? No. It turns out that altruistic behavior is observed across life—from the prairie dog that will alert its neighbors to a nearby predator (but in doing so puts itself at risk) to slime molds that live most of their lives as single cells but must decide to cooperate if they are to reproduce (and in making that decision become part of the 20 percent that sacrifice themselves). Like many other life forms, humans may be selfish at times but have a tremendous capacity to put the needs of others before themselves. The question is, under what circumstances?"
         }
       ]
     },
     "anchor": "3773df",
     "labels": [
-      "Engineering",
       "Ethics"
     ]
   },
@@ -3787,7 +3780,7 @@
     },
     "anchor": "c36216",
     "labels": [
-      "Ethics"
+      "Engineering"
     ]
   },
   {
@@ -3851,7 +3844,7 @@
             },
             {
               "type": "Text",
-              "content": " had multiple meanings in the early nineteenth century, some of which resonate with scientific discourse and some with moral philosophy. The word did mean then what we take it to mean today&mdash;a kind of entering into the feelings of another. But it also had embodied, somatic connotations. In "
+              "content": " had multiple meanings in the early nineteenth century, some of which resonate with scientific discourse and some with moral philosophy. The word did mean then what we take it to mean today—a kind of entering into the feelings of another. But it also had embodied, somatic connotations. In "
             },
             {
               "type": "Element",
@@ -3896,7 +3889,7 @@
             },
             {
               "type": "Text",
-              "content": "). There was also a question then of whether sympathy is gendered&mdash;whether women’s minds or bodies are more readily able to engage in admirable moments of communion of feeling as a result of their supposedly shared characteristics of body, mind, or experience. Mothers, in particular, were imagined as having superior abilities for sympathy due to their roles in creating, giving birth to, and raising children. Other questions were posed: Are scientists (largely conceived of as men, as in this novel) capable of engaging in (stereotypically feminine, maternal) sympathy? What do their scientific judgments or achievements lack if they do not have access to the right kind or levels of sympathy, whether from lack of experience or from supposedly biological shortcomings?\n\t\t\t\t"
+              "content": "). There was also a question then of whether sympathy is gendered—whether women’s minds or bodies are more readily able to engage in admirable moments of communion of feeling as a result of their supposedly shared characteristics of body, mind, or experience. Mothers, in particular, were imagined as having superior abilities for sympathy due to their roles in creating, giving birth to, and raising children. Other questions were posed: Are scientists (largely conceived of as men, as in this novel) capable of engaging in (stereotypically feminine, maternal) sympathy? What do their scientific judgments or achievements lack if they do not have access to the right kind or levels of sympathy, whether from lack of experience or from supposedly biological shortcomings?\n\t\t\t\t"
             }
           ]
         },
@@ -3938,7 +3931,7 @@
     },
     "anchor": "8df5e4",
     "labels": [
-      "Engineering"
+      "Ethics"
     ]
   },
   {
@@ -3955,7 +3948,7 @@
       "children": [
         {
           "type": "Text",
-          "content": "Victor has reason to distrust the creature. As in Aesop’s fable of the boy who cries wolf, once trust is lost, it is difficult to rebuild. Here Victor is moved to compassion by the creature’s request, but he remembers the evil acts the creature has performed and now wonders if he can believe anything the creature says. Consider the research claims of scientists who have been caught in a lie&mdash;every claim after the lie is suddenly suspect, regardless of its authenticity. For example, Hwang Woo-suk, a Korean scientist, fraudulently claimed he had created human embryonic stem cells through cloning, so his return to the scientific world of cloning has been reduced to the cloning of animals."
+          "content": "Victor has reason to distrust the creature. As in Aesop’s fable of the boy who cries wolf, once trust is lost, it is difficult to rebuild. Here Victor is moved to compassion by the creature’s request, but he remembers the evil acts the creature has performed and now wonders if he can believe anything the creature says. Consider the research claims of scientists who have been caught in a lie—every claim after the lie is suddenly suspect, regardless of its authenticity. For example, Hwang Woo-suk, a Korean scientist, fraudulently claimed he had created human embryonic stem cells through cloning, so his return to the scientific world of cloning has been reduced to the cloning of animals."
         }
       ]
     },
@@ -3984,7 +3977,7 @@
     },
     "anchor": "773d19",
     "labels": [
-      "Engineering"
+      "Ethics"
     ]
   },
   {
@@ -4030,7 +4023,6 @@
     },
     "anchor": "2b9a27",
     "labels": [
-      "Engineering",
       "Ethics"
     ]
   },
@@ -4078,7 +4070,6 @@
     },
     "anchor": "c014a1",
     "labels": [
-      "Engineering",
       "Ethics"
     ]
   },
@@ -4135,7 +4126,7 @@
       "children": [
         {
           "type": "Text",
-          "content": "Victor gives expression to his conflicting feelings. His conscience haunts him for the crime he feels he has committed. But he confesses his innocence&mdash;an ironic juxtaposition with Justine’s untruthful confession of guilt. In part, this passage expresses the difficulty of conscience serving as a reliable guide. Do feelings serve as a better source of moral discernment?"
+          "content": "Victor gives expression to his conflicting feelings. His conscience haunts him for the crime he feels he has committed. But he confesses his innocence—an ironic juxtaposition with Justine’s untruthful confession of guilt. In part, this passage expresses the difficulty of conscience serving as a reliable guide. Do feelings serve as a better source of moral discernment?"
         }
       ]
     },
@@ -4158,7 +4149,7 @@
       "children": [
         {
           "type": "Text",
-          "content": "For Mary, the daughter of early feminist philosopher Mary Wollstonecraft, women’s status as “the other” was painfully and personally obvious. Men ruled the world, and therefore almost every philosophical, scientific, and political tract about the meaning of selfhood assumed that the “self” is male. Women’s experiences were considered at best irrelevant and at worst monstrous. It is therefore delightfully sneaky that Mary has figured out a way to turn the female perspective into something more relatable than the male, as Victor imagines his new creation&mdash;“a thinking and reasoning animal”&mdash;asserting her own will in the face of the first creature’s desire. Victor is also forced to imagine the creature’s perspective as he looks for the first time into the eyes of “his own species.” When Victor imagines the two creatures looking upon each other for the first time, he calls to mind Jean-Paul Sartre’s classic notion that humans learn selfhood when we are first seen by the “other.” In "
+          "content": "For Mary, the daughter of early feminist philosopher Mary Wollstonecraft, women’s status as “the other” was painfully and personally obvious. Men ruled the world, and therefore almost every philosophical, scientific, and political tract about the meaning of selfhood assumed that the “self” is male. Women’s experiences were considered at best irrelevant and at worst monstrous. It is therefore delightfully sneaky that Mary has figured out a way to turn the female perspective into something more relatable than the male, as Victor imagines his new creation—“a thinking and reasoning animal”—asserting her own will in the face of the first creature’s desire. Victor is also forced to imagine the creature’s perspective as he looks for the first time into the eyes of “his own species.” When Victor imagines the two creatures looking upon each other for the first time, he calls to mind Jean-Paul Sartre’s classic notion that humans learn selfhood when we are first seen by the “other.” In "
         },
         {
           "type": "Element",
@@ -4179,7 +4170,7 @@
     },
     "anchor": "2f702a",
     "labels": [
-      "Engineering"
+      "Ethics"
     ]
   },
   {
@@ -4202,7 +4193,7 @@
     },
     "anchor": "6dad99",
     "labels": [
-      "Ethics"
+      "Engineering"
     ]
   },
   {
@@ -4240,6 +4231,7 @@
     },
     "anchor": "c51661",
     "labels": [
+      "Engineering",
       "Ethics"
     ]
   },
@@ -4257,13 +4249,13 @@
       "children": [
         {
           "type": "Text",
-          "content": "Victor’s misery is all consuming, and it colors the way he sees his whole world, regardless of his circumstances. As he states in this passage, to him “the walls of a dungeon or a palace were alike hateful.” Such a perspective challenges the notion that there is an objective reality “out there,” considering that Victor’s reality&mdash;his “cup of life”&mdash;is so significantly shaped by his personal misery and grief."
+          "content": "Victor’s misery is all consuming, and it colors the way he sees his whole world, regardless of his circumstances. As he states in this passage, to him “the walls of a dungeon or a palace were alike hateful.” Such a perspective challenges the notion that there is an objective reality “out there,” considering that Victor’s reality—his “cup of life”—is so significantly shaped by his personal misery and grief."
         }
       ]
     },
     "anchor": "47cfd4",
     "labels": [
-      "Engineering"
+      "Ethics"
     ]
   },
   {
@@ -4280,7 +4272,7 @@
       "children": [
         {
           "type": "Text",
-          "content": "Altruism, typically conceived of as selfless concern for the best interest of others, is usually seen as a positive quality. Though Victor does appear altruistic here, he never shows selfless concern for his creation and instead shirks responsibility for the creature and his well-being. Moreover, in the context of scientific research, it is important to consider the tireless or “altruistic” behavior of the researcher that leads to the complete abnegation of the self, resulting in unreflective decisions and actions. Perhaps if Victor had taken the time to reflect on himself&mdash;his motives, decisions, desires, and actions&mdash;during his scientific pursuits, he would have refrained from bringing his creature to life in the first place."
+          "content": "Altruism, typically conceived of as selfless concern for the best interest of others, is usually seen as a positive quality. Though Victor does appear altruistic here, he never shows selfless concern for his creation and instead shirks responsibility for the creature and his well-being. Moreover, in the context of scientific research, it is important to consider the tireless or “altruistic” behavior of the researcher that leads to the complete abnegation of the self, resulting in unreflective decisions and actions. Perhaps if Victor had taken the time to reflect on himself—his motives, decisions, desires, and actions—during his scientific pursuits, he would have refrained from bringing his creature to life in the first place."
         }
       ]
     },
@@ -4303,7 +4295,7 @@
       "children": [
         {
           "type": "Text",
-          "content": "After the deaths of his brother, his friend, and his bride, Victor seeks refuge from his grief in strenuous exercise, just as he walked the streets of Ingolstadt after creating the creature. Influential thinkers of the Enlightenment vigorously pursued theories about the relationship between the mind and the body and about the place that exercise holds in physical and mental health. René Descartes, the seventeenth-century French scientific philosopher, promulgated the idea that humans have a dual nature&mdash;a material body and a nonmaterial mind&mdash;and that although they are separate, each can influence the other via the pineal gland. Joseph Addison (1672–1718), an influential thinker and essayist of the early eighteenth century, held a broad view about the means by which the body could influence the mind and wrote extensively on the usefulness of exercise in avoiding “melancholic spleen” in men and “the vapours” in women. “Whatever we do,” Addison wrote, “we should keep up the cheerfulness of our spirits and never let them sink below an inclination at least to be well-pleased. The way of this is to keep our bodies in exercise, our minds at ease” (1711). Victor Frankenstein, in exercising to alleviate his mental anguish, has taken to heart Addison’s advice from a century earlier. Present-day neuroscientists likewise theorize that vigorous exercise stimulates the pituitary gland to release endorphins, substances that can alleviate pain and induce euphoria, the well-known “runner’s high,” and have found evidence that regular physical activity reduces anxiety and depression (see Anderson and Shivakumar 2013; Batchelder 2012; Leuenberger 2006)."
+          "content": "After the deaths of his brother, his friend, and his bride, Victor seeks refuge from his grief in strenuous exercise, just as he walked the streets of Ingolstadt after creating the creature. Influential thinkers of the Enlightenment vigorously pursued theories about the relationship between the mind and the body and about the place that exercise holds in physical and mental health. René Descartes, the seventeenth-century French scientific philosopher, promulgated the idea that humans have a dual nature—a material body and a nonmaterial mind—and that although they are separate, each can influence the other via the pineal gland. Joseph Addison (1672–1718), an influential thinker and essayist of the early eighteenth century, held a broad view about the means by which the body could influence the mind and wrote extensively on the usefulness of exercise in avoiding “melancholic spleen” in men and “the vapours” in women. “Whatever we do,” Addison wrote, “we should keep up the cheerfulness of our spirits and never let them sink below an inclination at least to be well-pleased. The way of this is to keep our bodies in exercise, our minds at ease” (1711). Victor Frankenstein, in exercising to alleviate his mental anguish, has taken to heart Addison’s advice from a century earlier. Present-day neuroscientists likewise theorize that vigorous exercise stimulates the pituitary gland to release endorphins, substances that can alleviate pain and induce euphoria, the well-known “runner’s high,” and have found evidence that regular physical activity reduces anxiety and depression (see Anderson and Shivakumar 2013; Batchelder 2012; Leuenberger 2006)."
         }
       ]
     },
@@ -4326,7 +4318,7 @@
       "children": [
         {
           "type": "Text",
-          "content": "Retribution is punishment for an injury, wrongdoing, or crime. In organized societies, the law imposes retribution in the form of penalties such as imprisonment. In the absence or failure of law, individuals may seek to impose retribution in the wild, unrestrained form of revenge&mdash;one of this novel’s major themes. The creature, abandoned by his creator and rejected by the family he hoped to befriend, furiously vows “eternal hatred and vengeance to all mankind” (p. 118). His desire for vengeance ultimately zeroes in on Victor’s loved ones, and so he destroys William, Justine, Clerval, and Elizabeth in turn. After Elizabeth’s death, Victor significantly first seeks retribution through law, urging a judge to bring the creature to justice. When the judge explains his powerlessness to help in the pursuit&mdash;that is, when society fails Victor&mdash;he becomes a mirror of the creature in his obsession with vengeance. As a consequence, Victor loses both the rationality of the scientist and the normal connections and affections of a civilized person. His search for the creature eventually leads him to the icy region of the North Pole&mdash;a journey symbolizing the freezing out of human feeling that comes with the blind pursuit of vengeance. The destructive nature of such a pursuit has been a theme of literature since the time of the ancient Greeks. Here Mary adds the troubling notion that science itself&mdash;however based in rationality and a drive for human progress&mdash;may inadvertently create disruptions that unleash the most irrational and violent of human feelings, which override the ability of society’s institutions to contain them."
+          "content": "Retribution is punishment for an injury, wrongdoing, or crime. In organized societies, the law imposes retribution in the form of penalties such as imprisonment. In the absence or failure of law, individuals may seek to impose retribution in the wild, unrestrained form of revenge—one of this novel’s major themes. The creature, abandoned by his creator and rejected by the family he hoped to befriend, furiously vows “eternal hatred and vengeance to all mankind” (p. 118). His desire for vengeance ultimately zeroes in on Victor’s loved ones, and so he destroys William, Justine, Clerval, and Elizabeth in turn. After Elizabeth’s death, Victor significantly first seeks retribution through law, urging a judge to bring the creature to justice. When the judge explains his powerlessness to help in the pursuit—that is, when society fails Victor—he becomes a mirror of the creature in his obsession with vengeance. As a consequence, Victor loses both the rationality of the scientist and the normal connections and affections of a civilized person. His search for the creature eventually leads him to the icy region of the North Pole—a journey symbolizing the freezing out of human feeling that comes with the blind pursuit of vengeance. The destructive nature of such a pursuit has been a theme of literature since the time of the ancient Greeks. Here Mary adds the troubling notion that science itself—however based in rationality and a drive for human progress—may inadvertently create disruptions that unleash the most irrational and violent of human feelings, which override the ability of society’s institutions to contain them."
         }
       ]
     },
@@ -4355,8 +4347,7 @@
     },
     "anchor": "43fb01",
     "labels": [
-      "Engineering",
-      "Ethics"
+      "Engineering"
     ]
   },
   {
@@ -4402,6 +4393,7 @@
     },
     "anchor": "a77f92",
     "labels": [
+      "Engineering",
       "Ethics"
     ]
   },
@@ -4419,7 +4411,7 @@
       "children": [
         {
           "type": "Text",
-          "content": "At his entrance to the wider world, Victor felt he had talents that he could use to benefit society. He expected to put forth greatness in the world and chose the lofty goal of creating life, but without thinking of the consequences. His high expectations for himself did not temper his ability to create, and although his accomplishment is amazing, it only serves to torturehim until the bitter end&mdash;when he has come to some recognition of the monstrosity of his own behavior, likening himself to Satan, just as the creature has done. At the start of his efforts to create life, Victor might have benefited from thinking about the greater repercussions of those efforts. If it is criminal to throw away those talents, is it not also criminal to use those talents to invent without caution?"
+          "content": "At his entrance to the wider world, Victor felt he had talents that he could use to benefit society. He expected to put forth greatness in the world and chose the lofty goal of creating life, but without thinking of the consequences. His high expectations for himself did not temper his ability to create, and although his accomplishment is amazing, it only serves to torturehim until the bitter end—when he has come to some recognition of the monstrosity of his own behavior, likening himself to Satan, just as the creature has done. At the start of his efforts to create life, Victor might have benefited from thinking about the greater repercussions of those efforts. If it is criminal to throw away those talents, is it not also criminal to use those talents to invent without caution?"
         }
       ]
     },
@@ -4465,12 +4457,13 @@
       "children": [
         {
           "type": "Text",
-          "content": "Seneca: Lucius Annaeus Seneca (ca. 4 BCE–65 CE), “Seneca the Younger,” Roman Stoic philosopher, playwright, essayist, and tutor and advisor to emperor Nero. Stoicism valued self-restraint over passion, yet Seneca’s immersion in the excesses of empire brought accusations of hypocrisy during his lifetime. When he was entangled, possibly falsely, in a plot to assassinate Nero, Seneca was forced to commit suicide. As recorded by Roman historian Tacitus, his death was intended to be quick and painless, but became a drawn-out ordeal of bleeding and poison. Joined forever with the earlier, ennobling death of criminalized philosopher Socrates, Seneca’s demise is depicted and interpreted in later art and literature as one that cleanses and redeems,and even baptizes him, as he died in a basin of water. Mary’s Captain Walton, facing his potential mortality surrounded by ice, notes that he will “die with a good heart,” as did Seneca. Is it possible that Mary offers him (and, likewise, Victor) “the lessons” of Seneca&mdash;and of Socrates&mdash;as redemption in the wake of his overly passionate pursuit of knowledge, when he should have practiced greater self-restraint?"
+          "content": "Seneca: Lucius Annaeus Seneca (ca. 4 BCE–65 CE), “Seneca the Younger,” Roman Stoic philosopher, playwright, essayist, and tutor and advisor to emperor Nero. Stoicism valued self-restraint over passion, yet Seneca’s immersion in the excesses of empire brought accusations of hypocrisy during his lifetime. When he was entangled, possibly falsely, in a plot to assassinate Nero, Seneca was forced to commit suicide. As recorded by Roman historian Tacitus, his death was intended to be quick and painless, but became a drawn-out ordeal of bleeding and poison. Joined forever with the earlier, ennobling death of criminalized philosopher Socrates, Seneca’s demise is depicted and interpreted in later art and literature as one that cleanses and redeems,and even baptizes him, as he died in a basin of water. Mary’s Captain Walton, facing his potential mortality surrounded by ice, notes that he will “die with a good heart,” as did Seneca. Is it possible that Mary offers him (and, likewise, Victor) “the lessons” of Seneca—and of Socrates—as redemption in the wake of his overly passionate pursuit of knowledge, when he should have practiced greater self-restraint?"
         }
       ]
     },
     "anchor": "154fa9",
     "labels": [
+      "Engineering",
       "Ethics"
     ]
   },
@@ -4488,7 +4481,7 @@
       "children": [
         {
           "type": "Text",
-          "content": "Here, Victor implores the crewmen to continue their expedition, calling them to be brave and altruistic in the face of danger. It is ironic that he is encouraging them to do so because they will be “adored” or “hailed as the benefactors of [their] species,” when similar motives drove the construction of his creature and ultimately led to his own misery and demise. This passage illustrates the complexity of Victor’s&mdash;and perhaps humankind’s&mdash;motives and desires; altruistic motives can be mingled with hubris and pride. As such, introspection and intentional self-reflection are necessary for uncovering what is driving our decision making, especially in high-stakes situations."
+          "content": "Here, Victor implores the crewmen to continue their expedition, calling them to be brave and altruistic in the face of danger. It is ironic that he is encouraging them to do so because they will be “adored” or “hailed as the benefactors of [their] species,” when similar motives drove the construction of his creature and ultimately led to his own misery and demise. This passage illustrates the complexity of Victor’s—and perhaps humankind’s—motives and desires; altruistic motives can be mingled with hubris and pride. As such, introspection and intentional self-reflection are necessary for uncovering what is driving our decision making, especially in high-stakes situations."
         }
       ]
     },
@@ -4565,7 +4558,8 @@
     },
     "anchor": "08fb4b",
     "labels": [
-      "Engineering"
+      "Engineering",
+      "Ethics"
     ]
   },
   {
@@ -4629,7 +4623,7 @@
           "children": [
             {
               "type": "Text",
-              "content": "\n\t\t\t\t\tThe creature’s description of his plan for self-destruction is one of the most poignant explorations of a correlated problem&mdash;if the new technology in question is not only autonomous but in some way self-aware, the imposition of safety limits may mean asking our creations to enact a kind of suicide.\n\t\t\t\t"
+              "content": "\n\t\t\t\t\tThe creature’s description of his plan for self-destruction is one of the most poignant explorations of a correlated problem—if the new technology in question is not only autonomous but in some way self-aware, the imposition of safety limits may mean asking our creations to enact a kind of suicide.\n\t\t\t\t"
             }
           ]
         },
@@ -4641,7 +4635,6 @@
     },
     "anchor": "540610",
     "labels": [
-      "Engineering",
       "Ethics"
     ]
   },
@@ -4698,7 +4691,7 @@
           "children": [
             {
               "type": "Text",
-              "content": "\n\t\t\t\t\tAs autonomous systems become more prevalent&mdash;think of self-driving cars&mdash;the question of how to encode ethical judgment in them has become far more pressing. Perhaps it seems obvious that a self-driving car should sacrifice itself before allowing a human pedestrian to be harmed. But how should such a system react when it must choose between injuring its driver or hitting a pedestrian? As Victor and the creature have discovered, most of our moral decisions involve some risk of harming others and force us to grapple with ethical ambiguity.\n\t\t\t\t"
+              "content": "\n\t\t\t\t\tAs autonomous systems become more prevalent—think of self-driving cars—the question of how to encode ethical judgment in them has become far more pressing. Perhaps it seems obvious that a self-driving car should sacrifice itself before allowing a human pedestrian to be harmed. But how should such a system react when it must choose between injuring its driver or hitting a pedestrian? As Victor and the creature have discovered, most of our moral decisions involve some risk of harming others and force us to grapple with ethical ambiguity.\n\t\t\t\t"
             }
           ]
         },

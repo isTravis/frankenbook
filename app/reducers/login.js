@@ -17,6 +17,12 @@ import {
 	GET_LOGOUT_FAIL,
 } from 'actions/login';
 
+import {
+	POST_USER_LOAD,
+	POST_USER_SUCCESS,
+	POST_USER_FAIL,
+} from 'actions/userCreate';
+
 /* ------------------- */
 // Define Default State
 /* ------------------- */
@@ -32,22 +38,22 @@ const defaultState = {
 export default function reducer(state = defaultState, action) {
 	switch (action.type) {
 	case GET_LENSES_DATA_LOAD:
-		return {
-			data: undefined,
-			isLoading: true,
-			error: undefined
-		};
+	case GET_LENSES_DATA_FAIL:
+		return state;
 	case GET_LENSES_DATA_SUCCESS:
 		return {
 			data: action.result.loginData,
 			isLoading: false,
 			error: undefined,
 		};
-	case GET_LENSES_DATA_FAIL:
+	case POST_USER_LOAD:
+	case POST_USER_FAIL:
+		return state;
+	case POST_USER_SUCCESS:
 		return {
-			data: undefined,
+			data: action.result,
 			isLoading: false,
-			error: action.error,
+			error: undefined,
 		};
 	case POST_LOGIN_LOAD:
 		return {

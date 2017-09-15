@@ -38,7 +38,10 @@ class Login extends Component {
 
 	onLoginSubmit(evt) {
 		evt.preventDefault();
-		this.props.dispatch(postLogin(this.state.email, SHA3(this.state.password).toString(encHex)));
+		this.props.dispatch(postLogin(
+			this.state.email.toLowerCase(), 
+			SHA3(this.state.password).toString(encHex))
+		);
 	}
 
 	onEmailChange(evt) {

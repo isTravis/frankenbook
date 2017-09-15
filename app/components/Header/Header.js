@@ -80,7 +80,7 @@ const Header = function(props) {
 								<img alt={'header logo'} className={'headerLogo'} src={'/headerLogo.png'} />
 							</Link>
 
-							{lensDataObject &&
+							{lensDataObject && props.location.pathname === '/' &&
 								<Popover
 									content={
 										<Menu>

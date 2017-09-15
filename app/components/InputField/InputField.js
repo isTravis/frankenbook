@@ -7,6 +7,7 @@ const propTypes = {
 	label: PropTypes.string.isRequired,
 	placeholder: PropTypes.string,
 	isRequired: PropTypes.bool,
+	isDisabled: PropTypes.bool,
 	helperText: PropTypes.string,
 	error: PropTypes.string,
 	value: PropTypes.string,
@@ -19,6 +20,7 @@ const propTypes = {
 const defaultProps = {
 	placeholder: undefined,
 	isRequired: false,
+	isDisabled: false,
 	helperText: '',
 	error: undefined,
 	value: undefined,
@@ -33,7 +35,7 @@ const InputField = function(props) {
 			<label className="pt-lablel" htmlFor={`input-${props.label}`}>
 				{props.label}
 				{props.isRequired &&
-					<span className="pt-text-muted">(required)</span>
+					<span className="pt-text-muted required-text"> (required)</span>
 				}
 			</label>
 			<div className="pt-form-content">
@@ -43,6 +45,7 @@ const InputField = function(props) {
 						<input
 							id={`input-${props.label}`}
 							className="pt-input"
+							disabled={props.isDisabled}
 							placeholder={props.placeholder}
 							value={props.value}
 							onChange={props.onChange}

@@ -19,7 +19,6 @@ class Signup extends Component {
 		super(props);
 		this.state = {
 			email: '',
-			password: '',
 			isSuccessful: false,
 		};
 		this.onSignupSubmit = this.onSignupSubmit.bind(this);
@@ -60,6 +59,7 @@ class Signup extends Component {
 											placeholder={'example@email.com'}
 											value={this.state.email}
 											onChange={this.onEmailChange}
+											error={this.props.signupData.error}
 										/>
 										<Button
 											name={'signup'}
@@ -77,8 +77,23 @@ class Signup extends Component {
 							{this.state.isSuccessful &&
 								<NonIdealState
 									title={'Signup Successful'}
-									description={`An email has been sent to ${this.state.email}. Follow the link in that email to create your account.`}
+									description={
+										<div className={'success'}>
+											<p>An email has been sent to <b>{this.state.email}</b></p>
+											<p>Follow the link in that email to create your account.</p>
+										</div>
+									}
 									visual={'tick-circle'}
+									action={
+										<Button
+											name={'resendEmail'}
+											type={'button'}
+											className={'pt-button'}
+											onClick={this.onSignupSubmit}
+											text={'Resend Email'}
+											loading={this.props.signupData.isLoading}
+										/>
+									}
 								/>
 							}
 
