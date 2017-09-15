@@ -22,7 +22,6 @@ const User = () => <Async load={import('containers/User/User')} />;
 const propTypes = {
 	dispatch: PropTypes.func.isRequired,
 	location: PropTypes.object.isRequired,
-	appData: PropTypes.object.isRequired,
 	loginData: PropTypes.object.isRequired,
 	lensesData: PropTypes.object.isRequired,
 };
@@ -61,17 +60,16 @@ class App extends Component {
 	}
 
 	render() {
-		const appData = this.props.appData.data || {};
 		const loginData = this.props.loginData.data || {};
 
 		const lensesData = this.props.lensesData.data;
 		return (
 			<div>
 				<Helmet>
-					<title>{appData.title}</title>
-					<meta name="description" content={appData.description} />
-					<link rel="icon" type="image/png" sizes="192x192" href={appData.avatar} />
-					<link rel="apple-touch-icon" type="image/png" sizes="192x192" href={appData.avatar} />
+					<title>FrankenBook</title>
+					<meta name="description" content={'Open Frankenstein'} />
+					<link rel="icon" type="image/png" sizes="500x500" href={'/icon.png'} />
+					<link rel="apple-touch-icon" type="image/png" sizes="500x500" href={'/icon.png'} />
 				</Helmet>
 
 				{/* Inclues logo, login, search, profile buttons */}
@@ -82,6 +80,7 @@ class App extends Component {
 					userAvatar={loginData.avatar}
 					lensesData={lensesData}
 					location={this.props.location}
+					appLoading={this.props.lensesData.isLoading}
 					onLogout={this.handleLogout}
 				/>
 
@@ -110,7 +109,6 @@ class App extends Component {
 
 App.propTypes = propTypes;
 export default withRouter(connect(state => ({
-	appData: state.app,
 	lensesData: state.lenses,
 	loginData: state.login,
 }))(App));

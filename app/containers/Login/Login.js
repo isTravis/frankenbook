@@ -78,7 +78,7 @@ class Login extends Component {
 									className={'pt-button pt-intent-primary'}
 									onClick={this.onLoginSubmit}
 									text={'Login'}
-									loading={this.props.loginData.loading}
+									loading={this.props.loginData.isLoading}
 								/>
 							</form>
 						</div>

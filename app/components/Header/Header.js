@@ -16,6 +16,7 @@ const propTypes = {
 	userAvatar: PropTypes.string,
 	lensesData: PropTypes.array,
 	location: PropTypes.object.isRequired,
+	appLoading: PropTypes.bool.isRequired,
 	onLogout: PropTypes.func.isRequired,
 };
 
@@ -129,55 +130,57 @@ const Header = function(props) {
 							}
 						</div>
 
-						<div className={'headerItems headerItemsRight'}>
-							<a href={'https://docs.google.com'} target={'_blank'} className="pt-button pt-large pt-minimal">Dev Notes</a>
+						{!props.appLoading &&
+							<div className={'headerItems headerItemsRight'}>
+								<a href={'https://docs.google.com'} target={'_blank'} className="pt-button pt-large pt-minimal">Dev Notes</a>
 
-							{/* User avatar and menu */}
-							{loggedIn &&
-								<Popover
-									content={
-										<Menu>
-											<li>
-												<Link to={`/user/${props.userSlug}`} className="pt-menu-item pt-popover-dismiss">
-													<div>{props.userName}</div>
-													<div className={'subtext'}>View Profile</div>
-												</Link>
-											</li>
-											<MenuDivider />
-											<li>
-												<Link to={'/pub-create'} className="pt-menu-item pt-popover-dismiss">
-													Create New Pub
-												</Link>
-											</li>
-											<li>
-												<Link to={`/user/${props.userSlug}/pubs`} className="pt-menu-item pt-popover-dismiss">
-													Your Pubs
-												</Link>
-											</li>
-											<MenuDivider />
-											<MenuItem text={'Logout'} onClick={props.onLogout} />
-										</Menu>
-									}
-									interactionKind={PopoverInteractionKind.CLICK}
-									position={Position.BOTTOM_RIGHT}
-									transitionDuration={-1}
-									inheritDarkTheme={false}
-								>
-									<button className="pt-button pt-large pt-minimal avatar-button">
-										<Avatar
-											userInitials={props.userInitials}
-											userAvatar={props.userAvatar}
-											width={30}
-										/>
-									</button>
-								</Popover>
-							}
+								{/* User avatar and menu */}
+								{loggedIn &&
+									<Popover
+										content={
+											<Menu>
+												<li>
+													<Link to={`/user/${props.userSlug}`} className="pt-menu-item pt-popover-dismiss">
+														<div>{props.userName}</div>
+														<div className={'subtext'}>View Profile</div>
+													</Link>
+												</li>
+												<MenuDivider />
+												<li>
+													<Link to={'/pub-create'} className="pt-menu-item pt-popover-dismiss">
+														Create New Pub
+													</Link>
+												</li>
+												<li>
+													<Link to={`/user/${props.userSlug}/pubs`} className="pt-menu-item pt-popover-dismiss">
+														Your Pubs
+													</Link>
+												</li>
+												<MenuDivider />
+												<MenuItem text={'Logout'} onClick={props.onLogout} />
+											</Menu>
+										}
+										interactionKind={PopoverInteractionKind.CLICK}
+										position={Position.BOTTOM_RIGHT}
+										transitionDuration={-1}
+										inheritDarkTheme={false}
+									>
+										<button className="pt-button pt-large pt-minimal avatar-button">
+											<Avatar
+												userInitials={props.userInitials}
+												userAvatar={props.userAvatar}
+												width={30}
+											/>
+										</button>
+									</Popover>
+								}
 
-							{/* Login or Signup button */}
-							{!loggedIn &&
-								<Link to={'/login'} className="pt-button pt-large pt-minimal">Login or Signup</Link>
-							}
-						</div>
+								{/* Login or Signup button */}
+								{!loggedIn &&
+									<Link to={'/login'} className="pt-button pt-large pt-minimal">Login or Signup</Link>
+								}
+							</div>
+						}
 					</div>
 				</div>
 			</div>

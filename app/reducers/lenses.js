@@ -29,7 +29,7 @@ export default function reducer(state = defaultState, action) {
 		};
 	case GET_LENSES_DATA_SUCCESS:
 		return {
-			data: action.result,
+			data: action.result.labelsData,
 			isLoading: false,
 			error: undefined,
 		};
