@@ -12,16 +12,16 @@ import store from './store';
 
 require('./manageServiceWorker');
 
-Raven.config('https://3b01f3a858544efb92cd7fed0e513f36@sentry.io/217789').install();
-FocusStyleManager.onlyShowFocusOnTabs();
+const isDev = window.location.origin.indexOf('localhost:') > -1;
+// if (isDev) {
+// 	Raven.config('https://3b01f3a858544efb92cd7fed0e513f36@sentry.io/217789').install();
+// }
 
-const analyticsId = window.location.origin.indexOf('localhost:')
-	? '*'
-	: 'UA-106547284-1';
+FocusStyleManager.onlyShowFocusOnTabs();
 
 const Root = () => (
 	<Provider store={store}>
-		<BrowserRouter id={analyticsId}>
+		<BrowserRouter id={isDev ? '*' : 'UA-106547284-1'}>
 			<ManageScroll>
 				<App />
 			</ManageScroll>
