@@ -101,13 +101,14 @@ class ScrollBar extends Component {
 		return (
 			<div className={'scroll-bar'}>
 				<div className={'position'} style={{ top: `${this.state.percentage}%` }} />
-				<div className={'bar'} style={{ top: `${this.state.percentage}%` }}>
+				<div className={'bar-wrapper'} style={{ top: `${this.state.percentage}%` }}>
+					<div className={'bar'} />
 					<div className={'current'}>{this.state.currentVal}</div>
 				</div>
 
 				{this.props.toc.map((item)=> {
 					return (
-						<div className={`tab ${item.tagName === 'h1' ? 'h1' : 'h2'}`} key={item.hash} style={{ top: `calc(${this.topOffsets[item.hash]}% - 6px)` }}>
+						<div className={`tab ${item.tagName === 'h1' ? 'h1' : 'h2'}`} key={item.hash} style={{ top: `calc(${this.topOffsets[item.hash]}% - 2px)` }}>
 							{item.content}
 						</div>
 					);

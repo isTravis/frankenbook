@@ -12,12 +12,14 @@ const propTypes = {
 	handleReplySubmit: PropTypes.func,
 	replySubmitLoading: PropTypes.bool,
 	userId: PropTypes.string,
+	isProfile: PropTypes.bool,
 };
 
 const defaultProps = {
 	handleReplySubmit: undefined,
 	replySubmitLoading: false,
 	userId: undefined,
+	isProfile: false,
 };
 
 class DiscussionItem extends Component {
@@ -107,7 +109,7 @@ class DiscussionItem extends Component {
 		return (
 			<div className={'discussion-item'}>
 				<div className={'image'}>
-					<Link replace={!this.props.handleReplySubmit} to={`/user/${item.author.slug}`}>
+					<Link replace={this.props.isProfile} to={`/user/${item.author.slug}`}>
 						<Avatar
 							userAvatar={item.author.avatar}
 							userInitials={item.author.initials}
@@ -118,7 +120,7 @@ class DiscussionItem extends Component {
 
 				<div className={'content'}>
 					<div className={'author'}>
-						<Link replace={!this.props.handleReplySubmit} to={`/user/${item.author.slug}`} className={'name'}>{item.author.fullName}</Link>
+						<Link replace={this.props.isProfile} to={`/user/${item.author.slug}`} className={'name'}>{item.author.fullName}</Link>
 						<TimeAgo date={item.createdAt} className={'date'} />
 						<div>
 							{labels.map((label)=> {

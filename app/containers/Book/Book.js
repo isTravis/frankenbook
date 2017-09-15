@@ -153,11 +153,11 @@ class Book extends Component {
 					<div className={'container'}>
 						<div className={'row'}>
 							<div className={'col-12'}>
-								<h1>Frankenstein</h1>
+								{/* <h1>Frankenstein</h1>
 								<p>Here is a bunch of content.</p>
 								<h1>Onto Essays</h1>
 								<h1>Lenses</h1>
-								<p>Select your lenses by doing the following;</p>
+								<p>Select your lenses by doing the following;</p> */}
 								{/* <img src={'images/coverWide.jpg'} alt={'Book Cover'} /> */}
 							</div>
 						</div>

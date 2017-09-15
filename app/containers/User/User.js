@@ -113,8 +113,12 @@ class User extends Component {
 				<div className={'container narrow'}>
 					<div className={'row'}>
 						<div className={'col-12'}>
-							{discussionsWithAuthor.map((item)=> {
-								return <DiscussionItem key={`disc-${item.id}`} discussion={item} />;
+							{discussionsWithAuthor.sort((foo, bar)=> {
+								if (foo.createdAt < bar.createdAt) { return 1; }
+								if (foo.createdAt > bar.createdAt) { return -1; }
+								return 0;
+							}).map((item)=> {
+								return <DiscussionItem key={`disc-${item.id}`} discussion={item} isProfile={true} />;
 							})}
 						</div>
 					</div>
