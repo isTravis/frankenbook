@@ -53,6 +53,7 @@ class Login extends Component {
 	}
 
 	render() {
+		console.log(Test);
 		return (
 			<div className={'login'}>
 				<Helmet>
