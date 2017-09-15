@@ -43,9 +43,7 @@ export function postDiscussion(discussionObject) {
 				Accept: 'application/json',
 				'Content-Type': 'application/json'
 			},
-			body: JSON.stringify({
-				...discussionObject
-			})
+			body: JSON.stringify(discussionObject)
 		})
 		.then((result) => {
 			dispatch({ type: POST_DISCUSSION_SUCCESS, result });

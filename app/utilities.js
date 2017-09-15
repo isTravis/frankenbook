@@ -1,6 +1,6 @@
 export const apiFetch = function(path, opts) {
-	const urlPrefix = 'https://frankenbook-api.herokuapp.com';
-	// const urlPrefix = 'http://localhost:9876';
+	// const urlPrefix = 'https://frankenbook-api.herokuapp.com';
+	const urlPrefix = 'http://localhost:9876';
 	const finalRoute = `${urlPrefix}${path}`;
 
 	return fetch(finalRoute, {

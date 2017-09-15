@@ -15,6 +15,7 @@ const propTypes = {
 	dispatch: PropTypes.func.isRequired,
 	location: PropTypes.object.isRequired,
 	lensesData: PropTypes.object.isRequired,
+	loginData: PropTypes.object.isRequired,
 	discussionsData: PropTypes.object.isRequired,
 };
 
@@ -113,6 +114,8 @@ class Book extends Component {
 							parentHash={content.hash}
 							discussions={this.props.discussionsData.data}
 							handleReplySubmit={this.handleReplySubmit}
+							replySubmitLoading={this.props.discussionsData.isLoading}
+							userId={this.props.loginData.data && this.props.loginData.data.id}
 						/>
 					</div>
 				);

@@ -7,11 +7,15 @@ require('./discussions.scss');
 const propTypes = {
 	parentHash: PropTypes.string.isRequired,
 	discussions: PropTypes.array,
+	userId: PropTypes.string,
 	handleReplySubmit: PropTypes.func.isRequired,
+	replySubmitLoading: PropTypes.bool,
 };
 
 const defaultProps = {
 	discussions: [],
+	userId: undefined,
+	replySubmitLoading: false,
 };
 
 class Discussions extends Component {
@@ -71,7 +75,15 @@ class Discussions extends Component {
 						{this.props.discussions.filter((item)=> {
 							return item.anchor === this.props.parentHash;
 						}).map((item)=> {
-							return <DiscussionItem key={item.id} discussion={item} handleReplySubmit={this.props.handleReplySubmit} />;
+							return (
+								<DiscussionItem
+									key={item.id}
+									discussion={item}
+									userId={this.props.userId}
+									handleReplySubmit={this.props.handleReplySubmit}
+									replySubmitLoading={this.props.replySubmitLoading}
+								/>
+							);
 						})}
 					</div>
 				}

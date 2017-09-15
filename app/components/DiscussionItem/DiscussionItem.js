@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import { Link } from 'react-router-dom';
+import TimeAgo from 'react-timeago';
+import { Button } from '@blueprintjs/core';
 import Avatar from 'components/Avatar/Avatar';
 
 require('./discussionItem.scss');
@@ -8,10 +10,14 @@ require('./discussionItem.scss');
 const propTypes = {
 	discussion: PropTypes.object.isRequired,
 	handleReplySubmit: PropTypes.func,
+	replySubmitLoading: PropTypes.bool,
+	userId: PropTypes.string,
 };
 
 const defaultProps = {
 	handleReplySubmit: undefined,
+	replySubmitLoading: false,
+	userId: undefined,
 };
 
 class DiscussionItem extends Component {
@@ -27,8 +33,10 @@ class DiscussionItem extends Component {
 		this.renderContent = this.renderContent.bind(this);
 	}
 
-	toggleReply() {
-		this.setState({ replyOpen: !this.state.replyOpen });
+	componentWillReceiveProps(nextProps) {
+		if (this.props.replySubmitLoading && !nextProps.replySubmitLoading) {
+			this.setState({ replyText: '' });
+		}
 	}
 
 	onReplyChange(evt) {
@@ -37,11 +45,18 @@ class DiscussionItem extends Component {
 
 	onReplySubmit() {
 		this.props.handleReplySubmit({
-			author: 'Me',
+			userId: this.props.userId,
 			anchor: this.props.discussion.anchor,
-			parent: this.props.discussion.id,
-			content: this.state.replyText,
+			parentId: this.props.discussion.id,
+			content: {
+				type: 'text',
+				content: this.state.replyText,
+			}
 		});
+	}
+
+	toggleReply() {
+		this.setState({ replyOpen: !this.state.replyOpen });
 	}
 
 	renderContent(content) {
@@ -87,10 +102,12 @@ class DiscussionItem extends Component {
 
 	render() {
 		const item = this.props.discussion;
+		const labels = item.labels || [];
+		const replies = item.replies || [];
 		return (
 			<div className={'discussion-item'}>
 				<div className={'image'}>
-					<Link to={`/user/${item.author.slug}`}>
+					<Link replace={!this.props.handleReplySubmit} to={`/user/${item.author.slug}`}>
 						<Avatar
 							userAvatar={item.author.avatar}
 							userInitials={item.author.initials}
@@ -101,14 +118,36 @@ class DiscussionItem extends Component {
 
 				<div className={'content'}>
 					<div className={'author'}>
-						<Link to={`/user/${item.author.slug}`} className={'name'}>{item.author.fullName}</Link>
-						{item.labels.map((label)=> {
-							return <div key={`${item.id}-${label.id}`} className={`pt-tag ${label.slug}`}>{label.title}</div>;
-						})}
+						<Link replace={!this.props.handleReplySubmit} to={`/user/${item.author.slug}`} className={'name'}>{item.author.fullName}</Link>
+						<TimeAgo date={item.createdAt} className={'date'} />
+						<div>
+							{labels.map((label)=> {
+								return <div key={`${item.id}-${label.id}`} className={`pt-tag ${label.slug}`}>{label.title}</div>;
+							})}
+						</div>
 					</div>
+
 					<div className={'content-body'}>
 						{this.renderContent(item.content)}
 					</div>
+
+					{this.state.replyOpen &&
+						<div className={'replies'}>
+							{replies.sort((foo, bar)=> {
+								if (foo.createdAt > bar.createdAt) { return 1; }
+								if (foo.createdAt < bar.createdAt) { return -1; }
+								return 0;
+							}).map((reply)=> {
+								// Wrap it in a div so it is last-of-type and doesn't get border-bottom
+								return (
+									<div key={`reply-${reply.id}`}>
+										<DiscussionItem discussion={reply} />
+									</div>
+								);
+							})}
+						</div>
+					}
+
 					{this.state.replyOpen &&
 						<div className={'replies'}>
 							<textarea
@@ -117,9 +156,13 @@ class DiscussionItem extends Component {
 								value={this.state.replyText}
 								onChange={this.onReplyChange}
 							/>
-							<button onClick={this.onReplySubmit} className={'pt-button pt-intent-primary'}>
-								Submit
-							</button>
+							<Button
+								onClick={this.onReplySubmit}
+								disabled={!this.state.replyText || !this.props.userId}
+								className={'pt-button pt-intent-primary'}
+								loading={this.props.replySubmitLoading}
+								text={this.props.userId ? 'Submit' : 'Login to Reply'}
+							/>
 						</div>
 					}
 				</div>
@@ -127,7 +170,7 @@ class DiscussionItem extends Component {
 				{this.props.handleReplySubmit &&
 					<div className={'buttons'}>
 						<button className={'pt-button pt-small'} onClick={this.toggleReply}>
-							{this.state.replyOpen ? 'Close' : 'Reply'}
+							{this.state.replyOpen ? 'Close' : `Reply · ${replies.length}`}
 						</button>
 					</div>
 				}

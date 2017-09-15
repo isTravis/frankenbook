@@ -106,7 +106,7 @@ module.exports = {
 			mergeStaticsConfig: true, // Merge webpacks static outputs with the globs described above.
 			runtimeCaching: [{
 				urlPattern: /^https:\/\/frankenbook-api\.herokuapp\.com\//,
-				handler: 'fastest',
+				handler: 'networkFirst',
 				networkTimeoutSeconds: 5000,
 				options: {
 					cache: {

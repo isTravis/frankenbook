@@ -43,6 +43,11 @@
 				margin-right: 0.5em;
 				display: inline;	
 			}
+			.date {
+				font-size: 0.85em;
+				opacity: 0.85;
+				font-weight: 400;
+			}
 			
 		}
 		.content-body {
@@ -61,9 +66,15 @@
 			min-height: 56px;
 			max-height: 300px;
 			resize: vertical;
+			margin-bottom: 0.5em;
+		}
+		.content-body {
+			padding-top: 0em;
+			padding-bottom: 1em;
 		}
 	}
 	.buttons {
+		white-space: nowrap;
 	}
 }
 

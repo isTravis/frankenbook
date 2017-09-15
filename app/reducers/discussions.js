@@ -5,6 +5,10 @@ import {
 	GET_DISCUSSIONS_DATA_LOAD,
 	GET_DISCUSSIONS_DATA_SUCCESS,
 	GET_DISCUSSIONS_DATA_FAIL,
+
+	POST_DISCUSSION_LOAD,
+	POST_DISCUSSION_SUCCESS,
+	POST_DISCUSSION_FAIL,
 } from 'actions/discussions';
 
 /* ------------------- */
@@ -36,6 +40,32 @@ export default function reducer(state = defaultState, action) {
 	case GET_DISCUSSIONS_DATA_FAIL:
 		return {
 			data: undefined,
+			isLoading: false,
+			error: action.error,
+		};
+	case POST_DISCUSSION_LOAD:
+		return {
+			data: state.data,
+			isLoading: true,
+			error: undefined
+		};
+	case POST_DISCUSSION_SUCCESS:
+		return {
+			data: state.data.map((discussion)=> {
+				if (discussion.id === action.result.parentId) {
+					return {
+						...discussion,
+						replies: [...discussion.replies, action.result]
+					};
+				}
+				return discussion;
+			}),
+			isLoading: false,
+			error: undefined,
+		};
+	case POST_DISCUSSION_FAIL:
+		return {
+			data: state.data,
 			isLoading: false,
 			error: action.error,
 		};
