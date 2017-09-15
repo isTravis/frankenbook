@@ -16,7 +16,7 @@ const propTypes = {
 	userAvatar: PropTypes.string,
 	lensesData: PropTypes.array,
 	location: PropTypes.object.isRequired,
-	logoutHandler: PropTypes.func.isRequired,
+	onLogout: PropTypes.func.isRequired,
 };
 
 const defaultProps = {
@@ -155,7 +155,7 @@ const Header = function(props) {
 												</Link>
 											</li>
 											<MenuDivider />
-											<MenuItem text={'Logout'} onClick={props.logoutHandler} />
+											<MenuItem text={'Logout'} onClick={props.onLogout} />
 										</Menu>
 									}
 									interactionKind={PopoverInteractionKind.CLICK}

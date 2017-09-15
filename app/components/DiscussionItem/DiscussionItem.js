@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
+import { Link } from 'react-router-dom';
 import InputField from 'components/InputField/InputField';
 
 require('./discussionItem.scss');
@@ -85,11 +86,13 @@ class DiscussionItem extends Component {
 		return (
 			<div className={'discussion-item'}>
 				<div className={'image'}>
-					<img src={'icon.png'} alt={item.author.fullName} />
+					<Link to={`/user/${item.author.slug}`}>
+						<img src={'icon.png'} alt={item.author.fullName} />
+					</Link>
 				</div>
 				<div className={'content'}>
 					<div className={'author'}>
-						<div className={'name'}>{item.author.fullName}</div>
+						<Link to={`/user/${item.author.slug}`} className={'name'}>{item.author.fullName}</Link>
 						{item.labels.map((label)=> {
 							return <div key={`${item.id}-${label.id}`} className={`pt-tag ${label.slug}`}>{label.title}</div>;
 						})}

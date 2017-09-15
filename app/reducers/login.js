@@ -2,10 +2,14 @@
 // Load Actions
 /* ---------- */
 import {
-	GET_APP_DATA_LOAD,
-	GET_APP_DATA_SUCCESS,
-	GET_APP_DATA_FAIL,
-} from 'actions/app';
+	POST_LOGIN_LOAD,
+	POST_LOGIN_SUCCESS,
+	POST_LOGIN_FAIL,
+
+	GET_LOGOUT_LOAD,
+	GET_LOGOUT_SUCCESS,
+	GET_LOGOUT_FAIL,
+} from 'actions/login';
 
 /* ------------------- */
 // Define Default State
@@ -21,26 +25,29 @@ const defaultState = {
 /* ----------------------------------------- */
 export default function reducer(state = defaultState, action) {
 	switch (action.type) {
-	case GET_APP_DATA_LOAD:
+	case POST_LOGIN_LOAD:
 		return {
 			data: undefined,
 			loading: true,
 			error: undefined,
 		};
-	case GET_APP_DATA_SUCCESS:
+	case POST_LOGIN_SUCCESS:
 		return {
-			data: {
-				...action.result.loginData
-			},
+			data: action.result,
 			loading: false,
 			error: undefined,
 		};
-	case GET_APP_DATA_FAIL:
+	case POST_LOGIN_FAIL:
 		return {
 			data: undefined,
 			loading: false,
-			error: action.error,
+			error: 'Invalid Email or Password'
 		};
+	case GET_LOGOUT_LOAD:
+	case GET_LOGOUT_FAIL:
+		return state;
+	case GET_LOGOUT_SUCCESS:
+		return defaultState;
 	default:
 		return state;
 	}

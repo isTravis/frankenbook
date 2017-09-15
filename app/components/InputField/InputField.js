@@ -10,6 +10,7 @@ const propTypes = {
 	helperText: PropTypes.string,
 	error: PropTypes.string,
 	value: PropTypes.string,
+	type: PropTypes.string,
 	onChange: PropTypes.func,
 	children: PropTypes.node,
 
@@ -21,6 +22,7 @@ const defaultProps = {
 	helperText: '',
 	error: undefined,
 	value: undefined,
+	type: 'text',
 	onChange: undefined,
 	children: undefined,
 };
@@ -44,7 +46,7 @@ const InputField = function(props) {
 							placeholder={props.placeholder}
 							value={props.value}
 							onChange={props.onChange}
-							type="text"
+							type={props.type}
 							dir="auto"
 						/>
 					}
