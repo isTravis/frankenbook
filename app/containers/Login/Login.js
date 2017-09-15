@@ -3,9 +3,12 @@ import { connect } from 'react-redux';
 import Helmet from 'react-helmet';
 import PropTypes from 'prop-types';
 import { withRouter } from 'react-router-dom';
+import SHA3 from 'crypto-js/sha3';
+import encHex from 'crypto-js/enc-hex';
 import { Button } from '@blueprintjs/core';
 import InputField from 'components/InputField/InputField';
 import { postLogin } from 'actions/login';
+
 
 require('./login.scss');
 
@@ -35,7 +38,7 @@ class Login extends Component {
 
 	onLoginSubmit(evt) {
 		evt.preventDefault();
-		this.props.dispatch(postLogin(this.state.email, this.state.password));
+		this.props.dispatch(postLogin(this.state.email, SHA3(this.state.password).toString(encHex)));
 	}
 
 	onEmailChange(evt) {
