@@ -12,12 +12,12 @@ import store from './store';
 
 require('./manageServiceWorker');
 
-// Raven.config('https://b4764efd07c240488d390c8343193208@sentry.io/197897').install();
+Raven.config('https://fde9b2d54d5144c9b82341312872e501@sentry.io/217786').install();
 FocusStyleManager.onlyShowFocusOnTabs();
 
 const Root = () => (
 	<Provider store={store}>
-		<BrowserRouter id="UA-99999999-6">
+		<BrowserRouter id="UA-106547284-1">
 			<ManageScroll>
 				<App />
 			</ManageScroll>
