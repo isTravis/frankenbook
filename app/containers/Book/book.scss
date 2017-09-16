@@ -90,18 +90,20 @@
 
 
 @media print {
-	.book-wrapper {
-		overflow: visible;
-		max-height: none;
-		width: auto;
-		padding: 0;
-	}
-	.book-content {
-		max-width: none;
-		padding: 0;
-		h1 {
-			page-break-before: always;
+	.book {
+	    overflow: visible;
+	    .book-wrapper {
+			overflow: visible;
+			max-height: none;
+			width: auto;
+			padding: 0;
+		}
+		.book-content {
+			max-width: none;
+			padding: 0;
+			h1 {
+				page-break-before: always;
+			}
 		}
 	}
-	
 }
