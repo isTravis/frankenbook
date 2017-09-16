@@ -15,4 +15,4 @@ export const apiFetch = function(path, opts) {
 	});
 };
 
-export const defaultLenses = ['healthmed', 'technology'];
+export const defaultLenses = ['healthmed', 'technology', 'motivments', 'science'];
