@@ -101,8 +101,8 @@ class Book extends Component {
 				return <h1 {...attributes} />;
 			case 'h2':
 				return <h2 {...attributes} />;
-			case 'h3':
-				return <h3 {...attributes} />;
+			// case 'h3':
+			// 	return <h3 {...attributes} />;
 			case 'div':
 				return <div {...attributes} />;
 			case 'p':
@@ -110,13 +110,13 @@ class Book extends Component {
 					<div {...attributes}>
 						{childrenContent}
 						{/* <div className={'side'}>Link · Discuss</div> */}
-						<Discussions
+						{/*<Discussions
 							parentHash={content.hash}
 							discussions={this.props.discussionsData.data}
 							handleReplySubmit={this.handleReplySubmit}
 							replySubmitLoading={this.props.discussionsData.isLoading}
 							userId={this.props.loginData.data && this.props.loginData.data.id}
-						/>
+						/>*/}
 					</div>
 				);
 			case 'span':
@@ -131,6 +131,7 @@ class Book extends Component {
 			case 'blockquote':
 				return <blockquote {...attributes} />;
 			default:
+				console.log('Got default', attributes);
 				return <div {...attributes} />;
 			}
 		}

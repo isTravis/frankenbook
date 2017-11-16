@@ -44,7 +44,7 @@ const InputField = function(props) {
 					{!props.children &&
 						<input
 							id={`input-${props.label}`}
-							className="pt-input"
+							className={'pt-input'}
 							disabled={props.isDisabled}
 							placeholder={props.placeholder}
 							value={props.value}

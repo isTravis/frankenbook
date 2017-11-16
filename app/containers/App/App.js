@@ -7,6 +7,7 @@ import Async from 'react-code-splitting';
 import queryString from 'query-string';
 
 import Header from 'components/Header/Header';
+import { getContentData } from 'actions/content';
 import { getLensesData } from 'actions/lenses';
 import { getDiscussionsData } from 'actions/discussions';
 import { defaultLenses } from 'utilities';
@@ -15,6 +16,7 @@ import { getLogout } from 'actions/login';
 require('./app.scss');
 
 const Book = () => <Async load={import('containers/Book/Book')} />;
+const Book2 = () => <Async load={import('containers/Book/Book2')} />;
 const Login = () => <Async load={import('containers/Login/Login')} />;
 const NoMatch = () => <Async load={import('containers/NoMatch/NoMatch')} />;
 const Signup = () => <Async load={import('containers/Signup/Signup')} />;
@@ -43,6 +45,7 @@ class App extends Component {
 
 	componentWillMount() {
 		const activeLenses = App.getActiveLenses(this.props);
+		this.props.dispatch(getContentData());
 		this.props.dispatch(getLensesData(activeLenses));
 		this.props.dispatch(getDiscussionsData(activeLenses));
 	}
@@ -98,6 +101,7 @@ class App extends Component {
 					*/}
 
 					<Route exact path="/" component={Book} />
+					<Route exact path="/book2" component={Book2} />
 					<Route exact path="/login" component={Login} />
 					<Route exact path="/signup" component={Signup} />
 					<Route exact path="/user/create/:hash" component={UserCreate} />

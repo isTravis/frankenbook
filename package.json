@@ -16,10 +16,12 @@
     "start": "webpack-dev-server --env.mode=app --config webpack/webpackConfigDev.js",
     "storybook": "start-storybook -p 9001 -c .storybook -s ./static",
     "convert": "node static/convert.js",
+    "convert-editor": "node static/convertToEditor.js",
     "convert-annotations": "node static/convertAnnotations.js"
   },
   "dependencies": {
     "@blueprintjs/core": "^1.25.1",
+    "@pubpub/editor": "^4.1.0",
     "@storybook/addon-options": "^3.2.6",
     "@storybook/react": "^3.2.8",
     "autoprefixer": "^7.1.4",
