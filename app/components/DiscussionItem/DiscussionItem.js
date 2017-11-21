@@ -4,6 +4,13 @@ import { Link } from 'react-router-dom';
 import TimeAgo from 'react-timeago';
 import { Button } from '@blueprintjs/core';
 import Avatar from 'components/Avatar/Avatar';
+import { Editor } from '@pubpub/editor';
+import FormattingMenu from '@pubpub/editor/addons/FormattingMenu';
+import HighlightMenu from '@pubpub/editor/addons/HighlightMenu';
+import InsertMenu from '@pubpub/editor/addons/InsertMenu';
+import Image from '@pubpub/editor/addons/Image';
+import Video from '@pubpub/editor/addons/Video';
+import { s3Upload, getResizedUrl, generateHash } from 'utilities';
 
 require('./discussionItem.scss');
 
@@ -42,7 +49,8 @@ class DiscussionItem extends Component {
 	}
 
 	onReplyChange(evt) {
-		this.setState({ replyText: evt.target.value });
+		// this.setState({ replyText: evt.target.value });
+		this.setState({ replyText: evt });
 	}
 
 	onReplySubmit() {
@@ -152,12 +160,28 @@ class DiscussionItem extends Component {
 
 					{this.state.replyOpen &&
 						<div className={'replies'}>
-							<textarea
+							{/*<textarea
 								placeholder={'Reply to discussion'}
 								className={'pt-input pt-fill'}
 								value={this.state.replyText}
 								onChange={this.onReplyChange}
-							/>
+							/>*/}
+							<div className={'reply-editor'}>
+								<Editor
+									placeholder={'Reply to discussion'}
+									onChange={this.onReplyChange}
+								>
+									<FormattingMenu />
+									<InsertMenu />
+									<Image
+										handleFileUpload={s3Upload}
+										handleResizeUrl={(url)=> { return getResizedUrl(url, 'fit-in', '800x0'); }}
+									/>
+									<Video
+										handleFileUpload={s3Upload}
+									/>
+								</Editor>
+							</div>
 							<Button
 								onClick={this.onReplySubmit}
 								disabled={!this.state.replyText || !this.props.userId}

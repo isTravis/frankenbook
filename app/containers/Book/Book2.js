@@ -144,7 +144,7 @@ class Book extends Component {
 							initialContent={contentData.json}
 							key={this.state.updatedTime}
 							onChange={(val)=> {console.log(val);}}
-							isReadOnly={true}
+							isReadOnly={false}
 						>
 							{!isReadOnly &&
 								<FormattingMenu />

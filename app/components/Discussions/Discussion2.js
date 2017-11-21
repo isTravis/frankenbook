@@ -95,9 +95,9 @@ class Discussions extends Component {
 								<DiscussionItem
 									key={item.id}
 									discussion={item}
-									userId={this.props.userId}
-									handleReplySubmit={this.props.handleReplySubmit}
-									replySubmitLoading={this.props.replySubmitLoading}
+									userId={userId}
+									handleReplySubmit={this.handleReplySubmit}
+									replySubmitLoading={replySubmitLoading}
 								/>
 							);
 						})}

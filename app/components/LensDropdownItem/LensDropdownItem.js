@@ -23,7 +23,7 @@ const LensDropdownItem = function(props) {
 			<span className={`pt-icon-standard pt-icon-${lens.icon}`} style={colorStyle} />
 			<div className={'details'}>
 				<div className={'title'} style={colorStyle}>{lens.title} · {lens.discussionsCount}</div>
-				<div className={'description'}>{lens.description}</div>
+				{/*<div className={'description'}>{lens.description}</div>*/}
 			</div>
 		</Link>
 	);

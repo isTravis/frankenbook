@@ -1,10 +1,15 @@
-export const apiFetch = function(path, opts) {
-	// const urlPrefix = 'https://frankenbook-api.herokuapp.com';
-	// const urlPrefix = 'http://localhost:9876';
+export const apiUrlPrefix = function() {
 	let urlPrefix = 'https://frankenbook-api.herokuapp.com';
 	if (window.location.origin.indexOf('localhost:') > -1) {
 		urlPrefix = 'http://localhost:9876';
 	}
+	return urlPrefix;
+};
+
+export const apiFetch = function(path, opts) {
+	// const urlPrefix = 'https://frankenbook-api.herokuapp.com';
+	// const urlPrefix = 'http://localhost:9876';
+	const urlPrefix = apiUrlPrefix();
 	const finalRoute = `${urlPrefix}${path}`;
 
 	return fetch(finalRoute, {

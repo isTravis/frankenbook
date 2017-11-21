@@ -29,17 +29,17 @@ class DiscussionAddon extends Component {
 					attrs: {
 						parentHash: { default: null },
 					},
-					toEditable() {
-						return null;
-						// return (
-						// 	<Discussions
-						// 		parentHash={props.parentHash}
-						// 		discussions={props.discussions}
-						// 		handleReplySubmit={props.userId}
-						// 		replySubmitLoading={props.handleReplySubmit}
-						// 		userId={props.replySubmitLoading}
-						// 	/>
-						// );
+					toEditable(node) {
+						// return null;
+						return <DiscussionsWrapper
+							parentHash={node.attrs.parentHash}
+							routerContext={props.routerContext}
+							storeContext={props.storeContext}
+							// discussions={props.discussions}
+							// handleReplySubmit={props.userId}
+							// replySubmitLoading={props.handleReplySubmit}
+							// userId={props.replySubmitLoading}
+						/>
 					},
 					toStatic(node) {
 						// return <div>{node.attrs.parentHash}</div>;

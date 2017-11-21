@@ -18,6 +18,7 @@ require('./app.scss');
 const Book = () => <Async load={import('containers/Book/Book')} />;
 const Book2 = () => <Async load={import('containers/Book/Book2')} />;
 const Login = () => <Async load={import('containers/Login/Login')} />;
+const Media = () => <Async load={import('containers/Media/Media')} />;
 const NoMatch = () => <Async load={import('containers/NoMatch/NoMatch')} />;
 const Signup = () => <Async load={import('containers/Signup/Signup')} />;
 const User = () => <Async load={import('containers/User/User')} />;
@@ -102,6 +103,7 @@ class App extends Component {
 
 					<Route exact path="/" component={Book} />
 					<Route exact path="/book2" component={Book2} />
+					<Route exact path="/media" component={Media} />
 					<Route exact path="/login" component={Login} />
 					<Route exact path="/signup" component={Signup} />
 					<Route exact path="/user/create/:hash" component={UserCreate} />
