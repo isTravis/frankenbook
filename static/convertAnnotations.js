@@ -49,6 +49,16 @@ function footnoteAuthor(node) {
 	}, null);
 }
 
+function footnoteLens(node) {
+	if (!node.children && node.tagName !== 'div') { return null; }
+	if (node.tagName === 'div' && node.attributes.className && node.attributes.className.indexOf('footnote-lens') > -1) { return node.children[0].content.replace('.', ''); }
+	return node.children.reduce((prev, curr)=> {
+		const currLink = footnoteLens(curr);
+		if (currLink) { return currLink; }
+		return prev;
+	}, null);
+}
+
 function footnoteContent(node) {
 	if (!node.children && node.tagName !== 'div') { return null; }
 	if (node.tagName === 'div' && node.attributes.className && node.attributes.className.indexOf('footnote-content') > -1) { return node; }
@@ -110,18 +120,19 @@ const goodFootnotes = footnotes.filter((item)=> {
 	return footnoteLink(item);
 });
 
-const labelOptions = [
-	['Engineering'],
-	['Ethics'],
-	['Engineering', 'Ethics'],
-];
+// const labelOptions = [
+// 	['Engineering'],
+// 	['Ethics'],
+// 	['Engineering', 'Ethics'],
+// ];
 const goodFootnoteObjects = goodFootnotes.map((item)=> {
 	return {
 		link: footnoteLink(item),
 		author: footnoteAuthor(item),
 		content: footnoteContent(item),
 		anchor: paragraphLinks[footnoteLink(item).replace('#', '')],
-		labels: labelOptions[Math.floor(Math.random() * 3)],
+		// labels: labelOptions[Math.floor(Math.random() * 3)],
+		labels: footnoteLens(item),
 	};
 }).filter((item)=> {
 	return item.anchor;

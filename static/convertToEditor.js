@@ -4,12 +4,6 @@
 const fs = require('fs');
 const documentJSON = require('./source.json');
 
-
-// Get link from footnote - if it exists
-// Check for sup that has associated link href (from source.json)
-// Get parent p of that sup
-// Store annotation content, along with anchorHash
-
 const convertNode = (node)=> {
 	if (node.tagName === 'h1') {
 		return {
@@ -21,7 +15,21 @@ const convertNode = (node)=> {
 	if (node.tagName === 'h2') {
 		return {
 			type: 'heading',
-			attrs: { level: 1 },
+			attrs: { level: 2 },
+			content: [{ type: 'text', text: node.children[0].content }]
+		};
+	}
+	if (node.tagName === 'h3') {
+		return {
+			type: 'heading',
+			attrs: { level: 3 },
+			content: [{ type: 'text', text: node.children[0].content }]
+		};
+	}
+	if (node.tagName === 'h4') {
+		return {
+			type: 'heading',
+			attrs: { level: 4 },
 			content: [{ type: 'text', text: node.children[0].content }]
 		};
 	}

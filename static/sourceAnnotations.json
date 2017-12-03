@@ -33,9 +33,7 @@
       ]
     },
     "anchor": "e4a466",
-    "labels": [
-      "Ethics"
-    ]
+    "labels": "Shelley,MandS"
   },
   {
     "link": "#link-104",
@@ -56,9 +54,7 @@
       ]
     },
     "anchor": "ffded5",
-    "labels": [
-      "Engineering"
-    ]
+    "labels": "PandP"
   },
   {
     "link": "#link-105",
@@ -169,9 +165,7 @@
       ]
     },
     "anchor": "b70a26",
-    "labels": [
-      "Ethics"
-    ]
+    "labels": "Science,Shelley,IandA"
   },
   {
     "link": "#link-106",
@@ -192,9 +186,7 @@
       ]
     },
     "anchor": "43113a",
-    "labels": [
-      "Ethics"
-    ]
+    "labels": "Science,IandA"
   },
   {
     "link": "#link-107",
@@ -245,10 +237,7 @@
       ]
     },
     "anchor": "460d75",
-    "labels": [
-      "Engineering",
-      "Ethics"
-    ]
+    "labels": "Science"
   },
   {
     "link": "#link-108",
@@ -269,9 +258,7 @@
       ]
     },
     "anchor": "2947ef",
-    "labels": [
-      "Engineering"
-    ]
+    "labels": "PandP,EandI"
   },
   {
     "link": "#link-109",
@@ -367,9 +354,7 @@
       ]
     },
     "anchor": "2947ef",
-    "labels": [
-      "Engineering"
-    ]
+    "labels": "Science"
   },
   {
     "link": "#link-110",
@@ -390,10 +375,7 @@
       ]
     },
     "anchor": "2947ef",
-    "labels": [
-      "Engineering",
-      "Ethics"
-    ]
+    "labels": "MandS"
   },
   {
     "link": "#link-111",
@@ -414,9 +396,7 @@
       ]
     },
     "anchor": "01c3ce",
-    "labels": [
-      "Ethics"
-    ]
+    "labels": "PandP,EandI"
   },
   {
     "link": "#link-112",
@@ -437,9 +417,7 @@
       ]
     },
     "anchor": "440bf3",
-    "labels": [
-      "Engineering"
-    ]
+    "labels": "Science,Tech,PandP,Shelley"
   },
   {
     "link": "#link-113",
@@ -475,10 +453,7 @@
       ]
     },
     "anchor": "2edf0c",
-    "labels": [
-      "Engineering",
-      "Ethics"
-    ]
+    "labels": "Science"
   },
   {
     "link": "#link-114",
@@ -514,10 +489,7 @@
       ]
     },
     "anchor": "2edf0c",
-    "labels": [
-      "Engineering",
-      "Ethics"
-    ]
+    "labels": "Science"
   },
   {
     "link": "#link-115",
@@ -538,10 +510,7 @@
       ]
     },
     "anchor": "bfb949",
-    "labels": [
-      "Engineering",
-      "Ethics"
-    ]
+    "labels": "Shelley,MandS"
   },
   {
     "link": "#link-116",
@@ -562,9 +531,7 @@
       ]
     },
     "anchor": "bfb949",
-    "labels": [
-      "Ethics"
-    ]
+    "labels": "MandS"
   },
   {
     "link": "#link-117",
@@ -585,10 +552,7 @@
       ]
     },
     "anchor": "502176",
-    "labels": [
-      "Engineering",
-      "Ethics"
-    ]
+    "labels": "PandP"
   },
   {
     "link": "#link-118",
@@ -609,10 +573,7 @@
       ]
     },
     "anchor": "58e97b",
-    "labels": [
-      "Engineering",
-      "Ethics"
-    ]
+    "labels": "PandP"
   },
   {
     "link": "#link-119",
@@ -648,9 +609,7 @@
       ]
     },
     "anchor": "9dfa8d",
-    "labels": [
-      "Ethics"
-    ]
+    "labels": "Science,Tech,PandP"
   },
   {
     "link": "#link-120",
@@ -731,10 +690,7 @@
       ]
     },
     "anchor": "9dfa8d",
-    "labels": [
-      "Engineering",
-      "Ethics"
-    ]
+    "labels": "Science,HandM"
   },
   {
     "link": "#link-121",
@@ -755,9 +711,7 @@
       ]
     },
     "anchor": "2a9e1c",
-    "labels": [
-      "Ethics"
-    ]
+    "labels": "Science"
   },
   {
     "link": "#link-122",
@@ -778,9 +732,7 @@
       ]
     },
     "anchor": "d61f16",
-    "labels": [
-      "Ethics"
-    ]
+    "labels": "Science,PandP,MandS"
   },
   {
     "link": "#link-123",
@@ -801,9 +753,7 @@
       ]
     },
     "anchor": "5ea43e",
-    "labels": [
-      "Ethics"
-    ]
+    "labels": "Science,PandP"
   },
   {
     "link": "#link-124",
@@ -869,9 +819,7 @@
       ]
     },
     "anchor": "e5b5f4",
-    "labels": [
-      "Ethics"
-    ]
+    "labels": "Tech,IandA"
   },
   {
     "link": "#link-125",
@@ -907,9 +855,7 @@
       ]
     },
     "anchor": "067f90",
-    "labels": [
-      "Engineering"
-    ]
+    "labels": "HandM,PandP"
   },
   {
     "link": "#link-126",
@@ -990,9 +936,7 @@
       ]
     },
     "anchor": "067f90",
-    "labels": [
-      "Engineering"
-    ]
+    "labels": "HandM,PandP,Shelley"
   },
   {
     "link": "#link-127",
@@ -1043,9 +987,7 @@
       ]
     },
     "anchor": "067f90",
-    "labels": [
-      "Ethics"
-    ]
+    "labels": "PandP"
   },
   {
     "link": "#link-128",
@@ -1126,9 +1068,7 @@
       ]
     },
     "anchor": "067f90",
-    "labels": [
-      "Ethics"
-    ]
+    "labels": "PandP"
   },
   {
     "link": "#link-129",
@@ -1209,10 +1149,7 @@
       ]
     },
     "anchor": "4b2b9b",
-    "labels": [
-      "Engineering",
-      "Ethics"
-    ]
+    "labels": "Tech,HandM,IandA"
   },
   {
     "link": "#link-130",
@@ -1233,9 +1170,7 @@
       ]
     },
     "anchor": "4b2b9b",
-    "labels": [
-      "Engineering"
-    ]
+    "labels": "Science"
   },
   {
     "link": "#link-131",
@@ -1256,9 +1191,7 @@
       ]
     },
     "anchor": "4b2b9b",
-    "labels": [
-      "Engineering"
-    ]
+    "labels": "PandP"
   },
   {
     "link": "#link-132",
@@ -1279,9 +1212,7 @@
       ]
     },
     "anchor": "4b2b9b",
-    "labels": [
-      "Engineering"
-    ]
+    "labels": "MandS"
   },
   {
     "link": "#link-133",
@@ -1362,10 +1293,7 @@
       ]
     },
     "anchor": "43a4a8",
-    "labels": [
-      "Engineering",
-      "Ethics"
-    ]
+    "labels": "PandP,EandI,MandS"
   },
   {
     "link": "#link-134",
@@ -1386,9 +1314,7 @@
       ]
     },
     "anchor": "43a4a8",
-    "labels": [
-      "Ethics"
-    ]
+    "labels": "Science,HandM,MandS"
   },
   {
     "link": "#link-135",
@@ -1409,9 +1335,7 @@
       ]
     },
     "anchor": "43a4a8",
-    "labels": [
-      "Engineering"
-    ]
+    "labels": "MandS"
   },
   {
     "link": "#link-136",
@@ -1432,9 +1356,7 @@
       ]
     },
     "anchor": "990b9a",
-    "labels": [
-      "Engineering"
-    ]
+    "labels": "MandS"
   },
   {
     "link": "#link-137",
@@ -1455,9 +1377,7 @@
       ]
     },
     "anchor": "7063c1",
-    "labels": [
-      "Ethics"
-    ]
+    "labels": "Science,Tech,HandM"
   },
   {
     "link": "#link-138",
@@ -1478,9 +1398,7 @@
       ]
     },
     "anchor": "b7f0b5",
-    "labels": [
-      "Engineering"
-    ]
+    "labels": "MandS"
   },
   {
     "link": "#link-139",
@@ -1501,10 +1419,7 @@
       ]
     },
     "anchor": "b7f0b5",
-    "labels": [
-      "Engineering",
-      "Ethics"
-    ]
+    "labels": "PandP,MandS"
   },
   {
     "link": "#link-140",
@@ -1525,10 +1440,7 @@
       ]
     },
     "anchor": "87b0ad",
-    "labels": [
-      "Engineering",
-      "Ethics"
-    ]
+    "labels": "PandP"
   },
   {
     "link": "#link-141",
@@ -1564,10 +1476,7 @@
       ]
     },
     "anchor": "cf96d2",
-    "labels": [
-      "Engineering",
-      "Ethics"
-    ]
+    "labels": "IandA"
   },
   {
     "link": "#link-142",
@@ -1588,9 +1497,7 @@
       ]
     },
     "anchor": "d4dd40",
-    "labels": [
-      "Engineering"
-    ]
+    "labels": "MandS"
   },
   {
     "link": "#link-143",
@@ -1611,9 +1518,7 @@
       ]
     },
     "anchor": "c4b765",
-    "labels": [
-      "Engineering"
-    ]
+    "labels": "Shelley,IandA"
   },
   {
     "link": "#link-144",
@@ -1634,10 +1539,7 @@
       ]
     },
     "anchor": "da42d1",
-    "labels": [
-      "Engineering",
-      "Ethics"
-    ]
+    "labels": "PandP"
   },
   {
     "link": "#link-145",
@@ -1658,9 +1560,7 @@
       ]
     },
     "anchor": "899357",
-    "labels": [
-      "Ethics"
-    ]
+    "labels": "MandS"
   },
   {
     "link": "#link-146",
@@ -1681,9 +1581,7 @@
       ]
     },
     "anchor": "899357",
-    "labels": [
-      "Ethics"
-    ]
+    "labels": "HandM,MandS"
   },
   {
     "link": "#link-147",
@@ -1734,10 +1632,7 @@
       ]
     },
     "anchor": "d5e770",
-    "labels": [
-      "Engineering",
-      "Ethics"
-    ]
+    "labels": "PandP,IandA"
   },
   {
     "link": "#link-148",
@@ -1773,9 +1668,7 @@
       ]
     },
     "anchor": "49349f",
-    "labels": [
-      "Engineering"
-    ]
+    "labels": "PandP,MandS"
   },
   {
     "link": "#link-149",
@@ -1796,9 +1689,7 @@
       ]
     },
     "anchor": "90817e",
-    "labels": [
-      "Ethics"
-    ]
+    "labels": "IandA,MandS"
   },
   {
     "link": "#link-150",
@@ -1819,9 +1710,7 @@
       ]
     },
     "anchor": "ece3ff",
-    "labels": [
-      "Engineering"
-    ]
+    "labels": "MandS"
   },
   {
     "link": "#link-151",
@@ -1857,10 +1746,7 @@
       ]
     },
     "anchor": "2f4b90",
-    "labels": [
-      "Engineering",
-      "Ethics"
-    ]
+    "labels": "Tech,HandM,PandP"
   },
   {
     "link": "#link-267",
@@ -2009,6 +1895,25 @@
             },
             {
               "type": "Text",
+              "content": "\n\t\t\t"
+            },
+            {
+              "type": "Element",
+              "tagName": "div",
+              "attributes": {
+                "className": [
+                  "footnote-lens"
+                ]
+              },
+              "children": [
+                {
+                  "type": "Text",
+                  "content": "PandP,MandS"
+                }
+              ]
+            },
+            {
+              "type": "Text",
               "content": "\n\t\t"
             }
           ]
@@ -2087,6 +1992,25 @@
                 {
                   "type": "Text",
                   "content": "Joel Gereboff."
+                }
+              ]
+            },
+            {
+              "type": "Text",
+              "content": "\n\t\t\t"
+            },
+            {
+              "type": "Element",
+              "tagName": "div",
+              "attributes": {
+                "className": [
+                  "footnote-lens"
+                ]
+              },
+              "children": [
+                {
+                  "type": "Text",
+                  "content": "MandS"
                 }
               ]
             },
@@ -2174,9 +2098,7 @@
       ]
     },
     "anchor": "a00af1",
-    "labels": [
-      "Engineering"
-    ]
+    "labels": "MandS"
   },
   {
     "link": "#link-267",
@@ -2325,6 +2247,25 @@
             },
             {
               "type": "Text",
+              "content": "\n\t\t\t"
+            },
+            {
+              "type": "Element",
+              "tagName": "div",
+              "attributes": {
+                "className": [
+                  "footnote-lens"
+                ]
+              },
+              "children": [
+                {
+                  "type": "Text",
+                  "content": "PandP,MandS"
+                }
+              ]
+            },
+            {
+              "type": "Text",
               "content": "\n\t\t"
             }
           ]
@@ -2403,6 +2344,25 @@
                 {
                   "type": "Text",
                   "content": "Joel Gereboff."
+                }
+              ]
+            },
+            {
+              "type": "Text",
+              "content": "\n\t\t\t"
+            },
+            {
+              "type": "Element",
+              "tagName": "div",
+              "attributes": {
+                "className": [
+                  "footnote-lens"
+                ]
+              },
+              "children": [
+                {
+                  "type": "Text",
+                  "content": "MandS"
                 }
               ]
             },
@@ -2490,9 +2450,7 @@
       ]
     },
     "anchor": "a00af1",
-    "labels": [
-      "Ethics"
-    ]
+    "labels": "MandS"
   },
   {
     "link": "#link-266",
@@ -2513,9 +2471,7 @@
       ]
     },
     "anchor": "3c432d",
-    "labels": [
-      "Engineering"
-    ]
+    "labels": "MandS"
   },
   {
     "link": "#link-267",
@@ -2536,9 +2492,7 @@
       ]
     },
     "anchor": "a00af1",
-    "labels": [
-      "Engineering"
-    ]
+    "labels": null
   },
   {
     "link": "#link-268",
@@ -2604,9 +2558,7 @@
       ]
     },
     "anchor": "3891fe",
-    "labels": [
-      "Ethics"
-    ]
+    "labels": "Science,Tech,MandS"
   },
   {
     "link": "#link-269",
@@ -2627,9 +2579,7 @@
       ]
     },
     "anchor": "856f35",
-    "labels": [
-      "Ethics"
-    ]
+    "labels": "MandS"
   },
   {
     "link": "#link-270",
@@ -2650,9 +2600,7 @@
       ]
     },
     "anchor": "9aabf7",
-    "labels": [
-      "Ethics"
-    ]
+    "labels": "PandP"
   },
   {
     "link": "#link-271",
@@ -2688,10 +2636,7 @@
       ]
     },
     "anchor": "9aabf7",
-    "labels": [
-      "Engineering",
-      "Ethics"
-    ]
+    "labels": "PandP,IandA"
   },
   {
     "link": "#link-272",
@@ -2712,9 +2657,7 @@
       ]
     },
     "anchor": "9aabf7",
-    "labels": [
-      "Engineering"
-    ]
+    "labels": "MandS"
   },
   {
     "link": "#link-273",
@@ -2735,9 +2678,7 @@
       ]
     },
     "anchor": "7efd6f",
-    "labels": [
-      "Engineering"
-    ]
+    "labels": "HandM,PandP"
   },
   {
     "link": "#link-274",
@@ -2758,9 +2699,7 @@
       ]
     },
     "anchor": "fa25cc",
-    "labels": [
-      "Engineering"
-    ]
+    "labels": "PandP,Shelley,MandS"
   },
   {
     "link": "#link-275",
@@ -2781,34 +2720,7 @@
       ]
     },
     "anchor": "27f4ce",
-    "labels": [
-      "Engineering",
-      "Ethics"
-    ]
-  },
-  {
-    "link": "#link-302",
-    "author": "Mary Drago",
-    "content": {
-      "type": "Element",
-      "tagName": "div",
-      "attributes": {
-        "className": [
-          "footnote-content"
-        ]
-      },
-      "children": [
-        {
-          "type": "Text",
-          "content": "Victor has reason to distrust the creature. As in Aesop’s fable of the boy who cries wolf, once trust is lost, it is difficult to rebuild. Here Victor is moved to compassion by the creature’s request, but he remembers the evil acts the creature has performed and now wonders if he can believe anything the creature says. Consider the research claims of scientists who have been caught in a lie—every claim after the lie is suddenly suspect, regardless of its authenticity. For example, Hwang Woo-suk, a Korean scientist, fraudulently claimed he had created human embryonic stem cells through cloning, so his return to the scientific world of cloning has been reduced to the cloning of animals."
-        }
-      ]
-    },
-    "anchor": "0dd384",
-    "labels": [
-      "Engineering",
-      "Ethics"
-    ]
+    "labels": "PandP"
   },
   {
     "link": "#link-277",
@@ -2829,9 +2741,7 @@
       ]
     },
     "anchor": "99cce0",
-    "labels": [
-      "Engineering"
-    ]
+    "labels": "Tech,PandP"
   },
   {
     "link": "#link-278",
@@ -2852,9 +2762,7 @@
       ]
     },
     "anchor": "a4cf91",
-    "labels": [
-      "Ethics"
-    ]
+    "labels": "HandM"
   },
   {
     "link": "#link-279",
@@ -2875,9 +2783,7 @@
       ]
     },
     "anchor": "969b19",
-    "labels": [
-      "Engineering"
-    ]
+    "labels": "HandM"
   },
   {
     "link": "#link-280",
@@ -2898,10 +2804,7 @@
       ]
     },
     "anchor": "7467da",
-    "labels": [
-      "Engineering",
-      "Ethics"
-    ]
+    "labels": "PandP"
   },
   {
     "link": "#link-281",
@@ -2967,10 +2870,7 @@
       ]
     },
     "anchor": "7467da",
-    "labels": [
-      "Engineering",
-      "Ethics"
-    ]
+    "labels": "PandP,EandI"
   },
   {
     "link": "#link-282",
@@ -2991,9 +2891,7 @@
       ]
     },
     "anchor": "6f2862",
-    "labels": [
-      "Engineering"
-    ]
+    "labels": "Science,MandS"
   },
   {
     "link": "#link-283",
@@ -3074,10 +2972,7 @@
       ]
     },
     "anchor": "b0fdf1",
-    "labels": [
-      "Engineering",
-      "Ethics"
-    ]
+    "labels": "PandP,Shelley,EandI"
   },
   {
     "link": "#link-284",
@@ -3098,9 +2993,7 @@
       ]
     },
     "anchor": "adf944",
-    "labels": [
-      "Ethics"
-    ]
+    "labels": "EandI"
   },
   {
     "link": "#link-285",
@@ -3121,9 +3014,7 @@
       ]
     },
     "anchor": "887722",
-    "labels": [
-      "Ethics"
-    ]
+    "labels": "IandA,EandI"
   },
   {
     "link": "#link-286",
@@ -3144,9 +3035,7 @@
       ]
     },
     "anchor": "7c47ec",
-    "labels": [
-      "Engineering"
-    ]
+    "labels": "PandP"
   },
   {
     "link": "#link-287",
@@ -3257,9 +3146,7 @@
       ]
     },
     "anchor": "a1b94a",
-    "labels": [
-      "Ethics"
-    ]
+    "labels": "Science,Tech,HandM,IandA"
   },
   {
     "link": "#link-288",
@@ -3280,9 +3167,7 @@
       ]
     },
     "anchor": "a1b94a",
-    "labels": [
-      "Ethics"
-    ]
+    "labels": "EandI"
   },
   {
     "link": "#link-289",
@@ -3303,10 +3188,7 @@
       ]
     },
     "anchor": "a1b94a",
-    "labels": [
-      "Engineering",
-      "Ethics"
-    ]
+    "labels": "HandM,EandI"
   },
   {
     "link": "#link-290",
@@ -3327,10 +3209,7 @@
       ]
     },
     "anchor": "cf47ba",
-    "labels": [
-      "Engineering",
-      "Ethics"
-    ]
+    "labels": "MandS"
   },
   {
     "link": "#link-291",
@@ -3396,10 +3275,7 @@
       ]
     },
     "anchor": "d62a19",
-    "labels": [
-      "Engineering",
-      "Ethics"
-    ]
+    "labels": "PandP,Shelley,EandI"
   },
   {
     "link": "#link-292",
@@ -3420,10 +3296,7 @@
       ]
     },
     "anchor": "a51de2",
-    "labels": [
-      "Engineering",
-      "Ethics"
-    ]
+    "labels": "MandS"
   },
   {
     "link": "#link-293",
@@ -3489,10 +3362,7 @@
       ]
     },
     "anchor": "ee6095",
-    "labels": [
-      "Engineering",
-      "Ethics"
-    ]
+    "labels": "PandP,Shelley,IandA"
   },
   {
     "link": "#link-294",
@@ -3573,10 +3443,7 @@
       ]
     },
     "anchor": "992593",
-    "labels": [
-      "Engineering",
-      "Ethics"
-    ]
+    "labels": "Science,HandM,EandI"
   },
   {
     "link": "#link-295",
@@ -3627,9 +3494,7 @@
       ]
     },
     "anchor": "5a94a9",
-    "labels": [
-      "Engineering"
-    ]
+    "labels": "Tech"
   },
   {
     "link": "#link-296",
@@ -3650,9 +3515,7 @@
       ]
     },
     "anchor": "c77b46",
-    "labels": [
-      "Engineering"
-    ]
+    "labels": "PandP,EandI"
   },
   {
     "link": "#link-297",
@@ -3718,9 +3581,7 @@
       ]
     },
     "anchor": "c77b46",
-    "labels": [
-      "Ethics"
-    ]
+    "labels": "HandM,EandI,MandS"
   },
   {
     "link": "#link-298",
@@ -3741,9 +3602,7 @@
       ]
     },
     "anchor": "3773df",
-    "labels": [
-      "Ethics"
-    ]
+    "labels": "Science,EandI"
   },
   {
     "link": "#link-299",
@@ -3779,9 +3638,7 @@
       ]
     },
     "anchor": "c36216",
-    "labels": [
-      "Engineering"
-    ]
+    "labels": "IandA"
   },
   {
     "link": "#link-300",
@@ -3802,9 +3659,7 @@
       ]
     },
     "anchor": "9c3f8f",
-    "labels": [
-      "Engineering"
-    ]
+    "labels": "Shelley,EandI"
   },
   {
     "link": "#link-301",
@@ -3930,9 +3785,7 @@
       ]
     },
     "anchor": "8df5e4",
-    "labels": [
-      "Ethics"
-    ]
+    "labels": "PandP,EandI"
   },
   {
     "link": "#link-302",
@@ -3953,9 +3806,7 @@
       ]
     },
     "anchor": "0dd384",
-    "labels": [
-      "Ethics"
-    ]
+    "labels": "Science,MandS"
   },
   {
     "link": "#link-34",
@@ -3976,9 +3827,7 @@
       ]
     },
     "anchor": "773d19",
-    "labels": [
-      "Ethics"
-    ]
+    "labels": "MandS"
   },
   {
     "link": "#link-35",
@@ -3999,9 +3848,7 @@
       ]
     },
     "anchor": "506f43",
-    "labels": [
-      "Ethics"
-    ]
+    "labels": "EandI,MandS"
   },
   {
     "link": "#link-36",
@@ -4022,9 +3869,7 @@
       ]
     },
     "anchor": "2b9a27",
-    "labels": [
-      "Ethics"
-    ]
+    "labels": "Shelley,EandI"
   },
   {
     "link": "#link-37",
@@ -4045,10 +3890,7 @@
       ]
     },
     "anchor": "36b1fb",
-    "labels": [
-      "Engineering",
-      "Ethics"
-    ]
+    "labels": "Shelley,IandA"
   },
   {
     "link": "#link-38",
@@ -4069,9 +3911,7 @@
       ]
     },
     "anchor": "c014a1",
-    "labels": [
-      "Ethics"
-    ]
+    "labels": "Shelley,IandA"
   },
   {
     "link": "#link-39",
@@ -4107,10 +3947,7 @@
       ]
     },
     "anchor": "c0e5ba",
-    "labels": [
-      "Engineering",
-      "Ethics"
-    ]
+    "labels": "Shelley,IandA"
   },
   {
     "link": "#link-40",
@@ -4131,9 +3968,7 @@
       ]
     },
     "anchor": "bd3d34",
-    "labels": [
-      "Ethics"
-    ]
+    "labels": "MandS"
   },
   {
     "link": "#link-41",
@@ -4169,9 +4004,7 @@
       ]
     },
     "anchor": "2f702a",
-    "labels": [
-      "Ethics"
-    ]
+    "labels": "PandP,Shelley,EandI"
   },
   {
     "link": "#link-42",
@@ -4192,9 +4025,7 @@
       ]
     },
     "anchor": "6dad99",
-    "labels": [
-      "Engineering"
-    ]
+    "labels": "MandS"
   },
   {
     "link": "#link-43",
@@ -4230,10 +4061,7 @@
       ]
     },
     "anchor": "c51661",
-    "labels": [
-      "Engineering",
-      "Ethics"
-    ]
+    "labels": "Tech,PandP,IandA,EandI"
   },
   {
     "link": "#link-44",
@@ -4254,9 +4082,7 @@
       ]
     },
     "anchor": "47cfd4",
-    "labels": [
-      "Ethics"
-    ]
+    "labels": "MandS"
   },
   {
     "link": "#link-45",
@@ -4277,9 +4103,7 @@
       ]
     },
     "anchor": "db7a6f",
-    "labels": [
-      "Engineering"
-    ]
+    "labels": "PandP,MandS"
   },
   {
     "link": "#link-46",
@@ -4300,9 +4124,7 @@
       ]
     },
     "anchor": "320474",
-    "labels": [
-      "Engineering"
-    ]
+    "labels": "HandM,PandP"
   },
   {
     "link": "#link-47",
@@ -4323,9 +4145,7 @@
       ]
     },
     "anchor": "f8fc30",
-    "labels": [
-      "Engineering"
-    ]
+    "labels": "PandP,MandS"
   },
   {
     "link": "#link-48",
@@ -4346,9 +4166,7 @@
       ]
     },
     "anchor": "43fb01",
-    "labels": [
-      "Engineering"
-    ]
+    "labels": "PandP"
   },
   {
     "link": "#link-49",
@@ -4369,9 +4187,7 @@
       ]
     },
     "anchor": "69f0b1",
-    "labels": [
-      "Engineering"
-    ]
+    "labels": "MandS"
   },
   {
     "link": "#link-50",
@@ -4392,10 +4208,7 @@
       ]
     },
     "anchor": "a77f92",
-    "labels": [
-      "Engineering",
-      "Ethics"
-    ]
+    "labels": "IandA"
   },
   {
     "link": "#link-51",
@@ -4416,9 +4229,7 @@
       ]
     },
     "anchor": "781117",
-    "labels": [
-      "Engineering"
-    ]
+    "labels": "MandS"
   },
   {
     "link": "#link-52",
@@ -4439,9 +4250,7 @@
       ]
     },
     "anchor": "cf0492",
-    "labels": [
-      "Engineering"
-    ]
+    "labels": "PandP,MandS"
   },
   {
     "link": "#link-54",
@@ -4462,10 +4271,7 @@
       ]
     },
     "anchor": "154fa9",
-    "labels": [
-      "Engineering",
-      "Ethics"
-    ]
+    "labels": "PandP"
   },
   {
     "link": "#link-55",
@@ -4486,9 +4292,7 @@
       ]
     },
     "anchor": "efc81c",
-    "labels": [
-      "Engineering"
-    ]
+    "labels": "MandS"
   },
   {
     "link": "#link-56",
@@ -4509,10 +4313,7 @@
       ]
     },
     "anchor": "2a7199",
-    "labels": [
-      "Engineering",
-      "Ethics"
-    ]
+    "labels": "MandS"
   },
   {
     "link": "#link-57",
@@ -4533,10 +4334,7 @@
       ]
     },
     "anchor": "af1794",
-    "labels": [
-      "Engineering",
-      "Ethics"
-    ]
+    "labels": "HandM,PandP"
   },
   {
     "link": "#link-58",
@@ -4557,10 +4355,7 @@
       ]
     },
     "anchor": "08fb4b",
-    "labels": [
-      "Engineering",
-      "Ethics"
-    ]
+    "labels": "Science,PandP"
   },
   {
     "link": "#link-59",
@@ -4581,9 +4376,7 @@
       ]
     },
     "anchor": "e89914",
-    "labels": [
-      "Ethics"
-    ]
+    "labels": "MandS"
   },
   {
     "link": "#link-60",
@@ -4634,9 +4427,7 @@
       ]
     },
     "anchor": "540610",
-    "labels": [
-      "Ethics"
-    ]
+    "labels": "Tech"
   },
   {
     "link": "#link-61",
@@ -4702,8 +4493,6 @@
       ]
     },
     "anchor": "0f15bd",
-    "labels": [
-      "Engineering"
-    ]
+    "labels": "Tech,PandP,IandA"
   }
 ]
