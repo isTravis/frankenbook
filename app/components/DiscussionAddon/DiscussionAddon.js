@@ -5,16 +5,7 @@ import DiscussionsWrapper from './DiscussionsWrapper';
 const propTypes = {
 	routerContext: PropTypes.object.isRequired,
 	storeContext: PropTypes.object.isRequired,
-	// discussions: PropTypes.array,
-	// userId: PropTypes.string,
-	// handleReplySubmit: PropTypes.func.isRequired,
-	// replySubmitLoading: PropTypes.bool,
 };
-// const defaultProps = {
-// 	discussions: [],
-// 	userId: undefined,
-// 	replySubmitLoading: false,
-// };
 
 class DiscussionAddon extends Component {
 	static schema = (props)=> {
@@ -31,28 +22,20 @@ class DiscussionAddon extends Component {
 					},
 					toEditable(node) {
 						// return null;
-						return <DiscussionsWrapper
-							parentHash={node.attrs.parentHash}
-							routerContext={props.routerContext}
-							storeContext={props.storeContext}
-							// discussions={props.discussions}
-							// handleReplySubmit={props.userId}
-							// replySubmitLoading={props.handleReplySubmit}
-							// userId={props.replySubmitLoading}
-						/>
-					},
-					toStatic(node) {
-						// return <div>{node.attrs.parentHash}</div>;
-						// console.log(props);
 						return (
 							<DiscussionsWrapper
 								parentHash={node.attrs.parentHash}
 								routerContext={props.routerContext}
 								storeContext={props.storeContext}
-								// discussions={props.discussions}
-								// handleReplySubmit={props.userId}
-								// replySubmitLoading={props.handleReplySubmit}
-								// userId={props.replySubmitLoading}
+							/>
+						);
+					},
+					toStatic(node) {
+						return (
+							<DiscussionsWrapper
+								parentHash={node.attrs.parentHash}
+								routerContext={props.routerContext}
+								storeContext={props.storeContext}
 							/>
 						);
 					},
@@ -67,5 +50,4 @@ class DiscussionAddon extends Component {
 }
 
 DiscussionAddon.propTypes = propTypes;
-// DiscussionAddon.defaultProps = defaultProps;
 export default DiscussionAddon;

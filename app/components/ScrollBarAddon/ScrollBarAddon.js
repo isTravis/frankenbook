@@ -4,17 +4,11 @@ import PropTypes from 'prop-types';
 require('../ScrollBar/scrollBar.scss');
 
 const propTypes = {
-	// alwaysShow: PropTypes.bool,
-	// toc: PropTypes.array.isRequired,
 	documentClassName: PropTypes.string.isRequired,
-	view: PropTypes.object,
-	editorState: PropTypes.object,
 };
 
 const defaultProps = {
 	alwaysShow: true,
-	view: undefined,
-	editorState: undefined,
 };
 
 class ScrollBar extends Component {
@@ -23,46 +17,29 @@ class ScrollBar extends Component {
 		this.state = {
 			percentage: 0,
 			currentVal: undefined,
-			docRendered: false,
 			items: [],
 		};
 
 		this.wrapperElem = document.getElementsByClassName(this.props.documentClassName)[0];
-		// this.getRoots = this.getRoots.bind(this);
 		this.generateItems = this.generateItems.bind(this);
 		this.scrollEvent = this.scrollEvent.bind(this);
 		this.mouseDownEvent = this.mouseDownEvent.bind(this);
 		this.mouseMoveEvent = this.mouseMoveEvent.bind(this);
 		this.mouseUpEvent = this.mouseUpEvent.bind(this);
-
-		// this.toc = [];
-		// this.topOffsets = {};
-		// this.topOffsets = this.getTopOffsets(this.props.toc);
 	}
 
 	componentDidMount() {
 		this.wrapperElem.addEventListener('scroll', this.scrollEvent);
 		document.getElementsByClassName('scroll-bar')[0].addEventListener('mousedown', this.mouseDownEvent);
-		// this.topOffsets = this.getTopOffsets(this.props.toc);
 		if (!this.state.items.length) {
 			this.generateItems();
-			// const items = this.generateItems();
-			// this.setState({ items: items });
 		}
 	}
 
-	componentWillReceiveProps(nextProps) {
-		// console.log(nextProps.editorState.doc.content);
-		// if (!this.toc.length) {
-		// 	this.getRoots(nextProps.editorState.toJSON().doc);
-		// }
+	componentWillReceiveProps() {
 		if (!this.state.items.length) {
 			this.generateItems();
-			// const items = this.generateItems();
-			// this.setState({ items: items });
 		}
-		// this.topOffsets = this.getTopOffsets(this.toc);
-		// console.log(this.topOffsets);
 	}
 
 	componentWillUnmount() {
