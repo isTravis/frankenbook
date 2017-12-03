@@ -1,0 +1,94 @@
+.scroll-bar {
+	.tab, .bar, .current {
+		opacity: 0;
+		transition: .25s linear opacity;
+	}
+	&:hover {
+		.tab, .bar, .current {
+			opacity: 1;
+		}
+		background-color: rgba(255, 255, 255, 0.8);
+	}
+	
+	height: calc(100vh - 56px);
+	width: 85px;
+	position: fixed;
+	right: 0;
+	bottom: 0;
+	// overflow: hidden;
+	cursor: row-resize;
+	user-select: none;
+	z-index: 1;
+	background-color: rgba(255, 255, 255, 0.0);
+	.position {
+		position: absolute;
+		width: 10px;
+		height: 26px;
+		transform: translateY(-13px);
+		background: grey;
+		right: 0;
+		z-index: 4;
+	}
+	.bar-wrapper {
+		position: absolute;
+		width: 40px;
+		height: 2px;
+		right: 15px;
+		z-index: 3;
+		.bar {
+			width: 100%;
+			height: 100%;
+			// background: orange;
+			background: #E29E25;
+		}
+		.current {
+			position: absolute;
+			padding: 5px;
+			// background-color: orange;
+			background-color: #E29E25;
+			color: white;
+			right: calc(100% + 15px);
+			white-space: nowrap;
+			font-size: 14px;
+			top: -12px;
+			border-radius: 2px;
+		}
+	}
+	.tab {
+		// width: 100%;
+		padding: 0px 5px;
+		height: 16px;
+		position: absolute;
+		right: 15px;
+		text-align: right;
+		white-space: nowrap;
+		color: #888;
+		&.h1 {
+			background-color: white;
+			z-index: 2;
+		}
+		&.h2 {
+			background: #BBB;
+			width: 20px;
+			height: 3px;
+			overflow: hidden;
+			z-index: 1;
+			color: transparent;
+			border-radius: 5px;
+		}
+	}
+}
+
+@media only screen and (min-width: 900px) {
+	.scroll-bar {
+		.tab, .bar {
+			opacity: 1
+		}
+	}
+}
+
+@media print {
+	.scroll-bar {
+		display: none;
+	}
+}

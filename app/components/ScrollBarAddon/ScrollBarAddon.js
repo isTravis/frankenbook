@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 
-require('../ScrollBar/scrollBar.scss');
+require('./scrollBar.scss');
 
 const propTypes = {
 	documentClassName: PropTypes.string.isRequired,
