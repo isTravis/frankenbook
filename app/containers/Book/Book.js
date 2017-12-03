@@ -49,7 +49,7 @@ class Book extends Component {
 			this.toc.push({
 				tagName: content.tagName,
 				content: content.children[0].content,
-				hash: content.hash
+				// hash: content.hash
 			});
 		}
 		if (content.children) {

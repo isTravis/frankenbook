@@ -10,7 +10,7 @@ import FormattingMenu from '@pubpub/editor/addons/FormattingMenu';
 import HighlightMenu from '@pubpub/editor/addons/HighlightMenu';
 import InsertMenu from '@pubpub/editor/addons/InsertMenu';
 import Image from '@pubpub/editor/addons/Image';
-import ScrollBar from 'components/ScrollBar/ScrollBar';
+import ScrollBar from 'components/ScrollBarAddon/ScrollBarAddon';
 import Discussions from 'components/Discussions/Discussions';
 import DiscussionAddon from 'components/DiscussionAddon/DiscussionAddon';
 import { postDiscussion } from 'actions/discussions';
@@ -40,17 +40,8 @@ class Book extends Component {
 			updatedTime: new Date().getTime(),
 			docRendered: false,
 		};
-		this.toc = [];
-		this.getRoots(bookContent);
-	}
-	componentWillReceiveProps(nextProps) {
-		if (this.props.contentData.putIsLoading
-			&& !nextProps.contentData.putIsLoading
-			&& !nextProps.contentData.putError
-		) {
-			console.log('Set new updated time');
-			this.setState({ updatedTime: new Date().getTime() });
-		}
+		// this.toc = [];
+		// this.getRoots(bookContent);
 	}
 
 	getRoots(content) {
@@ -58,7 +49,7 @@ class Book extends Component {
 			this.toc.push({
 				tagName: `h${content.attrs.level}`,
 				content: content.content[0].text,
-				// hash: content.hash
+				hash: content.hash
 			});
 		}
 		if (content.content) {
@@ -78,9 +69,9 @@ class Book extends Component {
 					})}
 				</style>
 
-				{this.state.docRendered &&
+				{/* this.state.docRendered &&
 					<ScrollBar toc={this.toc} documentClassName={'book-wrapper'} />
-				}
+				*/}
 				<div className={'book-wrapper'}>
 					<div className={'container'}>
 						<div className={'row'}>
@@ -101,6 +92,7 @@ class Book extends Component {
 							key={this.state.updatedTime}
 							isReadOnly={true}
 						>
+							<ScrollBar toc={this.toc} documentClassName={'book-wrapper'} />
 							<Image
 								handleFileUpload={s3Upload}
 								handleResizeUrl={(url)=> { return getResizedUrl(url, 'fit-in', '800x0'); }}
