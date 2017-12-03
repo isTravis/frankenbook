@@ -47,7 +47,6 @@ class Book extends Component {
 					<div className={'book-content'}>
 						<Editor
 							initialContent={bookContent}
-							key={this.state.updatedTime}
 							isReadOnly={true}
 						>
 							<ScrollBar toc={this.toc} documentClassName={'book-wrapper'} />
