@@ -22,7 +22,9 @@
 			background-color: #E29E25;
 		}
 		&.add {
-			background-color: #CCC;
+			// background-color: #CCC;
+			opacity: 0;
+			transition: .2s linear opacity;
 		}
 	}
 	.pt-card {

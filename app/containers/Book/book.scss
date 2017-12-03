@@ -59,6 +59,11 @@
 					
 			// 	}
 			// }
+			&:hover {
+				.discussions .key.add {
+					opacity: 1;
+				}
+			}
 		}
 		pre {
 			white-space: pre-wrap;
