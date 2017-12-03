@@ -66,22 +66,21 @@ class Discussions extends Component {
 			return prev;
 		}, {});
 
-		if (!Object.keys(counts).length) {
-			return null;
-		}
+		// if (!Object.keys(counts).length) {
+		// 	return null;
+		// }
+		const discussionCount = Object.keys(counts).reduce((prev, curr)=> {
+			return prev + counts[curr];
+		}, 0);
 
 		return (
 			<div className={'discussions'}>
 				{!this.state.isOpen &&
 					<span className={'tags-wrapper'} tabIndex={-1} role={'button'} onClick={this.openDiscussions}>
-						{/* Object.keys(counts).map((key)=> {
-							return <span key={`${this.props.parentHash}-${key}`} className={`key ${key}`}>{counts[key]}</span>;
-						}) */}
-						<span className={'key count'}>
-							{Object.keys(counts).reduce((prev, curr)=> {
-								return prev + counts[curr];
-							}, 0)}
-						</span>
+						{discussionCount
+							? <span className={'key count'}>{discussionCount}</span>
+							: <span className={'key add'}>+</span>
+						}
 					</span>
 				}
 

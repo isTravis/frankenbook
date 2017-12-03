@@ -85,6 +85,10 @@
 			margin: 0em;
 			padding: 1em;
 		}
+		.highlight-menu .popover-wrapper {
+			 left: -40px !important;
+		    right: auto !important;
+		}
 		.highlight-background.permanent {
 			background-color: #F2E7DA !important;
 		}
