@@ -44,8 +44,11 @@ class ScrollBar extends Component {
 		this.wrapperElem.addEventListener('scroll', this.scrollEvent);
 		document.getElementsByClassName('scroll-bar')[0].addEventListener('mousedown', this.mouseDownEvent);
 		// this.topOffsets = this.getTopOffsets(this.props.toc);
-		const items = this.generateItems(this.props);
-		this.setState({ items: items });
+		if (!this.state.items.length) {
+			this.generateItems();
+			// const items = this.generateItems();
+			// this.setState({ items: items });
+		}
 	}
 
 	componentWillReceiveProps(nextProps) {
@@ -53,8 +56,11 @@ class ScrollBar extends Component {
 		// if (!this.toc.length) {
 		// 	this.getRoots(nextProps.editorState.toJSON().doc);
 		// }
-		const items = this.generateItems(nextProps);
-		this.setState({ items: items });
+		if (!this.state.items.length) {
+			this.generateItems();
+			// const items = this.generateItems();
+			// this.setState({ items: items });
+		}
 		// this.topOffsets = this.getTopOffsets(this.toc);
 		// console.log(this.topOffsets);
 	}
@@ -64,47 +70,25 @@ class ScrollBar extends Component {
 		document.getElementsByClassName('scroll-bar')[0].removeEventListener('mousedown', this.mouseDownEvent);
 	}
 
-	// getRoots(content) {
-	// 	if (content.type === 'heading' && content.attrs.level < 3) {
-	// 		this.toc.push({
-	// 			tagName: `h${content.attrs.level}`,
-	// 			content: content.content[0].text,
-	// 			hash: content.attrs.id
-	// 		});
-	// 	}
-	// 	if (content.content) {
-	// 		content.content.map((child)=> {
-	// 			return this.getRoots(child);
-	// 		});
-	// 	}
-	// }
-	generateItems(props) {
-		console.log('Calling gen items');
-		const doc = props.editorState.doc;
+	generateItems() {
 		const items = [];
-		const wrapperOffset = this.wrapperElem.scrollTop + this.wrapperElem.offsetTop;
 		const totalHeight = this.wrapperElem.scrollHeight;
 
-		for (let index = 0; index < doc.nodeSize - 1; index++) {
-			const currNode = doc.nodeAt(index);
-
-			if (currNode && currNode.type.name === 'heading' && currNode.attrs.level < 3) {
-				const topOffset = props.view.coordsAtPos(index).top + wrapperOffset;
-				const percentage = (topOffset / totalHeight) * 100;
-				items.push({
-					tagName: `h${currNode.attrs.level}`,
-					content: currNode.content.content[0].text,
-					hash: `node${index}`,
-					topOffset: percentage,
-				});
-			}
+		const headers = document.querySelectorAll('h1,h2');
+		for (let index = 0; index < headers.length; index++) {
+			const topOffset = headers[index].offsetTop;
+			const percentage = (topOffset / totalHeight) * 100;
+			items.push({
+				tagName: headers[index].tagName,
+				content: headers[index].innerText,
+				hash: `node${index}`,
+				topOffset: percentage,
+			});
 		}
-		
-		return items;
+		this.setState({ items: items });
 	}
 
 	scrollEvent() {
-		console.log('Calling scroll');
 		const percentage = (this.wrapperElem.scrollTop / this.wrapperElem.scrollHeight) * 100;
 		const percentages = this.state.items.sort((foo, bar)=> {
 			if (foo.topOffset > bar.topOffset) { return 1; }
@@ -153,8 +137,11 @@ class ScrollBar extends Component {
 
 				{this.state.items.map((item)=> {
 					return (
-						/*<div className={`tab ${item.tagName === 'h1' ? 'h1' : 'h2'}`} key={item.hash} style={{ top: `calc(${this.topOffsets[item.hash]}% - 2px)` }}>*/
-						<div className={`tab ${item.tagName === 'h1' ? 'h1' : 'h2'}`} key={item.hash} style={{ top: `calc(${item.topOffset}% - 2px)` }}>
+						<div
+							className={`tab ${item.tagName === 'H1' ? 'h1' : 'h2'}`}
+							key={item.hash}
+							style={{ top: `calc(${item.topOffset}% - 2px)` }}
+						>
 							{item.content}
 						</div>
 					);
