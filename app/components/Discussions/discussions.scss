@@ -17,15 +17,20 @@
 		position: relative;
 		top: -2px;
 		user-select: none;
-		&:first-of-type {
-			border-top-left-radius: 2px;
-			border-bottom-left-radius: 2px;
-			margin-left: 1em;
-		}
-		&:last-of-type {
-			border-top-right-radius: 2px;
-			border-bottom-right-radius: 2px;
-			margin-right: 1em;
+		margin: 0em 1em;
+		border-radius: 2px;
+		// &:first-of-type {
+		// 	border-top-left-radius: 2px;
+		// 	border-bottom-left-radius: 2px;
+		// 	margin-left: 1em;
+		// }
+		// &:last-of-type {
+		// 	border-top-right-radius: 2px;
+		// 	border-bottom-right-radius: 2px;
+		// 	margin-right: 1em;
+		// }
+		&.count {
+			background-color: #E29E25;
 		}
 	}
 	.pt-card {
