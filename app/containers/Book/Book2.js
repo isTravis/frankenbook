@@ -140,10 +140,10 @@ class Book extends Component {
 						</div>
 						
 						<Editor
-							ref={(ref)=> { this.editorRef = ref; console.log(ref);}}
+							ref={(ref)=> { this.editorRef = ref; }}
 							initialContent={contentData.json}
 							key={this.state.updatedTime}
-							onChange={(val)=> {console.log(val);}}
+							// onChange={(val)=> {console.log(val);}}
 							isReadOnly={false}
 						>
 							{!isReadOnly &&

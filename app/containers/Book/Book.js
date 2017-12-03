@@ -8,7 +8,7 @@ import ScrollBar from 'components/ScrollBar/ScrollBar';
 import Discussions from 'components/Discussions/Discussions';
 import { postDiscussion } from 'actions/discussions';
 
-const bookContent = require('source.json');
+const bookContent = require('bookSource.json');
 require('./book.scss');
 
 const propTypes = {

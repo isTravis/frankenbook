@@ -17,7 +17,7 @@ function removeEmptyNodes (nodes) {
 		return node.content.length;
 	}).filter((node) => {
 		if (node.content) {
-			return node.content.trim().length;
+			return !!node.content.trim().length;
 		}
 		return true; // Remove nodes with empty children
 	}).map((node)=> {
@@ -42,7 +42,7 @@ function removeWhitespace(nodes) {
 const json = himalaya.parse(html);
 const cleanJSON = removeWhitespace(json);
 
-fs.writeFile('static/source.json', JSON.stringify(cleanJSON[0], null, 2), 'utf8', ()=> {
+fs.writeFile('static/bookSource.json', JSON.stringify(cleanJSON[0], null, 2), 'utf8', ()=> {
 	console.log('Finished Processing');
 });
 

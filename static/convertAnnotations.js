@@ -6,11 +6,11 @@ const himalaya = require('himalaya');
 const hash = require('object-hash');
 
 const html = fs.readFileSync('static/source.html', { encoding: 'utf8' });
-const documentJSON = require('./source.json');
+const documentJSON = require('./bookSource.json');
 
 
 // Get link from footnote - if it exists
-// Check for sup that has associated link href (from source.json)
+// Check for sup that has associated link href (from bookSource.json)
 // Get parent p of that sup
 // Store annotation content, along with anchorHash
 
@@ -79,6 +79,37 @@ function findLinks(node, hash) {
 	}
 }
 
+function removeEmptyNodes (nodes) {
+	return nodes.filter(node => {
+		if (node.type === 'Element') {
+			node.children = removeEmptyNodes(node.children);
+			return true;
+		}
+		if (node.type === 'Tag-end') { return true; }
+		return node.content.length;
+	});
+}
+
+function stripWhitespace (nodes) {
+	return nodes.map(node => {
+		if (node.type === 'Element') {
+			node.children = stripWhitespace(node.children);
+		} else if (node.type === 'Tag-end') {
+			console.log('Got tag-end');
+		} else {
+			if (!node.content) {
+				console.log(node);
+			}
+			// node.content = node.content.trim();
+			node.content = node.content.replace(/^(\n|\t)*/, '').replace(/(\n|\t)*$/, '');
+		}
+		return node;
+	});
+}
+
+function removeWhitespace(nodes) {
+  return removeEmptyNodes(stripWhitespace(nodes))
+}
 function buildParagraphLinks(node) {
 	if (!node.children) { return null; }
 	if (node.tagName === 'p') {
@@ -115,7 +146,8 @@ buildParagraphLinks(documentJSON);
 
 
 const json = himalaya.parse(html);
-checkForFootnotes(json);
+const cleanedJSON = removeWhitespace(json);
+checkForFootnotes(cleanedJSON);
 const goodFootnotes = footnotes.filter((item)=> {
 	return footnoteLink(item);
 });

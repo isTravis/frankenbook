@@ -1,5 +1,435 @@
 [
   {
+    "link": "#link-91",
+    "author": "Jason Scott Robert",
+    "content": {
+      "type": "Element",
+      "tagName": "div",
+      "attributes": {
+        "className": [
+          "footnote-content"
+        ]
+      },
+      "children": [
+        {
+          "type": "Text",
+          "content": "Erasmus Darwin (1731–1802), a friend of Mary’s father, William Godwin, was a physician, naturalist, philosopher, and poet. He contributed an early formulation of a single origin for all life, which undergirded what came to be known as the theory of evolution as elaborated by his grandson, Charles Darwin."
+        }
+      ]
+    },
+    "anchor": "8646dc",
+    "labels": "Science,Shelley"
+  },
+  {
+    "link": "#link-92",
+    "author": "Ed Finn",
+    "content": {
+      "type": "Element",
+      "tagName": "div",
+      "attributes": {
+        "className": [
+          "footnote-content"
+        ]
+      },
+      "children": [
+        {
+          "type": "Text",
+          "content": "Lord George Gordon Byron (1788–1824) answered his own challenge that evening by writing the first paragraph of a vampire story inspired by the German ghost stories. John Polidori (1795–1821) later extended that beginning into “The Vampyre” (1819), a short story that went on to inspire Bram Stoker’s tremendously successful novel "
+        },
+        {
+          "type": "Element",
+          "tagName": "i",
+          "attributes": {},
+          "children": [
+            {
+              "type": "Text",
+              "content": "Dracula"
+            }
+          ]
+        },
+        {
+          "type": "Text",
+          "content": " in 1897."
+        }
+      ]
+    },
+    "anchor": "e7618f",
+    "labels": "Shelley,IandA"
+  },
+  {
+    "link": "#link-93",
+    "author": "Nicole Herbots",
+    "content": {
+      "type": "Element",
+      "tagName": "div",
+      "attributes": {
+        "className": [
+          "footnote-content"
+        ]
+      },
+      "children": [
+        {
+          "type": "Text",
+          "content": "When Captain Walton talks about the “wondrous power [of] the needle,” he talks about magnetism and its very first application in a compass. For centuries, people ascribed magical powers to magnetite and lodestones, until William Gilbert (1540–1603) first discovered the basic features of magnetism and the fact that Earth itself is a weak magnet. The links between electricity and magnetism were a major subject of scientific investigation during Mary’s lifetime, and a number of expeditions departed for the North and South Poles in the hopes of discovering the secrets of the planet’s magnetic field."
+        }
+      ]
+    },
+    "anchor": "0d8992",
+    "labels": "Science,Tech"
+  },
+  {
+    "link": "#link-94",
+    "author": "Braden Allenby",
+    "content": {
+      "type": "Element",
+      "tagName": "div",
+      "attributes": {
+        "className": [
+          "footnote-content"
+        ]
+      },
+      "children": [
+        {
+          "type": "Element",
+          "tagName": "p",
+          "attributes": {},
+          "children": [
+            {
+              "type": "Text",
+              "content": "For moderns, this comment may seem self-evident, if a little florid. But such Promethean ambition does not characterize all historical periods or all cultures or all individuals; rather, it reflects the interesting combination of curiosity, ambition, and historical perspective that coevolved with the European exploration of science and a profoundly multicultural world. Mary was writing at the close of the Age of Discovery, during which Europeans rounded the southern tip of Africa, “discovered” and colonized the New World, and circumnavigated the globe. Polar exploration was one remaining feat. It was also the age of romanticism, the paintings of Caspar David Friedrich (1774–1840) and Eugène Delacroix (1798–1863), as well as the music of Ludwig van Beethoven (1770–1827) and Hector Berlioz (1803–1869). This eagerness for exploration is express in “Ulysses,” the poem written in 1833 by Alfred, Lord Tennyson (1809–1892):"
+            }
+          ]
+        },
+        {
+          "type": "Element",
+          "tagName": "blockquote",
+          "attributes": {},
+          "children": [
+            {
+              "type": "Text",
+              "content": "I cannot rest from travel: I will drink\n\t\t\t\t\tLife to the lees: All times I have enjoy’d\n\t\t\t\t\tGreatly, have suffer’d greatly, both with those\n\t\t\t\t\tThat loved me, and alone, on shore, and when\n\t\t\t\t\tThro’ scudding drifts the rainy Hyades\n\t\t\t\t\tVext the dim sea: I am become a name;\n\t\t\t\t\tFor always roaming with a hungry heart.\n\t\t\t\t\t. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .\n\t\t\t\t\tI am a part of all that I have met;\n\t\t\t\t\tYet all experience is an arch wherethro’\n\t\t\t\t\tGleams that untravell’d world whose margin fades\n\t\t\t\t\tFor ever and forever when I move. (Tennyson 2004, 49)"
+            }
+          ]
+        },
+        {
+          "type": "Element",
+          "tagName": "p",
+          "attributes": {},
+          "children": [
+            {
+              "type": "Text",
+              "content": "The irony, at least to modern sensibilities, is that this romantic language befits the pursuit of art, not the rational pursuit of science."
+            }
+          ]
+        }
+      ]
+    },
+    "anchor": "0d8992",
+    "labels": "Science,IandA"
+  },
+  {
+    "link": "#link-95",
+    "author": "Ariel Anbar",
+    "content": {
+      "type": "Element",
+      "tagName": "div",
+      "attributes": {
+        "className": [
+          "footnote-content"
+        ]
+      },
+      "children": [
+        {
+          "type": "Text",
+          "content": "The phrase "
+        },
+        {
+          "type": "Element",
+          "tagName": "i",
+          "attributes": {},
+          "children": [
+            {
+              "type": "Text",
+              "content": "manifest destiny"
+            }
+          ]
+        },
+        {
+          "type": "Text",
+          "content": " emerged in nineteenth-century America. It described the notion that the expansion of the American people, culture, and institutions across North America was a mission of divine Providence, not merely one driven by practical need for more land and resources. But the concept is much more deeply rooted and widespread, appearing in the earliest Western writings in the form of the Promised Land of Abraham and his Israelite descendants. Robert Walton invokes the concept implicitly in his exploration, which seems to need no justification other than that it might help him to “accomplish some great purpose” (p. 5). By the nineteenth century, the development of science and industry not only facilitated such explorations but also made the conquest of knowledge itself into a frontier that began to rival the conquest of land in importance—and that was similarly justified in terms of a manifest destiny. The story of "
+        },
+        {
+          "type": "Element",
+          "tagName": "i",
+          "attributes": {},
+          "children": [
+            {
+              "type": "Text",
+              "content": "Frankenstein"
+            }
+          ]
+        },
+        {
+          "type": "Text",
+          "content": " mirrors this transformation as Walton’s determination to visit that which has never before been visited is juxtaposed alongside Victor’s determination to do that which has never before been done. We often use the metaphor of the frontier—for example, “frontiers of research”—in describing the reach of scientific inquiry. Worried that the American westward expansion and the manifest destiny that fueled it had run its course, MIT engineer and presidential adviser Vannevar Bush (1945) coined the phrase "
+        },
+        {
+          "type": "Element",
+          "tagName": "i",
+          "attributes": {},
+          "children": [
+            {
+              "type": "Text",
+              "content": "the endless frontier"
+            }
+          ]
+        },
+        {
+          "type": "Text",
+          "content": " for the title of a report issued to President Harry Truman toward the end of World War II. The report advocated for continued strong support of scientific research by the federal government after the war ended because scientific research could provide the inspiration and economic benefits that westward expansion had previously provided."
+        }
+      ]
+    },
+    "anchor": "0d8992",
+    "labels": "PandP"
+  },
+  {
+    "link": "#link-96",
+    "author": "Ron Broglio",
+    "content": {
+      "type": "Element",
+      "tagName": "div",
+      "attributes": {
+        "className": [
+          "footnote-content"
+        ]
+      },
+      "children": [
+        {
+          "type": "Text",
+          "content": "Throughout the novel, the problem of companionship recurs for Walton, for Victor, and for Victor’s creature. Friendship is one of the foundations for community because it connects the individual to a larger human endeavor—be it society, government, or scientific exploration. The novel explores the value of trust and camaraderie wherein one can divulge deep concerns, passions, and ambitions with another and so gain another’s insight into one’s own perspective. Throughout the novel, the failure to connect with a friend becomes a problem with serious consequences. Mary rarely has such companionship except, perhaps, with Percy Shelley. Percy’s friendship with Lord Byron is well documented and acclaimed as an example of romantic poets and thinkers who shared ideas and artistic passion."
+        }
+      ]
+    },
+    "anchor": "c09bd7",
+    "labels": "Shelley,EandI"
+  },
+  {
+    "link": "#link-97",
+    "author": "Mary Margaret Fonow",
+    "content": {
+      "type": "Element",
+      "tagName": "div",
+      "attributes": {
+        "className": [
+          "footnote-content"
+        ]
+      },
+      "children": [
+        {
+          "type": "Text",
+          "content": "There are two meanings to the word "
+        },
+        {
+          "type": "Element",
+          "tagName": "i",
+          "attributes": {},
+          "children": [
+            {
+              "type": "Text",
+              "content": "nobility"
+            }
+          ]
+        },
+        {
+          "type": "Text",
+          "content": ", and they are often conflated. The first refers to possessing a character with the highest qualities found in human beings, such as integrity, decency, honor, and goodness. But these qualities are often attributed to persons of the highest social rank in society—the second meaning of the word. The lieutenant, who gives up the woman he is engaged to when she says she loves another and generously provides her lover with the financial means to gain the acceptance of her family, goes well beyond what is expected. Perhaps this behavior earns him the exclamation point? Mary gives these noble qualities to Walton’s second in command, perhaps challenging the taken-for-granted hierarchy that typically ascribed these qualities to individuals at the top. Yet she qualifies this choice by stating that the lieutenant didn’t know any better, given that he spent so much time aboard a ship, further hinting that in the end his sacrifice was no great loss to him. In real life, Mary marries into a noble family that opposes her union with their son because of her father’s indebtedness."
+        }
+      ]
+    },
+    "anchor": "eb8e81",
+    "labels": "PandP,Shelley"
+  },
+  {
+    "link": "#link-98",
+    "author": "David H Guston.",
+    "content": {
+      "type": "Element",
+      "tagName": "div",
+      "attributes": {
+        "className": [
+          "footnote-content"
+        ]
+      },
+      "children": [
+        {
+          "type": "Text",
+          "content": "Mary has Captain Walton allude to the poem "
+        },
+        {
+          "type": "Element",
+          "tagName": "i",
+          "attributes": {},
+          "children": [
+            {
+              "type": "Text",
+              "content": "The Rime of the Ancient Mariner"
+            }
+          ]
+        },
+        {
+          "type": "Text",
+          "content": " (1798), written by Samuel Taylor Coleridge (1772–1834). In the poem, which Mary heard Coleridge reading during his many visits to the Godwin house, the title character kills an albatross that has been following his boat, turning a good luck sign into an ill omen."
+        }
+      ]
+    },
+    "anchor": "ad6620",
+    "labels": "IandA"
+  },
+  {
+    "link": "#link-99",
+    "author": "Joey Eschrich",
+    "content": {
+      "type": "Element",
+      "tagName": "div",
+      "attributes": {
+        "className": [
+          "footnote-content"
+        ]
+      },
+      "children": [
+        {
+          "type": "Element",
+          "tagName": "p",
+          "attributes": {},
+          "children": [
+            {
+              "type": "Text",
+              "content": "Throughout "
+            },
+            {
+              "type": "Element",
+              "tagName": "i",
+              "attributes": {},
+              "children": [
+                {
+                  "type": "Text",
+                  "content": "Frankenstein"
+                }
+              ]
+            },
+            {
+              "type": "Text",
+              "content": ", Mary utilizes an epistolary structure: significant sections of the novel are made up of letters exchanged among the characters. These letters are often long and tender, and they contain a wealth of personal details and endearments that do little to move the plot forward. This approach might seem like an inefficient storytelling strategy, but it is quite the opposite. Mary uses these letters strategically to emphasize the importance of the social bonds that give characters such as Victor and Captain Walton emotional sustenance during incredibly stressful times. The letters are tangible artifacts of emotional labor—the investments of time, wit, and emotional energy that make human relationships functional and rewarding. They contrast with the creature’s life and reveal precisely what he is missing. He has no one with whom to share his experiences and frustrations, so his life becomes unbearable, and he lashes out violently."
+            }
+          ]
+        },
+        {
+          "type": "Element",
+          "tagName": "p",
+          "attributes": {},
+          "children": [
+            {
+              "type": "Text",
+              "content": "Language is an important way that we show love and understanding as well as receive it. The laborious, solitary way that the creature acquires language, through scavenging books and eavesdropping, demonstrates just how removed he is from any form of nurturing social interaction."
+            }
+          ]
+        },
+        {
+          "type": "Element",
+          "tagName": "p",
+          "attributes": {},
+          "children": [
+            {
+              "type": "Text",
+              "content": "Walton narrowly avoids making the same mistake as Victor, pursuing scientific discovery without considering the safety and well-being of the people around him. Walton is luckily in continuous written contact with his sister, Margaret, who lovingly discourages him from going through with his expedition to the North Pole. Their conversation, conducted through a series of letters, might be what saves his life and the lives of his crew."
+            }
+          ]
+        }
+      ]
+    },
+    "anchor": "a92c99",
+    "labels": "EandI"
+  },
+  {
+    "link": "#link-100",
+    "author": "Mary Margaret Fonow",
+    "content": {
+      "type": "Element",
+      "tagName": "div",
+      "attributes": {
+        "className": [
+          "footnote-content"
+        ]
+      },
+      "children": [
+        {
+          "type": "Text",
+          "content": "This is how Victor appears to the leader of the rescuing ship, Captain Robert Walton, though Walton knows only that Victor is European and not comparable to the seemingly “savage” (p. 11) creature he is chasing. Even in his much diminished state, Victor’s noble qualities are apparent. Victor might become the noble friend Walton so longs for, someone of equal status who understands him and can provide wise counsel. Mary attributes both noble and not-so-noble qualities to Victor, but Walton will need to hear the full story before the complexities of Victor’s character are revealed."
+        }
+      ]
+    },
+    "anchor": "fde8c8",
+    "labels": "PandP,MandS"
+  },
+  {
+    "link": "#link-101",
+    "author": "Carlos Castillo-Chavez",
+    "content": {
+      "type": "Element",
+      "tagName": "div",
+      "attributes": {
+        "className": [
+          "footnote-content"
+        ]
+      },
+      "children": [
+        {
+          "type": "Text",
+          "content": "Robert Walton, in letters to his sister, Mrs. Saville, revisits the conditions of his own early life: “[my] education was neglected, yet I was passionately fond of reading … [and I] inherited the fortune of my cousin” (p. 4). The knowledge gained from understanding his own initial conditions may have inspired Walton’s decision to set challenging goals for himself. He seems to have worked hard at addressing some of his educational shortcomings as well as his limited perspective on hard work and hardship. Albert Bandura reminds us that “people motivate and guide their actions by setting themselves challenging goals and then mobilizing their skills and effort to reach them. After people attain the goal they have been pursuing, those with a strong sense of efficacy set higher goals for themselves” (1994, 265). Walton does not appear to be an exception. His intellectual isolation grows during this fateful voyage, with the need for finding a wiser, highly experienced, caring “companion” becoming of paramount importance. His cry for intellectual companionship, a mentor or mentors, is rewarded in two ways, with approval and intimacy. The value that Walton places on approval is rather telling: “I must own I felt a little proud, when my captain offered me the second dignity in the vessel, and entreated me to remain with the greatest earnestness; so valuable did he consider my services” (p. 5). However, it is the arrival of an educated, enigmatic stranger that brings forward the excitement that Walton places on intellectual companionship (mentor–mentee dynamics): he worries that he “should find no friend on the wide ocean; yet I have found a man … so gentle, yet so wise; his mind is so cultivated; and when he speaks, although his words are culled with the choicest art, yet they flow with rapidity and unparalleled eloquence” (p. 13). Walton finds a “true friend,” an intellectual companion, a great mentor, a divine wanderer “a celestial spirit, that has a halo around him” (p. 15)."
+        }
+      ]
+    },
+    "anchor": "a5dc54",
+    "labels": "PandP,MandS"
+  },
+  {
+    "link": "#link-102",
+    "author": "David H Guston.",
+    "content": {
+      "type": "Element",
+      "tagName": "div",
+      "attributes": {
+        "className": [
+          "footnote-content"
+        ]
+      },
+      "children": [
+        {
+          "type": "Text",
+          "content": "“How sharper than a serpent’s tooth it is To have a thankless child!” Perhaps Mary has Victor make this apparent reference to Shakespeare’s play "
+        },
+        {
+          "type": "Element",
+          "tagName": "i",
+          "attributes": {},
+          "children": [
+            {
+              "type": "Text",
+              "content": "King Lear"
+            }
+          ]
+        },
+        {
+          "type": "Text",
+          "content": " (I.iv.288–289) to show that he recognizes his paternity of the creature, but, like Lear, he still does not recognize his own full measure of culpability and responsibility."
+        }
+      ]
+    },
+    "anchor": "51aa2c",
+    "labels": "IandA"
+  },
+  {
     "link": "#link-103",
     "author": "Mary Margaret Fonow",
     "content": {
@@ -69,18 +499,10 @@
       },
       "children": [
         {
-          "type": "Text",
-          "content": "\n\t\t\t\t"
-        },
-        {
           "type": "Element",
           "tagName": "p",
           "attributes": {},
           "children": [
-            {
-              "type": "Text",
-              "content": "\n\t\t\t\t\t"
-            },
             {
               "type": "Element",
               "tagName": "i",
@@ -139,13 +561,9 @@
             },
             {
               "type": "Text",
-              "content": ": “our family was not scientifical,” says Victor in describing the Frankensteins (p. 22).\n\t\t\t\t"
+              "content": ": “our family was not scientifical,” says Victor in describing the Frankensteins (p. 22)."
             }
           ]
-        },
-        {
-          "type": "Text",
-          "content": "\n\t\t\t\t"
         },
         {
           "type": "Element",
@@ -154,13 +572,9 @@
           "children": [
             {
               "type": "Text",
-              "content": "\n\t\t\t\t\tA biography of Humphry Davy (Golinksi 2016, 1) that focuses on how Davy, who was acquainted with Mary’s father William Godwin and whose work was read by Mary, became “a scientist before there was such a thing,” uses quotations from Mary’s novel as the epigraphs to each chapter, as if to suggest that Davy’s difficulty in forging a scientific career is associated with and can be communicated by Mary’s portrayal of Victor’s similar difficulties.\n\t\t\t\t"
+              "content": "A biography of Humphry Davy (Golinksi 2016, 1) that focuses on how Davy, who was acquainted with Mary’s father William Godwin and whose work was read by Mary, became “a scientist before there was such a thing,” uses quotations from Mary’s novel as the epigraphs to each chapter, as if to suggest that Davy’s difficulty in forging a scientific career is associated with and can be communicated by Mary’s portrayal of Victor’s similar difficulties."
             }
           ]
-        },
-        {
-          "type": "Text",
-          "content": "\n\t\t\t"
         }
       ]
     },
@@ -273,17 +687,13 @@
       },
       "children": [
         {
-          "type": "Text",
-          "content": "\n\t\t\t\t"
-        },
-        {
           "type": "Element",
           "tagName": "p",
           "attributes": {},
           "children": [
             {
               "type": "Text",
-              "content": "\n\t\t\t\t\tCornelius Agrippa remains among the most intellectually compelling magical theologians and natural philosophers of his time. His magnum opus, "
+              "content": "Cornelius Agrippa remains among the most intellectually compelling magical theologians and natural philosophers of his time. His magnum opus, "
             },
             {
               "type": "Element",
@@ -298,13 +708,9 @@
             },
             {
               "type": "Text",
-              "content": " (Three books of occult philosophy), occupied the majority of his life, starting with a juvenile manuscript dedicated to his teacher, Abbot Trithemius of Sponheim; it began to circulate in 1509–1510 and had a first printed edition in 1531 and a final edited edition in 1533. The book attained wide print circulation, appearing in German, Latin, and French editions before 1535 as well as in reprints and in English throughout the seventeenth and eighteenth centuries. Agrippa’s reputation as a dark magician also grew, despite the lack of evidence to support it, and a fourth book spuriously attributed to him was in fact a book of dark magic, appearing in English in the seventeenth century and outselling the original work through the nineteenth century.\n\t\t\t\t"
+              "content": " (Three books of occult philosophy), occupied the majority of his life, starting with a juvenile manuscript dedicated to his teacher, Abbot Trithemius of Sponheim; it began to circulate in 1509–1510 and had a first printed edition in 1531 and a final edited edition in 1533. The book attained wide print circulation, appearing in German, Latin, and French editions before 1535 as well as in reprints and in English throughout the seventeenth and eighteenth centuries. Agrippa’s reputation as a dark magician also grew, despite the lack of evidence to support it, and a fourth book spuriously attributed to him was in fact a book of dark magic, appearing in English in the seventeenth century and outselling the original work through the nineteenth century."
             }
           ]
-        },
-        {
-          "type": "Text",
-          "content": "\n\t\t\t\t"
         },
         {
           "type": "Element",
@@ -313,7 +719,7 @@
           "children": [
             {
               "type": "Text",
-              "content": "\n\t\t\t\t\tIt is not clear whether Victor Frankenstein read "
+              "content": "It is not clear whether Victor Frankenstein read "
             },
             {
               "type": "Element",
@@ -343,13 +749,9 @@
             },
             {
               "type": "Text",
-              "content": " clearly engages with Neoplatonic philosophy and sees a clear path by which the study of God’s work improves the adept, it is unique in that Agrippa also includes the possibility for the living adept to transcend the natural sphere through magical work and to re-enter the godhead. Through the spiritual improvement (requiring the adept to shed human desires and ambitions) required to attain such magical skills, Agrippa believes the adept would use his magical skills to continue the world order conceived by God—perhaps seeing the adept as an important source of defense in the case of an apocalypse. It is not clear, however, what would happen if a disciplined but evil adept achieved the godhead—perhaps he could derail the order of the world. At any rate, Victor’s sense that he can equal God might have come from this text because he read it outside the context of Renaissance theology and without understanding the tremendous discipline required of a magical adept. His creature serves as an object lesson about the threats posed by undisciplined, ambition-fueled, and ego-driven science. It does not operate as a corrective to the problems of Renaissance natural philosophy solved by modern science but instead serves as evidence for the importance of the increasingly common peer-reviewed and institutionally defined investigations that came to be known as science in the early nineteenth century.\n\t\t\t\t"
+              "content": " clearly engages with Neoplatonic philosophy and sees a clear path by which the study of God’s work improves the adept, it is unique in that Agrippa also includes the possibility for the living adept to transcend the natural sphere through magical work and to re-enter the godhead. Through the spiritual improvement (requiring the adept to shed human desires and ambitions) required to attain such magical skills, Agrippa believes the adept would use his magical skills to continue the world order conceived by God—perhaps seeing the adept as an important source of defense in the case of an apocalypse. It is not clear, however, what would happen if a disciplined but evil adept achieved the godhead—perhaps he could derail the order of the world. At any rate, Victor’s sense that he can equal God might have come from this text because he read it outside the context of Renaissance theology and without understanding the tremendous discipline required of a magical adept. His creature serves as an object lesson about the threats posed by undisciplined, ambition-fueled, and ego-driven science. It does not operate as a corrective to the problems of Renaissance natural philosophy solved by modern science but instead serves as evidence for the importance of the increasingly common peer-reviewed and institutionally defined investigations that came to be known as science in the early nineteenth century."
             }
           ]
-        },
-        {
-          "type": "Text",
-          "content": "\n\t\t\t"
         }
       ]
     },
@@ -624,17 +1026,13 @@
       },
       "children": [
         {
-          "type": "Text",
-          "content": "\n\t\t\t\t"
-        },
-        {
           "type": "Element",
           "tagName": "p",
           "attributes": {},
           "children": [
             {
               "type": "Text",
-              "content": "\n\t\t\t\t\tVictor suggests a change in the ways that natural philosophy is currently employed as compared to the past. The history he creates suggest that scientists of the past held higher aspirations than his contemporaries, who, according to him, are interested in what science can show is "
+              "content": "Victor suggests a change in the ways that natural philosophy is currently employed as compared to the past. The history he creates suggest that scientists of the past held higher aspirations than his contemporaries, who, according to him, are interested in what science can show is "
             },
             {
               "type": "Element",
@@ -649,13 +1047,9 @@
             },
             {
               "type": "Text",
-              "content": " possible rather than pressing the human imagination forward. Because this comparison was made two centuries ago, it raises questions for modern readers about the common idea that the sciences of the past had more scope for imagination (“boundless grandeur,” as Victor puts it) than the sciences of today.\n\t\t\t\t"
+              "content": " possible rather than pressing the human imagination forward. Because this comparison was made two centuries ago, it raises questions for modern readers about the common idea that the sciences of the past had more scope for imagination (“boundless grandeur,” as Victor puts it) than the sciences of today."
             }
           ]
-        },
-        {
-          "type": "Text",
-          "content": "\n\t\t\t\t"
         },
         {
           "type": "Element",
@@ -664,7 +1058,7 @@
           "children": [
             {
               "type": "Text",
-              "content": "\n\t\t\t\t\tDespite his conviction about the impossibility of the quest of the masters of science for “immortality and power,” Victor finds himself drawn to the “chimeras of boundless grandeur.” The term "
+              "content": "Despite his conviction about the impossibility of the quest of the masters of science for “immortality and power,” Victor finds himself drawn to the “chimeras of boundless grandeur.” The term "
             },
             {
               "type": "Element",
@@ -679,13 +1073,9 @@
             },
             {
               "type": "Text",
-              "content": " has two potential meanings captured here: the mythological Greek fire-breathing monster with a lion’s head, a goat’s body, and a serpent’s tail or an illusory or impossible goal. Mary’s careful word selection allows readers to see both definitions in her usage. The concept of the chimera in modern biology (which of course would not have been known to Mary) is a single organism composed of different zygotes, which is the merger of multiple fertilized eggs; this multiple composition may happen through tissue transplant or mutation.\n\t\t\t\t"
+              "content": " has two potential meanings captured here: the mythological Greek fire-breathing monster with a lion’s head, a goat’s body, and a serpent’s tail or an illusory or impossible goal. Mary’s careful word selection allows readers to see both definitions in her usage. The concept of the chimera in modern biology (which of course would not have been known to Mary) is a single organism composed of different zygotes, which is the merger of multiple fertilized eggs; this multiple composition may happen through tissue transplant or mutation."
             }
           ]
-        },
-        {
-          "type": "Text",
-          "content": "\n\t\t\t"
         }
       ]
     },
@@ -870,17 +1260,13 @@
       },
       "children": [
         {
-          "type": "Text",
-          "content": "\n\t\t\t\t"
-        },
-        {
           "type": "Element",
           "tagName": "p",
           "attributes": {},
           "children": [
             {
               "type": "Text",
-              "content": "\n\t\t\t\t\tVictor finds himself chasing a “frame” of flesh and its union with life. His ambition reflects several forms of mechanistic thought current at the time Mary wrote "
+              "content": "Victor finds himself chasing a “frame” of flesh and its union with life. His ambition reflects several forms of mechanistic thought current at the time Mary wrote "
             },
             {
               "type": "Element",
@@ -895,13 +1281,9 @@
             },
             {
               "type": "Text",
-              "content": ": an understanding of biological systems as physical machines controlled solely by physical laws. Nineteenth-century biology and physiology embraced and developed mechanistic perspectives while at the same time discarding earlier kindred understandings of the body. In the seventeenth century, the conceptualization of the human body by René Descartes (1596–1650) was similarly mechanistic, but he explained the transition from physical machine to a living, thinking entity as an act of God. The deity endowed otherwise idle material with consciousness. By Mary’s time, the latter part of Decartes’s argument had lost favor, but mechanistic ideas had gained scientific prominence.\n\t\t\t\t"
+              "content": ": an understanding of biological systems as physical machines controlled solely by physical laws. Nineteenth-century biology and physiology embraced and developed mechanistic perspectives while at the same time discarding earlier kindred understandings of the body. In the seventeenth century, the conceptualization of the human body by René Descartes (1596–1650) was similarly mechanistic, but he explained the transition from physical machine to a living, thinking entity as an act of God. The deity endowed otherwise idle material with consciousness. By Mary’s time, the latter part of Decartes’s argument had lost favor, but mechanistic ideas had gained scientific prominence."
             }
           ]
-        },
-        {
-          "type": "Text",
-          "content": "\n\t\t\t\t"
         },
         {
           "type": "Element",
@@ -910,13 +1292,9 @@
           "children": [
             {
               "type": "Text",
-              "content": "\n\t\t\t\t\tVictor’s “frame” is a product of part-by-part fabrication and lacks “animation”—then a term for the state of being alive. His power makes the idle machine something living. In a sense, the story presents a separation between body and consciousness similar to the one championed by Descartes. And yet no deity is at work. Victor installs life into his constructed “frame” using only his scientific prowess.\n\t\t\t\t"
+              "content": "Victor’s “frame” is a product of part-by-part fabrication and lacks “animation”—then a term for the state of being alive. His power makes the idle machine something living. In a sense, the story presents a separation between body and consciousness similar to the one championed by Descartes. And yet no deity is at work. Victor installs life into his constructed “frame” using only his scientific prowess."
             }
           ]
-        },
-        {
-          "type": "Text",
-          "content": "\n\t\t\t\t"
         },
         {
           "type": "Element",
@@ -925,13 +1303,9 @@
           "children": [
             {
               "type": "Text",
-              "content": "\n\t\t\t\t\tMechanistic thought remains an important part of the life sciences, and the ambition to build frames for life is found in twenty-first-century efforts to produce so-called protocells or, in the language of some synthetic biologists, the “chassis.” The structures, built with basic chemicals “from the ground up,” are envelopes for biological phenomena. Although present-day research is unlikely to deliver anything like Mary’s creature, it holds to a similar concept of life as machine. Descartes long ago lost his place in the natural sciences, and Victor’s power has yet to be realized, but mechanistic thinking persists.\n\t\t\t\t"
+              "content": "Mechanistic thought remains an important part of the life sciences, and the ambition to build frames for life is found in twenty-first-century efforts to produce so-called protocells or, in the language of some synthetic biologists, the “chassis.” The structures, built with basic chemicals “from the ground up,” are envelopes for biological phenomena. Although present-day research is unlikely to deliver anything like Mary’s creature, it holds to a similar concept of life as machine. Descartes long ago lost his place in the natural sciences, and Victor’s power has yet to be realized, but mechanistic thinking persists."
             }
           ]
-        },
-        {
-          "type": "Text",
-          "content": "\n\t\t\t"
         }
       ]
     },
@@ -1002,32 +1376,24 @@
       },
       "children": [
         {
-          "type": "Text",
-          "content": "\n\t\t\t\t"
-        },
-        {
           "type": "Element",
           "tagName": "p",
           "attributes": {},
           "children": [
             {
               "type": "Text",
-              "content": "\n\t\t\t\t\tWith “creation,” Mary draws on some of the widest possible literary themes, and the biblical resonances are emphasized by the creature himself. But creativity and the labor of one’s hands had multiple significances within wider nineteenth-century society, as they do today. It is not often recognized, for instance, that creativity and labor play a crucial role in legitimizing the idea of “property.” How do we justify establishing ownership over something? One important argument, most directly associated with the political philosophy of John Locke (1632–1704), stated that applying one’s labor to nature through writing, crafting, and so on made that creation one’s property (see Locke 1821). For example, earthen clay, once owned by everyone, through a transformative act of labor and creativity (so the argument goes) becomes a single person’s property.\n\t\t\t\t"
+              "content": "With “creation,” Mary draws on some of the widest possible literary themes, and the biblical resonances are emphasized by the creature himself. But creativity and the labor of one’s hands had multiple significances within wider nineteenth-century society, as they do today. It is not often recognized, for instance, that creativity and labor play a crucial role in legitimizing the idea of “property.” How do we justify establishing ownership over something? One important argument, most directly associated with the political philosophy of John Locke (1632–1704), stated that applying one’s labor to nature through writing, crafting, and so on made that creation one’s property (see Locke 1821). For example, earthen clay, once owned by everyone, through a transformative act of labor and creativity (so the argument goes) becomes a single person’s property."
             }
           ]
         },
         {
-          "type": "Text",
-          "content": "\n\t\t\t\t"
-        },
-        {
           "type": "Element",
           "tagName": "p",
           "attributes": {},
           "children": [
             {
               "type": "Text",
-              "content": "\n\t\t\t\t\tThrough "
+              "content": "Through "
             },
             {
               "type": "Element",
@@ -1057,13 +1423,9 @@
             },
             {
               "type": "Text",
-              "content": " as implying ownership? Or what of the ownership of children created by parents? Or what of the ownership of any nonhuman organism for that matter? Should it be the case that merely the act of laboring on something makes it property? The existence of Victor’s potential proprietary rights in his work and his (irresponsible?) refusal to acknowledge those rights allow us to generalize the significance of his creative act. Perhaps it is not in the creation of a human that he errs but in the conceptualization of his labors.\n\t\t\t\t"
+              "content": " as implying ownership? Or what of the ownership of children created by parents? Or what of the ownership of any nonhuman organism for that matter? Should it be the case that merely the act of laboring on something makes it property? The existence of Victor’s potential proprietary rights in his work and his (irresponsible?) refusal to acknowledge those rights allow us to generalize the significance of his creative act. Perhaps it is not in the creation of a human that he errs but in the conceptualization of his labors."
             }
           ]
-        },
-        {
-          "type": "Text",
-          "content": "\n\t\t\t"
         }
       ]
     },
@@ -1227,8 +1589,15 @@
       },
       "children": [
         {
-          "type": "Text",
-          "content": "\n\t\t\t\t"
+          "type": "Element",
+          "tagName": "p",
+          "attributes": {},
+          "children": [
+            {
+              "type": "Text",
+              "content": "Victor chooses to conduct his experiments with life in secret; he isolates himself from friends, family, and colleagues at his university. The isolation is both geographical and social. During the period of feverish research and creation, he doesn’t exchange correspondence or share his ideas with anyone."
+            }
+          ]
         },
         {
           "type": "Element",
@@ -1237,13 +1606,9 @@
           "children": [
             {
               "type": "Text",
-              "content": "\n\t\t\t\t\tVictor chooses to conduct his experiments with life in secret; he isolates himself from friends, family, and colleagues at his university. The isolation is both geographical and social. During the period of feverish research and creation, he doesn’t exchange correspondence or share his ideas with anyone.\n\t\t\t\t"
+              "content": "Isolation makes it possible for Victor to undertake his grisly and socially unacceptable project. Certainly, his colleagues and family would have intervened to stop him. But Victor’s self-imposed isolation also makes it impossible for the creature to gain access to the social resources he needs to construct a livable life (J. Butler 2010). He is cut off from the possibility of family, friends, and membership in society. He removes himself from the structured and institutionalized relationships that we depend on for sustenance, fellowship, and relief, such as education, health care, and a humane justice system."
             }
           ]
-        },
-        {
-          "type": "Text",
-          "content": "\n\t\t\t\t"
         },
         {
           "type": "Element",
@@ -1252,13 +1617,9 @@
           "children": [
             {
               "type": "Text",
-              "content": "\n\t\t\t\t\tIsolation makes it possible for Victor to undertake his grisly and socially unacceptable project. Certainly, his colleagues and family would have intervened to stop him. But Victor’s self-imposed isolation also makes it impossible for the creature to gain access to the social resources he needs to construct a livable life (J. Butler 2010). He is cut off from the possibility of family, friends, and membership in society. He removes himself from the structured and institutionalized relationships that we depend on for sustenance, fellowship, and relief, such as education, health care, and a humane justice system.\n\t\t\t\t"
+              "content": "An individual depends in countless ways on being recognized as a social being—as a person with feelings and rights, enjoying fellowship in social groups, relying on institutions to provide support, to safeguard our rights, and to care for us when we are in need. Victor’s decision to conduct his work in isolation and his abandonment of the creature at birth makes it impossible for the creature ever to achieve this social legibility and to participate functionally in society."
             }
           ]
-        },
-        {
-          "type": "Text",
-          "content": "\n\t\t\t\t"
         },
         {
           "type": "Element",
@@ -1267,28 +1628,9 @@
           "children": [
             {
               "type": "Text",
-              "content": "\n\t\t\t\t\tAn individual depends in countless ways on being recognized as a social being—as a person with feelings and rights, enjoying fellowship in social groups, relying on institutions to provide support, to safeguard our rights, and to care for us when we are in need. Victor’s decision to conduct his work in isolation and his abandonment of the creature at birth makes it impossible for the creature ever to achieve this social legibility and to participate functionally in society.\n\t\t\t\t"
+              "content": "As a result, we see the creature as a vagrant, an outlaw, and a vigilante throughout the novel. All of these identities are built on a foundation of social exclusion. Victor’s isolation means that the creature has little choice but to become a monster. He is left with no pathways into a peaceful life inside of human society."
             }
           ]
-        },
-        {
-          "type": "Text",
-          "content": "\n\t\t\t\t"
-        },
-        {
-          "type": "Element",
-          "tagName": "p",
-          "attributes": {},
-          "children": [
-            {
-              "type": "Text",
-              "content": "\n\t\t\t\t\tAs a result, we see the creature as a vagrant, an outlaw, and a vigilante throughout the novel. All of these identities are built on a foundation of social exclusion. Victor’s isolation means that the creature has little choice but to become a monster. He is left with no pathways into a peaceful life inside of human society.\n\t\t\t\t"
-            }
-          ]
-        },
-        {
-          "type": "Text",
-          "content": "\n\t\t\t"
         }
       ]
     },
@@ -1761,32 +2103,24 @@
       },
       "children": [
         {
-          "type": "Text",
-          "content": "\n\t\t\t\t"
-        },
-        {
           "type": "Element",
           "tagName": "p",
           "attributes": {},
           "children": [
             {
               "type": "Text",
-              "content": "\n\t\t\t\t\tThe concept of guilt may well be a bit more complicated than it first appears. The two most common understandings of guilt are at work in the text, prompting us to think about the idea of guilt in relation to both Victor and the creature. First, guilt describes the person who is responsible for an act that is unethical or illegal or both. Second, guilt describes the feelings that arise after an act—feelings that can be said to haunt a person and potentially shape his or her future actions.\n\t\t\t\t"
+              "content": "The concept of guilt may well be a bit more complicated than it first appears. The two most common understandings of guilt are at work in the text, prompting us to think about the idea of guilt in relation to both Victor and the creature. First, guilt describes the person who is responsible for an act that is unethical or illegal or both. Second, guilt describes the feelings that arise after an act—feelings that can be said to haunt a person and potentially shape his or her future actions."
             }
           ]
         },
         {
-          "type": "Text",
-          "content": "\n\t\t\t\t"
-        },
-        {
           "type": "Element",
           "tagName": "p",
           "attributes": {},
           "children": [
             {
               "type": "Text",
-              "content": "\n\t\t\t\t\tThe second understanding of guilt is clarified by psychoanalytic thought, which theorizes that guilt can be at work even when a person does not consciously attribute his or her actions to its effects. For more on this understanding, see Sigmund Freud, "
+              "content": "The second understanding of guilt is clarified by psychoanalytic thought, which theorizes that guilt can be at work even when a person does not consciously attribute his or her actions to its effects. For more on this understanding, see Sigmund Freud, "
             },
             {
               "type": "Element",
@@ -1816,13 +2150,9 @@
             },
             {
               "type": "Text",
-              "content": ".\n\t\t\t\t"
+              "content": "."
             }
           ]
-        },
-        {
-          "type": "Text",
-          "content": "\n\t\t\t\t"
         },
         {
           "type": "Element",
@@ -1831,7 +2161,7 @@
           "children": [
             {
               "type": "Text",
-              "content": "\n\t\t\t\t\tIn the first understanding, guilt is also attributed to a person for failing to do what he or she believes is required in a situation. For example, Victor could be seen as guilty for his failure to make the creature’s existence public, especially at the trial of Justine. As Shakespeare has Claudius say in "
+              "content": "In the first understanding, guilt is also attributed to a person for failing to do what he or she believes is required in a situation. For example, Victor could be seen as guilty for his failure to make the creature’s existence public, especially at the trial of Justine. As Shakespeare has Claudius say in "
             },
             {
               "type": "Element",
@@ -1846,13 +2176,9 @@
             },
             {
               "type": "Text",
-              "content": ", “[M]y stronger guilt defeats my strong intent” (III.iii.44).\n\t\t\t\t"
+              "content": ", “[M]y stronger guilt defeats my strong intent” (III.iii.44)."
             }
           ]
-        },
-        {
-          "type": "Text",
-          "content": "\n\t\t\t\t"
         },
         {
           "type": "Element",
@@ -1861,23 +2187,15 @@
           "children": [
             {
               "type": "Text",
-              "content": "\n\t\t\t\t\tLater in the novel, Victor makes a universal claim about the consequences of guilt: “Ah! it is well for the unfortunate to be resigned, but for the guilty there is no peace” (p. 158).\n\t\t\t\t"
+              "content": "Later in the novel, Victor makes a universal claim about the consequences of guilt: “Ah! it is well for the unfortunate to be resigned, but for the guilty there is no peace” (p. 158)."
             }
           ]
-        },
-        {
-          "type": "Text",
-          "content": "\n\t\t\t"
         },
         {
           "type": "Element",
           "tagName": "div",
           "attributes": {},
           "children": [
-            {
-              "type": "Text",
-              "content": "\n\t\t\t"
-            },
             {
               "type": "Element",
               "tagName": "div",
@@ -1894,10 +2212,6 @@
               ]
             },
             {
-              "type": "Text",
-              "content": "\n\t\t\t"
-            },
-            {
               "type": "Element",
               "tagName": "div",
               "attributes": {
@@ -1911,16 +2225,8 @@
                   "content": "PandP,MandS"
                 }
               ]
-            },
-            {
-              "type": "Text",
-              "content": "\n\t\t"
             }
           ]
-        },
-        {
-          "type": "Text",
-          "content": "\n\t\t\n\t\t"
         },
         {
           "type": "Element",
@@ -1931,10 +2237,6 @@
             ]
           },
           "children": [
-            {
-              "type": "Text",
-              "content": "\n\t\t\t"
-            },
             {
               "type": "Element",
               "tagName": "span",
@@ -1959,7 +2261,7 @@
             },
             {
               "type": "Text",
-              "content": " \n\t\t\t"
+              "content": " "
             },
             {
               "type": "Element",
@@ -1977,10 +2279,6 @@
               ]
             },
             {
-              "type": "Text",
-              "content": "\n\t\t\t"
-            },
-            {
               "type": "Element",
               "tagName": "div",
               "attributes": {
@@ -1996,10 +2294,6 @@
               ]
             },
             {
-              "type": "Text",
-              "content": "\n\t\t\t"
-            },
-            {
               "type": "Element",
               "tagName": "div",
               "attributes": {
@@ -2013,16 +2307,8 @@
                   "content": "MandS"
                 }
               ]
-            },
-            {
-              "type": "Text",
-              "content": "\n\t\t"
             }
           ]
-        },
-        {
-          "type": "Text",
-          "content": "\n\t\t\n\t\t"
         },
         {
           "type": "Element",
@@ -2033,10 +2319,6 @@
             ]
           },
           "children": [
-            {
-              "type": "Text",
-              "content": "\n\t\t\t"
-            },
             {
               "type": "Element",
               "tagName": "span",
@@ -2060,10 +2342,6 @@
               ]
             },
             {
-              "type": "Text",
-              "content": "\n\t\t\t"
-            },
-            {
               "type": "Element",
               "tagName": "div",
               "attributes": {
@@ -2077,10 +2355,6 @@
                   "content": "Victor again feels guilt about not disclosing the existence of the destructive creature that he has created. Yet he continues to fail to recognize and concede that his treatment and desertion of the creature, not the initial creation, have brought about the destruction. In this instance, Victor does sense the potential impact of his desertion on his family and others but remains blind to his earlier desertion of his own creation."
                 }
               ]
-            },
-            {
-              "type": "Text",
-              "content": "\n\t\t\t"
             }
           ]
         },
@@ -2113,32 +2387,24 @@
       },
       "children": [
         {
-          "type": "Text",
-          "content": "\n\t\t\t\t"
-        },
-        {
           "type": "Element",
           "tagName": "p",
           "attributes": {},
           "children": [
             {
               "type": "Text",
-              "content": "\n\t\t\t\t\tThe concept of guilt may well be a bit more complicated than it first appears. The two most common understandings of guilt are at work in the text, prompting us to think about the idea of guilt in relation to both Victor and the creature. First, guilt describes the person who is responsible for an act that is unethical or illegal or both. Second, guilt describes the feelings that arise after an act—feelings that can be said to haunt a person and potentially shape his or her future actions.\n\t\t\t\t"
+              "content": "The concept of guilt may well be a bit more complicated than it first appears. The two most common understandings of guilt are at work in the text, prompting us to think about the idea of guilt in relation to both Victor and the creature. First, guilt describes the person who is responsible for an act that is unethical or illegal or both. Second, guilt describes the feelings that arise after an act—feelings that can be said to haunt a person and potentially shape his or her future actions."
             }
           ]
         },
         {
-          "type": "Text",
-          "content": "\n\t\t\t\t"
-        },
-        {
           "type": "Element",
           "tagName": "p",
           "attributes": {},
           "children": [
             {
               "type": "Text",
-              "content": "\n\t\t\t\t\tThe second understanding of guilt is clarified by psychoanalytic thought, which theorizes that guilt can be at work even when a person does not consciously attribute his or her actions to its effects. For more on this understanding, see Sigmund Freud, "
+              "content": "The second understanding of guilt is clarified by psychoanalytic thought, which theorizes that guilt can be at work even when a person does not consciously attribute his or her actions to its effects. For more on this understanding, see Sigmund Freud, "
             },
             {
               "type": "Element",
@@ -2168,13 +2434,9 @@
             },
             {
               "type": "Text",
-              "content": ".\n\t\t\t\t"
+              "content": "."
             }
           ]
-        },
-        {
-          "type": "Text",
-          "content": "\n\t\t\t\t"
         },
         {
           "type": "Element",
@@ -2183,7 +2445,7 @@
           "children": [
             {
               "type": "Text",
-              "content": "\n\t\t\t\t\tIn the first understanding, guilt is also attributed to a person for failing to do what he or she believes is required in a situation. For example, Victor could be seen as guilty for his failure to make the creature’s existence public, especially at the trial of Justine. As Shakespeare has Claudius say in "
+              "content": "In the first understanding, guilt is also attributed to a person for failing to do what he or she believes is required in a situation. For example, Victor could be seen as guilty for his failure to make the creature’s existence public, especially at the trial of Justine. As Shakespeare has Claudius say in "
             },
             {
               "type": "Element",
@@ -2198,13 +2460,9 @@
             },
             {
               "type": "Text",
-              "content": ", “[M]y stronger guilt defeats my strong intent” (III.iii.44).\n\t\t\t\t"
+              "content": ", “[M]y stronger guilt defeats my strong intent” (III.iii.44)."
             }
           ]
-        },
-        {
-          "type": "Text",
-          "content": "\n\t\t\t\t"
         },
         {
           "type": "Element",
@@ -2213,23 +2471,15 @@
           "children": [
             {
               "type": "Text",
-              "content": "\n\t\t\t\t\tLater in the novel, Victor makes a universal claim about the consequences of guilt: “Ah! it is well for the unfortunate to be resigned, but for the guilty there is no peace” (p. 158).\n\t\t\t\t"
+              "content": "Later in the novel, Victor makes a universal claim about the consequences of guilt: “Ah! it is well for the unfortunate to be resigned, but for the guilty there is no peace” (p. 158)."
             }
           ]
-        },
-        {
-          "type": "Text",
-          "content": "\n\t\t\t"
         },
         {
           "type": "Element",
           "tagName": "div",
           "attributes": {},
           "children": [
-            {
-              "type": "Text",
-              "content": "\n\t\t\t"
-            },
             {
               "type": "Element",
               "tagName": "div",
@@ -2246,10 +2496,6 @@
               ]
             },
             {
-              "type": "Text",
-              "content": "\n\t\t\t"
-            },
-            {
               "type": "Element",
               "tagName": "div",
               "attributes": {
@@ -2263,16 +2509,8 @@
                   "content": "PandP,MandS"
                 }
               ]
-            },
-            {
-              "type": "Text",
-              "content": "\n\t\t"
             }
           ]
-        },
-        {
-          "type": "Text",
-          "content": "\n\t\t\n\t\t"
         },
         {
           "type": "Element",
@@ -2283,10 +2521,6 @@
             ]
           },
           "children": [
-            {
-              "type": "Text",
-              "content": "\n\t\t\t"
-            },
             {
               "type": "Element",
               "tagName": "span",
@@ -2311,7 +2545,7 @@
             },
             {
               "type": "Text",
-              "content": " \n\t\t\t"
+              "content": " "
             },
             {
               "type": "Element",
@@ -2329,10 +2563,6 @@
               ]
             },
             {
-              "type": "Text",
-              "content": "\n\t\t\t"
-            },
-            {
               "type": "Element",
               "tagName": "div",
               "attributes": {
@@ -2348,10 +2578,6 @@
               ]
             },
             {
-              "type": "Text",
-              "content": "\n\t\t\t"
-            },
-            {
               "type": "Element",
               "tagName": "div",
               "attributes": {
@@ -2365,16 +2591,8 @@
                   "content": "MandS"
                 }
               ]
-            },
-            {
-              "type": "Text",
-              "content": "\n\t\t"
             }
           ]
-        },
-        {
-          "type": "Text",
-          "content": "\n\t\t\n\t\t"
         },
         {
           "type": "Element",
@@ -2385,10 +2603,6 @@
             ]
           },
           "children": [
-            {
-              "type": "Text",
-              "content": "\n\t\t\t"
-            },
             {
               "type": "Element",
               "tagName": "span",
@@ -2412,10 +2626,6 @@
               ]
             },
             {
-              "type": "Text",
-              "content": "\n\t\t\t"
-            },
-            {
               "type": "Element",
               "tagName": "div",
               "attributes": {
@@ -2429,10 +2639,6 @@
                   "content": "Victor again feels guilt about not disclosing the existence of the destructive creature that he has created. Yet he continues to fail to recognize and concede that his treatment and desertion of the creature, not the initial creation, have brought about the destruction. In this instance, Victor does sense the potential impact of his desertion on his family and others but remains blind to his earlier desertion of his own creation."
                 }
               ]
-            },
-            {
-              "type": "Text",
-              "content": "\n\t\t\t"
             }
           ]
         },
@@ -2507,8 +2713,15 @@
       },
       "children": [
         {
-          "type": "Text",
-          "content": "\n\t\t\t\t"
+          "type": "Element",
+          "tagName": "p",
+          "attributes": {},
+          "children": [
+            {
+              "type": "Text",
+              "content": "The remorse Victor expresses is reminiscent of J. Robert Oppenheimer’s sentiments when he witnessed the unspeakable power of the atomic bomb. A passage from the Hindu scripture of the Bhagavad-Gita flashed before Oppenheimer’s mind: “I am become death, the destroyer of worlds.” In this short phrase, Oppenheimer, as one of the architects of the A-bomb, acknowledged that he had unleashed a force that could lead to the annihilation of civilization. He also proclaimed, “The physicists have known sin, and this is a knowledge they cannot lose” (qtd. in Bird and Sherwin 2005, 388)."
+            }
+          ]
         },
         {
           "type": "Element",
@@ -2517,13 +2730,9 @@
           "children": [
             {
               "type": "Text",
-              "content": "\n\t\t\t\t\tThe remorse Victor expresses is reminiscent of J. Robert Oppenheimer’s sentiments when he witnessed the unspeakable power of the atomic bomb. A passage from the Hindu scripture of the Bhagavad-Gita flashed before Oppenheimer’s mind: “I am become death, the destroyer of worlds.” In this short phrase, Oppenheimer, as one of the architects of the A-bomb, acknowledged that he had unleashed a force that could lead to the annihilation of civilization. He also proclaimed, “The physicists have known sin, and this is a knowledge they cannot lose” (qtd. in Bird and Sherwin 2005, 388).\n\t\t\t\t"
+              "content": "Victor’s responsibility for his horrific scientific experiment has already passed. It appears that the creature is beyond control. All that is left is remorse. Oppenheimer, who witnessed a test of the atomic bomb at Los Alamos in 1945, still had an opportunity to prevent the use of the bomb against humans. Also see Heather E. Douglas’s essay “The Bitter Aftertaste of Technical Sweetness” in this volume."
             }
           ]
-        },
-        {
-          "type": "Text",
-          "content": "\n\t\t\t\t"
         },
         {
           "type": "Element",
@@ -2532,28 +2741,9 @@
           "children": [
             {
               "type": "Text",
-              "content": "\n\t\t\t\t\tVictor’s responsibility for his horrific scientific experiment has already passed. It appears that the creature is beyond control. All that is left is remorse. Oppenheimer, who witnessed a test of the atomic bomb at Los Alamos in 1945, still had an opportunity to prevent the use of the bomb against humans. Also see Heather E. Douglas’s essay “The Bitter Aftertaste of Technical Sweetness” in this volume.\n\t\t\t\t"
+              "content": "Scientists’ responsibility must be engaged before their creations are unleashed; otherwise, the consequences cannot be retracted. Those scientists with high moral conscience view their responsibility to warn about the malevolent uses of scientific results to their students, to their colleagues, and to the public. They would cease and desist from scientific research that has no redeeming value but destruction or baneful dehumanization. Victor’s anguish is a warning to those scientists who bracket away the moral quality of their work under a banner of pure inquiry, whatever its outcome. Whether it is cloning a human being, creating a new biological weapon, releasing transgenic species, or designing human genomes, these ends call out for acts and acknowledgments of social responsibility."
             }
           ]
-        },
-        {
-          "type": "Text",
-          "content": "\n\t\t\t\t"
-        },
-        {
-          "type": "Element",
-          "tagName": "p",
-          "attributes": {},
-          "children": [
-            {
-              "type": "Text",
-              "content": "\n\t\t\t\t\tScientists’ responsibility must be engaged before their creations are unleashed; otherwise, the consequences cannot be retracted. Those scientists with high moral conscience view their responsibility to warn about the malevolent uses of scientific results to their students, to their colleagues, and to the public. They would cease and desist from scientific research that has no redeeming value but destruction or baneful dehumanization. Victor’s anguish is a warning to those scientists who bracket away the moral quality of their work under a banner of pure inquiry, whatever its outcome. Whether it is cloning a human being, creating a new biological weapon, releasing transgenic species, or designing human genomes, these ends call out for acts and acknowledgments of social responsibility.\n\t\t\t\t"
-            }
-          ]
-        },
-        {
-          "type": "Text",
-          "content": "\n\t\t\t"
         }
       ]
     },
@@ -2819,17 +3009,13 @@
       },
       "children": [
         {
-          "type": "Text",
-          "content": "\n\t\t\t\t"
-        },
-        {
           "type": "Element",
           "tagName": "p",
           "attributes": {},
           "children": [
             {
               "type": "Text",
-              "content": "\n\t\t\t\t\tAlthough compassion—empathy or sympathy with the plight of others—and other positive sentiments and virtues may seem inherent personal characteristics, "
+              "content": "Although compassion—empathy or sympathy with the plight of others—and other positive sentiments and virtues may seem inherent personal characteristics, "
             },
             {
               "type": "Element",
@@ -2844,13 +3030,9 @@
             },
             {
               "type": "Text",
-              "content": " makes clear that circumstances can inspire virtues, such as compassion, and changed circumstances can eradicate or obscure them. The creature’s observation of the cottagers’ poverty as well as of their compassionate behavior toward their elderly relative instructs him in compassion. He stops stealing their food for himself, as he had previously done, and secretly provides them with firewood. But as the novel progresses, the creature suffers increasingly from feelings of abandonment, which inspire acts of revenge against Victor. He can remember that he was once compassionate, but he knows he is no longer so. “I am malicious because I am miserable,” he explains. “[I]f I cannot inspire love, I will cause fear” (p. 121). Victor likewise demonstrates compassion when he is happy with himself and the world but intense selfishness and unconcern for others (especially Elizabeth) when he isn’t.\n\t\t\t\t"
+              "content": " makes clear that circumstances can inspire virtues, such as compassion, and changed circumstances can eradicate or obscure them. The creature’s observation of the cottagers’ poverty as well as of their compassionate behavior toward their elderly relative instructs him in compassion. He stops stealing their food for himself, as he had previously done, and secretly provides them with firewood. But as the novel progresses, the creature suffers increasingly from feelings of abandonment, which inspire acts of revenge against Victor. He can remember that he was once compassionate, but he knows he is no longer so. “I am malicious because I am miserable,” he explains. “[I]f I cannot inspire love, I will cause fear” (p. 121). Victor likewise demonstrates compassion when he is happy with himself and the world but intense selfishness and unconcern for others (especially Elizabeth) when he isn’t."
             }
           ]
-        },
-        {
-          "type": "Text",
-          "content": "\n\t\t\t\t"
         },
         {
           "type": "Element",
@@ -2859,13 +3041,9 @@
           "children": [
             {
               "type": "Text",
-              "content": "\n\t\t\t\t\tIf virtue is even partly circumstantial, then all who act in the world, including scientists, must recognize that judgments about their own worth and the value of their work require close scrutiny. Victor acted alone, without consulting anyone about the value of his invention or its potential unintended consequences. If he had conferred with a community of thinkers and innovators with cooler heads, perhaps he could have rekindled his own compassion and avoided the cascading tragedy that emanates from his solitary creation.\n\t\t\t\t"
+              "content": "If virtue is even partly circumstantial, then all who act in the world, including scientists, must recognize that judgments about their own worth and the value of their work require close scrutiny. Victor acted alone, without consulting anyone about the value of his invention or its potential unintended consequences. If he had conferred with a community of thinkers and innovators with cooler heads, perhaps he could have rekindled his own compassion and avoided the cascading tragedy that emanates from his solitary creation."
             }
           ]
-        },
-        {
-          "type": "Text",
-          "content": "\n\t\t\t"
         }
       ]
     },
@@ -2906,47 +3084,35 @@
       },
       "children": [
         {
-          "type": "Text",
-          "content": "\n\t\t\t\t"
-        },
-        {
           "type": "Element",
           "tagName": "p",
           "attributes": {},
           "children": [
             {
               "type": "Text",
-              "content": "\n\t\t\t\t\tThe creature here perceives the human tendency to distinguish between members of the in-group and members of the out-group and to fear and despise the latter: “othering,” as it is sometimes known. He also suggests, plausibly, that othering occurs where the target is not simply different from the audience but also not understood, and he hopes to overcome this gap in understanding through communication with the cottagers. As his monologue continues, parallels are drawn between his situation and that of various outsiders and outcasts in history who have also been othered: immigrants (Safie and her father), the poor, the lowborn, and the orphaned. Mary Shelley herself is not immune from this tendency: see, for instance, her rather broad generalizations about women in Islam and her apparent approval of European colonization.\n\t\t\t\t"
+              "content": "The creature here perceives the human tendency to distinguish between members of the in-group and members of the out-group and to fear and despise the latter: “othering,” as it is sometimes known. He also suggests, plausibly, that othering occurs where the target is not simply different from the audience but also not understood, and he hopes to overcome this gap in understanding through communication with the cottagers. As his monologue continues, parallels are drawn between his situation and that of various outsiders and outcasts in history who have also been othered: immigrants (Safie and her father), the poor, the lowborn, and the orphaned. Mary Shelley herself is not immune from this tendency: see, for instance, her rather broad generalizations about women in Islam and her apparent approval of European colonization."
             }
           ]
         },
         {
-          "type": "Text",
-          "content": "\n\t\t\t\t"
-        },
-        {
           "type": "Element",
           "tagName": "p",
           "attributes": {},
           "children": [
             {
               "type": "Text",
-              "content": "\n\t\t\t\t\tWe must recognize that other people, especially those different from us, are not just sources of exclusion and anguish. The creature’s monologue is also a story of human development—from securing the most basic means of survival to engaging with language and literature—and it emphasizes, too, the essential role of communing with others unlike us in achieving self-consciousness and fulfillment. Thus, it reveals the creature’s deep desire to interact with humans, a different species, and then with a created romantic partner of a different sex.\n\t\t\t\t"
+              "content": "We must recognize that other people, especially those different from us, are not just sources of exclusion and anguish. The creature’s monologue is also a story of human development—from securing the most basic means of survival to engaging with language and literature—and it emphasizes, too, the essential role of communing with others unlike us in achieving self-consciousness and fulfillment. Thus, it reveals the creature’s deep desire to interact with humans, a different species, and then with a created romantic partner of a different sex."
             }
           ]
         },
         {
-          "type": "Text",
-          "content": "\n\t\t\t\t"
-        },
-        {
           "type": "Element",
           "tagName": "p",
           "attributes": {},
           "children": [
             {
               "type": "Text",
-              "content": "\n\t\t\t\t\tFor another view on how being perceived by others is both essential to achieving self-consciousness and a potential source of deep despair, given our dependency on them for our sense of worth, one might compare Sartre’s theory in "
+              "content": "For another view on how being perceived by others is both essential to achieving self-consciousness and a potential source of deep despair, given our dependency on them for our sense of worth, one might compare Sartre’s theory in "
             },
             {
               "type": "Element",
@@ -2961,13 +3127,9 @@
             },
             {
               "type": "Text",
-              "content": " ([1943] 2012).\n\t\t\t\t"
+              "content": " ([1943] 2012)."
             }
           ]
-        },
-        {
-          "type": "Text",
-          "content": "\n\t\t\t"
         }
       ]
     },
@@ -3050,32 +3212,24 @@
       },
       "children": [
         {
-          "type": "Text",
-          "content": "\n\t\t\t\t"
-        },
-        {
           "type": "Element",
           "tagName": "p",
           "attributes": {},
           "children": [
             {
               "type": "Text",
-              "content": "\n\t\t\t\t\tScientists have long aspired to improve the human body, or create new bodies, to exceed our natural biological limits. The United States military pursues a range of research areas to enhance the performance of soldiers, from powered exoskeletons granting their users superhuman strength to direct brain interfaces that would allow pilots to fly aircraft by thought alone. More broadly, almost all biomedical technologies can be seen as serving the same purpose, from contact lenses and pacemakers that regulate and improve the function of our organs to antibiotics that make us far more resistant to disease. Many people feel that our bodies’ greatest flaw is aging and death. Philanthropists like Bill and Melinda Gates and Mark Zuckerberg and Priscilla Chan have invested billions of dollars to eliminate disease and extend human life. Ongoing scientific debates about life extension sometimes echo the quest for the philosopher’s stone as researchers contemplate how the human body might be sustained or rejuvenated through genetic modification, personalized drug cocktails, or other means.\n\t\t\t\t"
+              "content": "Scientists have long aspired to improve the human body, or create new bodies, to exceed our natural biological limits. The United States military pursues a range of research areas to enhance the performance of soldiers, from powered exoskeletons granting their users superhuman strength to direct brain interfaces that would allow pilots to fly aircraft by thought alone. More broadly, almost all biomedical technologies can be seen as serving the same purpose, from contact lenses and pacemakers that regulate and improve the function of our organs to antibiotics that make us far more resistant to disease. Many people feel that our bodies’ greatest flaw is aging and death. Philanthropists like Bill and Melinda Gates and Mark Zuckerberg and Priscilla Chan have invested billions of dollars to eliminate disease and extend human life. Ongoing scientific debates about life extension sometimes echo the quest for the philosopher’s stone as researchers contemplate how the human body might be sustained or rejuvenated through genetic modification, personalized drug cocktails, or other means."
             }
           ]
         },
         {
-          "type": "Text",
-          "content": "\n\t\t\t\t"
-        },
-        {
           "type": "Element",
           "tagName": "p",
           "attributes": {},
           "children": [
             {
               "type": "Text",
-              "content": "\n\t\t\t\t\tHumanity’s technological obsession with overcoming our biological limits has a natural parallel in science fiction. Mary’s vision of a superhuman creature inspired many others, from comic book superheroes to the robots and replicants populating movies like "
+              "content": "Humanity’s technological obsession with overcoming our biological limits has a natural parallel in science fiction. Mary’s vision of a superhuman creature inspired many others, from comic book superheroes to the robots and replicants populating movies like "
             },
             {
               "type": "Element",
@@ -3135,13 +3289,9 @@
             },
             {
               "type": "Text",
-              "content": ": what would a perfected human form really be like? What kind of life would such a creature lead? What consequences would result from a world in which humans and superhumans coexist?\n\t\t\t\t"
+              "content": ": what would a perfected human form really be like? What kind of life would such a creature lead? What consequences would result from a world in which humans and superhumans coexist?"
             }
           ]
-        },
-        {
-          "type": "Text",
-          "content": "\n\t\t\t"
         }
       ]
     },
@@ -3377,17 +3527,13 @@
       },
       "children": [
         {
-          "type": "Text",
-          "content": "\n\t\t\t\t"
-        },
-        {
           "type": "Element",
           "tagName": "p",
           "attributes": {},
           "children": [
             {
               "type": "Text",
-              "content": "\n\t\t\t\t\tWho are we really? What are we made of? What is the self? What makes the creation a monster? Of course, answers to the latter question depend on how we define the term "
+              "content": "Who are we really? What are we made of? What is the self? What makes the creation a monster? Of course, answers to the latter question depend on how we define the term "
             },
             {
               "type": "Element",
@@ -3402,13 +3548,9 @@
             },
             {
               "type": "Text",
-              "content": ". Victor makes his creation by sewing together the body parts of many individuals, leaving the creation unaware of his own identity. The creature’s composite nature, his lack of a singular physical and mental identity, is an important aspect of his monstrosity.\n\t\t\t\t"
+              "content": ". Victor makes his creation by sewing together the body parts of many individuals, leaving the creation unaware of his own identity. The creature’s composite nature, his lack of a singular physical and mental identity, is an important aspect of his monstrosity."
             }
           ]
-        },
-        {
-          "type": "Text",
-          "content": "\n\t\t\t\t"
         },
         {
           "type": "Element",
@@ -3417,13 +3559,9 @@
           "children": [
             {
               "type": "Text",
-              "content": "\n\t\t\t\t\tOur current scientific understanding of what we are made of can help us in understanding this idea of monstrosity. Humans and most other forms of life have a genetic conflict within them. This conflict arises from being composed of genetically distinct entities. For example, in “microchimerism,” there are genetically distinct cells in a human body that come from a mother or an elder sibling (from the child’s perspective) or from a child (from the mother’s perspective). There are also genetically distinct gut microbiota, which can influence behavior, as can viral infections such as rabies. In these cases, our physiology and behavior can be influenced by genetically distinct entities that have fitness interests different from our own.\n\t\t\t\t"
+              "content": "Our current scientific understanding of what we are made of can help us in understanding this idea of monstrosity. Humans and most other forms of life have a genetic conflict within them. This conflict arises from being composed of genetically distinct entities. For example, in “microchimerism,” there are genetically distinct cells in a human body that come from a mother or an elder sibling (from the child’s perspective) or from a child (from the mother’s perspective). There are also genetically distinct gut microbiota, which can influence behavior, as can viral infections such as rabies. In these cases, our physiology and behavior can be influenced by genetically distinct entities that have fitness interests different from our own."
             }
           ]
-        },
-        {
-          "type": "Text",
-          "content": "\n\t\t\t\t"
         },
         {
           "type": "Element",
@@ -3432,13 +3570,9 @@
           "children": [
             {
               "type": "Text",
-              "content": "\n\t\t\t\t\tTaking Mary’s idea of a monster and joining it with current knowledge about our genetically heterogeneous nature, we arrive at a potentially useful conception of a monster as an individual whose physiology and behavior are (fully or partially) under the control of a genetically distinct individual or population of individuals. Understanding ourselves as biologically heterogeneous, we can more easily and perhaps more sympathetically explore the idea of the monster’s composite nature and Victor’s struggle with his creation. Unlike Victor, we must face the fact that we are all monsters.\n\t\t\t\t"
+              "content": "Taking Mary’s idea of a monster and joining it with current knowledge about our genetically heterogeneous nature, we arrive at a potentially useful conception of a monster as an individual whose physiology and behavior are (fully or partially) under the control of a genetically distinct individual or population of individuals. Understanding ourselves as biologically heterogeneous, we can more easily and perhaps more sympathetically explore the idea of the monster’s composite nature and Victor’s struggle with his creation. Unlike Victor, we must face the fact that we are all monsters."
             }
           ]
-        },
-        {
-          "type": "Text",
-          "content": "\n\t\t\t"
         }
       ]
     },
@@ -3458,8 +3592,15 @@
       },
       "children": [
         {
-          "type": "Text",
-          "content": "\n\t\t\t\t"
+          "type": "Element",
+          "tagName": "p",
+          "attributes": {},
+          "children": [
+            {
+              "type": "Text",
+              "content": "Here Victor anticipates a problem confronting researchers in the fields of robotics and visual animation as well as related fields. Anyone trying to create lifelike representations of natural organisms will encounter what Japanese roboticist Masahiro Mori ([1970] 2012) calls the “uncanny valley.” Humans can feel a strong empathetic connection to creatures that do not closely resemble us or other familiar living things. In film, for example, characters such as the robot Wall-E or the extraterrestrial E.T. gain our sympathy even though they look unfamiliar. But as representations get closer to the human form, they can enter the “uncanny valley,” where slight aberrations from our expectations can generate feelings of aversion or disgust."
+            }
+          ]
         },
         {
           "type": "Element",
@@ -3468,28 +3609,9 @@
           "children": [
             {
               "type": "Text",
-              "content": "\n\t\t\t\t\tHere Victor anticipates a problem confronting researchers in the fields of robotics and visual animation as well as related fields. Anyone trying to create lifelike representations of natural organisms will encounter what Japanese roboticist Masahiro Mori ([1970] 2012) calls the “uncanny valley.” Humans can feel a strong empathetic connection to creatures that do not closely resemble us or other familiar living things. In film, for example, characters such as the robot Wall-E or the extraterrestrial E.T. gain our sympathy even though they look unfamiliar. But as representations get closer to the human form, they can enter the “uncanny valley,” where slight aberrations from our expectations can generate feelings of aversion or disgust.\n\t\t\t\t"
+              "content": "Mary suggests here that the creature’s ugliness derives not from his difference so much as from his uncanny similarity to humans. See also Alfred Nordmann’s essay “Undisturbed by Reality” in this volume, which discusses the origins of the notion of the uncanny."
             }
           ]
-        },
-        {
-          "type": "Text",
-          "content": "\n\t\t\t\t"
-        },
-        {
-          "type": "Element",
-          "tagName": "p",
-          "attributes": {},
-          "children": [
-            {
-              "type": "Text",
-              "content": "\n\t\t\t\t\tMary suggests here that the creature’s ugliness derives not from his difference so much as from his uncanny similarity to humans. See also Alfred Nordmann’s essay “Undisturbed by Reality” in this volume, which discusses the origins of the notion of the uncanny.\n\t\t\t\t"
-            }
-          ]
-        },
-        {
-          "type": "Text",
-          "content": "\n\t\t\t"
         }
       ]
     },
@@ -3530,8 +3652,15 @@
       },
       "children": [
         {
-          "type": "Text",
-          "content": "\n\t\t\t\t"
+          "type": "Element",
+          "tagName": "p",
+          "attributes": {},
+          "children": [
+            {
+              "type": "Text",
+              "content": "Victor’s creature has learned about humanity by observing humans and by reading poetry, classical philosophy, and a highly sentimental novel. He believes himself to be worthy of or at least not disqualified from receiving the kindly treatment that he has seen humans accord one another. He has evaluated himself and found himself human."
+            }
+          ]
         },
         {
           "type": "Element",
@@ -3540,13 +3669,9 @@
           "children": [
             {
               "type": "Text",
-              "content": "\n\t\t\t\t\tVictor’s creature has learned about humanity by observing humans and by reading poetry, classical philosophy, and a highly sentimental novel. He believes himself to be worthy of or at least not disqualified from receiving the kindly treatment that he has seen humans accord one another. He has evaluated himself and found himself human.\n\t\t\t\t"
+              "content": "Self-esteem, the assessment of value that people give themselves and their own behavior, is a relatively recent psychological concept, dating from the late nineteenth century, and this passage can be interpreted as an example of the increased focus on the individual that is associated with the advent of romanticism. However, the process of evaluating one’s behavior and ranking it relative to that of other people has been a human concern since the dawn of history. Self-esteem presupposes awareness of self; it may be related to survival-enhancing, neurologically based behaviors common to the many nonhuman social animals in whom self-awareness has been identified. Research has recently been directed at identifying self-esteem-like behavior in primates and other animals."
             }
           ]
-        },
-        {
-          "type": "Text",
-          "content": "\n\t\t\t\t"
         },
         {
           "type": "Element",
@@ -3555,28 +3680,9 @@
           "children": [
             {
               "type": "Text",
-              "content": "\n\t\t\t\t\tSelf-esteem, the assessment of value that people give themselves and their own behavior, is a relatively recent psychological concept, dating from the late nineteenth century, and this passage can be interpreted as an example of the increased focus on the individual that is associated with the advent of romanticism. However, the process of evaluating one’s behavior and ranking it relative to that of other people has been a human concern since the dawn of history. Self-esteem presupposes awareness of self; it may be related to survival-enhancing, neurologically based behaviors common to the many nonhuman social animals in whom self-awareness has been identified. Research has recently been directed at identifying self-esteem-like behavior in primates and other animals.\n\t\t\t\t"
+              "content": "Victor’s creature seems to have, in addition to the desire to evaluate his own behavior, the ability to judge the fairness of that behavior and the behavior of others: that is, he has a sense of justice. There is evidence that an understanding of fairness or equity is a trait shared by many animals, but research remains to be done to understand the mechanism by which various kinds of animals assess whether another’s behavior is equitable or not. Even human concepts of justice can be vague and contradictory and may differ from one culture to another, just as individual humans’ evaluation of their own behavior is not necessarily accurate and their opinion of themselves is not necessarily shared by others (see Blanchard and Blanchard 2003; Blanchard, Blanchard, and McKittrick 2001; Brosnan 2012; Christen and Glock 2012; and Heatherton and Vohs 2000)."
             }
           ]
-        },
-        {
-          "type": "Text",
-          "content": "\n\t\t\t\t"
-        },
-        {
-          "type": "Element",
-          "tagName": "p",
-          "attributes": {},
-          "children": [
-            {
-              "type": "Text",
-              "content": "\n\t\t\t\t\tVictor’s creature seems to have, in addition to the desire to evaluate his own behavior, the ability to judge the fairness of that behavior and the behavior of others: that is, he has a sense of justice. There is evidence that an understanding of fairness or equity is a trait shared by many animals, but research remains to be done to understand the mechanism by which various kinds of animals assess whether another’s behavior is equitable or not. Even human concepts of justice can be vague and contradictory and may differ from one culture to another, just as individual humans’ evaluation of their own behavior is not necessarily accurate and their opinion of themselves is not necessarily shared by others (see Blanchard and Blanchard 2003; Blanchard, Blanchard, and McKittrick 2001; Brosnan 2012; Christen and Glock 2012; and Heatherton and Vohs 2000).\n\t\t\t\t"
-            }
-          ]
-        },
-        {
-          "type": "Text",
-          "content": "\n\t\t\t"
         }
       ]
     },
@@ -3674,17 +3780,13 @@
       },
       "children": [
         {
-          "type": "Text",
-          "content": "\n\t\t\t\t"
-        },
-        {
           "type": "Element",
           "tagName": "p",
           "attributes": {},
           "children": [
             {
               "type": "Text",
-              "content": "\n\t\t\t\t\tThe term "
+              "content": "The term "
             },
             {
               "type": "Element",
@@ -3714,13 +3816,9 @@
             },
             {
               "type": "Text",
-              "content": " (2008), Sophie Radcliffe puts it this way: “The uncertainty as to whether ‘sympathy’ exists as a somatic feeling in itself or as a state of mind resulting from an act of cognition persists through the nineteenth and twentieth centuries, with terms and ideas from scientific discourses drifting into literary works and vice versa” (10).\n\t\t\t\t"
+              "content": " (2008), Sophie Radcliffe puts it this way: “The uncertainty as to whether ‘sympathy’ exists as a somatic feeling in itself or as a state of mind resulting from an act of cognition persists through the nineteenth and twentieth centuries, with terms and ideas from scientific discourses drifting into literary works and vice versa” (10)."
             }
           ]
-        },
-        {
-          "type": "Text",
-          "content": "\n\t\t\t\t"
         },
         {
           "type": "Element",
@@ -3729,7 +3827,7 @@
           "children": [
             {
               "type": "Text",
-              "content": "\n\t\t\t\t\tWe can see this view in a definition of the word that is now out of use but was current at the time Mary was writing: “a relation between two bodily organs or parts (or between two persons) such that disorder, or any condition, of the one induces a corresponding condition in the other” ("
+              "content": "We can see this view in a definition of the word that is now out of use but was current at the time Mary was writing: “a relation between two bodily organs or parts (or between two persons) such that disorder, or any condition, of the one induces a corresponding condition in the other” ("
             },
             {
               "type": "Element",
@@ -3744,13 +3842,9 @@
             },
             {
               "type": "Text",
-              "content": "). There was also a question then of whether sympathy is gendered—whether women’s minds or bodies are more readily able to engage in admirable moments of communion of feeling as a result of their supposedly shared characteristics of body, mind, or experience. Mothers, in particular, were imagined as having superior abilities for sympathy due to their roles in creating, giving birth to, and raising children. Other questions were posed: Are scientists (largely conceived of as men, as in this novel) capable of engaging in (stereotypically feminine, maternal) sympathy? What do their scientific judgments or achievements lack if they do not have access to the right kind or levels of sympathy, whether from lack of experience or from supposedly biological shortcomings?\n\t\t\t\t"
+              "content": "). There was also a question then of whether sympathy is gendered—whether women’s minds or bodies are more readily able to engage in admirable moments of communion of feeling as a result of their supposedly shared characteristics of body, mind, or experience. Mothers, in particular, were imagined as having superior abilities for sympathy due to their roles in creating, giving birth to, and raising children. Other questions were posed: Are scientists (largely conceived of as men, as in this novel) capable of engaging in (stereotypically feminine, maternal) sympathy? What do their scientific judgments or achievements lack if they do not have access to the right kind or levels of sympathy, whether from lack of experience or from supposedly biological shortcomings?"
             }
           ]
-        },
-        {
-          "type": "Text",
-          "content": "\n\t\t\t\t"
         },
         {
           "type": "Element",
@@ -3759,7 +3853,7 @@
           "children": [
             {
               "type": "Text",
-              "content": "\n\t\t\t\t\tThroughout "
+              "content": "Throughout "
             },
             {
               "type": "Element",
@@ -3774,13 +3868,9 @@
             },
             {
               "type": "Text",
-              "content": ", invocations of “sympathy,” then, ask readers to investigate what causes a community of feeling among people or creatures and what that feeling means in the act of creating and nurturing new life. Does sympathy arise from the mind? Is it learned through education and the exercise of judgment? In that case, can anyone be taught it? Or does sympathy arise from the body, whether imagined as universally “human” (in which case the creature is a liminal kind) or as differentiated by sex or gender? Mary enters into these debates in her day and, as in this passage, seems to suggest that sympathy fails when there is a lack of identification with the other. This failure, as it relates to the creature, may be read as arising either from the mind or from the body or as arising either from a somatic lack in men or from a somatic lack in humans. Mary does not offer easy answers and leaves many questions for the reader to engage and trouble over in considering where necessary sympathy properly comes from, how it can be exercised, and how it has an impact on scientific discovery\n\t\t\t\t"
+              "content": ", invocations of “sympathy,” then, ask readers to investigate what causes a community of feeling among people or creatures and what that feeling means in the act of creating and nurturing new life. Does sympathy arise from the mind? Is it learned through education and the exercise of judgment? In that case, can anyone be taught it? Or does sympathy arise from the body, whether imagined as universally “human” (in which case the creature is a liminal kind) or as differentiated by sex or gender? Mary enters into these debates in her day and, as in this passage, seems to suggest that sympathy fails when there is a lack of identification with the other. This failure, as it relates to the creature, may be read as arising either from the mind or from the body or as arising either from a somatic lack in men or from a somatic lack in humans. Mary does not offer easy answers and leaves many questions for the reader to engage and trouble over in considering where necessary sympathy properly comes from, how it can be exercised, and how it has an impact on scientific discovery"
             }
           ]
-        },
-        {
-          "type": "Text",
-          "content": "\n\t\t\t"
         }
       ]
     },
@@ -4391,8 +4481,15 @@
       },
       "children": [
         {
-          "type": "Text",
-          "content": "\n\t\t\t\t"
+          "type": "Element",
+          "tagName": "p",
+          "attributes": {},
+          "children": [
+            {
+              "type": "Text",
+              "content": "Here Mary anticipates one of the most serious debates about unintended consequences confronting contemporary scientists and technologists. How can we be sure that new creations we bring into the world will remain constrained, controlled, and limited in the ways that we expect them to be? One popular example of this discussion is the “grey goo” argument. Imagine a modern-day Victor creating a kind of self-replicating nanotechnology that can harness certain resources in the environment to copy itself. Without the proper controls, such an entity could destroy everything on the planet within a matter of days, turning the world into a grey goo of seething nanobots."
+            }
+          ]
         },
         {
           "type": "Element",
@@ -4401,28 +4498,9 @@
           "children": [
             {
               "type": "Text",
-              "content": "\n\t\t\t\t\tHere Mary anticipates one of the most serious debates about unintended consequences confronting contemporary scientists and technologists. How can we be sure that new creations we bring into the world will remain constrained, controlled, and limited in the ways that we expect them to be? One popular example of this discussion is the “grey goo” argument. Imagine a modern-day Victor creating a kind of self-replicating nanotechnology that can harness certain resources in the environment to copy itself. Without the proper controls, such an entity could destroy everything on the planet within a matter of days, turning the world into a grey goo of seething nanobots.\n\t\t\t\t"
+              "content": "The creature’s description of his plan for self-destruction is one of the most poignant explorations of a correlated problem—if the new technology in question is not only autonomous but in some way self-aware, the imposition of safety limits may mean asking our creations to enact a kind of suicide."
             }
           ]
-        },
-        {
-          "type": "Text",
-          "content": "\n\t\t\t\t"
-        },
-        {
-          "type": "Element",
-          "tagName": "p",
-          "attributes": {},
-          "children": [
-            {
-              "type": "Text",
-              "content": "\n\t\t\t\t\tThe creature’s description of his plan for self-destruction is one of the most poignant explorations of a correlated problem—if the new technology in question is not only autonomous but in some way self-aware, the imposition of safety limits may mean asking our creations to enact a kind of suicide.\n\t\t\t\t"
-            }
-          ]
-        },
-        {
-          "type": "Text",
-          "content": "\n\t\t\t"
         }
       ]
     },
@@ -4442,17 +4520,13 @@
       },
       "children": [
         {
-          "type": "Text",
-          "content": "\n\t\t\t\t"
-        },
-        {
           "type": "Element",
           "tagName": "p",
           "attributes": {},
           "children": [
             {
               "type": "Text",
-              "content": "\n\t\t\t\t\tThe creature’s final words describe his plans for a noble suicide (see note 21 on the death of Seneca, and note 27 on self-sacrificing technologies). The creature’s decision to “repeat the lessons of my Seneca, and die with a good heart” (p. 177) has many echoes in contemporary representations of some autonomous technology sacrificing itself for the good of humanity. In "
+              "content": "The creature’s final words describe his plans for a noble suicide (see note 21 on the death of Seneca, and note 27 on self-sacrificing technologies). The creature’s decision to “repeat the lessons of my Seneca, and die with a good heart” (p. 177) has many echoes in contemporary representations of some autonomous technology sacrificing itself for the good of humanity. In "
             },
             {
               "type": "Element",
@@ -4467,13 +4541,9 @@
             },
             {
               "type": "Text",
-              "content": ", the superhuman robot played by Arnold Schwarzenegger makes a similar sacrifice, lowering itself into a pool of molten metal in order to protect John and Sarah Connor.\n\t\t\t\t"
+              "content": ", the superhuman robot played by Arnold Schwarzenegger makes a similar sacrifice, lowering itself into a pool of molten metal in order to protect John and Sarah Connor."
             }
           ]
-        },
-        {
-          "type": "Text",
-          "content": "\n\t\t\t\t"
         },
         {
           "type": "Element",
@@ -4482,13 +4552,9 @@
           "children": [
             {
               "type": "Text",
-              "content": "\n\t\t\t\t\tAs autonomous systems become more prevalent—think of self-driving cars—the question of how to encode ethical judgment in them has become far more pressing. Perhaps it seems obvious that a self-driving car should sacrifice itself before allowing a human pedestrian to be harmed. But how should such a system react when it must choose between injuring its driver or hitting a pedestrian? As Victor and the creature have discovered, most of our moral decisions involve some risk of harming others and force us to grapple with ethical ambiguity.\n\t\t\t\t"
+              "content": "As autonomous systems become more prevalent—think of self-driving cars—the question of how to encode ethical judgment in them has become far more pressing. Perhaps it seems obvious that a self-driving car should sacrifice itself before allowing a human pedestrian to be harmed. But how should such a system react when it must choose between injuring its driver or hitting a pedestrian? As Victor and the creature have discovered, most of our moral decisions involve some risk of harming others and force us to grapple with ethical ambiguity."
             }
           ]
-        },
-        {
-          "type": "Text",
-          "content": "\n\t\t\t"
         }
       ]
     },

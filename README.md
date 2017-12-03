@@ -39,6 +39,7 @@ Static files such as images, robots.txt, etc are stored in the /static folder. T
 
 ```
 npm run convert // Converts bookSource.html to json
-npm run convert-editor // Converts new json to editor-compliant json
 npm run convert-annotations // Converts footnotes to annotations json
+npm run convert-editor // Converts bookSource.json and sourceAnnotations.json to editor-compliant json
+
 // run generate-data from /api to import jsons into database.

@@ -2,50 +2,54 @@
 /* eslint-disable no-console */
 
 const fs = require('fs');
-const documentJSON = require('./source.json');
+const documentJSON = require('./bookSource.json');
+const annotationsJSON = require('./sourceAnnotations.json');
 
-const convertNode = (node)=> {
+const convertNode = (node, isAnnotation)=> {
 	if (node.tagName === 'h1') {
 		return {
 			type: 'heading',
 			attrs: { level: 1 },
-			content: [{ type: 'text', text: node.children[0].content }]
+			content: [...node.children.map((item)=> { return convertNode(item); })]
 		};
 	}
 	if (node.tagName === 'h2') {
 		return {
 			type: 'heading',
 			attrs: { level: 2 },
-			content: [{ type: 'text', text: node.children[0].content }]
+			content: [...node.children.map((item)=> { return convertNode(item); })]
 		};
 	}
 	if (node.tagName === 'h3') {
 		return {
 			type: 'heading',
 			attrs: { level: 3 },
-			content: [{ type: 'text', text: node.children[0].content }]
+			content: [...node.children.map((item)=> { return convertNode(item); })]
 		};
 	}
 	if (node.tagName === 'h4') {
 		return {
 			type: 'heading',
 			attrs: { level: 4 },
-			content: [{ type: 'text', text: node.children[0].content }]
+			content: [...node.children.map((item)=> { return convertNode(item); })]
 		};
 	}
 	if (node.tagName === 'p') {
-		return [
+		const content = [
 			{
 				type: 'paragraph',
 				content: [
-					...node.children.map((item)=> { return convertNode(item); }),
-					{
-						type: 'discussion',
-						attrs: { parentHash: node.hash }
-					}
+					...node.children.map((item)=> { return convertNode(item, isAnnotation); })
 				]
 			},
 		];
+		if (!isAnnotation) {
+			content[0].content.push({
+				type: 'discussion',
+				attrs: { parentHash: node.hash }
+			});
+		}
+		return content;
 	}
 	if (node.tagName === 'sup') {
 		// console.log(JSON.stringify(node, null, 2));
@@ -58,6 +62,16 @@ const convertNode = (node)=> {
 				{ type: 'link', attrs: { href: node.children[0].children[0].attributes.href, title: undefined } },
 			]
 		};
+	}
+	if (node.tagName === 'blockquote') {
+		return [
+			{
+				type: 'blockquote',
+				content: [
+					...node.children.map((item)=> { return convertNode(item); }),
+				]
+			},
+		];
 	}
 	if (node.tagName === 'i') {
 		return {
@@ -83,6 +97,19 @@ const convertNode = (node)=> {
 			text: node.children[0].content,
 		};
 	}
+	if (node.tagName === 'div') {
+		return {
+			type: 'doc',
+			attrs: { meta: {} },
+			content: node.children.map((item)=> {
+				return convertNode(item, true);
+			}).reduce((prev, curr)=> {
+				if (Array.isArray(curr)) { return prev.concat(curr); }
+				prev.push(curr);
+				return prev;
+			}, [])
+		};
+	}
 	if (!node.tagName) {
 		return { type: 'text', text: node.content };
 	}
@@ -102,7 +129,22 @@ const editorJSON = {
 	}, [])
 };
 
-fs.writeFile('static/sourceEditor.json', JSON.stringify(editorJSON, null, 2), 'utf8', ()=> {
-	console.log('Finished Processing');
+fs.writeFile('static/bookSourceEditor.json', JSON.stringify(editorJSON, null, 2), 'utf8', ()=> {
+	console.log('Finished Processing Book');
+});
+
+const convertedAnnotations = annotationsJSON.map((item)=> {
+	const output = Object.assign({}, item);
+	// output.content = {
+	// 	type: 'doc',
+	// 	attrs: { meta: {} },
+	// 	content: convertNode(item.content, true)
+	// };
+	output.content = convertNode(item.content, true);
+	return output;
+});
+
+fs.writeFile('static/sourceAnnotationsEditor.json', JSON.stringify(convertedAnnotations, null, 2), 'utf8', ()=> {
+	console.log('Finished Processing Annotations');
 });
 

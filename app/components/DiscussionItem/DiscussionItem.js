@@ -138,7 +138,11 @@ class DiscussionItem extends Component {
 					</div>
 
 					<div className={'content-body'}>
-						{this.renderContent(item.content)}
+						{/*this.renderContent(item.content)*/}
+						<Editor
+							initialContent={item.content}
+							isReadOnly={true}
+						/>
 					</div>
 
 					{this.state.replyOpen &&
