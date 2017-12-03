@@ -25,8 +25,41 @@ const contextTypes = {
 };
 
 class Book extends Component {
+	// componentWillMount() {
+	// 	const queryObject = queryString.parse(this.props.location.search);
+	// 	if (queryObject.from && queryObject.to) {
+	// 		setTimeout(()=> {
+	// 			const thing = document.getElementsByClassName('permanent')[0];
+
+	// 			if (thing) {
+	// 				console.log('Scrolling');
+	// 				window.scrollTo(0, thing.getBoundingClientRect().top - 135);
+	// 			}
+	// 		}, 500);
+	// 	}
+	// }
 	render() {
 		const lensesData = this.props.lensesData.data || [];
+		const queryObject = queryString.parse(this.props.location.search);
+		const highlights = [];
+		if (queryObject.from && queryObject.to) {
+			highlights.push({
+				from: queryObject.from,
+				to: queryObject.to,
+				version: 'permanent',
+				id: '00',
+				permanent: true,
+			});
+		}
+		const scrollToFocus = ()=> {
+			setTimeout(()=> {
+				const focus = document.getElementsByClassName('permanent')[0];
+				if (focus) {
+					document.getElementsByClassName('book-wrapper')[0].scrollTop = focus.getBoundingClientRect().top - 75;
+				}
+			}, 50);
+		};
+
 		return (
 			<div className={'book'}>
 				<style>
@@ -48,6 +81,7 @@ class Book extends Component {
 						<Editor
 							initialContent={bookContent}
 							isReadOnly={true}
+							ref={scrollToFocus}
 						>
 							<ScrollBar toc={this.toc} documentClassName={'book-wrapper'} />
 							<Image
@@ -59,7 +93,7 @@ class Book extends Component {
 								storeContext={this.context.store}
 							/>
 							<HighlightMenu
-								highlights={[]}
+								highlights={highlights}
 								primaryEditorClassName={'book-content'}
 								hoverBackgroundColor={'aqua'}
 							/>

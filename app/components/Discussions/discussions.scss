@@ -4,6 +4,7 @@
 	.tags-wrapper {
 		cursor: pointer;
 		opacity: 0.75;
+		margin: 0em 1em;
 		&:hover {
 			opacity: 1;
 		}
@@ -11,24 +12,12 @@
 	.key {
 		padding: 0.15em 0.5em;
 		color: white;
-		
 		font-size: 0.75em;
 		background-color: #999;
 		position: relative;
 		top: -2px;
 		user-select: none;
-		margin: 0em 1em;
 		border-radius: 2px;
-		// &:first-of-type {
-		// 	border-top-left-radius: 2px;
-		// 	border-bottom-left-radius: 2px;
-		// 	margin-left: 1em;
-		// }
-		// &:last-of-type {
-		// 	border-top-right-radius: 2px;
-		// 	border-bottom-right-radius: 2px;
-		// 	margin-right: 1em;
-		// }
 		&.count {
 			background-color: #E29E25;
 		}
