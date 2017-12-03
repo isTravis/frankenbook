@@ -46,7 +46,7 @@ class App extends Component {
 
 	componentWillMount() {
 		const activeLenses = App.getActiveLenses(this.props);
-		this.props.dispatch(getContentData());
+		// this.props.dispatch(getContentData());
 		this.props.dispatch(getLensesData(activeLenses));
 		this.props.dispatch(getDiscussionsData(activeLenses));
 	}
@@ -101,8 +101,8 @@ class App extends Component {
 						About
 					*/}
 
-					<Route exact path="/" component={Book} />
-					<Route exact path="/book2" component={Book2} />
+					<Route exact path="/" component={Book2} />
+					<Route exact path="/book2" component={Book} />
 					<Route exact path="/media" component={Media} />
 					<Route exact path="/login" component={Login} />
 					<Route exact path="/signup" component={Signup} />

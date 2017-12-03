@@ -101,14 +101,15 @@ function stripWhitespace (nodes) {
 				console.log(node);
 			}
 			// node.content = node.content.trim();
-			node.content = node.content.replace(/^(\n|\t)*/, '').replace(/(\n|\t)*$/, '');
+			// node.content = node.content.replace(/^(\n|\t)*/, '').replace(/(\n|\t)*$/, '');
+			node.content = node.content.replace(/(\n|\t)*/gi, '');
 		}
 		return node;
 	});
 }
 
 function removeWhitespace(nodes) {
-  return removeEmptyNodes(stripWhitespace(nodes))
+	return removeEmptyNodes(stripWhitespace(nodes));
 }
 function buildParagraphLinks(node) {
 	if (!node.children) { return null; }

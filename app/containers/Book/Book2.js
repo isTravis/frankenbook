@@ -17,7 +17,7 @@ import { postDiscussion } from 'actions/discussions';
 import { putContentData } from 'actions/content';
 import { s3Upload, getResizedUrl, generateHash } from 'utilities';
 
-// const bookContent = require('source2.json');
+const bookContent = require('bookSourceEditor.json');
 require('./book.scss');
 
 const propTypes = {
@@ -38,18 +38,12 @@ class Book extends Component {
 		super(props);
 		this.state = {
 			updatedTime: new Date().getTime(),
+			docRendered: false,
 		};
-		this.saveContent = this.saveContent.bind(this);
-		this.appendDiscussionBlocks = this.appendDiscussionBlocks.bind(this);
+		this.toc = [];
+		this.getRoots(bookContent);
 	}
 	componentWillReceiveProps(nextProps) {
-		// if (this.props.contentData.isLoading
-		// 	&& !nextProps.contentData.isLoading
-		// 	&& !nextProps.contentData.error
-		// ) {
-		// 	console.log('Set new updated time');
-		// 	this.setState({ updatedTime: new Date().getTime() });
-		// }
 		if (this.props.contentData.putIsLoading
 			&& !nextProps.contentData.putIsLoading
 			&& !nextProps.contentData.putError
@@ -59,48 +53,23 @@ class Book extends Component {
 		}
 	}
 
-	appendDiscussionBlocks(json) {
-		console.log(json);
-		const outputContent = json.content.map((item)=> {
-			if (item.type !== 'paragraph') { return item; }
-			console.log('Last type is', item.content[item.content.length -1].type);
-			const newItem = {
-				...item,
-				content: item.content.sort((foo, bar)=> {
-					if (foo.type === 'discussion') { return 1; }
-					return 0;
-				})
-			};
-			if (newItem[newItem.content.length - 1].type !== 'discussion') {
-				const parentHash = findExistingParentHash(item);
-				return {
-					...item,
-					content: [
-						...item.content,
-						{ type: 'discussion', attrs: { parentHash: generateHash(8) } }
-					]
-				};
-			}
-			return newItem;
-		});
-		console.log('output content is', outputContent);
-		return {
-			...json,
-			content: outputContent
-		};
-	}
-	saveContent() {
-		const contentData = this.props.contentData.data || {};
-		const json = this.editorRef.getJSON();
-		const outputJSON = this.appendDiscussionBlocks(json);
-		this.props.dispatch(putContentData(contentData.id, outputJSON));
+	getRoots(content) {
+		if (content.type === 'heading') {
+			this.toc.push({
+				tagName: `h${content.attrs.level}`,
+				content: content.content[0].text,
+				// hash: content.hash
+			});
+		}
+		if (content.content) {
+			content.content.map((child)=> {
+				return this.getRoots(child);
+			});
+		}
 	}
 
 	render() {
 		const lensesData = this.props.lensesData.data || [];
-		const contentData = this.props.contentData.data || {};
-		const isReadOnly = true;
-		console.log('USing this', contentData.json);
 		return (
 			<div className={'book'}>
 				<style>
@@ -108,9 +77,10 @@ class Book extends Component {
 						return `.key.${lens.slug}, .pt-tag.${lens.slug} { background-color: ${lens.color}; } `;
 					})}
 				</style>
-				{/*this.state.docRendered &&
+
+				{this.state.docRendered &&
 					<ScrollBar toc={this.toc} documentClassName={'book-wrapper'} />
-				*/}
+				}
 				<div className={'book-wrapper'}>
 					<div className={'container'}>
 						<div className={'row'}>
@@ -124,34 +94,13 @@ class Book extends Component {
 							</div>
 						</div>
 					</div>
+
 					<div className={'book-content'}>
-						{/*this.renderContent(bookContent)*/}
-						<div className={`input-field pt-form-group ${this.props.contentData.putError ? 'pt-intent-danger' : ''}`}>
-							<div className="pt-form-content">
-								<Button
-									text={'Save'}
-									onClick={this.saveContent}
-									loading={this.props.contentData.putIsLoading}
-								/>
-								<div className={`pt-input-group ${this.props.contentData.putError ? 'pt-intent-danger' : ''}`}>
-									<div className="pt-form-helper-text">{this.props.contentData.putError}</div>
-								</div>
-							</div>
-						</div>
-						
 						<Editor
-							ref={(ref)=> { this.editorRef = ref; }}
-							initialContent={contentData.json}
+							initialContent={bookContent}
 							key={this.state.updatedTime}
-							// onChange={(val)=> {console.log(val);}}
-							isReadOnly={false}
+							isReadOnly={true}
 						>
-							{!isReadOnly &&
-								<FormattingMenu />
-							}
-							{!isReadOnly &&
-								<InsertMenu />
-							}
 							<Image
 								handleFileUpload={s3Upload}
 								handleResizeUrl={(url)=> { return getResizedUrl(url, 'fit-in', '800x0'); }}
@@ -178,7 +127,6 @@ Book.propTypes = propTypes;
 Book.contextTypes = contextTypes;
 export default withRouter(connect(state => ({
 	discussionsData: state.discussions,
-	contentData: state.content,
 	lensesData: state.lenses,
 	loginData: state.login
 }))(Book));
