@@ -59,10 +59,13 @@ class Book extends Component {
 		const scrollToFocus = ()=> {
 			setTimeout(()=> {
 				const focus = document.getElementsByClassName('permanent')[0];
+				if (queryObject.to && queryObject.from && !focus) {
+					scrollToFocus();
+				}
 				if (focus) {
 					document.getElementsByClassName('book-wrapper')[0].scrollTop = focus.getBoundingClientRect().top - 75;
 				}
-			}, 50);
+			}, 100);
 		};
 
 		return (
