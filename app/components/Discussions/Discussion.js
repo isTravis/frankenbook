@@ -3,6 +3,7 @@ import { connect } from 'react-redux';
 import PropTypes from 'prop-types';
 import { withRouter } from 'react-router-dom';
 import DiscussionItem from 'components/DiscussionItem/DiscussionItem';
+import DiscussionInput from 'components/DiscussionInput/DiscussionInput';
 import { postDiscussion } from 'actions/discussions';
 
 require('./discussions.scss');
@@ -12,6 +13,7 @@ const propTypes = {
 	discussionsData: PropTypes.object.isRequired,
 	loginData: PropTypes.object.isRequired,
 	lensesData: PropTypes.object.isRequired,
+	dispatch: PropTypes.func.isRequired,
 	// routerContext: PropTypes.object.isRequired,
 	// storeContext: PropTypes.object.isRequired,
 	// userId: PropTypes.string,
@@ -34,6 +36,7 @@ class Discussions extends Component {
 		this.openDiscussions = this.openDiscussions.bind(this);
 		this.closeDiscussions = this.closeDiscussions.bind(this);
 		this.handleReplySubmit = this.handleReplySubmit.bind(this);
+		this.handleNewAnnotation = this.handleNewAnnotation.bind(this);
 	}
 
 	openDiscussions() {
@@ -47,38 +50,29 @@ class Discussions extends Component {
 	handleReplySubmit(discussionObject) {
 		this.props.dispatch(postDiscussion(discussionObject));
 	}
-
+	handleNewAnnotation(annotationData) {
+		this.props.dispatch(postDiscussion({
+			userId: this.props.loginData.data.id,
+			anchor: this.props.parentHash,
+			content: annotationData.content,
+			text: annotationData.text
+		}));
+	}
 	render() {
 		const discussions = this.props.discussionsData.data || [];
 		const userId = this.props.loginData.data && this.props.loginData.data.id;
 		const replySubmitLoading = this.props.discussionsData.isLoading;
 
-		const counts = discussions.filter((item)=> {
-			return item.anchor === this.props.parentHash;
-		}).reduce((prev, curr)=> {
-			curr.labels.forEach((label)=> {
-				if (prev[label.slug]) {
-					prev[label.slug] += 1;
-				} else {
-					prev[label.slug] = 1;
-				}
-			});
-			return prev;
-		}, {});
-
-		// if (!Object.keys(counts).length) {
-		// 	return null;
-		// }
-		const discussionCount = Object.keys(counts).reduce((prev, curr)=> {
-			return prev + counts[curr];
-		}, 0);
+		const numTopDiscussions = discussions.filter((item)=> {
+			return item.anchor === this.props.parentHash && !item.parentId;
+		}).length;
 
 		return (
 			<div className={'discussions'}>
 				{!this.state.isOpen &&
 					<span className={'tags-wrapper'} tabIndex={-1} role={'button'} onClick={this.openDiscussions}>
-						{discussionCount
-							? <span className={'key count'}>{discussionCount}</span>
+						{numTopDiscussions
+							? <span className={'key count'}>{numTopDiscussions}</span>
 							: <span className={'key add'}>+</span>
 						}
 					</span>
@@ -105,6 +99,16 @@ class Discussions extends Component {
 								/>
 							);
 						})}
+						<div className={'new-annotation'}>
+							<h4>New Annotation</h4>
+							<DiscussionInput
+								handleSubmit={this.handleNewAnnotation}
+								isReply={false}
+								submitIsLoading={replySubmitLoading}
+								getHighlightContent={()=>{}}
+								userId={userId}
+							/>
+						</div>
 					</div>
 				}
 			</div>

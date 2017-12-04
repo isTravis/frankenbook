@@ -22,7 +22,7 @@ export const apiFetch = function(path, opts) {
 	});
 };
 
-export const defaultLenses = ['healthmed', 'technology', 'motivments', 'science'];
+export const defaultLenses = ['community', 'healthmed', 'technology', 'motivments', 'science'];
 
 export function generateHash(length) {
 	const tokenLength = length || 32;

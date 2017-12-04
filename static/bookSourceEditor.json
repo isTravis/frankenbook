@@ -5,13 +5,6 @@
   },
   "content": [
     {
-      "type": "image",
-      "attrs": {
-        "url": "images/cover.jpg",
-        "align": "full"
-      }
-    },
-    {
       "type": "heading",
       "attrs": {
         "level": 1,
@@ -23,13 +16,6 @@
           "text": "VOL. I"
         }
       ]
-    },
-    {
-      "type": "image",
-      "attrs": {
-        "url": "images/vol1.png",
-        "align": "full"
-      }
     },
     {
       "type": "heading",

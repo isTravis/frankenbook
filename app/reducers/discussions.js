@@ -51,15 +51,20 @@ export default function reducer(state = defaultState, action) {
 		};
 	case POST_DISCUSSION_SUCCESS:
 		return {
-			data: state.data.map((discussion)=> {
-				if (discussion.id === action.result.parentId) {
-					return {
-						...discussion,
-						replies: [...discussion.replies, action.result]
-					};
-				}
-				return discussion;
-			}),
+			data: action.result.parentId
+				? state.data.map((discussion)=> {
+					if (discussion.id === action.result.parentId) {
+						return {
+							...discussion,
+							replies: [...discussion.replies, action.result]
+						};
+					}
+					return discussion;
+				})
+				: [
+					...state.data,
+					action.result
+				],
 			isLoading: false,
 			error: undefined,
 		};
