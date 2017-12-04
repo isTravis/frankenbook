@@ -1,0 +1,3895 @@
+{
+  "type": "doc",
+  "attrs": {
+    "meta": {}
+  },
+  "content": [
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 1
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "Essays"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 1
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "Traumatic Responsibility"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "Victor Frankenstein as Creator and Casualty"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "Josephine Johnston"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "type": "text",
+          "text": "A rich theme running through Mary Shelley’s "
+        },
+        {
+          "type": "text",
+          "text": "Frankenstein",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": " is responsibility. In a straightforward—even didactic—way, the novel chronicles the devastating consequences for an inventor and those he loves of his utter failure to anticipate the harm that can result from raw, unchecked scientific curiosity. The novel not only explores the responsibility that Victor Frankenstein has "
+        },
+        {
+          "type": "text",
+          "text": "for",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": " the destruction caused by his creation but also examines the responsibility he owes "
+        },
+        {
+          "type": "text",
+          "text": "to",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": " him. The creature is a new being, with emotions and desires and dreams that he quickly learns cannot be satisfied by humans, who are repulsed by his appearance and terrified of his brute strength. So the creature comes to Victor, pleading—and then demanding—that he create a female companion with whom he can experience peace and love. While Victor is grappling intellectually and practically with the implications of being responsible both for and to the creature, he is also "
+        },
+        {
+          "type": "text",
+          "text": "experiencing",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": " responsibility as a devastating physical and emotional state. In this way, Mary Shelley raises a third aspect of responsibility—its impact on the self."
+        },
+        {
+          "type": "discussion",
+          "attrs": {
+            "parentHash": "f23888"
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "type": "text",
+          "text": "What Is Responsibility?",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "type": "discussion",
+          "attrs": {
+            "parentHash": "d94aba"
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "type": "text",
+          "text": "The word "
+        },
+        {
+          "type": "text",
+          "text": "responsibility",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": " is a noun defined as either a "
+        },
+        {
+          "type": "text",
+          "text": "duty",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": " to take care of something or someone or the "
+        },
+        {
+          "type": "text",
+          "text": "state",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": " of being the cause of an outcome. The word is familiar to everyone. Indeed, we order our daily lives based on our ideas about responsibility, whether we are referring to the duties we have to care for others—for instance, children—or our understandings about who or what has caused there to be food on our plates or a drought in California. The concept is especially important to students of philosophy and law."
+        },
+        {
+          "type": "discussion",
+          "attrs": {
+            "parentHash": "bbdf69"
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "type": "text",
+          "text": "In philosophy, special attention is paid to the concept of “moral responsibility,” which refers not to a cause-and-effect relationship nor to the duties that come with occupying particular roles in society but to the determination that someone deserves praise or blame for an outcome or state of affairs. Humans’ ability to be held morally responsible is closely tied up with the ideas about the nature of persons—specifically that persons have the capacity to be morally responsible agents. In "
+        },
+        {
+          "type": "text",
+          "text": "Frankenstein",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": ", Mary raises questions about who is and is not capable of moral responsibility. At the beginning of the book, she introduces a protagonist who appears capable of being held morally responsible for his actions and an antagonist (the creature) who does not. But as the story develops, she raises questions about which of the two is the truly rational actor—Victor, who is addled by ambition, fever, and guilt, or the creature, who acquires emotion, language, and an intellect."
+        },
+        {
+          "type": "discussion",
+          "attrs": {
+            "parentHash": "749842"
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "type": "text",
+          "text": "In law, responsibility is generally attributed in a two-step process. Judges and juries are first asked to determine whether the person "
+        },
+        {
+          "type": "text",
+          "text": "caused",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": " the outcome in question—Did the accused pull the trigger on the gun that fired the bullet that killed the victim? They must then decide whether the person did so with the requisite intent, called "
+        },
+        {
+          "type": "text",
+          "text": "mens rea",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": ". A killer who intended to kill the victim could be guilty of first-degree murder, but the legal responsibility assigned to someone who shot the victim accidentally might be manslaughter or another less-serious offense. A number of factors can interfere with legal responsibility, such as age (children are generally excused), compulsion (if someone has a gun to your head, you might not be held responsible for the actions they instruct you to perform), and mental defect (e.g., insanity). As with the determination of moral responsibility in a court of law, an attempt to attribute legal responsibility in "
+        },
+        {
+          "type": "text",
+          "text": "Frankenstein",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": " quickly becomes complex. Although it might initially seem that Victor should be the one held legally responsible not just for the existence of the creature but for the havoc he wreaks, we also must consider that the creature quickly develops the capacity for rational thought, raising the possibility that he may qualify as an actor capable of both causing harm and forming the intention to do so. Given the sophisticated way the creature develops, by the end of the book he alone might be held legally responsible for the deaths he causes."
+        },
+        {
+          "type": "discussion",
+          "attrs": {
+            "parentHash": "1bb65d"
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "type": "text",
+          "text": "Victor experiences the two basic meanings of the word "
+        },
+        {
+          "type": "text",
+          "text": "responsibility",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": ". He creates the creature (he causes it to exist), and therefore he has at least some responsibility for what the creature goes on to do. As the creature’s maker, Victor also has both a duty to others to keep them safe from his creation and, Mary seems to be saying, a duty to his creation to ensure that his existence is worthwhile. We will turn to these two ideas now—responsibility for and responsibility to."
+        },
+        {
+          "type": "discussion",
+          "attrs": {
+            "parentHash": "408706"
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "type": "text",
+          "text": "Responsibility for Our Creations",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "type": "discussion",
+          "attrs": {
+            "parentHash": "43b533"
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "type": "text",
+          "text": "In a very straightforward way, Victor "
+        },
+        {
+          "type": "text",
+          "text": "causes",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": " the monster to exist. He builds him, freely and with the hope, indeed the intention, that he will come to life. This creation is no accident. Although many factors can arguably interfere with attributions of responsibility—including compulsion and delusion—there is no suggestion that Victor does not intend to make the creature, despite the frenzied way he goes about it. Indeed, Victor anticipates his future responsibility for the existence of the creature with pleasure and excitement—even triumph: “A new species would bless me as its creator and source; many happy and excellent natures would owe their being to me. No father could claim the gratitude of his child so completely as I should deserve their’s” (p. 37)."
+        },
+        {
+          "type": "discussion",
+          "attrs": {
+            "parentHash": "f32c2c"
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "type": "text",
+          "text": "Victor’s error is failing to think harder about the potential repercussions of his work. Although he says that he hesitated for a long time about how to use the “astonishing” (p. 35) power to “bestow animation upon lifeless matter” (p. 37), this hesitation is due to the many technical hurdles that he needs to overcome rather than to any concern for the questionable results of success. He considers the good that might come from his discovery—it might lead to development of a method for bringing the dead back to life—but he fails to consider the future of his initial experimental creation. Although he is aware that the single-minded pursuit of his scientific goals is throwing his life out of balance, he utterly fails to consider the possibility that the form he has stitched together and will soon animate may go on to cause harm to anyone, including Victor himself. We might compare Victor to some modern scientists who have stopped their work to consider its potential for harm, such as those who gathered at Asilomar in the mid-1970s to consider the implications of research on recombinant DNA or those who recently called for a moratorium on germline gene editing."
+        },
+        {
+          "type": "discussion",
+          "attrs": {
+            "parentHash": "f33bd7"
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "type": "text",
+          "text": "Victor’s failure to thoroughly anticipate responsibility—to consider that there might be both upsides and downsides to his technical achievement—is his downfall. As soon as the creature opens his “dull yellow eye” (p. 41), Victor is filled with “breathless horror and disgust” (p. 42). He flees, initially so agitated he is unable to stand still, eventually falling into a nightmare-filled sleep in which he sees his fiancée, Elizabeth, first “in the bloom of health” (p. 43) and then as a rotting corpse. Victor is woken by the creature but “escape[s]” again (p. 43). He is unable to face his creation and is unprepared for the creature’s independent existence."
+        },
+        {
+          "type": "discussion",
+          "attrs": {
+            "parentHash": "cfe1e7"
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "type": "text",
+          "text": "As the story progresses, Victor’s initial emotional reactions to seeing the creature come to life—disgust and horror—are substantiated by the creature’s actions. Victor learns that the creature has killed his young brother William, whose death is then blamed on a family friend, Justine. But Victor knows the truth. He understands that he would be implicated in her execution if she is convicted as well as in the murder of his brother—“the result of my curiosity and lawless devices would cause the death of two of my fellow-beings” (p. 62). He suffers greatly under this guilt—“the tortures of the accused did not equal mine; she was sustained by innocence, but the fangs of remorse tore my bosom, and would not forego their hold” (p. 65). But he does nothing to intervene. The girl is unjustly convicted. “I, not in deed, but in effect, was the true murderer” (p. 75)."
+        },
+        {
+          "type": "discussion",
+          "attrs": {
+            "parentHash": "d35cd2"
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "type": "text",
+          "text": "Victor continues to hold himself responsible for both the existence of the horrifying creature and the creature’s deadly deeds. He spends his remaining days on earth chasing the creature across the Arctic, intending to kill him. But in this understanding of his responsibility, he is alone—no one else in the novel sees Victor as anything but a casualty of unspeakable misfortune. Although he is at one time accused of murdering his friend Henry Clerval—who is killed by the creature—that charge is eventually dropped (ironically, as Victor leaves the prison, an observer remarks, “He may be innocent of the murder, but he has certainly a bad conscience” [p. 153]). Even Robert Walton, the explorer who encounters Victor on the ice and to whom Victor narrates his entire story, judges him to be noble, gentle, and wise. It is left to Victor’s own conscience—and to the reader—to assess the extent to which he should be held responsible for the creature’s deeds. On this question, Victor is resolved. Although he allows that he did not intend to create a creature capable of such evil, he continues to hold himself responsible for the creature’s existence and for the deaths the creature causes, and he dies believing himself duty bound toward his fellow creatures to destroy his creation."
+        },
+        {
+          "type": "discussion",
+          "attrs": {
+            "parentHash": "742d28"
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "type": "text",
+          "text": "Responsibility to Our Creations",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "type": "discussion",
+          "attrs": {
+            "parentHash": "ae13ce"
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "type": "text",
+          "text": "On his deathbed, Victor also acknowledges that he is not just responsible "
+        },
+        {
+          "type": "text",
+          "text": "for",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": " the creature but also responsible "
+        },
+        {
+          "type": "text",
+          "text": "to",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": " him: “I … was bound towards him, to assure, as far as was in my power, his happiness and well-being” (p. 181). The creature himself makes this argument forcefully when he confronts Victor in the mountains overlooking the Chamonix Valley. The creature relates all that has transpired since Victor abandoned him. He has learned to find food and shelter. By closely observing a human family, he has learned about emotion and relationships as well as how to speak and read. By finding a collection of books, he learns the rudiments of human society and history. Yet on each attempt to engage with humans, the creature is disastrously rejected—sometimes even attacked. He learns that humans are repulsed by him. Concluding that humans will never accept him into their moral community, he comes to see humans as the enemy. He now lays his pain and loneliness at Victor’s feet: “Unfeeling, heartless creator! you had endowed me with perceptions and passions, and then cast me abroad an object for the scorn and horror of mankind. But on you only had I any claim for pity and redress, and from you I determined to seek that justice which I vainly attempted to gain from any other being that wore the human form” (p. 116)."
+        },
+        {
+          "type": "discussion",
+          "attrs": {
+            "parentHash": "228024"
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "type": "text",
+          "text": "To assuage his loneliness, rage, and pain, the creature demands that Victor “create a female for me, with whom I can live in the interchange of those sympathies necessary for my being” (p. 120). The creature tries to reason with Victor: “Oh! my creator, make me happy; let me feel gratitude towards you for one benefit! Let me see that I excite the sympathy of some existing thing; do not deny me my request!” (p. 121). Although Victor’s sympathies are stirred by the creature’s story and his plea for companionship, Victor immediately refuses out of a sense of responsibility to protect the world from “wickedness” (p. 139)."
+        },
+        {
+          "type": "discussion",
+          "attrs": {
+            "parentHash": "3f3248"
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "type": "text",
+          "text": "By having her inventor create a sentient being—in particular one whose intellect and emotions rival or surpass those of her supposed protagonist—Mary sharpens the point about the responsibility that we might owe to our creations. Parents understand this point (and in many ways Victor is placed in the role of a parent—albeit one who rejects and abandons his child). And so must scientists working to create new or modified life-forms carry a responsibility to their creations. We can take the point even further: a sense of responsibility can be experienced by anyone who pours time and energy into a project, even if that project does not result in a new life form. We can legitimately speak about feeling an obligation "
+        },
+        {
+          "type": "text",
+          "text": "to",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": " our work—including to our results, our ideas, or our findings—that it deserves to be published or further developed or recognized as valuable not only because it can benefit others or result in glory for ourselves but because of the intrinsic value of new knowledge."
+        },
+        {
+          "type": "discussion",
+          "attrs": {
+            "parentHash": "74ad22"
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "type": "text",
+          "text": "Responsibility as an Experience",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "type": "discussion",
+          "attrs": {
+            "parentHash": "2d7dd8"
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "type": "text",
+          "text": "One of the most striking aspects of Mary’s treatment of responsibility is her depiction of its emotional and physical toll. Before Victor gains any insight into the deadly consequences of his scientific work or the onerous duties he has thereby acquired, he experiences responsibility as an emotional and physical state. At the very moment he animates his creation, “the beauty of the dream vanished, and breathless horror and disgust filled my heart” (p. 42). He runs from the room, paces back and forth, “unable to compose my mind to sleep” (p. 42), falls into a sleep filled with nightmares portending the death of his fiancée, and wakes in a cold sweat with his limbs convulsing. He goes outside and by chance meets his friend Henry Clerval, who notices his agitated mood and then spends several months nursing Victor through a “nervous fever” during which “the form of the monster on whom I had bestowed existence was for ever before my eyes, and I raved incessantly concerning him” (p. 46)."
+        },
+        {
+          "type": "discussion",
+          "attrs": {
+            "parentHash": "ccccab"
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "type": "text",
+          "text": "Victor recovers from this first episode, but his recovery is short-lived. As the creature kills his family and friends, Victor grapples with the realization that he is responsible for the existence of the creature and to a certain extent is therefore responsible for the creature’s deeds. His grief at the death of little William and then of Henry are compounded and tainted by his guilt at the role he has played in their deaths. He cannot sleep, and his physical health declines. His concerned father implores him to move beyond his grief and reenter the world, “for excessive sorrow prevents improvement or enjoyment, or even the discharge of daily usefulness, without which no man is fit for society.” But Victor is unable to respond: “I should have been the first to hide my grief, and console my friends, if remorse had not mingled its bitterness with my other sensations” (p. 72)."
+        },
+        {
+          "type": "discussion",
+          "attrs": {
+            "parentHash": "d44901"
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "type": "text",
+          "text": "As the story progresses, Victor continues to suffer emotionally and physically. His family and friends are alarmed and try to help him, but Victor cannot be reached. He withdraws from their company, floating aimlessly on a boat on the lake, unable to find peace. He hikes in the mountains during a rainstorm. He travels to England, ostensibly to see the world before settling down in marriage but in reality to build another creature. He describes the time as “two years of exile” (p. 130), and he bemoans his inability to enjoy the journey or the people he meets on his way. He describes a visit to Oxford, noting that he “enjoyed this scene; and yet my enjoyment was embittered both by the memory of the past, and the anticipation of the future. … I am a blasted tree; the bolt has entered my soul; and I felt then that I should survive to exhibit, what I shall soon cease to be—a miserable spectacle of wrecked humanity, pitiable to others, and abhorrent to myself” (p. 135)."
+        },
+        {
+          "type": "discussion",
+          "attrs": {
+            "parentHash": "dacab9"
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "type": "text",
+          "text": "As the book concludes, Victor lay dying in Walton’s boat. The explorer and the reader are left in no doubt about what has killed him. When the creature boards the boat and sees the newly dead Victor, he claims responsibility for his death—“That is also my victim!” the creature exclaims. “I, who irretrievably destroyed thee by destroying all thou lovedst” (p. 183). Yet it is not only the loss of his family and friends that destroys Victor but also the guilt and remorse that came with being the one who so naively created the creature and gave him life."
+        },
+        {
+          "type": "discussion",
+          "attrs": {
+            "parentHash": "8db5ca"
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "type": "text",
+          "text": "Conclusion",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "type": "discussion",
+          "attrs": {
+            "parentHash": "869e51"
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "type": "text",
+          "text": "In "
+        },
+        {
+          "type": "text",
+          "text": "Frankenstein",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": ", Mary Shelley explores at least three aspects of responsibility: Victor’s responsibility "
+        },
+        {
+          "type": "text",
+          "text": "for",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": " the deadly actions committed by his creation and the threat the creature’s existence poses to his family, friends, and, Victor fears, the entire world; Victor’s responsibility "
+        },
+        {
+          "type": "text",
+          "text": "to",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": " his creation for the creature’s welfare and well-being; and the consequences of this weighty responsibility for Victor both physically and emotionally."
+        },
+        {
+          "type": "discussion",
+          "attrs": {
+            "parentHash": "10b199"
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "type": "text",
+          "text": "The novel is a gothic horror—the plot is fantastical, the scenery dramatic, and the hero doomed. But it is also a cautionary tale, with a serious message about scientists’ and engineers’ social responsibility. Mary conveys a concern that unchecked scientific enthusiasm can cause unanticipated harm. For Victor, scientific curiosity threatens the integrity of his family and disrupts his ability to engage with nature and enter into relationships. By supplying a protagonist who suffers so greatly as a result of failing to anticipate the consequences of his work, Mary urges upon her readers the virtues of humility and restraint. In her development of a creature who suffers so greatly because he is despised and rejected by an intolerant human society, she asks us to consider our obligations to our creations before we bring them into being."
+        },
+        {
+          "type": "discussion",
+          "attrs": {
+            "parentHash": "4faf1f"
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "type": "text",
+          "text": "The reader is left to wonder whether the story could have unfolded differently if Victor were to have behaved more responsibly. Might he have anticipated the brute strength of his creation and decided not to create it, or might he have altered his plan so that the creature would be less powerful and less terrifying? Rather than abandoning the creature, might he have stepped into his parental role and worked to ensure the creature’s happy existence? Mary does not tell us what Victor should have done differently—that is the reflective work that we readers must do as we consider our own responsibility to and for our modern-day creations."
+        },
+        {
+          "type": "discussion",
+          "attrs": {
+            "parentHash": "8fe629"
+          }
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 1
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "I’ve Created a Monster! (And So Can You)"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "Cory Doctorow"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "type": "text",
+          "text": "When it comes to predicting the future, science fiction writers are Texas marksmen: they fire a shotgun into the side of a barn, draw a target around the place where the pellets hit, and proclaim their deadly accuracy to anyone who’ll listen. They have made a "
+        },
+        {
+          "type": "text",
+          "text": "lot",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": " of “predictions,” before and after Mary Shelley wrote her “modern Prometheus” story about a maker and his creature. Precious few of those predictions have come true, which is only to be expected: throw enough darts, and you’ll get a bull’s eye eventually, even if you’re wearing a blindfold."
+        },
+        {
+          "type": "discussion",
+          "attrs": {
+            "parentHash": "63f352"
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "type": "text",
+          "text": "Predicting the future is a mug’s game, anyway. If the future can be predicted, then it is inevitable. If it’s inevitable, then what we do doesn’t matter. If what we do doesn’t matter, why bother getting out of bed in the morning? Science fiction does something better than predict the future: it "
+        },
+        {
+          "type": "text",
+          "text": "influences",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": " it."
+        },
+        {
+          "type": "discussion",
+          "attrs": {
+            "parentHash": "2e262e"
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "type": "text",
+          "text": "The science fiction stories that we remember—such as "
+        },
+        {
+          "type": "text",
+          "text": "Frankenstein",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "—are ones that resonate with the public imagination. Most science fiction is forgotten shortly after it’s published, but a few of those tales live on for years, decades—even centuries in the case of "
+        },
+        {
+          "type": "text",
+          "text": "Frankenstein",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": ". The fact that a story captures the public imagination doesn’t mean that it will come true in the future, but it tells you something about the "
+        },
+        {
+          "type": "text",
+          "text": "present",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": ". You learn something about the world when a vision of the future becomes a subject of controversy or delight."
+        },
+        {
+          "type": "discussion",
+          "attrs": {
+            "parentHash": "bd1819"
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "type": "text",
+          "text": "If some poor English teacher has demanded that you identify the “themes” of Mary’s "
+        },
+        {
+          "type": "text",
+          "text": "Frankenstein",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": ", the obvious correct answer is that she is referring to ambition and hubris. Ambition because Victor Frankenstein has challenged death itself, one of the universe’s eternal verities. Everything dies: whales and humans and dogs and cats and stars and galaxies. Hubris—“extreme pride or self-confidence” (thanks, "
+        },
+        {
+          "type": "text",
+          "text": "Wikipedia",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "!)—because as Victor brings his creature to life, he is so blinded by his own ambition that he fails to consider the moral consequences of his actions. He fails to ask himself how the thinking, living being he is creating will feel about being stitched together, imbued with life force, and ushered into the uncaring universe."
+        },
+        {
+          "type": "discussion",
+          "attrs": {
+            "parentHash": "457236"
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "type": "text",
+          "text": "Many critics panned "
+        },
+        {
+          "type": "text",
+          "text": "Frankenstein",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": " when it was first published, but the crowds loved it—made it a best seller and packed the theaters where it was performed on the stage. Mary had awoken something in the public imagination, and it’s not hard to understand what that was: a story about technology mastering humans rather than serving them."
+        },
+        {
+          "type": "discussion",
+          "attrs": {
+            "parentHash": "41e32c"
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "type": "text",
+          "text": "When Mary published "
+        },
+        {
+          "type": "text",
+          "text": "Frankenstein",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": " in 1818, England was getting completely upended by runaway technological innovation in the Industrial Revolution. Ways of life that had endured for centuries disappeared in the blink of an eye. William Wordsworth would soon write mournful letters and poems about railroads ruining his beloved countryside. Ancient trades disappeared without fanfare; new careers appeared overnight. Every constant was unmade; the maps were redrawn; and the old, steady rhythm of life stuttered and pulsed erratically. Young Mary, eighteen years old when she started writing "
+        },
+        {
+          "type": "text",
+          "text": "Frankenstein",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": ", felt revolution in the air."
+        },
+        {
+          "type": "discussion",
+          "attrs": {
+            "parentHash": "9a4fe4"
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "type": "text",
+          "text": "In 1999, Douglas Adams—another prodigious predictor of the present—made a keen observation about the relationship of young people to technology:"
+        },
+        {
+          "type": "discussion",
+          "attrs": {
+            "parentHash": "7d4be1"
+          }
+        }
+      ]
+    },
+    {
+      "type": "blockquote",
+      "content": [
+        {
+          "type": "text",
+          "text": "I’ve come up with a set of rules that describe our reactions to technologies:"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "type": "text",
+          "text": "1."
+        },
+        {
+          "type": "text",
+          "text": "\tAnything that is in the world when you’re born is normal and ordinary and is just a natural part of the way the world works."
+        },
+        {
+          "type": "discussion",
+          "attrs": {
+            "parentHash": "605cd0"
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "type": "text",
+          "text": "2."
+        },
+        {
+          "type": "text",
+          "text": "\tAnything that’s invented between when you’re fifteen and thirty-five is new and exciting and revolutionary and you can probably get a career in it."
+        },
+        {
+          "type": "discussion",
+          "attrs": {
+            "parentHash": "235cbd"
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "type": "text",
+          "text": "3."
+        },
+        {
+          "type": "text",
+          "text": "\tAnything invented after you’re thirty-five is against the natural order of things."
+        },
+        {
+          "type": "discussion",
+          "attrs": {
+            "parentHash": "95a3da"
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "type": "text",
+          "text": "Depending on your age, the truth of Adams’s law—and the terror of the nineteenth-century readers who relished "
+        },
+        {
+          "type": "text",
+          "text": "Frankenstein",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "’s cautionary message about technology mastering its creator—may not be immediately apparent to you. But we assuredly live in a world of continuous technological upheaval, an Information Revolution that makes Mary’s piddling Industrial Revolution seem mild by comparison, and that is the reason we still care about a two-hundred-year-old novel imagining a scientifically inarticulate project to bring the dead back to life."
+        },
+        {
+          "type": "discussion",
+          "attrs": {
+            "parentHash": "b9b8df"
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "type": "text",
+          "text": "“Technological change” isn’t a force of nature, though. The way technology changes and the way it changes us are the result of choices that we make as toolsmiths, individual users, and groups."
+        },
+        {
+          "type": "discussion",
+          "attrs": {
+            "parentHash": "a5a5ce"
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "type": "text",
+          "text": "Where Does Technological Change Come From?",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "type": "discussion",
+          "attrs": {
+            "parentHash": "08c154"
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "type": "text",
+          "text": "Robert Heinlein, a titan of science fiction (as well as a titanically problematic figure), wrote in "
+        },
+        {
+          "type": "text",
+          "text": "The Door into Summer",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": " (1957), a time-travel novel all about technological revolution, “When railroading time comes you can railroad—but not before” (120). All through history, inventors doodled things that looked like helicopters, including, famously, Leonardo da Vinci. But helicopters didn’t come into existence until a lot of other stuff was in place: metallurgy, engine design, aerodynamics, and so on. The idea of helicopters was floating around in our ether, occurring and recurring in the minds of dreamers, but just because you can think up and design a rotor, it doesn’t mean you can design a diesel motor, let alone build a Sikorsky that can lift a tank."
+        },
+        {
+          "type": "discussion",
+          "attrs": {
+            "parentHash": "7990e6"
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "type": "text",
+          "text": "This theory of technological progress is called the “adjacent possible.” Fanciful inspiration strikes all the time as a consequence of our playful, unpredictable imaginations. Fancy becomes reality when enough of the necessary stuff is in place. When it’s railroading time, you get railroads. Writers had long dreamed of animating dead matter—think of the dirt that became Adam or the clay that rabbis turned into golems. Mary, living in the world of Galvinism, industrial and democratic revolution, and the newfound delight in rationalism, was able to give us a golem without resorting to the supernatural."
+        },
+        {
+          "type": "discussion",
+          "attrs": {
+            "parentHash": "c8db23"
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "type": "text",
+          "text": "But railroading time didn’t just give us railroads: it gave us robber barons who built huge corporate “trusts” that stole from the masses to enrich the few. It gave us forced laborers, kidnapped or tricked out of China or shipped from slave plantations, to do the back-breaking work of laying the tracks. Railroads may have been inevitable, given steel and tracks and land and engines. Slave labor was not inevitable. It was a choice."
+        },
+        {
+          "type": "discussion",
+          "attrs": {
+            "parentHash": "080972"
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "type": "text",
+          "text": "Once the railroads were built, though, choices got harder to make. Railroads changed the way that farmers sold their wares, changed the way that settlements were opened and serviced, changed all those things that freaked out Wordsworth, redrew maps, made industries disappear, and created new ones. Living as though the railroad didn’t exist was hard, got harder, and eventually became virtually impossible. Whether it was your distant business correspondents expecting quick responses to their letters or what kinds of jobs your kids could get, you couldn’t just opt out of railroads—not without opting out of all the activities your pals and loved ones undertook on the trains."
+        },
+        {
+          "type": "discussion",
+          "attrs": {
+            "parentHash": "85cf78"
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "type": "text",
+          "text": "How the railroads were built was the result of individual and often immoral choices. How the railroads were "
+        },
+        {
+          "type": "text",
+          "text": "used",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": " was the result of a collective choice made by all the people in your social network: family, friends, bosses, and teachers."
+        },
+        {
+          "type": "discussion",
+          "attrs": {
+            "parentHash": "7716d9"
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "type": "text",
+          "text": "That’s why there’s no such thing as an Amish village of one. To be Amish is to agree with all the people who matter to you to make the same choices about which technologies you’ll use and how you’ll use them."
+        },
+        {
+          "type": "discussion",
+          "attrs": {
+            "parentHash": "8fe505"
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "type": "text",
+          "text": "Let’s Talk about Facebook, the Amish Village with a Billion People in It",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "type": "discussion",
+          "attrs": {
+            "parentHash": "89dc40"
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "type": "text",
+          "text": "Internet social networks were already huge before Facebook: Sixdegrees, Friendster, Myspace, Bebo, and dozens of others had already come and gone. There was an adjacent possible in play: the Internet and the Web existed, and it had grown enough that many of the people you wanted to talk to could be found online, if only someone would design a service to facilitate finding or meeting them."
+        },
+        {
+          "type": "discussion",
+          "attrs": {
+            "parentHash": "a254f0"
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "type": "text",
+          "text": "A service like Facebook was inevitable, but how Facebook works was not. Facebook is designed like a casino game where the jackpots are attention from other people (likes and messages) and the playing surface is a vast board whose parts can’t be seen most of the time. You place bets on what kind of personal revelation will ring the cherries, pull the lever—hit “post”—and wait while the wheel spins to see if you’ll win big. As in all casino games, in the Facebook game there’s one universal rule: the house always wins. Facebook continuously fine-tunes its algorithms to maximize the amount that you disclose to the service because it makes money by selling that personal information to advertisers. The more personal information you give up, the more ways they can sell you—if an advertiser wants to sell sugar water or subprime mortgages to nineteen-year-old engineering freshmen whose parents rent in a large northeastern city, then disclosing all those facts about you converts you from a user to a vendible asset."
+        },
+        {
+          "type": "discussion",
+          "attrs": {
+            "parentHash": "21be8e"
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "type": "text",
+          "text": "Adding the surveillance business model to Facebook was an individual choice. But using Facebook—now that it is dominant—is a group choice."
+        },
+        {
+          "type": "discussion",
+          "attrs": {
+            "parentHash": "f76885"
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "type": "text",
+          "text": "I’m a Facebook vegan. I won’t even use Whatsapp or Instagram because they’re owned by Facebook. That means I basically never get invited to parties; I can’t keep up with what’s going on in my daughter’s school; I can’t find my old school friends or participate in the online memorials when one of them dies. Unless everyone you know chooses along with you not to use Facebook, being a Facebook vegan is hard. But it also lets you see the casino for what it is and make a more informed choice about what technologies you depend on."
+        },
+        {
+          "type": "discussion",
+          "attrs": {
+            "parentHash": "651690"
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "type": "text",
+          "text": "Mary Shelley understood social exile. She walked away from the social network of England—ran away, really, at the age of sixteen with a married man, Percy Bysshe Shelley, and conceived two children with him before they finally married. Shelley’s life is a story about the adjacent possible of belonging, and "
+        },
+        {
+          "type": "text",
+          "text": "Frankenstein",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": " is a story about the adjacent possible of deliciously credible catastrophes in an age of technological whiplash and massive dislocation."
+        },
+        {
+          "type": "discussion",
+          "attrs": {
+            "parentHash": "b21e77"
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "type": "text",
+          "text": "In 1989, the Berlin Wall fell, and the end of the ironically named German Democratic Republic was at hand. The GDR—often called “East Germany”—was one of the most spied-upon countries in the history of the world. The Stasi, its secret police force, were synonymous with totalitarian control, and their name struck terror wherever it was whispered."
+        },
+        {
+          "type": "discussion",
+          "attrs": {
+            "parentHash": "d6b383"
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "type": "text",
+          "text": "The Stasi employed one snitch for every sixty people in the GDR: an army to surveil a nation."
+        },
+        {
+          "type": "discussion",
+          "attrs": {
+            "parentHash": "3afa25"
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "type": "text",
+          "text": "Today, the US National Security Agency (NSA) has "
+        },
+        {
+          "type": "text",
+          "text": "the entire world",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": " under surveillance more totally than the Stasi ever dreamed of. It has one employee for every twenty thousand people it spies on—not counting the contractors."
+        },
+        {
+          "type": "discussion",
+          "attrs": {
+            "parentHash": "5c167c"
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "type": "text",
+          "text": "The NSA uses a workforce less than one-tenth the size of the Stasi to surveil "
+        },
+        {
+          "type": "text",
+          "text": "a planet",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "."
+        },
+        {
+          "type": "discussion",
+          "attrs": {
+            "parentHash": "877b54"
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "type": "text",
+          "text": "How does the NSA do it? How did we get to the point where the labor costs of surveillance have plummeted so far in a few decades?"
+        },
+        {
+          "type": "discussion",
+          "attrs": {
+            "parentHash": "ac5d3b"
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "type": "text",
+          "text": "By enlisting the spied upon to do the spying. Your mobile device, your social media accounts, your search queries, and your Facebook posts—those juicy, detailed, revelatory Facebook posts—contain everything the NSA can possibly want to know about whole populations, and those populations foot the bill for its gathering of that information."
+        },
+        {
+          "type": "discussion",
+          "attrs": {
+            "parentHash": "e0fddf"
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "type": "text",
+          "text": "The adjacent possible made Facebook inevitable, but individual choices by technologists and entrepreneurs made Facebook into a force for mass surveillance. Opting out of Facebook is not a personal choice but a social one, one that you brave on your own at the cost of your social life and your ability to stay in touch with the people you love."
+        },
+        {
+          "type": "discussion",
+          "attrs": {
+            "parentHash": "6b74fd"
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "type": "text",
+          "text": "Frankenstein warns of a world where technology controls people instead of the other way around. Victor has choices to make about what he does with technology, and he gets those choices wrong again and again. But technology doesn’t control people: people wield technology to control other people."
+        },
+        {
+          "type": "discussion",
+          "attrs": {
+            "parentHash": "9831c5"
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "type": "text",
+          "text": "The world’s adjacent possibles will enable you to dream up many technologies throughout your life. But what you do with them can take away other people’s possibilities. The decision to use a widely adopted technology is never entirely in your personal hands, but what about the decision to "
+        },
+        {
+          "type": "text",
+          "text": "make",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": " that technology and "
+        },
+        {
+          "type": "text",
+          "text": "how",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": " you make it?"
+        },
+        {
+          "type": "discussion",
+          "attrs": {
+            "parentHash": "859b29"
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "type": "text",
+          "text": "That’s up to you."
+        },
+        {
+          "type": "discussion",
+          "attrs": {
+            "parentHash": "333d4a"
+          }
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 1
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "Changing Conceptions of Human Nature"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "Jane Maienschein and Kate MacCord"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "type": "text",
+          "text": "Aristotle",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "type": "discussion",
+          "attrs": {
+            "parentHash": "6f98a1"
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "type": "text",
+          "text": "Frankenstein is a bit like the proverbial elephant, with all those blind men seeing different things as they touch the trunk or tail or skin. Viewers read Mary Shelley’s novel and see many wildly different things. The nearly fifty million Google hits for the word "
+        },
+        {
+          "type": "text",
+          "text": "Frankenstein",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": " exceed the number of hits for the word "
+        },
+        {
+          "type": "text",
+          "text": "Macbeth",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": ", suggesting the popularity and staying power of this text. Here we ask what the story tells us about conceptions of human nature and how those conceptions have changed over time."
+        },
+        {
+          "type": "discussion",
+          "attrs": {
+            "parentHash": "4752a0"
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "type": "text",
+          "text": "While we are looking back two hundred years, let us look back a couple of millennia more. In the fourth century BCE, the Greek philosopher Aristotle set the stage for thinking in terms of “monsters” as deviations from the normal essence of a species. As a keen observer of nature, Aristotle also recognized that individuals go through a development process that unfolds over time. Both of these themes are important for Mary Shelley."
+        },
+        {
+          "type": "discussion",
+          "attrs": {
+            "parentHash": "d30220"
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "type": "text",
+          "text": "First, about the idea of an essence for a species, or essentialism: Aristotlewas convinced based on what he could observe that the world consists of different types of organisms. Each organism falls into a particular species type, in our case the human type. For Aristotle, each type has four causes that make an individual: the material cause provides the substance; the formal cause provides a plan that determines the shape; the efficient cause involves the construction process that make the material the right shape over time; and the final cause makes an organism come alive as it actualizes the potential for life (Lawrence 2010). These causes require time to interact, meaning that an organism can become recognized as a member of its natural type only at the end of the "
+        },
+        {
+          "type": "text",
+          "text": "process",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": " of generation."
+        },
+        {
+          "type": "discussion",
+          "attrs": {
+            "parentHash": "4379d1"
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "type": "text",
+          "text": "In addition, all living organisms also have what Aristotle called a vegetative soul (which makes it alive); animals have locomotory souls (which allow them to move around); and humans have rational souls (which give us reason and emotions). Aristotle’s idea of soul was not religious, but it was part of his attempt to explain how something could look exactly the same one minute when a person was alive and different the next minute when the person is dead. Aristotle explained the difference in terms of the action of the final cause and the soul (see Aristotle 1943)."
+        },
+        {
+          "type": "discussion",
+          "attrs": {
+            "parentHash": "4d5fdf"
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "type": "text",
+          "text": "Second is Aristotle’s recognition that making something alive requires time. It involves a developmental process to bring all these causes and factors together. Much later the Catholic Church added the idea of “hominization” to indicate the moment when a person becomes alive as a human being. Aristotle would have insisted that becoming alive does not happen at one moment but rather only as a process over time. Several millennia of thinkers have agreed with Aristotle on this point, which remains, at its heart, the best understanding of development."
+        },
+        {
+          "type": "discussion",
+          "attrs": {
+            "parentHash": "b97f27"
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "type": "text",
+          "text": "Victor Frankenstein and His Creature",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "type": "discussion",
+          "attrs": {
+            "parentHash": "ccc405"
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "type": "text",
+          "text": "Like other intellectuals at the beginning of the nineteenth century, Mary Wollstonecraft Shelley lived in the shadow of Aristotle. The period later named the Scientific Revolution (approximately the sixteenth through the eighteenth centuries) sought to replace parts of Aristotelian natural philosophy with materialism, empiricism, and experimentation. Materialism emphasized the importance of thinking in terms of material and the roles of matter in motion as causing what happens in the world, including life. Materialists rejected, for example, the idea that there is some special life force and maintained that living organisms are made of matter that changes over time. In contrast, vitalists believed that there is some kind of vital or life force that makes things come alive—that it takes a life force to make something a living organism rather than a hunk of clay or other material. Through these new explanatory frameworks, people began to explore the living world and ask what causes life to appear in the first place and then continues to make something alive rather than dead."
+        },
+        {
+          "type": "discussion",
+          "attrs": {
+            "parentHash": "f1acfb"
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "type": "text",
+          "text": "Those various attempts to understand life obviously influenced Mary’s thinking. Empiricism and experimentation called for people to try things out—that is, not just to rely on past knowledge or what can be learned from books but to look for ourselves. Victor Frankenstein embraces the call for experimentation."
+        },
+        {
+          "type": "discussion",
+          "attrs": {
+            "parentHash": "995756"
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "type": "text",
+          "text": "Yet Victor seems not to have had a clear view of what makes life happen or about human nature. For some thinkers, such as Paracelsus, among those who were called the iatrochemists of the seventeenth century, life requires a particular chemical interaction. For others, electricity imparts life. Still others thought that heat is the driving factor. Some believed that life arises through some form of unexplained spontaneous generation. Or perhaps there is some other life force that drives material to become animated or alive. Although Victor seems not to have a clear view about what it is that causes life, he is driven by a conviction that he can make a creature and cause that creature to acquire whatever it takes and thereby to become alive. He wants to create life, and Mary uses the term "
+        },
+        {
+          "type": "text",
+          "text": "create",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": " quite consciously (Westfall 1977, 82–104)."
+        },
+        {
+          "type": "discussion",
+          "attrs": {
+            "parentHash": "571003"
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "type": "text",
+          "text": "We are just as fascinated today as Mary’s contemporary readers would have been about what it takes to make material come to life and what makes up what we think of as human nature. Today scientists often point to something about the way cells in embryos divide to produce more and more cells out of an initially fertilized egg. Those cells contain nucleic acids, which seem to be essential for life. Strands of deoxyribonucleic acids (DNA) replicate themselves in ways that allow cells to divide and multicellular organisms to grow and develop over time. We continue to think of life as having a material basis. Perhaps unlike Mary’s Victor, we know much more about what makes something alive, and we also realize how much more we do not yet know."
+        },
+        {
+          "type": "discussion",
+          "attrs": {
+            "parentHash": "f6011f"
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "type": "text",
+          "text": "What Makes the Unnamed Creature a “Monster”?",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "type": "discussion",
+          "attrs": {
+            "parentHash": "2f7a95"
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "type": "text",
+          "text": "In Victor’s creature, we are introduced to a conundrum about human nature—What makes a monster? Is it physical appearance? This is a strong possibility; after all, the creature is bigger and stronger than the people it encounters and “endowed with a figure hideously deformed and loathsome” (p. 98). In Aristotle’s parlance of causes, we could read within the creature an interrupted set of formal and efficient causes—that is, an interruption in the plan and the construction of the material that makes a shape."
+        },
+        {
+          "type": "discussion",
+          "attrs": {
+            "parentHash": "f4feb5"
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "type": "text",
+          "text": "Maybe it behooves us, however, to look a little deeper at the nature ofthis creature’s putative monstrosity. Although physically aberrant, he isconstructed from human parts and so is endowed with some level of humanness, at least in the material sense. And although the people whom the creature encounters recoil from his physical appearance, his form is recognizable as that of a man rather than that of some other type. In this sense, he has the essence or “nature” of a human."
+        },
+        {
+          "type": "discussion",
+          "attrs": {
+            "parentHash": "b141fd"
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "type": "text",
+          "text": "What about the creature’s rational “soul” or his intellectual faculties, which also include emotion and sensations? Are his deficits here what makeshim a monster? This is another strong possibility. He displays behaviors that challenge his contemporaries’ moral sensibilities—violence, vengeance, and murder. But these acts are also committed by many people to whom the label "
+        },
+        {
+          "type": "text",
+          "text": "monster",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": " might not apply. "
+        },
+        {
+          "type": "discussion",
+          "attrs": {
+            "parentHash": "d51f9a"
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "type": "text",
+          "text": "To delve a bit deeper into the monstrous nature of Victor’s creation, let’s return for a moment to Aristotle. Recall that as generation unfolds, the four causes interact to give rise to a fully realized organism of a particular type. That is, a person is a person and has the nature of a human in particular only because of the "
+        },
+        {
+          "type": "text",
+          "text": "process",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": " of development."
+        },
+        {
+          "type": "discussion",
+          "attrs": {
+            "parentHash": "e02d7c"
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "type": "text",
+          "text": "Why Development Matters",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "type": "discussion",
+          "attrs": {
+            "parentHash": "ec7b7e"
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "type": "text",
+          "text": "Let’s take a moment to consider the importance of there being a process of development and why this matters for the creation of a monster and whether he can become a human person without appropriate development. Throughout his monologues to his creator, the creature explains that he had no parents to raise him and that he had to pick up his morals through stolen conversations and observations. Victor carried out his experiment and then ran away from it, leaving the mind and behavior of a newborn bound within an adult body. Victor made the fatal mistake of failing to understand that producing a life, in the sense of a fully and properly functioning living human, requires development. Babies do not know what is right and wrong; they have to learn about morals as well as about how to walk and talk and ride a bicycle and read a book and such things. Aristotle knew this. Yet some of the enthusiastic materialists of the Scientific Revolution thought that material and material forces might be enough. It is not clear whether Victor or Mary learned the lesson that development matters or fell for the illusion that matter is enough."
+        },
+        {
+          "type": "discussion",
+          "attrs": {
+            "parentHash": "59a9a7"
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "type": "text",
+          "text": "Mary surely wants us to see that Victor oversteps the bounds of proper science and medicine with his experiments. The morality tale suggests that we humans should not try to overreach and create novel beings. We are, it seems, likely to get it wrong and create a monster."
+        },
+        {
+          "type": "discussion",
+          "attrs": {
+            "parentHash": "fd83f5"
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "type": "text",
+          "text": "Yet perhaps this is not the right conclusion. Perhaps instead we should note that Victor himself also lacks a proper education that has developed over time. He does not develop his understanding of the world in a systematic way. He seems to jump from one passion to another. At first, he enthuses about some texts that appeal to him, only to discard them and embrace others. Then he seeks teachers and learns from them but also pursues his own secret agenda. We do not get a clear sense of why but might interpret that, like the creature he produces, Victor also fails to develop appropriate feelings and rationality about the world, including a feeling for proper scientific experimentation and what it can or cannot tell us."
+        },
+        {
+          "type": "discussion",
+          "attrs": {
+            "parentHash": "1dbfdd"
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "type": "text",
+          "text": "The point here is that the moral of Mary’s tale is not simply restrictive—that is, “do not mess with creating life”—but also instructive—that is, be aware that organisms, especially humans, require time and particular stimuli to realize fully the norms of their species."
+        },
+        {
+          "type": "discussion",
+          "attrs": {
+            "parentHash": "a4b641"
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "type": "text",
+          "text": "Normal and Aberrant Development",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "type": "discussion",
+          "attrs": {
+            "parentHash": "aca972"
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "type": "text",
+          "text": "For Aristotle, the four causes interact throughout the generative process, giving rise to an adult of a particular type. Type (in our case, being human) is thus the outcome of a regular process of generation. What, then, is the outcome of an interrupted generative process? And how have people understood this interrupted generative process through time?"
+        },
+        {
+          "type": "discussion",
+          "attrs": {
+            "parentHash": "aed357"
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "type": "text",
+          "text": "There are two points to consider here: type and deviation from the regular process of development (i.e., the normal way in which something achieves a type). Within the Aristotelian worldview, a type is a natural unit, and its members are endowed with particular features that make them recognizable as belonging to that unit (so long as they go through the regular course of development). In Aristotle’s estimation, types are essential—that is, they are constituted by sets of attributes that make their members fundamentally what they are. Essence defines the type but also defines and gives rise to the organisms within a type."
+        },
+        {
+          "type": "discussion",
+          "attrs": {
+            "parentHash": "419ae4"
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "type": "text",
+          "text": "Let’s look at the idea of type a little bit more closely. The type concept persisted long beyond Aristotle. Just as Aristotle had done, natural historians of the seventeenth through the nineteenth centuries sought to make sense of and to order the natural world. This ordering often required recognizing distinctions between organisms and grouping them into neat, tidy types."
+        },
+        {
+          "type": "discussion",
+          "attrs": {
+            "parentHash": "ec4ebc"
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "type": "text",
+          "text": "In Aristotle’s estimation, types are unchanging entities, but by the time Mary wrote "
+        },
+        {
+          "type": "text",
+          "text": "Frankenstein",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": ", the concept that species are fixed had begun to be challenged. Part of this challenge came from recognizing that the environment can affect an organism throughout the process of development; the other part involved understanding that these changes can be passed from one generation to the next. These two pieces of the puzzle became the basis for evolutionary theory: Darwin understood them but had no way of knowing how changes during development could be passed on; this understanding would not come until the twentieth century once the process and material nature of inheritance were understood."
+        },
+        {
+          "type": "discussion",
+          "attrs": {
+            "parentHash": "20bce1"
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "type": "text",
+          "text": "In Mary’s time, deviation from the regular process of development was understood to create monsters. In the early nineteenth century, for instance, Johann Friedrich Meckel (1781–1833) spent the majority of his career looking for and describing embryological aberrations (O’Connell 2013a). To Meckel, these monstrosities could be explained on the basis of interrupted development. They were recognized by their deviations from the norms of development (i.e., their nonadherence to the norms of the human type). What’s more, these monsters, according to Meckel, represented arrests of development in which the embryo or fetus was stuck at a stage representing a lower organism in the animal kingdom (Meckel was a proponent of the idea that development is a readout of evolutionary history long before Ernst Haeckel [1834–1919] offered his famous recapitulation theory) (Barnes 2014b; O’Connell 2013b). In this system, an interrupted generative process creates a transgression of types."
+        },
+        {
+          "type": "discussion",
+          "attrs": {
+            "parentHash": "e0b4e9"
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "type": "text",
+          "text": "Theories of deviation from the normal type and altered developmental processes were co-opted in the later nineteenth century by some scientists seeking to explain both development and evolution. For instance, Edward Drinker Cope (1840–1897) and Henry Fairfield Osborn (1857–1935) understood there to be tooth types that organisms could move between throughout evolution. This move, according to Cope and Osborn, was brought about by changes in the organism’s developmental trajectory (Barnes 2014a). In this later context, types and movement between them became not so much about monsters but about evolution."
+        },
+        {
+          "type": "discussion",
+          "attrs": {
+            "parentHash": "ff6377"
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "type": "text",
+          "text": "And in Conclusion, Was the Creature Human?",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "type": "discussion",
+          "attrs": {
+            "parentHash": "b5f4e2"
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "type": "text",
+          "text": "A human, according to Aristotle, is a being of the human type. It is a creature that has gained the proper form and has followed the proper course of development (both physically and rationally/emotionally) for the human type. According to Aristotle’s estimation, then, Victor Frankenstein’s creature cannot be considered a human. We agree."
+        },
+        {
+          "type": "discussion",
+          "attrs": {
+            "parentHash": "66050a"
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "type": "text",
+          "text": "Victor wants to see the creature as human; after all, he went through the arduous process of gathering human materials and conducting the experiments necessary to (re)create life. But in the end Victor doesn’t want to do the proper developmental work—he abandons his creation, leaving him in an incomplete state of development. In Aristotelian language, Victor disturbs the formal, efficient, and final causes, leaving the creature with an ill-formed body and mind of material cause alone."
+        },
+        {
+          "type": "discussion",
+          "attrs": {
+            "parentHash": "3e5ffc"
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "type": "text",
+          "text": "What if we abandon the Aristotelian framework of the four causes and focus on the ways in which others among Mary Shelley’s contemporaries explained life? Let’s return for a moment to the materialists. For a strict materialist, the only thing necessary to designate something as human is that it be constructed of the proper matter. Because process isn’t an issue here, a pure materialist may well deem the creature to be human. However, very few people have ever been strict materialists in this sense. Material alone is not enough. A much more common view was that of the mechanist materialist, who required both that the proper material be present and that this material be in motion in the correct way. Such a thinker would not see the creature as human. The mechanistic aspect requires process, and the motions of material must be started and continued in the right way."
+        },
+        {
+          "type": "discussion",
+          "attrs": {
+            "parentHash": "3a068d"
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "type": "text",
+          "text": "In closing, let’s consider a modern implication of one question "
+        },
+        {
+          "type": "text",
+          "text": "Frankenstein",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": " raises for our views of human nature. Being a human means being of the human type, which requires both the form of the matter and also the process of its development. Only when the matter and process are achieved together in the proper way can an individual’s humanity be achieved. The concept of personhood carries additional social interpretations and is ultimately defined through social convention, yet in our view personhood requires at the very least being fully human in the sense of form and development."
+        },
+        {
+          "type": "discussion",
+          "attrs": {
+            "parentHash": "eaebd1"
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "type": "text",
+          "text": "We recognize that there are many different opinions about what can and should be counted as a person. Yet development is crucial, and material alone is not enough. Genes and inherited material are not enough. In this light, personhood, or the designation of a being as a person, can be conferred only once the process of development is sufficiently complete. Determining what counts as sufficient to count as a person is a social issue. Biologically, what counts as a human being is the ability to live independently, with “living” defined according to the best scientific and medical standards of the day."
+        },
+        {
+          "type": "discussion",
+          "attrs": {
+            "parentHash": "1d4b4f"
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "type": "text",
+          "text": "To look more concretely at a topic of current interest, some people claim that embryos have personhood and should be given the legal rights of a human being. In the sense of humanity or personhood explained here, this definition would be an inaccurate assessment of embryos. Embryos are materially of the human type, but they have not yet gone through the process of development and are not yet persons in this sense. Some people like to suggest that embryos are potential persons in that they might, under the right circumstances, become persons. Or to put it biologically, perhaps an embryo or a “monster” that is not a fully formed human might be taken as having the potential to become a human being. But potential is not actual. Most of us have many potentials that we never put into action. It does not make sense to act as if every one of us is already an Olympic star or concert pianist or math genius just because we may each have the potential to become these things. It is the actual that matters. The creature is not an actual human in that he has not developed fully. Even after two centuries, Victor and his not-human creature help inform our understanding of human nature."
+        },
+        {
+          "type": "discussion",
+          "attrs": {
+            "parentHash": "449ff7"
+          }
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 1
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "Undisturbed by Reality"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "Victor Frankenstein’s Technoscientific Dream of Reason"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "Alfred Nordmann"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "type": "text",
+          "text": "Animated by an Almost Supernatural Enthusiasm",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "type": "discussion",
+          "attrs": {
+            "parentHash": "417e64"
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "type": "text",
+          "text": "“Learn from me … how dangerous is the acquirement of knowledge” (p. 35). Victor Frankenstein’s warning is one reason why his story continues to fascinate and why books like the present volume are written. The terrible repercussions of the ambition to become like Prometheus and “animate the lifeless clay” (p. 39) hold a stark lesson for today. This lesson, however, is not quite what it is often made out to be. Early on in the book, Victor—the “modern Prometheus” of Mary Shelley’s subtitle—lets on that his inclination is not so modern after all but is indebted to premodern, mystical authors such as the alchemists Cornelius Agrippa (Heinrich Cornelius Agrippa von Nettesheim, 1486–1535) and Albertus Magnus (c. 1200–1280):"
+        },
+        {
+          "type": "discussion",
+          "attrs": {
+            "parentHash": "c7d5a8"
+          }
+        }
+      ]
+    },
+    {
+      "type": "blockquote",
+      "content": [
+        {
+          "type": "text",
+          "text": "I should certainly have thrown Agrippa aside, and, with my imagination warmed as it was, should probably have applied myself to the more rational theory of chemistry which has resulted from modern discoveries. It is even possible, that the train of my ideas would never have received the fatal impulse that led to my ruin. …"
+        }
+      ]
+    },
+    {
+      "type": "blockquote",
+      "content": [
+        {
+          "type": "text",
+          "text": "It may appear very strange, that a disciple of Albertus Magnus should arise in the eighteenth century; but our family was not scientifical, and I had not attended any of the lectures given at the schools of Geneva. My dreams were therefore undisturbed by reality; and I entered with the greatest diligence into the search of the philosopher’s stone and the elixir of life. (pp. 21, 22)"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "type": "text",
+          "text": "For Mary’s readers in 1818, Victor’s aspirations did not fit “in this enlightened and scientific age” (p. 28); they were out of sync with rational theory and the modern discoveries of chemistry."
+        },
+        {
+          "type": "discussion",
+          "attrs": {
+            "parentHash": "5c9b1f"
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "type": "text",
+          "text": "So the creature is not a product of modern science, and yet we fancy Victor as a mad scientist in a laboratory filled with fumes and sparks from modern apparatus. How is it that this premodern mystical alchemist appears so contemporary today? The answer is as easy as it is provocative: perhaps today’s “Frankenfoods” and “Frankenmaterials” are not the products of modern science, either, but a return to alchemical dreams of reason (Krimsky 1982; Turney 1998)."
+        },
+        {
+          "type": "text",
+          "text": "1",
+          "attrs": {
+            "id": "link-333"
+          },
+          "marks": [
+            {
+              "type": "sup"
+            },
+            {
+              "type": "link",
+              "attrs": {
+                "href": "#link-329"
+              }
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": " Undisturbed by reality, they are “animated by an almost supernatural enthusiasm” (p. 33)."
+        },
+        {
+          "type": "discussion",
+          "attrs": {
+            "parentHash": "3793c6"
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "type": "text",
+          "text": "Indeed, Mary’s novel suggests not only that magic and alchemy preceded science but also that science can infuse and revive their prescientific ambitions. Victor’s teacher M. Waldman points him in this direction when he portrays modern science as a rite of passage that will allow Victor to reclaim the alchemist’s desire to “bestow animation upon lifeless matter”(p. 37). In and of itself, the world of science is a disenchanted world with causal knowledge about the arrangements of facts. But before and beyond the enlightened and scientific age lies a rather more magical world, enchanted and animated by almost unlimited powers:"
+        },
+        {
+          "type": "discussion",
+          "attrs": {
+            "parentHash": "85efe0"
+          }
+        }
+      ]
+    },
+    {
+      "type": "blockquote",
+      "content": [
+        {
+          "type": "text",
+          "text": "“The ancient teachers of this science,” said he, “promised impossibilities, and performed nothing. The modern masters promise very little; they know that metals cannot be transmuted, and that the elixir of life is a chimera. But these philosophers, whose hands seem only made to dabble in dirt, and their eyes to pore over the microscope or crucible, have indeed performed miracles. They penetrate into the recesses of nature, and shew how she works in her hiding places. They ascend into the heavens; they have discovered how the blood circulates, and the nature of the air we breathe. They have acquired new and almost unlimited powers; they can command the thunders of heaven, mimic the earthquake, and even mock the invisible world with its own shadows. (p. 30)"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "type": "text",
+          "text": "This description is an apt one, not only of those attempts that are most readily identified with Victor’s ambitions—to genetically engineer plants and animals, to technologically enhance human nature, to create artificial life, and to “banish disease from the human frame, and render man invulnerable to any but a violent death” (p. 23)—but also of the far more mundane achievements of today’s synthetic chemistry, nanotechnology, and materials science, with ordinary plastics first in line to mock the world with its own shadows. In 1957, Roland Barthes discussed plastics not as an application of polymer science but as “the magical operation par excellence: the transmutation of matter”:"
+        },
+        {
+          "type": "discussion",
+          "attrs": {
+            "parentHash": "31546a"
+          }
+        }
+      ]
+    },
+    {
+      "type": "blockquote",
+      "content": [
+        {
+          "type": "text",
+          "text": "This is because the quick-change artistry of plastic is absolute: it can become buckets as well as jewels. Hence a perpetual amazement. … And this amazement is a pleasurable one, since the scope of the transformations gives man the measure of his power. … [T]he age-old function of nature is modified: it is no longer the Idea, the pure Substance to be regained or imitated: an artificial Matter, more bountiful than all the natural deposits, is about to replace her, and to determine the very invention of forms. ([1957] 1991, 97–98)"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "type": "text",
+          "text": "Plastic signifies the malleability—indeed, the plasticity—of the material world. With sufficient ingenuity, anything can become anything else; the wealth of natural forms is mocked by the unbounded inventiveness of designers; and, in the words of nanotechnologist Gerd Binnig, we are witnesses and shapers of a second creation: “We have to become familiar with the idea that there is nothing inferior about dead matter. All the wonders of the world are contained, for example, in a stone, as all the laws of nature (and thus all the possibilities that can emerge from them) are reflected in it” (1989, 23). If plastic, according to Barthes, “is in essence the stuff of alchemy” ([1957] 1991, 97), so are ongoing attempts to transform dead matter into smart materials, to declare that dirt-repellant coatings make for self-cleaning surfaces, and to teach refrigerators to report back to us about milk going bad and eggs running low. These attempts to animate things, to give them intelligence, or to make them come to life are undisturbed by reality in that they do not accept things as they are in virtue of their first or original creation. They instead make things subject to a second creation, presumably of our own making."
+        },
+        {
+          "type": "discussion",
+          "attrs": {
+            "parentHash": "fd61ff"
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "type": "text",
+          "text": "Realities of Little Worth",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "type": "discussion",
+          "attrs": {
+            "parentHash": "b323f5"
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "type": "text",
+          "text": "Mary’s tale is not one of modern science. On the contrary, it tells the limits of science and dreams the dream of technoscience, a dream that gains power in the plastic world of Frankenmaterials."
+        },
+        {
+          "type": "discussion",
+          "attrs": {
+            "parentHash": "6d455b"
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "type": "text",
+          "text": "Science is the theoretical knowledge produced by those who seek to describe or represent the world and are aided in this quest by technology. The person who pursues this science is "
+        },
+        {
+          "type": "text",
+          "text": "Homo depictor",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": ", the Representer; technoscience is technological knowledge produced by those who seek to control how things work together and are aided by theory in this effort; the person who pursues technoscience is "
+        },
+        {
+          "type": "text",
+          "text": "Homo faber",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": ", the Maker."
+        },
+        {
+          "type": "discussion",
+          "attrs": {
+            "parentHash": "22ef23"
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "type": "text",
+          "text": "Science seeks to understand the world to the extent and in the ways that humans can comprehend it. Because the human mind is limited, science is essentially modest—the transmutation of matter and the making of gold from base metals are not on its agenda. Scientists are not interested in creating the philosopher’s stone to transform lead into gold or the elixir of life. “It was very different,” says a crestfallen Victor, “when the masters of the science sought immortality and power; such views, although futile, were grand: but now the scene was changed. The ambition of the inquirer seemed to limit itself to the annihilation of those visions on which my interest in science was chiefly founded. I was required to exchange chimeras of boundless grandeur for realities of little worth” (p. 29). By definition, perhaps, what the mind can comprehend is well proportioned, measured, and not apt to provoke awe. When we make a model, for example, and liken the inside of an atom to a miniaturized solar system with planets orbiting its core, we effectively create a mental image that cuts things down to size so that we can easily comprehend them. We do so even as we acknowledge that, really, electrons are not like solid bodies at all but something that eludes our commonsense conceptions. If science formerly relied on simplification in order to reduce complexity, to picture and explain things, this reliance did not stifle the ambition to be creative and generate complexity even where it surpasses our intellectual powers. The history of technology testifies to this ambition, and the technology of the computer allows us to exceed the limits of our science. The statements that represent slices of reality—each of little worth—can be built into a complex system of statements simulating a dynamic process that may also be observed in nature or that is entirely artificial. Either way, with statements that reduce complexity and simplify things for the purpose of human understanding, one can now generate a system that quickly becomes too complex for the human mind: too many lines of code, too many parameters to keep track of."
+        },
+        {
+          "type": "discussion",
+          "attrs": {
+            "parentHash": "685825"
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "type": "text",
+          "text": "On the basis of science but far beyond its limits, we have “acquired new and almost unlimited powers … can command the thunders of heaven, mimic the earthquake, and even mock the invisible world with its own shadows” (p. 30). We have made a machine that serves to model and predict the behavior of complex systems and, in effect, does the work of thinking for us. Quite independently of whether we have solved the problem of “artificial intelligence” and as unspectacular as the invention of plastic, this achievement is yet another example of bestowing animation upon lifeless matter. It is also another example of being undisturbed by reality—that is, by the limitations of the human mind: “Whence, I often asked myself, did the principle of life proceed? It was a bold question, and one which has ever been considered as a mystery; yet with how many things are we upon the brink of becoming acquainted, if cowardice or carelessness did not restrain our inquiries” (p. 33)."
+        },
+        {
+          "type": "discussion",
+          "attrs": {
+            "parentHash": "e3d84d"
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "type": "text",
+          "text": "Insensible to the Charms of Nature",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "type": "discussion",
+          "attrs": {
+            "parentHash": "32a8ff"
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "type": "text",
+          "text": "Unrestrained by cowardice and carelessness, Victor pursues his inquiries obsessively: “It was a most beautiful season; never did the fields bestow a more plentiful harvest, or the vines yield a more luxuriant vintage: but my eyes were insensible to the charms of nature” (p. 40). In more ways than one, to the obsessive gaze the world takes on a dual aspect: “To examine the causes of life, we must first have recourse to death. I became acquainted with the science of anatomy: but this was not sufficient; I must also observe the natural decay and corruption of the human body” (p. 33). Nothing is what it seems: the lively charms of nature harbor decay and corruption; what is naturally given is a promise or sign of what can be technologically; and lifeless matter is imbued by a mind, whereas our brain for climate change is a mere machine."
+        },
+        {
+          "type": "discussion",
+          "attrs": {
+            "parentHash": "a69878"
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "type": "text",
+          "text": "When things take on such a dual aspect, when they are not what they appear to be but endowed with secret powers, they become uncanny. This is the starting point for Sigmund Freud’s famous analysis of the uncanny. Quoting Erich Rentsch, Freud notes that, “in telling a story, one of the most successful devices for easily creating uncanny effects is to leave the reader in uncertainty whether a particular figure in the story is a human being or an automaton” ([1919] 1955, 227)—or, one might add, whether that figure is lifeless matter from the graveyard or a living being. Today, it is not just the robots and zombies in the movies but also the devices that surround us that, as Freud explains, instill “doubts whether an apparently animate being is really alive; or conversely, whether a lifeless object might not be in fact animate” (227). Consider, for example, the ambition to create ambient intelligence in smart environments. As we move through the world, a network of sensors would collect background information about the quality of air; it would attach "
+        },
+        {
+          "type": "text",
+          "text": "Wikipedia",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": " entries to the streets and houses we pass; it would signal the presence of friends, charging stations, and goods. This world would be a magical one in which all things are endowed with meaning, subject to our wishes, which may be granted if we conjure the powers properly—not by praying but by speaking to them or choosing the right app. With ambient intelligence and ubiquitous computing, the natural environment takes on a dual aspect, and aided by modern science and technology we advance to a premodern animistic world."
+        },
+        {
+          "type": "text",
+          "text": "2",
+          "attrs": {
+            "id": "link-334"
+          },
+          "marks": [
+            {
+              "type": "sup"
+            },
+            {
+              "type": "link",
+              "attrs": {
+                "href": "#link-330"
+              }
+            }
+          ]
+        },
+        {
+          "type": "discussion",
+          "attrs": {
+            "parentHash": "08b34b"
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "type": "text",
+          "text": "Not Befitting the Human Mind",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "type": "discussion",
+          "attrs": {
+            "parentHash": "56453f"
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "type": "text",
+          "text": "Contemporary technoscience is undisturbed by reality in that it flaunts its inventions that surpass the limited vocabulary of forms and shapes in nature; it is undisturbed by reality in that it draws on scientific understanding to generate a degree of complexity that exceeds the natural intellectual power of human minds; and it is undisturbed by reality in that it creates monsters—lifeless things that appear to be animated by a mind or a soul as well as lively, talkative, and animated things that are merely machines. And as we are learning to live and interact with such monsters, there is nothing particularly terrible or frightening about them, although they are sometimes a bit unsettling, uncanny, leaving us unsure just what and who we are dealing with when we eat genetically modified foods, when we talk to our cell phones, when we watch a computer generate on screen the right path for a hurricane, when we try to imagine that we wade all the time through a sea of information-laden radio waves or are surrounded by electrical wiring in every room of every house."
+        },
+        {
+          "type": "discussion",
+          "attrs": {
+            "parentHash": "8eddb0"
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "type": "text",
+          "text": "The dreams of materials science, of information and communication technology, of biomedical research, of synthetic biology seek to overcome or transgress the limits of the given world with an almost supernatural enthusiasm. In the midst of this story, it might be worthwhile to pause and reflect—only to discover, as Victor did, “that I am moralizing in the most interesting part of my tale” (p. 40):"
+        },
+        {
+          "type": "discussion",
+          "attrs": {
+            "parentHash": "da5fff"
+          }
+        }
+      ]
+    },
+    {
+      "type": "blockquote",
+      "content": [
+        {
+          "type": "text",
+          "text": "A human being in perfection ought always to preserve a calm and peaceful mind, and never to allow passion or a transitory desire to disturb his tranquillity. I do not think that the pursuit of knowledge is an exception to this rule. If the study to which you apply yourself has a tendency to weaken your affections, and to destroy your taste for those simple pleasures in which no alloy can possibly mix, then that study is certainly unlawful, that is to say, not befitting the human mind. (p. 40)"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "type": "text",
+          "text": "In an age of technoscience, it has become quite difficult even to understand this injunction. Are we supposed to achieve perfection merely by taking pleasure in unadulterated things that are unspoiled by excessive ambition? The dispassionate scientist describes things peacefully as they are, no matter what good or ill they signify. But there is no such tranquility when Victor or one of our contemporary technoscientists seeks to perfect his or her powers on “a dreary night of November”: “With an anxiety that almost amounted to agony, I collected the instruments of life around me, that I might infuse a spark of being into the lifeless thing that lay at my feet” (p. 41)."
+        },
+        {
+          "type": "discussion",
+          "attrs": {
+            "parentHash": "1e1cfa"
+          }
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 1
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "Frankenstein Reframed; or, The Trouble with Prometheus"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "Elizabeth Bear"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "type": "text",
+          "text": "Mary Shelley’s enduring novel "
+        },
+        {
+          "type": "text",
+          "text": "Frankenstein",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": ", considered by some to be the first science fiction novel in the English language, is often read as a cautionary tale about science and secrets man was not meant to know. I contend that this interpretation is not so much accurate as incomplete and that in fact Victor Frankenstein’s choices are fatal not in his desire for knowledge but in his avoidance of it."
+        },
+        {
+          "type": "discussion",
+          "attrs": {
+            "parentHash": "7538c4"
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "type": "text",
+          "text": "Victor’s crime is not pursuing science but in failing to consider the well-being of others and the consequences of his actions. I contend also that Mary’s great work is a tale not about the dangers of a man’s quest for knowledge but about the ethics of his failure to attempt to anticipate and take responsibility for the results of that quest. There is a strong link between Victor’s failure of empathy for his creature and the particular kind of hubris that allows for the discarding of other people’s lives in service to an ambition. This failure of empathy is closely connected to the moral cowardice of refusing to take responsibility for one’s actions or for the outcomes derived from one’s research."
+        },
+        {
+          "type": "discussion",
+          "attrs": {
+            "parentHash": "e28475"
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "type": "text",
+          "text": "Explicitly in the subtitle of the novel, Mary identifies Victor with the Greek immortal and trickster figure Prometheus, who among other adventures steals fire from the gods and gives it to man. The trouble with comparing Victor to Prometheus, however, is that in stealing fire, Prometheus actually accomplishes something of great utility to humanity and is punished by the gods for his temerity. Victor does indeed step into a role previously defined by his society as being appropriate to a god—that of progenitor of life—but Mary makes it evident from the beginning that any scientific utility in his work is of very little interest to him. He undertakes his research in a spirit of self-aggrandizement: it’s not knowledge he seeks but power and renown, and this ambition leads him to become far more of a monster than the creature he creates."
+        },
+        {
+          "type": "discussion",
+          "attrs": {
+            "parentHash": "630a40"
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "type": "text",
+          "text": "This motivation is reflected early in his life when he rejects the painstaking and boring—by his standards—research done by contemporary natural philosophers (who at the turn of the nineteenth century were beginning to make some real progress in developing the foundations of science as we practice it today) in favor of the type of research done by the ancients, whose untested ideas, although widely accepted in the medieval period, had already been discredited by Mary’s time. So Victor seeks the philosopher’s stone, a mythical substance alchemists believed could grant eternal life, because it is sexy and because he sees “little worth” in modern—to him—science."
+        },
+        {
+          "type": "discussion",
+          "attrs": {
+            "parentHash": "de2bdc"
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "type": "text",
+          "text": "His purpose in this quest is quite patently glory and fame, not the betterment of the human condition. He gains interest in his contemporary science only when it seems to offer him a path to this same aggrandizement. This narcissism, this inability to engage with other creatures beyond their utility to him and his desire for glory, is his fatal flaw—his hamartia—that will lead him to isolation, to monstrosity, and—most particularly—to the destruction of himself and others."
+        },
+        {
+          "type": "discussion",
+          "attrs": {
+            "parentHash": "649e6d"
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "type": "text",
+          "text": "Victor also fails as a parallel to Prometheus in that his eventual failure and punishment are delineated not by divine retribution but by the inevitable consequences of his own ill-considered choices and refusal to accept responsibility for the results of his actions. In the course of his self-appointed work, Victor withdraws from the world, his family, and his schooling. He isolates himself in an obsessive quest to create life from death, and as soon as he succeeds, he rejects his creation for the dubious sin of being unattractive, abandons it, and takes to his bed in a fit of emo pique."
+        },
+        {
+          "type": "discussion",
+          "attrs": {
+            "parentHash": "763758"
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "type": "text",
+          "text": "As soon as he achieves his obsession, he rejects the accomplishment, and catastrophe results."
+        },
+        {
+          "type": "discussion",
+          "attrs": {
+            "parentHash": "30a47a"
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "type": "text",
+          "text": "It’s relevant to this point that Mary’s text is marked by a cursory and much-undermined veneer of Christianity. For the time, this irreligion is unusual, though it appears typical of Mary’s life experience. And yet Christianity is often portrayed as the religion of compassion: the word "
+        },
+        {
+          "type": "text",
+          "text": "compassion",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": " itself derives from that religion, from "
+        },
+        {
+          "type": "text",
+          "text": "com",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": " (with) and "
+        },
+        {
+          "type": "text",
+          "text": "passion",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": " (suffering), as in “the Passion of the Christ.” Compassion is literally, then, to experience suffering in empathy with another."
+        },
+        {
+          "type": "discussion",
+          "attrs": {
+            "parentHash": "bad5ce"
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "type": "text",
+          "text": "Victor himself professes to be a Christian, and a great deal of his internal conflict stems from his feelings that he has betrayed his faith and usurped the rights of his creator in imbuing life into dead flesh. But he never considers that he has failed in a far more sacred duty of Christianity: the Golden Rule upon which the religion is founded. He’s such an incredible narcissist that instead of offering this "
+        },
+        {
+          "type": "text",
+          "text": "compassion",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": ", this sharing of the suffering of others, he discards people when they are inconvenient, including his supposedly beloved family and fiancée. His treatment of his creation is really no different."
+        },
+        {
+          "type": "discussion",
+          "attrs": {
+            "parentHash": "28666c"
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "type": "text",
+          "text": "So, in other words, Victor professes Christianity, but he is a terrible example of it—especially to his creation. He’s a lousy parent—a lousy creator—because of his selfishness, his self-absorption, and his lack of foresight. He makes no sacrifices of the kind that would be appropriate for the education and upbringing of a sentient creature whose existence he is responsible for. He cannot even accept his creation as a fellow sufferer in need of succor and charity. And when confronted with the terrible murders of those close to him, rather than feeling pity or compassion, he uses his religiosity to justify how much worse his suffering is than theirs because they are dead and in heaven, while he remains on earth, suffering guilt. (But one of the victims dies while her soul is burdened with a false confession, which seems, in a Christian worldview, as if it might result in a little time in purgatory, at the very least.)"
+        },
+        {
+          "type": "discussion",
+          "attrs": {
+            "parentHash": "0a82cc"
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "type": "text",
+          "text": "Although we can’t know, of course, what Mary’s religious outlook was in its entirety, we do know that she was raised by free thinkers, married an atheist, and was a social radical for her time, with determined opinions about the equality of women and the role of liberated sexuality in society. Significantly, one of her more noble and courageous characters, the beautiful Arabian Safie, is the product of a Muslim father and a Christian mother. Safie chooses to espouse her mother’s religion seemingly not out of any deep conviction but rather entirely because it offers her greater freedom and legal protection."
+        },
+        {
+          "type": "discussion",
+          "attrs": {
+            "parentHash": "3c7737"
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "type": "text",
+          "text": "Safie is also a marginalized person—a woman and a Muslim—but even she can find at least a flawed asylum in a family where women are treated as human beings even if not as equals. Her experience raises the question of where the creature might seek such asylum—then as now."
+        },
+        {
+          "type": "discussion",
+          "attrs": {
+            "parentHash": "94f573"
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "type": "text",
+          "text": "Victor, in other words, is as tremendous a religious hypocrite as he is a scientific one. His monstrousness and abnormality are manifest in his behavior, even though Robert Walton, the ship’s captain and explorer to whom he relates his tale and who serves as the reader’s intermediary for understanding Victor’s life, sees him as nobly countenanced and well spoken. Victor is a beautiful man and fairly obviously a spoiled and indulged one, though he himself does not realize this, even at the end of his life. Victor and those around him think of him as a noble intellectual. But his intellectual achievements pale in comparison to those of his creation, who teaches himself in the span of a few years to read, to speak several languages, to navigate a ship, and to comprehend the nuances and hypocrisies of human society."
+        },
+        {
+          "type": "discussion",
+          "attrs": {
+            "parentHash": "1ba904"
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "type": "text",
+          "text": "And yet because the creature is ugly, he is spurned first by his creator and then by every other human person he meets, despite the apparently innate goodness of his impulses. Mary makes it plain that though the creature is manufactured as a blank and willing pupil, he is benevolent in spirit and wishes only to help, to be accepted by human society, to find companionship. It is only after repeated abandonments and rejections that he becomes violent and vengeful."
+        },
+        {
+          "type": "discussion",
+          "attrs": {
+            "parentHash": "5f8a09"
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "type": "text",
+          "text": "Victor, the hypocrite, has no such excuse for his own monstrosity. He simply is incapable of considering the needs or desires or even the safety of anyone beyond his own immediate gratification. He cannot rise above his own innate selfishness and his ingrained tendency to dismiss, deny, and abandon something he considers ugly and unnatural—even though it is his own creation. Even worse, Walton—who in many ways represents the better aspects of human character—cannot see his way past Victor’s beauty and the creature’s ugliness to the truth of their relationship and of Victor’s abandonment and abuse of his creation. As with all literature, the reader sees his or her own best and worst aspects reflected in the narrative, externalized so they can be examined with new insight."
+        },
+        {
+          "type": "discussion",
+          "attrs": {
+            "parentHash": "a595c3"
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "type": "text",
+          "text": "Victor is such a narcissist, in fact, that it never occurs to him that the creature might take revenge for Victor’s refusal to manufacture a companion for him by killing Victor’s own intended wife and life companion. He assumes that he himself will be the focus of any such revenge."
+        },
+        {
+          "type": "discussion",
+          "attrs": {
+            "parentHash": "d4af2a"
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "type": "text",
+          "text": "Victor is incurious about the results of his actions, which is an enormous failing in a scientist. I admit, personally, to a fair quantity of scientific curiosity about exactly how Victor preserves the “materials” he uses, as he so euphemistically describes them. His world is one without refrigeration beyond ice houses, and he mentions spending months collecting body parts and then assembling his creations before imbuing the first one, at least, with the “spark of life.” To the scientifically minded reader of 1818, this phrase would have been a transparent reference to the explorations of such near-contemporaneous scientists as Luigi Galvani (1737–1798), Giovanni Aldini (1762–1834), and Benjamin Franklin (1706–1790) as well as to a long-brewing debate over vitalism and the origins of life. Many early nineteenth-century readers would have been familiar with and perhaps even have witnessed infamous public experiments where human and animal corpses jerked briefly to life through the application of electricity."
+        },
+        {
+          "type": "discussion",
+          "attrs": {
+            "parentHash": "39e03d"
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "type": "text",
+          "text": "The novel is pointedly vague on the details of Victor’s work. I have a rather unpleasant image of Victor wandering around England for some time with two hundred pounds of grave-robbed body parts in a steamer trunk, taking them out each night to dry them on racks before the fire. Walton’s description of the creature—the only actual description of him, other than Victor’s noting his filmed eye, great stature, and horrible countenance—mentions that his hand is “in colour and apparent texture like that of a mummy” (p. 183)."
+        },
+        {
+          "type": "discussion",
+          "attrs": {
+            "parentHash": "7729a3"
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "type": "text",
+          "text": "I also find myself wondering, in the interests of science, if Victor’s fears of the monster breeding with the bride Victor begins to make for him could not be simply addressed by, oh, leaving out the ovaries and womb of the female creature? One does rather wonder how effective mummified testes are in producing viable creature germ cells. …"
+        },
+        {
+          "type": "discussion",
+          "attrs": {
+            "parentHash": "da46ec"
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "type": "text",
+          "text": "My point here is to reinforce that Victor really doesn’t think things through, which is an aspect of his monstrosity: the fatal flaws that result in his destruction are that incuriousness and that narcissism."
+        },
+        {
+          "type": "discussion",
+          "attrs": {
+            "parentHash": "3ed0de"
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "type": "text",
+          "text": "But the creature has a fatal flaw as well: it is his desire for vengeance when he is ostracized. Whereas Victor’s self-isolation is a symptom of his innate monstrosity, it is his ostracization of the creature—the creature’s othering, to use the modern parlance—that turns his creation into a monster."
+        },
+        {
+          "type": "discussion",
+          "attrs": {
+            "parentHash": "fa0794"
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "type": "text",
+          "text": "Thus, failing to consider the impact of his decisions on the creature he creates and then compounding that failure with selfishness and lack of compassion, Victor causes the very carnage that so desolates him. And so he becomes the author of his own ruined life and of the ruined lives of so many more innocent others."
+        },
+        {
+          "type": "discussion",
+          "attrs": {
+            "parentHash": "5f500e"
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "type": "text",
+          "text": "This relationship is pointed out quite brilliantly at the climax of the book, when Walton is confronted by the remainder of his fast-dying crew, who wish to abandon their quest for the Northwest Passage and return to warmer southern waters. Victor berates them as cowards, almost literally with his last breath. And yet, in the end, Walton chooses his men’s safety over his own selfish desire for glory and discovery as well as over Victor’s demand that he continue the obsessive, vengeful quest to destroy Victor’s creation."
+        },
+        {
+          "type": "discussion",
+          "attrs": {
+            "parentHash": "f6d296"
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "type": "text",
+          "text": "Walton stands in contrast to Victor in this choice, which creates a thematic counterpoint to those decisions Victor makes that destroy him and his much-abused family and friends. In fact, Walton treats his own quest for knowledge responsibly. He considers the well-being of others, and he maintains his human connection to his family—personified by a beloved sister to whom he writes at every opportunity—throughout his adventures. That he turns back is not a scientific defeat—he makes no grand declarations about the impossibility of his quest for knowledge and pens no polemics about the uselessness of further ventures."
+        },
+        {
+          "type": "discussion",
+          "attrs": {
+            "parentHash": "1d9d70"
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "type": "text",
+          "text": "Rather, Walton demonstrates a simple acceptance that Victor never manages to embrace: other human lives have worth and value. Even those of a group of nameless sailors."
+        },
+        {
+          "type": "discussion",
+          "attrs": {
+            "parentHash": "1fd64f"
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "type": "text",
+          "text": "Victor himself states the problem, even as he is unable to comprehend how thoroughly he has failed to compass it: “In a fit of enthusiastic madness I created a rational creature, and was bound towards him, to assure, as far as was in my power, his happiness and well-being. This was my duty; but there was another still paramount to that. My duties towards my fellow-creatures had greater claims to my attention, because they included a greater proportion of happiness or misery” (pp. 181–182). He does not number his own creation among his fellow creatures, although in truth he owes it a greater debt than he does to any other person because he is responsible for its existence and abandonment. As the creature itself says, “Am I to be thought the only criminal, when all human kind sinned against me?” (p. 185)."
+        },
+        {
+          "type": "discussion",
+          "attrs": {
+            "parentHash": "3d18e5"
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "type": "text",
+          "text": "Because the creature looks like a monster, he is treated as one despite his initial benevolence, and so he becomes one. Because Victor looks like an angel, he is treated as one despite being a monster, and he never grows and changes. The great tragedy of his life is that if he had simply considered the moral implications of his work and chosen a different course or if he had accepted his own debt of care to his creation from the beginning and nurtured it—if he had, in other words, behaved as a responsible scientist—every tragedy for which he bears the guilt would have been averted (and he might have received the accolades he so desired)."
+        },
+        {
+          "type": "discussion",
+          "attrs": {
+            "parentHash": "a9eeb1"
+          }
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 1
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "Frankenstein, Gender, and Mother Nature"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "Anne K. Mellor"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "type": "text",
+          "text": "On 16 June 1816, Mary Wollstonecraft Godwin gave birth to one of the enduring myths of modern civilization, the narrative of the scientist who single-handedly creates a new species, a humanoid form that need not die. In her novel "
+        },
+        {
+          "type": "text",
+          "text": "Frankenstein, or The Modern Prometheus",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": " (1818), Victor Frankenstein robs both cemeteries and slaughterhouses in order to suture together a creature composed of dead animal and human body parts, a creature he then animates with the “spark of being” (p. 41). In doing so, he claims he has renewed life where death had apparently devoted the body to corruption. Victor thus realizes the age-old wish of humankind to transcend mortality, to become a god. And like Prometheus, who in ancient myth both shapes the human species out of clay and then steals fire from the Olympian gods to give to man, Victor expects to be revered, even worshipped."
+        },
+        {
+          "type": "discussion",
+          "attrs": {
+            "parentHash": "83b8db"
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "type": "text",
+          "text": "But in his hubristic quest to become God, to create an immortal species, Victor constructs a creature that eventually destroys his wife, his best friend, and his baby brother, so exhausting Victor that he dies at an early age. Mary Shelley’s novel has thus become the paradigm for every scientific effort to harness the uncontrollable powers of Nature and the unintended consequences that those efforts have produced, be they nuclear fission, genetic engineering, stem cell cloning, or bioterrorism. The popular conflation of the scientist "
+        },
+        {
+          "type": "text",
+          "text": "with",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": " his creation—such that “Frankenstein” is as often the name of the creature as of his maker—only points to a profound understanding of Mary’s novel in which Victor finally becomes as filled with hatred, revenge, and the desire to destroy as the creature he hunts across the Arctic wastes. The novel implicitly suggests an alternative. Had Victor Frankenstein taken responsibility for his creation, had he loved, nurtured, and disciplined his creature, he might have created the superior species of which he dreamed."
+        },
+        {
+          "type": "discussion",
+          "attrs": {
+            "parentHash": "cb788f"
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "type": "text",
+          "text": "How did the eighteen-year-old Mary Wollstonecraft Godwin (later Shelley) come to write a tale so prescient of modern science? Two years earlier, on 28 July 1814, Mary had left her home in London to go to France with the married poet Percy Shelley. Seven months later she gave birth prematurely to a baby girl, called Clara, who lived only two weeks, after which she had a recurrent dream that her little baby came to life again, that it had only been cold, and that she rubbed it before the fire, and it lived. Immediately pregnant again, Mary gave birth to her son William on 24 January 1816. Four months later Mary, Percy, and her stepsister Claire left England to join Claire’s new lover, Lord Byron, and his doctor, John William Polidori, in Geneva. Kept indoors by the coldest summer in a century following the eruption of the volcano Tambora in the Indonesian archipelago in April 1815 (which threw so much debris into the stratosphere that the sun was literally blocked out across India, Europe, and North America), reading ghost stories for their amusement, the four friends decided on 16 June 1816 to have a contest to see who could write the most frightening story."
+        },
+        {
+          "type": "discussion",
+          "attrs": {
+            "parentHash": "940f6b"
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "type": "text",
+          "text": "That night Mary had the “waking dream” or reverie that provided the germ of "
+        },
+        {
+          "type": "text",
+          "text": "Frankenstein.",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": " Born from Mary’s own deepest pregnancy anxieties (What if I give birth to a monster? Could I ever wish to kill my own child?), her novel brilliantly explores what happens when a man attempts to have a baby without a woman (Victor Frankenstein immediately abandons his creature); why an abandoned and unloved creature becomes a monster; the predictable consequences of her day’s cutting-edge research in chemistry, physics, and electricity (most notably the experiments conducted by Erasmus Darwin [1731–1802], Humphry Davy [1778–1829], and Luigi Galvani [1737–1798]); and the violent aftermath of the French Revolution. Mary drew psychologically on her own childhood experiences of isolation and abandonment after her mother’s death in childbirth and her father’s remarriage to a hostile stepmother to articulate the creature’s overwhelming desire for a family, a mate of his own, and the consequences of his violent anger when he is rejected by all whom he approaches, even an innocent young boy, William Frankenstein (modeled on William Shelley), and then his maker. By including an image of the murder of her own son, William, in the novel, Mary articulated her deepest fear that an unloved (and psychologically abused) child, such as she herself had been, could become an unloving, abusive mother, even a murdering monster."
+        },
+        {
+          "type": "discussion",
+          "attrs": {
+            "parentHash": "3a6927"
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "type": "text",
+          "text": "Given Mary’s parentage, it is unsurprising that gendered constructions of the universe are everywhere apparent in "
+        },
+        {
+          "type": "text",
+          "text": "Frankenstein",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": ": for example, Victor’s identification of Nature as female—“I pursued nature to "
+        },
+        {
+          "type": "text",
+          "text": "her",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": " hiding places” (p. 38, emphasis added). Victor’s scientific and technological exploitation of female Nature is only one way in which the novel consistently represents the female as passive and able to be possessed, the willing receptacle of male desire. Victor’s usurpation of the natural mode of human reproduction implies a kind of destruction of the female. We see this destruction erupt symbolically in his nightmare following the animation of his creature: while in his embrace, Elizabeth, his bride-to-be, is transformed into the corpse of his dead mother—“a shroud enveloped her form, and I saw the grave-worms crawling in the folds of the flannel” (p. 43). By stealing the female’s control over natural reproduction, Victor has eliminated the female’s primary biological function and source of cultural power. Indeed, as a male scientist who creates a male creature, Victor eliminates the biological necessity for females at all. One of the deepest horrors of this novel is his implicit goal of creating a society for men only: Victor’s creature is male; he refuses to create a female; there is no reason why the race of immortal beings he hopes to propagate should not be exclusively male."
+        },
+        {
+          "type": "discussion",
+          "attrs": {
+            "parentHash": "97787e"
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "type": "text",
+          "text": "On the cultural and social level, Victor’s scientific project—to become the sole creator of a superior human being—supports a patriarchal denial of the value of women and of female sexuality. Victor’s nineteenth-century Genevan society is founded on a rigid division of sex roles: men inhabit the public sphere, women are relegated to the private or domestic sphere. The men work outside the home, as public servants (Alphonse Frankenstein), as scientists (Victor), as merchants (Henry Clerval and his father), and as explorers (Walton). The women are confined to the home, kept either as a kind of pet (Victor “loved to tend on” Elizabeth “as … on a favourite animal” [p. 18]) or as housewives, childcare providers, and nurses (Caroline Beaufort, Elizabeth, Margaret Saville) or as servants (Justine Moritz)."
+        },
+        {
+          "type": "discussion",
+          "attrs": {
+            "parentHash": "e3c08e"
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "type": "text",
+          "text": "As a consequence of this division, public intellectual activity is segregated from private emotional activity: Victor cannot work and love at the same time. He cannot feel empathy for his creature and chooses to work with large body pieces because doing so is easier and faster, despite the fact that his creature will be a deformed giant. And he remains so self-absorbed that he cannot imagine his creature might threaten someone other than himself on his wedding night. The separation of the sphere of public (masculine) power from the sphere of private (feminine) affection also causes the destruction of most of the women in the novel. Caroline Beaufort dies from scarlet fever caught when she alone volunteers to nurse the contagious Elizabeth. Justine, unable to prove her innocence in the death of William, is condemned to death by Victor’s refusal to take responsibility for his creature’s actions. And Elizabeth is murdered on her wedding night. The novel offers an alternative to this gendered division of labor in the egalitarian relationships in the De Lacey family, where brother and sister together share the duties of supporting their father, and Safie (an independent woman based on Mary Shelley’s feminist mother, Mary Wollstonecraft) is welcomed as Felix’s partner. But this ideal family is ripped out of the novel when the creature enters their household, suggesting that Mary herself did not think such an ideal family could prosper in her time."
+        },
+        {
+          "type": "discussion",
+          "attrs": {
+            "parentHash": "77c6f2"
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "type": "text",
+          "text": "Why does Victor finally refuse to create a mate for his creature, an Eve for his Adam, after having promised to do so? He rationalizes his decision to destroy the half-formed female creature:"
+        },
+        {
+          "type": "discussion",
+          "attrs": {
+            "parentHash": "9862a6"
+          }
+        }
+      ]
+    },
+    {
+      "type": "blockquote",
+      "content": [
+        {
+          "type": "text",
+          "text": "I was now about to form another being, of whose dispositions I was alike ignorant; she might become ten thousand times more malignant that her mate, and delight, for its own sake, in murder and wretchedness. He had sworn to quit the neighbourhood of man, and hide himself in deserts; but she had not; and she, who in all probability was to become a thinking and reasoning animal, might refuse to comply with a compact made before her creation. They might even hate each other; the creature who already lived loathed his own deformity, and might he not conceive a greater abhorrence for it when it came before his eyes in the female form? She also might turn with disgust from him to the superior beauty of man; she might quit him, and he be again alone, exasperated by the fresh provocation of being deserted by one of his own species."
+        }
+      ]
+    },
+    {
+      "type": "blockquote",
+      "content": [
+        {
+          "type": "text",
+          "text": "Even if they were to leave Europe, and inhabit the deserts of the new world, yet one of the first results of those sympathies for which the dæmon thirsted would be children, and a race of devils would be propagated upon the earth, who might make the very existence of the species of man a condition precarious and full of terror. Had I a right, for my own benefit, to inflict this curse upon everlasting generations? (p. 139)"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "type": "text",
+          "text": "What does Victor truly fear that causes him to rip up his half-finished female creature? First, he is afraid that this female will have desires and opinions that cannot be controlled by his male creature. Like French Genevan philosopher Jean-Jacques Rousseau’s (1712–1778) natural man, she might refuse to comply with a social contract made by another person before her birth—namely, between the creature and Victor himself; she might assert the revolutionary right to determine her own existence. A second fear is that her uninhibited female desires might be sadistic: Victor imagines a female creature “ten thousand times” more evil than her mate, who would “delight” in murder for its own sake. Third, he fears that his female creature will be uglier than his male creature, so much so that even the male will turn from her in disgust. Fourth, he fears that she will prefer to mate with ordinary human males; implicit here is Frankenstein’s horror that, given this female creature’s gigantic strength, she would have the ability to seize and even rape a man she might choose. And, finally, he is afraid of her reproductive powers, her capacity to generate an entire race of similar creatures."
+        },
+        {
+          "type": "discussion",
+          "attrs": {
+            "parentHash": "7328e3"
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "type": "text",
+          "text": "What Victor truly fears is female sexuality as such. A woman who is sexually liberated, free to choose her own life and her own sexual partner (by force, if necessary), and able to propagate at will can only appear monstrously ugly, even evil, to him because she defies the sexist aesthetic that insists that women should be small, delicate, modest, passive, and sexually pleasing but available only to their lawful husbands. Horrified by this image of uninhibited female sexual desire and power, Victor violently reasserts a male control over the female body, penetrating and mutilating the female creature in an image that suggests a violent rape: “trembling with passion, [I] tore to pieces the thing on which I was engaged” (p. 140). The next morning, when he returns to the scene, “the remains of the half-finished creature, whom I had destroyed, lay scattered on the floor, and I almost felt as if I had mangled the living flesh of a human being” (p. 143)."
+        },
+        {
+          "type": "discussion",
+          "attrs": {
+            "parentHash": "feed19"
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "type": "text",
+          "text": "However, in Mary’s feminist novel, Victor’s efforts to control and even to eliminate female sexuality altogether is portrayed not only as horrifying and finally unattainable but also as self-destructive. For Nature is not the passive, inert, or “dead” matter that he imagines. Victor assumes that he can violate Nature and pursue her to her hiding places with impunity. But Mother Nature both resists and revenges herself upon his attempts. During his research, Nature denies to Victor Frankenstein both mental and physical health: “Every night I was oppressed by a slow fever, and I became nervous to a most painful degree” (p. 41). When he decides to create a second creature and again defy natural reproduction, his mental illness returns: “[E]very word that I spoke in allusion to it caused my lips to quiver, and my heart to palpitate. … [M]y spirits became unequal; I grew restless and nervous” (pp. 134, 138). Finally, Victor’s obsession with destroying his male creature exposes him to such mental and physical fatigue that he dies of natural causes at the age of twenty-five."
+        },
+        {
+          "type": "discussion",
+          "attrs": {
+            "parentHash": "b8824b"
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "type": "text",
+          "text": "Appropriately, Nature prevents Victor from constructing a normal human being: his unnatural method of reproduction spawns an unnatural being, a freak of gigantic stature, watery eyes, shriveled complexion, and straight black lips. His creature’s physiognomy then causes Victor’s revulsion from his child–invention and sets in motion the series of events that finally produces the monster that destroys his family, friends, and self."
+        },
+        {
+          "type": "discussion",
+          "attrs": {
+            "parentHash": "ebf787"
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "type": "text",
+          "text": "Moreover, Nature pursues Victor with the very electricity, the “spark of being,” that he has stolen: lightning, thunder, and rain rage around him as he works. Rain pours down on the “dreary night of November” on which he completes his experiment (p. 41). When he returns to Geneva, he glimpses his creature on the Alps through a violent storm and flash of lightning. After destroying the female creature, he sets sail to dispose of the remains in the ocean and is caught up by a fierce wind and high waves that portend his own death—“I looked upon the sea, it was to be my grave” (p. 144). Victor ends his life in the arctic regions, surrounded by the ice, the aurora borealis, and the electromagnetic field of the North Pole. The novel’s atmospheric effects, which most readers have dismissed as the traditional trappings of gothic fiction, in fact manifest the power of Nature to punish those who transgress her boundaries. The elemental forces that Victor has released pursue him to his hiding places, raging around him like the female spirits of vengeance, the Furies of Greek drama."
+        },
+        {
+          "type": "discussion",
+          "attrs": {
+            "parentHash": "250de0"
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "type": "text",
+          "text": "Mary’s novel not only portrays the penalties of violating Nature but also celebrates an all-creating Nature that is loved and revered by human beings. Those characters capable of feeling the beauties of Nature are rewarded with physical and mental health. Henry Clerval’s relationship to Nature, for example, represents one moral touchstone in the novel. Because he “loved with ardour” “the scenery of external nature” (p. 132), he is endowed with a generous sympathy, a vivid imagination, a sensitive intelligence, and an unbounded capacity for devoted friendship. And it is no accident that the only member of the Frankenstein family still alive at the end of the novel is Ernest, who rejects the career of lawyer to become instead a farmer, one who must live in harmony and cooperation with the forces of Nature, one who lives “a very healthy happy life; and … the most beneficial profession of any” (p. 48)."
+        },
+        {
+          "type": "discussion",
+          "attrs": {
+            "parentHash": "f7b6b3"
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "type": "text",
+          "text": "As "
+        },
+        {
+          "type": "text",
+          "text": "Frankenstein",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": " finally shows, an unmothered child, like a scientific experiment that is performed without consideration of its probable or even its unintended results and that radically changes the natural order, can become a monster, one capable of destroying its maker. The novel implicitly endorses instead a science that seeks to understand rather than to change the workings of Mother Nature. Mary’s novel thus resonates powerfully with the ethical problems inherent in the most recent advances in genetics: the introduction of germ-line engineering through CRISPR-Cas9 techniques of DNA alteration and the current scientific possibility of producing what Victor Frankenstein dreamed of, a superhuman “designer baby.” At the same time, the novel vividly illustrates the terrifying ramifications and unintended consequences of such attempts to “improve” the human species."
+        },
+        {
+          "type": "discussion",
+          "attrs": {
+            "parentHash": "a13755"
+          }
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 1
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "THE BITTER AFTERTASTE OF TECHNICAL SWEETNESS"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "Heather E. Douglas"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "type": "text",
+          "text": "Technical sweetness"
+        },
+        {
+          "type": "text",
+          "text": ". Scientists and engineers use this phrase when a puzzle’s solution presents itself, when all the pieces fit beautifully and functionally together, when success at the particular endeavor presents itself in a neat package. Technical sweetness is alluring, consuming, and, as we can see in the story of Victor Frankenstein, potentially blinding to what might follow from the solution being sought. Scientists who are driven by technical sweetness can fail to see what might be obvious to those with a bit more distance—that despite some projects’ allure, sometimes completing the project is not desirable."
+        },
+        {
+          "type": "discussion",
+          "attrs": {
+            "parentHash": "3b4b15"
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "type": "text",
+          "text": "When Victor first discovers the secret to life, he is so overwhelmed by his success that he fails to share it with his colleagues and instead accelerates toward a full-fledged test of his insight—Can he animate a body devoid of life? In his desperation to complete this test, he pushes himself to the breaking point, fully in the thrall of the technical sweetness of his work. He stops communicating with his friends and family and disengages from the social connections that might give him a better perspective on his pursuits. He senses that all is not right—that his reluctance to share his work might mean something more than a desire to guard the secret until confirmation is achieved; only once his creation awakes does he realize that it might not have been a good idea to create such life. Indeed, he recoils from what he has done, running from his creation for two years. In the end, he spends the rest of his life in a dark dance with the creature, attempting to forestall further horrors from being inflicted upon humanity."
+        },
+        {
+          "type": "discussion",
+          "attrs": {
+            "parentHash": "44af72"
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "type": "text",
+          "text": "Victor is, of course, a fictional character in a gothic horror story, but the arc of his work—from the capture of his imagination by an idea to the theoretical discovery (which he refuses to share), to the sequestration of his work until a complete empirical manifestation of it, to a revulsion in his ultimate success, and finally to an embrace of his responsibility and pursuit of his creation in an attempt to restrain it—is not something that resides solely in the realm of fiction. Such an arc can be found in one of the most momentous scientific projects of the twentieth century: the creation of the first atomic bombs."
+        },
+        {
+          "type": "discussion",
+          "attrs": {
+            "parentHash": "5a8bf5"
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "type": "text",
+          "text": "The story of the pursuit of the atom bomb is not a perfect reflection of Victor’s story because the former involves the work of many scientists, not just one. It is also the story of an endeavor that was constantly in the shadow of fraught moral decisions and catastrophic world war. But much of the arc of this story mirrors the arc of "
+        },
+        {
+          "type": "text",
+          "text": "Frankenstein",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": ", and the lesson of the need to resist the allure of technical sweetness is made manifest even amid the complexities."
+        },
+        {
+          "type": "discussion",
+          "attrs": {
+            "parentHash": "68b3eb"
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "type": "text",
+          "text": "In late 1938, Lise Meitner and Otto Frisch discovered the process of fission in atomic nuclei and spread the word throughout the international physics community. Before this discovery, most physicists thought that using nuclear physics for practical purposes like energy production and weapons was utterly impractical, and indeed some relished this lack of practical application of their work. But with the discovery of fission, all that changed. The nuclear physics community in the United Kingdom and the United States immediately began not only to speculate about but also directly to investigate whether fission opened the door to practical use, whether enough neutrons resulted from the fission of a uranium nucleus to support a chain reaction, and what sorts of materials could be used to increase the likelihood of a chain reaction. By December 1942, Italian physicist Enrico Fermi created the first self-sustained nuclear reaction (with slow neutrons) in a laboratory located in the squash courts beneath Stagg Field at the University of Chicago, and the Manhattan Project to build that bomb (a fast neutron reaction) was well under way. The Manhattan Project comprised research and development at many sites, especially large industrial sites at Oak Ridge, Tennessee, and Hanford, Washington, as well as the building of Los Alamos Laboratory, where scientists were sequestered to research how to design and test the first atomic weapons."
+        },
+        {
+          "type": "discussion",
+          "attrs": {
+            "parentHash": "3c62d8"
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "type": "text",
+          "text": "Scientists traveled to the isolated Los Alamos site under secrecy and, once there, were under strict orders not to discuss the project outside of the inner laboratories, called the Technical Area. Scientists were focused on achieving the goal, a workable atomic weapon, and not on whether doing so was a good idea. Given most scientists’ impetus—concern that the Nazis might develop such a weapon first—such a focus was understandable."
+        },
+        {
+          "type": "discussion",
+          "attrs": {
+            "parentHash": "762062"
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "type": "text",
+          "text": "Situated at the timberline more than seven thousand feet atop a mesa in New Mexico, Los Alamos was a heady atmosphere in which to work: led by the brilliant J. Robert Oppenheimer, filled with past and future Nobel Prize winners, and pressurized by the war. The site grew rapidly from about one hundred people in the spring of 1943 to more than six thousand by the end of the war (Bird and Sherwin 2005, 210). The scientists at Los Alamos confronted a number of technical challenges, particularly regarding how to ensure that maximum energy would be released from the hard-to-collect fissile material being produced at Oak Ridge (enriched uranium) and Hanford (plutonium) (Rhodes 1986, 460–464). But by late 1944, the initial impetus behind the program was undermined. Reports coming back from successful Allied pushes into German territory revealed that the Nazis’ atomic efforts were nowhere close to producing weapons. In fact, Germany had failed to produce a functioning nuclear reactor, something achieved in the United States two years earlier."
+        },
+        {
+          "type": "discussion",
+          "attrs": {
+            "parentHash": "fe1063"
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "type": "text",
+          "text": "For one scientist, Polish physicist Joseph Rotblat, the realization that the original motivation to produce an atomic weapon had evaporated provided sufficient reason to leave the project. He resigned from Los Alamos in December 1944. However, before his departure, he was forbidden from discussing his decision with the other scientists at Los Alamos (Brown 2012, 55). A moment for moral reflection among the Los Alamos scientists was lost."
+        },
+        {
+          "type": "discussion",
+          "attrs": {
+            "parentHash": "d0c2b8"
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "type": "text",
+          "text": "By May 1945, even as the European war came to an end, work on the weapon accelerated. Oppenheimer recalled later that the scientists never worked harder than in the summer of 1945 (Szasz 1984, 25). Producing a weapon before the end of the war, that could be used to end the war, became a paramount driver, in part because many of the scientists at Los Alamos had shifted their justification for pursuing the weapon to the ending of "
+        },
+        {
+          "type": "text",
+          "text": "all",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": " wars. Many thought that only if the weapon were used to end the current war would humanity appreciate how truly destructive such weapons could be and thus be motivated to end war permanently."
+        },
+        {
+          "type": "discussion",
+          "attrs": {
+            "parentHash": "65783f"
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "type": "text",
+          "text": "Efforts at Los Alamos from February 1945 through the summer were focused on a test of the plutonium bomb. Because of the much more complex mechanism needed to produce a weapon with plutonium, scientists were quite unsure whether it would work. Only a trial with real plutonium could produce an adequate test of the mechanism. This test would be the Trinity test, the first atomic explosion on the planet, held on 16 July 1945."
+        },
+        {
+          "type": "discussion",
+          "attrs": {
+            "parentHash": "0280a8"
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "type": "text",
+          "text": "The work leading up to this test was nothing short of feverish. Getting all the technical details, calibrating measuring equipment, and creating contingency plans took massive effort. Three possible outcomes presented themselves: (1) the test weapon could be a dud, no more powerful than a usual ordnance explosion; (2) it could be massively destructive, killing many on site and causing a national emergency; or (3) it could be the weapon they hoped for, impressive but not out of control (Szasz 1984, 79). Much to the relief of the scientists present, the last possibility proved accurate, which meant that their work was a success and that they had produced a usable weapon. They had not wasted their effort during the war, and they had survived to tell the tale."
+        },
+        {
+          "type": "discussion",
+          "attrs": {
+            "parentHash": "962045"
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "type": "text",
+          "text": "The scientists reacted in different ways to their success. The first thing Oppenheimer said when the bomb went off was an exultant “It worked!” The scientists had mostly expected a much smaller explosion, as revealed by the betting pool for the yield at Trinity (Szasz 1984, 65–66). Oppenheimer picked the equivalent of three hundred tons of TNT; most scientists picked yields much less than ten thousand tons. In fact, the weapon produced a yield closer to twenty thousand tons of TNT. Along with relief and excitement at the technical success, the visual and visceral impact of the explosion impressed many of the witnesses. Oppenheimer later recalled that these words from the Bhagavad Gita went through his mind: “I am become death, the destroyer of worlds” (quoted in Szasz 1984, 89). I. I. Rabi was at first thrilled but then overwhelmed by the implications of what he and his fellow scientists had done (Szasz 1984, 90). As Victor Weisskopf wrote, “Our first feeling was one of elation, then we realized we were tired, and then we were worried” (quoted in Szasz 1984, 91). The technical sweetness of the project was over, and now the scientists had to confront what their success meant in the full complexity of the world. Test director Kenneth Bainbridge quipped, “Now we are all sons-of-bitches” (quoted in Bird and Sherwin 2005, 309)."
+        },
+        {
+          "type": "discussion",
+          "attrs": {
+            "parentHash": "86de1d"
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "type": "text",
+          "text": "It took time for some of the scientists to fully grasp the moral weight of what they had done. After the use of the weapons at Hiroshima and Nagasaki, which helped bring a sudden end to the war, many of the enlisted men at Los Alamos celebrated, but the scientists were subdued and sometimes physically sick, overwhelmed by what they had helped achieve (Bird and Sherwin 2005, 317). When Phil Morrison and Bob Serber returned from Japan to Los Alamos at the end of October 1945 with firsthand accounts of the impacts of the bombs (Bird and Sherwin 2005, 321), scientists who had worked on the project now faced the grim reality of their success and, seeing it clearly, committed themselves to making their work as beneficial for humanity as possible."
+        },
+        {
+          "type": "discussion",
+          "attrs": {
+            "parentHash": "34d672"
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "type": "text",
+          "text": "Different scientists sought to shoulder responsibility for their creation in different ways. Some worked to ensure that atomic power was placed under civilian control, and their efforts led to the US Atomic Energy Commission. Some sought to forestall an arms race with the Soviets by advocating for international control of atomic technology. Some spread the word of how destructive the bombs were, hoping to prevent all future wars. Some pursued even more powerful weapons, their sights set on keeping Soviet totalitarianism at bay. And some pursued the peaceful uses of the atom. None escaped a sense of responsibility for their work."
+        },
+        {
+          "type": "discussion",
+          "attrs": {
+            "parentHash": "a3274a"
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "type": "text",
+          "text": "We can see in the arc of the story of scientists at Los Alamos echoes of Victor Frankenstein’s story. From the intense pursuit to the dawning realization of the downsides of success and the attempt to ameliorate such success, such parallels were noted at the time. In notes for a meeting of the Interim Committee (a high-level policy committee for nuclear weapons) on 31 May 1945, Secretary of War Henry Stimson wrote that the bomb “May "
+        },
+        {
+          "type": "text",
+          "text": "destroy",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": " or "
+        },
+        {
+          "type": "text",
+          "text": "perfect",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": " International "
+        },
+        {
+          "type": "text",
+          "text": "Civilization",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": ", May [be] "
+        },
+        {
+          "type": "text",
+          "text": "Frankenstein ",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "or"
+        },
+        {
+          "type": "text",
+          "text": " means for World Peace” (quoted in Rhodes 1986, 642, emphasis and capitalization in the original). For the scientists engaged in the project, the Frankenstein nature of it remained out of focus until its completion. With technical success and technical sweetness attained, the fraught moral questions that came with success clarified painfully."
+        },
+        {
+          "type": "discussion",
+          "attrs": {
+            "parentHash": "17c357"
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "type": "text",
+          "text": "Mary Shelley’s novel "
+        },
+        {
+          "type": "text",
+          "text": "Frankenstein",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": " is a prescient parable, a gripping nontheistic version of Goethe’s "
+        },
+        {
+          "type": "text",
+          "text": "Faust",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": " that spells out the horror that can accompany success as we pursue science and technology. Even as science has grown as an enterprise, even as the collective nature of the scientific endeavor has become clear and big science has taken a more central place in scientific culture, the arc followed by Victor—the solitary scientist—is still relevant. Whether scientists work by themselves or in collaboration, they continue to confront the allure of technical sweetness and its blinding power as they grapple with their responsibilities for their work in the twenty-first century."
+        },
+        {
+          "type": "discussion",
+          "attrs": {
+            "parentHash": "cef428"
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "type": "text",
+          "text": "Scientists whose work suddenly raises the red flag—for example, those whose work gets labeled “potential dual-use research of concern”—often balk at the imposition of restrictions and the requirement of deeper reflection. The lure of technical sweetness, of continuing to pursue success in their area of expertise, makes it hard for those scientists to see, much less weigh seriously, the downsides of their work. Even with increasing efforts to create structures through which scientists can address the thorny problems that can arise when pursuing new scientific and technical capacities, technical sweetness can still blind them to the need to reflect on the implications of their work and the imperative to act, before completion, to ameliorate the impact of success."
+        },
+        {
+          "type": "discussion",
+          "attrs": {
+            "parentHash": "7ce27a"
+          }
+        }
+      ]
+    }
+  ]
+}

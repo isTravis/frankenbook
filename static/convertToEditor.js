@@ -2,7 +2,8 @@
 /* eslint-disable no-console */
 
 const fs = require('fs');
-const documentJSON = require('./bookSource.json');
+const bookJSON = require('./bookSource.json');
+const essaysJSON = require('./essaysSource.json');
 const annotationsJSON = require('./sourceAnnotations.json');
 
 const convertNode = (node, isAnnotation)=> {
@@ -82,6 +83,15 @@ const convertNode = (node, isAnnotation)=> {
 			]
 		};
 	}
+	if (node.tagName === 'b') {
+		return {
+			type: 'text',
+			text: node.children[0].content,
+			marks: [
+				{ type: 'strong' }
+			]
+		};
+	}
 	if (node.tagName === 'img') {
 		return {
 			type: 'image',
@@ -117,10 +127,12 @@ const convertNode = (node, isAnnotation)=> {
 	return null;
 };
 
-const editorJSON = {
+/* Convert Book */
+/* ------------ */
+const bookEditorJSON = {
 	type: 'doc',
 	attrs: { meta: {} },
-	content: documentJSON.children.map((item)=> {
+	content: bookJSON.children.map((item)=> {
 		return convertNode(item);
 	}).reduce((prev, curr)=> {
 		if (Array.isArray(curr)) { return prev.concat(curr); }
@@ -128,22 +140,34 @@ const editorJSON = {
 		return prev;
 	}, [])
 };
-
-fs.writeFile('static/bookSourceEditor.json', JSON.stringify(editorJSON, null, 2), 'utf8', ()=> {
+fs.writeFile('static/bookSourceEditor.json', JSON.stringify(bookEditorJSON, null, 2), 'utf8', ()=> {
 	console.log('Finished Processing Book');
 });
 
+/* Convert Essays */
+/* ------------ */
+const essaysEditorJSON = {
+	type: 'doc',
+	attrs: { meta: {} },
+	content: essaysJSON.children.map((item)=> {
+		return convertNode(item);
+	}).reduce((prev, curr)=> {
+		if (Array.isArray(curr)) { return prev.concat(curr); }
+		prev.push(curr);
+		return prev;
+	}, [])
+};
+fs.writeFile('static/essaysSourceEditor.json', JSON.stringify(essaysEditorJSON, null, 2), 'utf8', ()=> {
+	console.log('Finished Processing Essays');
+});
+
+/* Convert Annotations */
+/* ------------ */
 const convertedAnnotations = annotationsJSON.map((item)=> {
 	const output = Object.assign({}, item);
-	// output.content = {
-	// 	type: 'doc',
-	// 	attrs: { meta: {} },
-	// 	content: convertNode(item.content, true)
-	// };
 	output.content = convertNode(item.content, true);
 	return output;
 });
-
 fs.writeFile('static/sourceAnnotationsEditor.json', JSON.stringify(convertedAnnotations, null, 2), 'utf8', ()=> {
 	console.log('Finished Processing Annotations');
 });
