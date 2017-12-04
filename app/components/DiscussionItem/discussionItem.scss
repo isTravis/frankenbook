@@ -47,6 +47,9 @@
 		}
 		.buttons {
 			white-space: nowrap;
+			button {
+				margin-left: 0.5em;
+			}
 		}
 	}
 	.pt-tag {
@@ -63,6 +66,11 @@
 				font-size: 16px;
 				line-height: 20px;
 				margin-top: 0px;
+			}
+			.buttons {
+				span {
+					font-size: 14px
+				}
 			}
 		}
 	}

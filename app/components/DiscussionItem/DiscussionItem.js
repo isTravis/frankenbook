@@ -15,14 +15,16 @@ require('./discussionItem.scss');
 const propTypes = {
 	discussion: PropTypes.object.isRequired,
 	handleReplySubmit: PropTypes.func,
-	replySubmitLoading: PropTypes.bool,
+	handleEditSubmit: PropTypes.func,
+	saveDiscussionLoading: PropTypes.string,
 	userId: PropTypes.string,
 	isProfile: PropTypes.bool,
 };
 
 const defaultProps = {
 	handleReplySubmit: undefined,
-	replySubmitLoading: false,
+	handleEditSubmit: undefined,
+	saveDiscussionLoading: false,
 	userId: undefined,
 	isProfile: false,
 };
@@ -34,16 +36,34 @@ class DiscussionItem extends Component {
 			replyOpen: false,
 			replyText: '',
 			editorKey: new Date().getTime(),
+			isEditing: false,
 		};
 		this.replyEditor = undefined;
 		this.toggleReply = this.toggleReply.bind(this);
+		this.toggleEditing = this.toggleEditing.bind(this);
 		this.onReplySubmit = this.onReplySubmit.bind(this);
+		this.onEditSubmit = this.onEditSubmit.bind(this);
 		this.handleReplyChange = this.handleReplyChange.bind(this);
 	}
 
 	componentWillReceiveProps(nextProps) {
-		if (this.props.replySubmitLoading && !nextProps.replySubmitLoading) {
-			this.setState({ editorKey: new Date().getTime() });
+		const item = this.props.discussion;
+		if (this.props.saveDiscussionLoading === `${item.anchor}-${item.id}-reply`
+			&& this.props.saveDiscussionLoading
+			&& !nextProps.saveDiscussionLoading
+		) {
+			this.setState({
+				editorKey: new Date().getTime(),
+			});
+		}
+
+		if (this.props.saveDiscussionLoading === `${item.id}`
+			&& this.props.saveDiscussionLoading
+			&& !nextProps.saveDiscussionLoading
+		) {
+			this.setState({
+				isEditing: false,
+			});
 		}
 	}
 
@@ -56,10 +76,21 @@ class DiscussionItem extends Component {
 			text: replyData.text
 		});
 	}
+	onEditSubmit(editedData) {
+		this.props.handleEditSubmit({
+			id: this.props.discussion.id,
+			content: editedData.content,
+			text: editedData.text
+		});
+	}
 	handleReplyChange() {
 		this.setState({
 			replyText: this.replyEditor.view.state.doc.textContent,
 		});
+	}
+
+	toggleEditing() {
+		this.setState({ isEditing: !this.state.isEditing });
 	}
 	toggleReply() {
 		this.setState({ replyOpen: !this.state.replyOpen });
@@ -69,6 +100,7 @@ class DiscussionItem extends Component {
 		const item = this.props.discussion;
 		const labels = item.labels || [];
 		const replies = item.replies || [];
+		const isAuthor = this.props.userId === item.author.id;
 		return (
 			<div className={'discussion-item'}>
 				<div className={'discussion-header'}>
@@ -93,30 +125,46 @@ class DiscussionItem extends Component {
 						</div>
 					</div>
 
-					{this.props.handleReplySubmit &&
-						<div className={'buttons'}>
+					<div className={'buttons'}>
+						{isAuthor &&
+							<button className={'pt-button pt-small'} onClick={this.toggleEditing}>
+								{this.state.isEditing ? 'Cancel' : `Edit`}
+							</button>
+						}
+						{!item.parentId &&
 							<button className={'pt-button pt-small'} onClick={this.toggleReply}>
 								{this.state.replyOpen ? 'Close' : `Reply · ${replies.length}`}
 							</button>
-						</div>
-					}
+						}
+					</div>
 				</div>
 
 				<div className={'content'}>
-
 					<div className={'content-body'}>
-						<Editor
-							initialContent={item.content}
-							isReadOnly={true}
-						>
-							<HighlightQuote
+						{!this.state.isEditing &&
+							<Editor
+								initialContent={item.content}
+								isReadOnly={true}
+							>
+								<HighlightQuote
+									getHighlightContent={()=>{}}
+								/>
+								<Image
+									handleResizeUrl={(url)=> { return getResizedUrl(url, 'fit-in', '800x0'); }}
+								/>
+								<Video />
+							</Editor>
+						}
+						{this.state.isEditing &&
+							<DiscussionInput
+								initialContent={this.props.discussion.content}
+								handleSubmit={this.onEditSubmit}
+								isReply={!!item.parentId}
+								submitIsLoading={this.props.saveDiscussionLoading === item.id}
 								getHighlightContent={()=>{}}
+								userId={this.props.userId}
 							/>
-							<Image
-								handleResizeUrl={(url)=> { return getResizedUrl(url, 'fit-in', '800x0'); }}
-							/>
-							<Video />
-						</Editor>
+						}
 					</div>
 
 					{this.state.replyOpen &&
@@ -129,7 +177,13 @@ class DiscussionItem extends Component {
 								// Wrap it in a div so it is last-of-type and doesn't get border-bottom
 								return (
 									<div key={`reply-${reply.id}`} className={'reply'}>
-										<DiscussionItem discussion={reply} />
+										<DiscussionItem
+											discussion={reply}
+											saveDiscussionLoading={this.props.saveDiscussionLoading}
+											userId={this.props.userId}
+											handleReplySubmit={this.props.handleReplySubmit}
+											handleEditSubmit={this.props.handleEditSubmit}
+										/>
 									</div>
 								);
 							})}
@@ -141,7 +195,7 @@ class DiscussionItem extends Component {
 							<DiscussionInput
 								handleSubmit={this.onReplySubmit}
 								isReply={true}
-								submitIsLoading={this.props.replySubmitLoading}
+								submitIsLoading={this.props.saveDiscussionLoading === `${item.anchor}-${item.id}-reply`}
 								getHighlightContent={()=>{}}
 								userId={this.props.userId}
 							/>

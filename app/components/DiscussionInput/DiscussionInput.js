@@ -97,7 +97,7 @@ class DiscussionInput extends Component {
 							type={'submit'}
 							className={'pt-button pt-intent-primary pt-small'}
 							onClick={this.onSubmit}
-							text={this.props.isReply ? 'Submit Reply' : 'Submit Annotation'}
+							text={this.props.isReply ? 'Save Reply' : 'Save Annotation'}
 							disabled={this.state.submitDisabled}
 							loading={this.props.submitIsLoading}
 						/>

@@ -14,6 +14,10 @@ export const POST_DISCUSSION_LOAD = 'discussions/POST_DISCUSSION_LOAD';
 export const POST_DISCUSSION_SUCCESS = 'discussions/POST_DISCUSSION_SUCCESS';
 export const POST_DISCUSSION_FAIL = 'discussions/POST_DISCUSSION_FAIL';
 
+export const PUT_DISCUSSION_LOAD = 'discussions/PUT_DISCUSSION_LOAD';
+export const PUT_DISCUSSION_SUCCESS = 'discussions/PUT_DISCUSSION_SUCCESS';
+export const PUT_DISCUSSION_FAIL = 'discussions/PUT_DISCUSSION_FAIL';
+
 /*--------*/
 // Define Action creators
 //
@@ -36,7 +40,10 @@ export function getDiscussionsData(slugs) {
 
 export function postDiscussion(discussionObject) {
 	return (dispatch) => {
-		dispatch({ type: POST_DISCUSSION_LOAD });
+		dispatch({
+			type: POST_DISCUSSION_LOAD,
+			loadingId: discussionObject.parentId ? `${discussionObject.anchor}-${discussionObject.parentId}-reply` : `${discussionObject.anchor}-new`
+		});
 		return apiFetch('/discussions', {
 			method: 'POST',
 			headers: {
@@ -50,6 +57,29 @@ export function postDiscussion(discussionObject) {
 		})
 		.catch((error) => {
 			dispatch({ type: POST_DISCUSSION_FAIL, error });
+		});
+	};
+}
+
+export function putDiscussion(discussionObject) {
+	return (dispatch) => {
+		dispatch({
+			type: PUT_DISCUSSION_LOAD,
+			loadingId: discussionObject.id
+		});
+		return apiFetch('/discussions', {
+			method: 'PUT',
+			headers: {
+				Accept: 'application/json',
+				'Content-Type': 'application/json'
+			},
+			body: JSON.stringify(discussionObject)
+		})
+		.then((result) => {
+			dispatch({ type: PUT_DISCUSSION_SUCCESS, result });
+		})
+		.catch((error) => {
+			dispatch({ type: PUT_DISCUSSION_FAIL, error });
 		});
 	};
 }

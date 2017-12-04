@@ -4,7 +4,7 @@ import PropTypes from 'prop-types';
 import { withRouter } from 'react-router-dom';
 import DiscussionItem from 'components/DiscussionItem/DiscussionItem';
 import DiscussionInput from 'components/DiscussionInput/DiscussionInput';
-import { postDiscussion } from 'actions/discussions';
+import { postDiscussion, putDiscussion } from 'actions/discussions';
 
 require('./discussions.scss');
 
@@ -36,6 +36,7 @@ class Discussions extends Component {
 		this.openDiscussions = this.openDiscussions.bind(this);
 		this.closeDiscussions = this.closeDiscussions.bind(this);
 		this.handleReplySubmit = this.handleReplySubmit.bind(this);
+		this.handleEditSubmit = this.handleEditSubmit.bind(this);
 		this.handleNewAnnotation = this.handleNewAnnotation.bind(this);
 	}
 
@@ -50,6 +51,9 @@ class Discussions extends Component {
 	handleReplySubmit(discussionObject) {
 		this.props.dispatch(postDiscussion(discussionObject));
 	}
+	handleEditSubmit(discussionObject) {
+		this.props.dispatch(putDiscussion(discussionObject));
+	}
 	handleNewAnnotation(annotationData) {
 		this.props.dispatch(postDiscussion({
 			userId: this.props.loginData.data.id,
@@ -61,7 +65,7 @@ class Discussions extends Component {
 	render() {
 		const discussions = this.props.discussionsData.data || [];
 		const userId = this.props.loginData.data && this.props.loginData.data.id;
-		const replySubmitLoading = this.props.discussionsData.isLoading;
+		const saveDiscussionLoading = this.props.discussionsData.isLoading || '';
 
 		const numTopDiscussions = discussions.filter((item)=> {
 			return item.anchor === this.props.parentHash && !item.parentId;
@@ -95,7 +99,8 @@ class Discussions extends Component {
 									discussion={item}
 									userId={userId}
 									handleReplySubmit={this.handleReplySubmit}
-									replySubmitLoading={replySubmitLoading}
+									handleEditSubmit={this.handleEditSubmit}
+									saveDiscussionLoading={saveDiscussionLoading}
 								/>
 							);
 						})}
@@ -104,7 +109,7 @@ class Discussions extends Component {
 							<DiscussionInput
 								handleSubmit={this.handleNewAnnotation}
 								isReply={false}
-								submitIsLoading={replySubmitLoading}
+								submitIsLoading={saveDiscussionLoading === `${this.props.parentHash}-new`}
 								getHighlightContent={()=>{}}
 								userId={userId}
 							/>
