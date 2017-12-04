@@ -11,6 +11,7 @@ const propTypes = {
 	borderWidth: PropTypes.string,
 	width: PropTypes.number.isRequired, // Integer number of pixels for avatar
 	doesOverlap: PropTypes.bool, // Boolean on whether a lisst of avatars will be overlapping
+	endorsed: PropTypes.bool,
 };
 
 const defaultProps = {
@@ -38,7 +39,7 @@ const Avatar = function(props) {
 	}
 
 	return (
-		<div className={'avatar'} style={avatarStyle}>
+		<div className={`avatar ${props.endorsed ? 'endorsed' : ''}`} style={avatarStyle}>
 			{!props.userAvatar &&
 				<div>{props.userInitials}</div>
 			}

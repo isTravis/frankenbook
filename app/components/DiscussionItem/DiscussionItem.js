@@ -78,6 +78,7 @@ class DiscussionItem extends Component {
 								userAvatar={item.author.avatar}
 								userInitials={item.author.initials}
 								width={24}
+								endorsed={item.endorsed}
 							/>
 						</Link>
 					</div>
