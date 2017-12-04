@@ -4,6 +4,7 @@
 const fs = require('fs');
 const bookJSON = require('./bookSource.json');
 const essaysJSON = require('./essaysSource.json');
+const introJSON = require('./introSource.json');
 const annotationsJSON = require('./sourceAnnotations.json');
 
 const convertNode = (node, isAnnotation)=> {
@@ -108,6 +109,7 @@ const convertNode = (node, isAnnotation)=> {
 		};
 	}
 	if (node.tagName === 'div') {
+		if (!node.children) { console.log(node); }
 		return {
 			type: 'doc',
 			attrs: { meta: {} },
@@ -159,6 +161,23 @@ const essaysEditorJSON = {
 };
 fs.writeFile('static/essaysSourceEditor.json', JSON.stringify(essaysEditorJSON, null, 2), 'utf8', ()=> {
 	console.log('Finished Processing Essays');
+});
+
+/* Convert Intro */
+/* ------------ */
+const introEditorJSON = {
+	type: 'doc',
+	attrs: { meta: {} },
+	content: introJSON.children.map((item)=> {
+		return convertNode(item);
+	}).reduce((prev, curr)=> {
+		if (Array.isArray(curr)) { return prev.concat(curr); }
+		prev.push(curr);
+		return prev;
+	}, [])
+};
+fs.writeFile('static/introSourceEditor.json', JSON.stringify(introEditorJSON, null, 2), 'utf8', ()=> {
+	console.log('Finished Processing Intro');
 });
 
 /* Convert Annotations */

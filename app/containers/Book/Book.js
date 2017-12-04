@@ -11,6 +11,7 @@ import Image from '@pubpub/editor/addons/Image';
 import ScrollBar from 'components/ScrollBarAddon/ScrollBarAddon';
 import DiscussionAddon from 'components/DiscussionAddon/DiscussionAddon';
 import EssaysContent from 'components/EssaysContent/EssaysContent';
+import IntroContent from 'components/IntroContent/IntroContent';
 import { s3Upload, getResizedUrl } from 'utilities';
 
 const bookContent = require('bookSourceEditor.json');
@@ -30,17 +31,17 @@ class Book extends Component {
 	constructor(props) {
 		super(props);
 		this.state = {
-			prefaceOpen: false,
+			introOpen: false,
 			essaysOpen: false,
 		};
 		this.toggleEssaysOpen = this.toggleEssaysOpen.bind(this);
-		this.togglePrefaceOpen = this.togglePrefaceOpen.bind(this);
+		this.toggleIntroOpen = this.toggleIntroOpen.bind(this);
 	}
 	toggleEssaysOpen() {
 		this.setState({ essaysOpen: !this.state.essaysOpen });
 	}
-	togglePrefaceOpen() {
-		this.setState({ prefaceOpen: !this.state.prefaceOpen });
+	toggleIntroOpen() {
+		this.setState({ introOpen: !this.state.introOpen });
 	}
 	render() {
 		const lensesData = this.props.lensesData.data || [];
@@ -88,11 +89,11 @@ class Book extends Component {
 
 						{/* Collapsable section for introduction material */}
 						<div className={'collapsable-section'}>
-							<button className={'pt-button pt-fill pt-large'} onClick={this.togglePrefaceOpen}>
-								{this.state.prefaceOpen ? 'Hide' : 'Show'} Preface
+							<button className={'pt-button pt-fill pt-large'} onClick={this.toggleIntroOpen}>
+								{this.state.introOpen ? 'Hide' : 'Show'} Introduction
 							</button>
-							<Collapse isOpen={this.state.prefaceOpen}>
-								This is the Preface!
+							<Collapse isOpen={this.state.introOpen}>
+								<IntroContent />
 							</Collapse>
 						</div>
 

@@ -1,0 +1,2324 @@
+{
+  "tagName": "div",
+  "children": [
+    {
+      "tagName": "h1",
+      "children": [
+        {
+          "content": "Editors’ Preface"
+        }
+      ],
+      "hash": "86fe30"
+    },
+    {
+      "tagName": "p",
+      "children": [
+        {
+          "content": "David H. Guston, Ed Finn, and Jason Scott Robert"
+        }
+      ],
+      "hash": "edf558"
+    },
+    {
+      "tagName": "p",
+      "children": [
+        {
+          "content": "No work of literature has done more to shape the way humans imagine science and its moral consequences than "
+        },
+        {
+          "tagName": "i",
+          "children": [
+            {
+              "content": "Frankenstein; or The Modern Pro"
+            }
+          ],
+          "hash": "e2b2da"
+        },
+        {
+          "tagName": "span",
+          "children": [
+            {
+              "content": "metheus"
+            }
+          ],
+          "hash": "5169ca"
+        },
+        {
+          "content": ", Mary Shelley’s remarkably enduring tale of creation and responsibility. "
+        },
+        {
+          "tagName": "i",
+          "children": [
+            {
+              "content": "Frankenstein"
+            }
+          ],
+          "hash": "b7bb42"
+        },
+        {
+          "content": " is the literary offspring of an eighteen-year-old girl ensconced in a romantic yet fraught summer getaway on the shores of Lake Geneva in response to a “dare” to come up with a ghost story. That dare was issued a little more than two hundred years ago. In writing "
+        },
+        {
+          "tagName": "i",
+          "children": [
+            {
+              "content": "Frankenstein"
+            }
+          ],
+          "hash": "b7bb42"
+        },
+        {
+          "content": ", Mary produced both in the creature and in its creator tropes that continue to resonate deeply with contemporary audiences. Moreover, these tropes and the imaginations they engender actually influence the way we confront emerging science and technology, conceptualize the process of scientific research, imagine the motivations and ethical struggles of scientists, and weigh the benefits of scientific research against its anticipated and unforeseen pitfalls."
+        }
+      ],
+      "hash": "ceee84"
+    },
+    {
+      "tagName": "p",
+      "children": [
+        {
+          "content": "The world will celebrate the bicentennial of "
+        },
+        {
+          "tagName": "i",
+          "children": [
+            {
+              "content": "Frankenstein"
+            }
+          ],
+          "hash": "b7bb42"
+        },
+        {
+          "content": "’s publication on 1 January 2018. Arizona State University (ASU) will be the epicenter of this celebration of the power of literature, science, art, imagination, and ingenuity. ASU’s Frankenstein Bicentennial Project is a constructive, intellectual, and public endeavor meant to celebrate "
+        },
+        {
+          "tagName": "i",
+          "children": [
+            {
+              "content": "Frankenstein"
+            }
+          ],
+          "hash": "b7bb42"
+        },
+        {
+          "content": "’s pervasive influence on contemporary culture and scientific research. With funding from the US National Science Foundation (NSF Award no. 1516684), we are producing a citizen-curated, digital narrative experience of "
+        },
+        {
+          "tagName": "i",
+          "children": [
+            {
+              "content": "Frankenstein"
+            }
+          ],
+          "hash": "b7bb42"
+        },
+        {
+          "content": " and Frankensteiniana in collaboration with dozens of museums and other partners. Our goal is to understand the galvanizing power of "
+        },
+        {
+          "tagName": "i",
+          "children": [
+            {
+              "content": "Frankenstein"
+            }
+          ],
+          "hash": "b7bb42"
+        },
+        {
+          "content": " to stoke the public imagination and to harness that energy to ignite new conversations about creativity and responsibility among science and technology researchers, students, and the public. We hope these conversations will inspire a deeper understanding of how to govern science and technology responsibly. We believe "
+        },
+        {
+          "tagName": "i",
+          "children": [
+            {
+              "content": "Frankenstein"
+            }
+          ],
+          "hash": "b7bb42"
+        },
+        {
+          "content": " is a book that can encourage us to be both thoughtful and hopeful: having these conversations can help all of us make better decisions about how to shape and understand scientific research and technical innovation in ways that support our well-considered values and ambitions."
+        }
+      ],
+      "hash": "ef2a9e"
+    },
+    {
+      "tagName": "p",
+      "children": [
+        {
+          "content": "Mary Shelley’s landmark fusion of science, ethics, and literary expression provides an opportunity both to reflect on how science is framed and understood by the public and to contextualize new scientific and technological innovations, especially in an era of synthetic biology, genome editing,robotics, machine learning, and regenerative medicine. Although "
+        },
+        {
+          "tagName": "i",
+          "children": [
+            {
+              "content": "Frankenstein"
+            }
+          ],
+          "hash": "b7bb42"
+        },
+        {
+          "content": " is infused with the exhilaration of seemingly unbounded human creativity, it also prompts serious reflection about our individual and collective responsibility for nurturing the products of our creativity and imposing constraints on our capacities to change the world around us. Engaging with "
+        },
+        {
+          "tagName": "i",
+          "children": [
+            {
+              "content": "Frankenstein"
+            }
+          ],
+          "hash": "b7bb42"
+        },
+        {
+          "content": " allows a broad public and especially future scientists and engineers to consider the history of our scientific progress together with our expanding abilities in the future and to reflect on evolving understandings of the responsibilities such abilities entail."
+        }
+      ],
+      "hash": "99d69a"
+    },
+    {
+      "tagName": "p",
+      "children": [
+        {
+          "content": "•••"
+        }
+      ],
+      "hash": "637be2"
+    },
+    {
+      "tagName": "p",
+      "children": [
+        {
+          "content": "This critical edition of "
+        },
+        {
+          "tagName": "i",
+          "children": [
+            {
+              "content": "Frankenstein"
+            }
+          ],
+          "hash": "b7bb42"
+        },
+        {
+          "content": " for scientists and engineers is—like the creature himself—the first of its kind and just as monstrous in its composition and development. Originally proposed by our colleague Cajsa Baldini in ASU’s Department of English, the skeleton of the critical edition was fleshed out at a workshop at ASU in the spring of 2014, hosted by two of us (Guston and Finn) and funded by the NSF (NSF Award no. 1354287) to explore science-and-society projects that might be built around "
+        },
+        {
+          "tagName": "i",
+          "children": [
+            {
+              "content": "Frankenstein"
+            }
+          ],
+          "hash": "b7bb42"
+        },
+        {
+          "content": "). Robert served as scribe in breakout sessions dedicated to fleshing out the critical edition, which also included Baldini, historian Catherine O’Donnell, and representatives from the ASU Libraries, a local high school, and the larger community. We then sent copies of "
+        },
+        {
+          "tagName": "i",
+          "children": [
+            {
+              "content": "Frankenstein"
+            }
+          ],
+          "hash": "b7bb42"
+        },
+        {
+          "content": " to professors and students in science, technology, engineering, and mathematics (STEM) fields and asked them to identify key terms and passages requiring elucidation and elaboration for STEM students from high school to graduate school. We received almost one thousand suggestions! And so the editorial work began in earnest."
+        }
+      ],
+      "hash": "c92b97"
+    },
+    {
+      "tagName": "p",
+      "children": [
+        {
+          "content": "In the spring of 2015, still working with NSF funding, we brought together a small group of advisers to discuss both a print version and an immersive digital version of an annotated "
+        },
+        {
+          "tagName": "i",
+          "children": [
+            {
+              "content": "Frankenstein"
+            }
+          ],
+          "hash": "b7bb42"
+        },
+        {
+          "content": ". One key contributor was Charles E. Robinson, emeritus professor at the University of Delaware and one of the world’s leading scholars of "
+        },
+        {
+          "tagName": "i",
+          "children": [
+            {
+              "content": "Frankenstein"
+            }
+          ],
+          "hash": "b7bb42"
+        },
+        {
+          "content": ". Robinson graciously offered us the opportunity to use his painstakingly line-edited and amended version of the original manuscript published in 1818 as our core text. The workshop yielded a strong sense of what distinguishes our critical edition from previous ones, which have dwelt on the novel’s literary or historical importance, addressing it as representative of romanticism or the gothic. Other volumes have focused on the science or ethics of "
+        },
+        {
+          "tagName": "i",
+          "children": [
+            {
+              "content": "Frankenstein"
+            }
+          ],
+          "hash": "b7bb42"
+        },
+        {
+          "content": " or both, but they have been either critical anthologies or otherwise engaged with the novel in a secondary fashion. We wanted our version to be unique in bringing together the primary text and annotations and short essays by a diverse group of experts. This juxtaposition will allow STEM readers to explore critical understandings of the ethical and societal dimensions of scientific inquiry in the immediate company of Victor Frankenstein, his creature, and a gripping narrative of creativity and responsibility."
+        },
+        {
+          "tagName": "sup",
+          "children": [
+            {
+              "tagName": "span",
+              "attributes": {
+                "id": "link-85"
+              },
+              "children": [
+                {
+                  "tagName": "a",
+                  "attributes": {
+                    "href": "#link-217"
+                  },
+                  "children": [
+                    {
+                      "content": "1"
+                    }
+                  ],
+                  "hash": "c591ed"
+                }
+              ],
+              "hash": "82b1f2"
+            }
+          ],
+          "hash": "a3fba0"
+        },
+        {
+          "content": " Rather than focusing on the specifics of the science and what Mary Shelley got or did not get right,"
+        },
+        {
+          "tagName": "sup",
+          "children": [
+            {
+              "tagName": "span",
+              "attributes": {
+                "id": "link-86"
+              },
+              "children": [
+                {
+                  "tagName": "a",
+                  "attributes": {
+                    "href": "#link-218"
+                  },
+                  "children": [
+                    {
+                      "content": "2"
+                    }
+                  ],
+                  "hash": "a8b745"
+                }
+              ],
+              "hash": "b6c097"
+            }
+          ],
+          "hash": "f26e50"
+        },
+        {
+          "content": " our version (although including some such discussion) emphasizes broader questions of the scientific endeavor, the roles of scientists, and the relationship between scientific creativity and responsibility."
+        }
+      ],
+      "hash": "373498"
+    },
+    {
+      "tagName": "p",
+      "children": [
+        {
+          "content": "With the serial and at times massively parallel assistance of Valerye Milleson, Mary Drago, and Joey Eschrich, we vetted the lengthy list of suggested annotations and then solicited, assigned, collected, edited, amplified, truncated, massaged, and merged the annotations into the far-ranging critical conversation composing this volume. We also identified key themes to be highlighted in longer essays—including creativity, imagination, monstrosity, angst, responsibility, and the roles of gender in "
+        },
+        {
+          "tagName": "i",
+          "children": [
+            {
+              "content": "Frankenstein"
+            }
+          ],
+          "hash": "b7bb42"
+        },
+        {
+          "content": " and in science and engineering—and commissioned essays from leading scholars and writers at ASU, across the United States, and around the world. The end result, we believe, is an edition of "
+        },
+        {
+          "tagName": "i",
+          "children": [
+            {
+              "content": "Frankenstein"
+            }
+          ],
+          "hash": "b7bb42"
+        },
+        {
+          "content": " that incites a deeply engaging cross-disciplinary exploration of the complexities of the development of personal and professional identity and of the rightful place of science and scientists in our rapidly changing world."
+        }
+      ],
+      "hash": "1e4c24"
+    },
+    {
+      "tagName": "p",
+      "children": [
+        {
+          "content": "•••"
+        }
+      ],
+      "hash": "637be2"
+    },
+    {
+      "tagName": "p",
+      "children": [
+        {
+          "content": "In organizing and editing this material, we were faced with innumerable decisions about style and content. Upon reflection, perhaps the most consequential are the naming conventions we have adopted. First, we have decided to refer to the author and her main protagonist simply as Mary and Victor wherever possible. We do not wish to diminish them with this familiarity, but we do wish precisely to render them more familiar. Mary was eighteen years old when she began to set her ideas to paper. Victor was a young man, still very much a student. Both of them are more like you, the reader, in that sense than like us. We want you to see them more as colleagues, classmates, and maybe even as friends rather than as a distant contributor to the literary canon and the maniacal character she devised."
+        }
+      ],
+      "hash": "bf369b"
+    },
+    {
+      "tagName": "p",
+      "children": [
+        {
+          "content": "Recognizing—as many have before us, from the author of Genesis to Mary herself—that to name something is to assert some measure of creative power over it, we have decided to attempt to consistently identify Victor’s creation as “the creature.” We do this for several reasons, foremost among them to allow readers to determine for themselves whether the appellations "
+        },
+        {
+          "tagName": "i",
+          "children": [
+            {
+              "content": "daemon"
+            }
+          ],
+          "hash": "3bb9ee"
+        },
+        {
+          "content": " (frequently used in the text) and "
+        },
+        {
+          "tagName": "i",
+          "children": [
+            {
+              "content": "monster"
+            }
+          ],
+          "hash": "2fe8ad"
+        },
+        {
+          "content": " (most often used in posterity) are appropriate. For us, "
+        },
+        {
+          "tagName": "i",
+          "children": [
+            {
+              "content": "creature"
+            }
+          ],
+          "hash": "f5b556"
+        },
+        {
+          "content": " is a more neutral, descriptive, and pedagogically appropriate denomination."
+        }
+      ],
+      "hash": "679edc"
+    },
+    {
+      "tagName": "p",
+      "children": [
+        {
+          "content": "It is worth pointing out that the way we now use the word "
+        },
+        {
+          "tagName": "i",
+          "children": [
+            {
+              "content": "creature"
+            }
+          ],
+          "hash": "f5b556"
+        },
+        {
+          "content": " ignores a richer etymology. Today, we refer to birds and bees as creatures. Living things are creatures by virtue of their living-ness. When we call something a creature today, we rarely think in terms of something that has been created, and thus we erase the idea of a creator behind the creature. We have likewise lost the social connotation of the term "
+        },
+        {
+          "tagName": "i",
+          "children": [
+            {
+              "content": "creature"
+            }
+          ],
+          "hash": "f5b556"
+        },
+        {
+          "content": ", for creatures are made not just biologically (or magically) but also socially. In the contemporary film "
+        },
+        {
+          "tagName": "i",
+          "children": [
+            {
+              "content": "V"
+            }
+          ],
+          "hash": "fe85c6"
+        },
+        {
+          "tagName": "span",
+          "children": [
+            {
+              "content": "ictor Frankenstein"
+            }
+          ],
+          "hash": "be04b0"
+        },
+        {
+          "content": " (2015), for example, "
+        },
+        {
+          "tagName": "i",
+          "children": [
+            {
+              "content": "Harry Pot"
+            }
+          ],
+          "hash": "c0a3b4"
+        },
+        {
+          "tagName": "span",
+          "children": [
+            {
+              "content": "ter"
+            }
+          ],
+          "hash": "d3150f"
+        },
+        {
+          "content": "’s Daniel Radcliffe plays Igor—Victor’s hunchback assistant not present in Mary’s novel but invented for stage and screen—who is rescued from a circus, cured of his malformation, and embraced by Victor first as assistant and then as partner in his laboratory. Victor raises him from a subhuman existence, even giving him the name “Igor” because the freak-show hunchback has no name, and makes him an English gentleman worthy of invitations to clubs and balls and even the affection of a beautiful woman. Igor understands that he is Victor’s creature in this regard, just as surely as if his life were created from nonlife. So to recognize both the biological and the social aspects of creation—as well as the failure of Mary’s Victor to name his creation, thus rejecting the creature’s social creation—we have decided on “the creature.” So Mary, Victor, and the creature constitute the trinity of our text."
+        }
+      ],
+      "hash": "b51f49"
+    },
+    {
+      "tagName": "p",
+      "children": [
+        {
+          "content": "We also want to reflect on the fact that we are a trio of roughly middle-aged guys potentially appropriating Mary’s work. Although changing the biological aspects of our identities for the purposes of this volume is not really an option, we can consider what it was like for us to confront issues of gender in "
+        },
+        {
+          "tagName": "i",
+          "children": [
+            {
+              "content": "Frankenstein"
+            }
+          ],
+          "hash": "b7bb42"
+        },
+        {
+          "content": " and raise these issues for ourselves and for our readers. First, we must emphasize again that although the idea for the Frankenstein Bicentennial Project came from one of us, the idea for this volume came from our colleague Cajsa Baldini. As a lecturer in English at ASU, Cajsa is in a more vulnerable academic position than we are (two of us are tenured, one is on the tenure track). She had the further burden, familiar to many women, of family medical challenges that ultimately caused her to pass the project to us. Without her creative spark, this project would never have existed, and we are grateful for her blessing and her willingness to allow us to pursue the work in her stead."
+        }
+      ],
+      "hash": "e2130a"
+    },
+    {
+      "tagName": "p",
+      "children": [
+        {
+          "content": "It may be difficult for some readers, especially those accustomed to living the relatively privileged life of the white male, to recognize how hard it was for Mary to write and publish this book as a young woman without money or the support of her family (with the exception of her husband, the poet Percy Bysshe Shelley, who was just as much an outcast as she was). When the first edition appeared in 1818, it listed no author, and some reviewers and readers assumed Percy was the real architect of the narrative. Several reviewers who knew the truth found it deeply alarming: the "
+        },
+        {
+          "tagName": "i",
+          "children": [
+            {
+              "content": "British Critic"
+            }
+          ],
+          "hash": "06335c"
+        },
+        {
+          "content": " blamed the flaws it perceived in the text on the gender of its author, brutally ending its review by saying, “The writer of it is, we understand, a female; this is an aggravation of that which is the prevailing fault of the novel; but if our authoress can forget the gentleness of her sex, it is no reason why we should; and we shall therefore dismiss the novel without further comment” (“Review of "
+        },
+        {
+          "tagName": "i",
+          "children": [
+            {
+              "content": "Frankenstein"
+            }
+          ],
+          "hash": "b7bb42"
+        },
+        {
+          "content": "” 1818). It was only one of the many times Mary was excluded from consideration because of her gender and her unconventional choices."
+        }
+      ],
+      "hash": "335bd2"
+    },
+    {
+      "tagName": "p",
+      "children": [
+        {
+          "content": "We can also speak of what it was like to learn from Mary because any failure on our part to acknowledge the sheer brilliance of her composition, its heritage and its progeny, its intricacies and its clarion vision, would be a failure as colossal as Victor’s failure to acknowledge the intelligence of his creature—except that we are Mary’s creatures and not the other way around. As university teachers, we know—but we do not always show—that our students have things to teach us. We do not labor under the misapprehension that we are bringing very much at all to Mary; rather, our hope is to bring Mary more clearly and powerfully to you. This endeavor requires, as we hope we have done through the invited essays and annotations, the recognition that Mary was not just an interesting writer but also a powerful thinker. Her parents—the feminist philosopher Mary Wollstonecraft, who died as a consequence of Mary’s birth, and the similarly radical political philosopher William Godwin—provided her with the raw material. Tales of her intensive tutoring bring to mind that imposed by other nineteenth-century tiger fathers such as James Mill, who in educating John Stuart Mill produced a nervous breakdown in his son before producing a political theorist who surpassed him. Turning gender roles around, Mary did not turn inward and anxious but instead turned outward and rebellious. Sixteen-year-old Mary ran off with Percy from England to continental Europe, returning shortly after only to run off again on the jaunt that led to her to imagine "
+        },
+        {
+          "tagName": "i",
+          "children": [
+            {
+              "content": "Frankenstein"
+            }
+          ],
+          "hash": "b7bb42"
+        },
+        {
+          "content": ". Mary was doing drugs (laudanum, a powdered opiate) and became pregnant by a man who was at the time married to someone else: if she had turned up at ASU or any other school, she would have been labeled an “at-risk student” and targeted for intervention."
+        }
+      ],
+      "hash": "c34b1c"
+    },
+    {
+      "tagName": "p",
+      "children": [
+        {
+          "content": "And the risks she faced were significant. By the time Mary began writing "
+        },
+        {
+          "tagName": "i",
+          "children": [
+            {
+              "content": "Frankenstein"
+            }
+          ],
+          "hash": "b7bb42"
+        },
+        {
+          "content": ", she had already become a mother and lost a child. Little Clara arrived two months early in February 1815, only to die two weeks later, to Mary’s harrowing sorrow. Mary wrote later of a “waking dream” that inspired "
+        },
+        {
+          "tagName": "i",
+          "children": [
+            {
+              "content": "Frankenstein"
+            }
+          ],
+          "hash": "b7bb42"
+        },
+        {
+          "content": " in which she managed to revive baby Clara by moving her closer to the fire and nursing her to health. Mary would give birth to four children in all and bury three of them. Throughout Mary’s life, birth and death were intimately connected. The themes of parenthood and responsibility in "
+        },
+        {
+          "tagName": "i",
+          "children": [
+            {
+              "content": "Frankenstein"
+            }
+          ],
+          "hash": "b7bb42"
+        },
+        {
+          "content": ", of lost creatures and dead children, were visceral experiences for Mary. Among its many faces, "
+        },
+        {
+          "tagName": "i",
+          "children": [
+            {
+              "content": "Frankenstein"
+            }
+          ],
+          "hash": "b7bb42"
+        },
+        {
+          "content": " was a very personal ghost story for its author."
+        }
+      ],
+      "hash": "0b1d02"
+    },
+    {
+      "tagName": "p",
+      "children": [
+        {
+          "content": "After "
+        },
+        {
+          "tagName": "i",
+          "children": [
+            {
+              "content": "Frankenstein"
+            }
+          ],
+          "hash": "b7bb42"
+        },
+        {
+          "content": " was published, Mary’s life was perhaps even more challenging. She lost two other children, largely because of traveling with them across Europe in precarious conditions for the sake of her beloved Percy, and then she lost him, too, when he drowned in Italy at the age of twenty-nine. A less-resilient heroine of novels of Mary’s time might have followed Percy to the grave by her own hand. Mary persisted. And just as we are in the thrall of her intellectual power, we are in awe of her resilience and emotional strength."
+        },
+        {
+          "tagName": "sup",
+          "children": [
+            {
+              "tagName": "span",
+              "attributes": {
+                "id": "link-87"
+              },
+              "children": [
+                {
+                  "tagName": "a",
+                  "attributes": {
+                    "href": "#link-219"
+                  },
+                  "children": [
+                    {
+                      "content": "3"
+                    }
+                  ],
+                  "hash": "0d60a5"
+                }
+              ],
+              "hash": "ab996b"
+            }
+          ],
+          "hash": "b67111"
+        }
+      ],
+      "hash": "7132c4"
+    },
+    {
+      "tagName": "p",
+      "children": [
+        {
+          "content": "The questions of gender and marginality come to the fore in several of the essays we have collected in this volume, specifically in the contributions by scholar Anne K. Mellor and fiction writer Elizabeth Bear. We subscribe to the idea that only Mary, with her bodily experience and embodied wisdom, could have written "
+        },
+        {
+          "tagName": "i",
+          "children": [
+            {
+              "content": "Frankenstein"
+            }
+          ],
+          "hash": "b7bb42"
+        },
+        {
+          "content": " with such profundity. Indeed, questions about Mary’s authorship persisted even after her name as author was first revealed; later critics supposed that it was really Percy’s work, as if Mary could not have done it. To be sure, Percy contributed a great deal. But if you have visited the manuscript and fair copy at the Bodleian Library at the University of Oxford and been given a brilliant tour of its revelatory details by Bruce Barker-Benfield (as one of us has), you can see exactly how she did it—the dynamics of love and creativity played out in the looping flow of Mary’s authorial hand and the angular interjections of Percy’s editorial additions. This book by a young woman who would spend hours reading literature, philosophy, and history by her mother’s grave, who was cut off by her father when she fled to Europe with Percy, and who lost a child of her own at seventeen is singular. No one else before or since could have written "
+        },
+        {
+          "tagName": "i",
+          "children": [
+            {
+              "content": "Frankenstein"
+            }
+          ],
+          "hash": "b7bb42"
+        },
+        {
+          "content": " with the same combination of intellectual breadth, moral depth, and intense personal experience."
+        }
+      ],
+      "hash": "ab1cf6"
+    },
+    {
+      "tagName": "p",
+      "children": [
+        {
+          "content": "•••"
+        }
+      ],
+      "hash": "637be2"
+    },
+    {
+      "tagName": "p",
+      "children": [
+        {
+          "content": "We also feel it is important to make the case for bringing Mary, Victor, and the creature into the heart of conversations about contemporary science and technology. Of course, it is a privilege to engage with one of the most influential and widely assigned (if not as widely read) novels in the English language and one that has inspired so many high and low cultural expressions. That fecundity reveals something important about this story: "
+        },
+        {
+          "tagName": "i",
+          "children": [
+            {
+              "content": "Frankenstein"
+            }
+          ],
+          "hash": "b7bb42"
+        },
+        {
+          "content": " is unequivocally not an antiscience screed, and scientists and engineers should not be afraid of it. The target of Mary’s literary insight is not so much the content of Victor’s science as the way he pursues it. This target is the same in much of science fiction—a genre that Mary certainly helped to invent—especially the kind that takes a dystopian turn."
+        },
+        {
+          "tagName": "sup",
+          "children": [
+            {
+              "tagName": "span",
+              "attributes": {
+                "id": "link-88"
+              },
+              "children": [
+                {
+                  "tagName": "a",
+                  "attributes": {
+                    "href": "#link-220"
+                  },
+                  "children": [
+                    {
+                      "content": "4"
+                    }
+                  ],
+                  "hash": "d197a8"
+                }
+              ],
+              "hash": "4ae80f"
+            }
+          ],
+          "hash": "17aaf9"
+        },
+        {
+          "content": " We can choose to focus on the cautionary nature of the tale or on the part that continues to inspire students who believe that they can do better—as creative and responsible thinkers, makers, researchers, and citizens."
+        }
+      ],
+      "hash": "ed8f62"
+    },
+    {
+      "tagName": "p",
+      "children": [
+        {
+          "content": "Since Mary’s day, science and technology have become more pervasive in society. (We will demur from saying which society was changing faster, Mary’s under steam power or ours under solar, nuclear, and computational power.) As we anticipate the third century beyond Mary’s vision, we open the door to what may be the most pervasive scientific and technical endeavors yet: the creation and design of living organisms through techniques of synthetic biology, the creation and design of planetary-scale systems through climate engineering, and the integration of computational power and processes into nearly every sector of global society and even the fibers of our being. These technologies, radically different from each other in scale and materials, share a Promethean perspective. Each fuses natural processes with updated human ingenuity and purpose to offer much-needed benefits, but at the same time each presents real and even existential risks that have roots in the long stream of previous iterations of human ingenuity and purpose. Yet this framing of synthetic biology, climate engineering, and ubiquitous computation in terms of risk and benefit conceals crucial questions of values and politics: Who gets to decide on the agenda for scientific research and development? Who gets to say what problems or grand challenges we try to solve? Who gets to say how we solve them (or resolve them or muddle through them)? Who gets to partake in those benefits, and are they the same people put at risk by our attempts to solve the problems at stake?"
+        }
+      ],
+      "hash": "6ef1c4"
+    },
+    {
+      "tagName": "p",
+      "children": [
+        {
+          "content": "These and many other questions are part of the enduring legacy of Mary Shelley’s "
+        },
+        {
+          "tagName": "i",
+          "children": [
+            {
+              "content": "Frankenstein"
+            }
+          ],
+          "hash": "b7bb42"
+        },
+        {
+          "content": ", here brought to you in a new critical edition designed to enhance our collective understandings and to invent—intentionally—a world in which we all want to live and, indeed, a world in which we all can thrive."
+        }
+      ],
+      "hash": "ca5eef"
+    },
+    {
+      "tagName": "h1",
+      "children": [
+        {
+          "content": "Acknowledgments"
+        }
+      ],
+      "hash": "a8a300"
+    },
+    {
+      "tagName": "p",
+      "children": [
+        {
+          "content": "This volume would not have been possible without the tireless efforts, wise counsel, and formidable intellect of our friends and colleagues."
+        }
+      ],
+      "hash": "ab0e34"
+    },
+    {
+      "tagName": "p",
+      "children": [
+        {
+          "content": "We thank the following readers, who painstakingly identified passages in the text for annotation: Cristi Coursen, Mary Feeney, Steve Helms Tillery, Gary Marchant, and Clark Miller of Arizona State University as well as Stephanie Naufel of Northwestern University."
+        }
+      ],
+      "hash": "2ea2cc"
+    },
+    {
+      "tagName": "p",
+      "children": [
+        {
+          "content": "We also thank all of the participants in the “Multi-disciplinary Workshop on Scientific Creativity and Societal Responsibility” at Arizona State University in April 2014, where we first discussed plans for this volume, as well as Al DeSena, the program officer at the National Science Foundation who supported the workshop with a generous grant and more generous wisdom. We especially thank Cajsa Baldini, who originally conceived of the idea for this edition (you can learn more about Cajsa’s invaluable contributions to the project in the “Editors’ Preface”), and all of the members of the Critical Edition Working Group: Joshua Abbott, Brad Allenby, Joe Buenker, Jenefer Husman, Jane Maienschein, Catherine O’Donnell, and Jameson Wetmore of Arizona State University as well as Deedee Falls of the Bioscience High School in Phoenix."
+        }
+      ],
+      "hash": "13f910"
+    },
+    {
+      "tagName": "p",
+      "children": [
+        {
+          "content": "In May 2015, we held a second advisory board workshop at ASU to make critical decisions about the goals for this project and the structure of the book. The conversations at that workshop were truly formative and immensely helpful. We thank all of our advisory board members for their intellectual generosity, good vibes, and keen insights: Torie Bosch of "
+        },
+        {
+          "tagName": "i",
+          "children": [
+            {
+              "content": "Slate"
+            }
+          ],
+          "hash": "326f2c"
+        },
+        {
+          "content": " magazine, Elizabeth Denlinger of the New York Public Library, Karin Ellison and Erika Gronek of Arizona State University, Kate Kiehl and Corey Pressman of Neologic, and Charles E. Robinson of the University of Delaware."
+        }
+      ],
+      "hash": "561f37"
+    },
+    {
+      "tagName": "p",
+      "children": [
+        {
+          "content": "Special thanks to Valerye Milleson, a former postdoctoral fellow at the Lincoln Center for Applied Ethics and an incisive thinker in the field of clinical ethics, for shepherding this project through its earliest stages with careful attention and brio."
+        }
+      ],
+      "hash": "8eba62"
+    },
+    {
+      "tagName": "p",
+      "children": [
+        {
+          "content": "At ASU, institutional support was provided by Patrick Kenney, dean of the College of Liberal Arts and Sciences, and Sethuraman “Panch” Panchanathan, executive vice president for research and director of ASU’s Knowledge Enterprise Development. We thank them profusely, as well as the many who provided other kinds of support, including Sally Kitch, George Justice, and Jim O’Donnell."
+        }
+      ],
+      "hash": "df19c3"
+    },
+    {
+      "tagName": "p",
+      "children": [
+        {
+          "content": "We are immeasurably grateful to all of our collaborators, including anyone we have failed to mention here. Any errors that remain are ours alone."
+        }
+      ],
+      "hash": "861056"
+    },
+    {
+      "tagName": "h1",
+      "children": [
+        {
+          "content": "Introduction"
+        }
+      ],
+      "hash": "b2d177"
+    },
+    {
+      "tagName": "h3",
+      "children": [
+        {
+          "content": "Charles E. Robinson"
+        }
+      ],
+      "hash": "4ae4a7"
+    },
+    {
+      "tagName": "p",
+      "children": [
+        {
+          "content": "In this novel written by Mary Wollstonecraft Shelley (1797–1851), Victor Frankenstein (never called “Dr.” Frankenstein) leaves behind his idyllic childhood and Edenic Geneva, goes to university, studies the latest technologies and medical procedures, creates an unnamed monster,"
+        },
+        {
+          "tagName": "sup",
+          "children": [
+            {
+              "tagName": "span",
+              "attributes": {
+                "id": "link-304"
+              },
+              "children": [
+                {
+                  "tagName": "a",
+                  "attributes": {
+                    "href": "#link-336"
+                  },
+                  "children": [
+                    {
+                      "content": "1"
+                    }
+                  ],
+                  "hash": "836c0d"
+                }
+              ],
+              "hash": "5ac889"
+            }
+          ],
+          "hash": "03099b"
+        },
+        {
+          "content": " and suffers the dangerous consequences of his pursuit of knowledge when his creature destroys his brother William; his wife, Elizabeth; and his best friend, Henry Clerval. In short, "
+        },
+        {
+          "tagName": "i",
+          "children": [
+            {
+              "content": "Frankenstein"
+            }
+          ],
+          "hash": "b7bb42"
+        },
+        {
+          "content": " is a cautionary tale. And it is now for the first time published by an institute of technology for the purposes of educating students who are pursuing science, technology, engineering, and mathematics (STEM). (Some readers may wish or need to substitute "
+        },
+        {
+          "tagName": "i",
+          "children": [
+            {
+              "content": "medicine"
+            }
+          ],
+          "hash": "bf20dc"
+        },
+        {
+          "content": " for "
+        },
+        {
+          "tagName": "i",
+          "children": [
+            {
+              "content": "mathematics"
+            }
+          ],
+          "hash": "160d6b"
+        },
+        {
+          "content": " in this acronym.) Up until this edition, "
+        },
+        {
+          "tagName": "i",
+          "children": [
+            {
+              "content": "Frankenstein"
+            }
+          ],
+          "hash": "b7bb42"
+        },
+        {
+          "content": " has been primarily edited and published for and read by humanities students, students equally in need of reading this cautionary tale about forbidden knowledge and playing God. And to embrace the largest audience, we are publishing what may also be defined as a “STEAM edition” of Frankenstein, the A edited in for the arts, design, and humanities."
+        }
+      ],
+      "hash": "6e9eff"
+    },
+    {
+      "tagName": "p",
+      "children": [
+        {
+          "content": "STEAM provides us a launching point for an analysis of "
+        },
+        {
+          "tagName": "i",
+          "children": [
+            {
+              "content": "Frankenstein"
+            }
+          ],
+          "hash": "b7bb42"
+        },
+        {
+          "content": ", for its action takes place in the 1790s, by which time James Watt (1736–1819) had radically improved the steam engine and in effect started the Industrial Revolution, which accelerated the development of science and technology as well as medicine and machines in the nineteenth century."
+        },
+        {
+          "tagName": "sup",
+          "children": [
+            {
+              "tagName": "span",
+              "attributes": {
+                "id": "link-305"
+              },
+              "children": [
+                {
+                  "tagName": "a",
+                  "attributes": {
+                    "href": "#link-337"
+                  },
+                  "children": [
+                    {
+                      "content": "2"
+                    }
+                  ],
+                  "hash": "5ffaa7"
+                }
+              ],
+              "hash": "b6d69f"
+            }
+          ],
+          "hash": "56b21f"
+        },
+        {
+          "content": " The new steam engine powered paper mills, printed newspapers, and further developed commerce through steamboats and then trains. These same years were charged by the French Revolution, and anyone wishing to do a chronology of the action in "
+        },
+        {
+          "tagName": "i",
+          "children": [
+            {
+              "content": "Frankenstein"
+            }
+          ],
+          "hash": "b7bb42"
+        },
+        {
+          "content": " will discover that Victor went off to the University of Ingolstadt in 1789, the year of the Fall of the Bastille, and he developed his creature in 1793, the year of the Reign of Terror in France."
+        },
+        {
+          "tagName": "sup",
+          "children": [
+            {
+              "tagName": "span",
+              "attributes": {
+                "id": "link-306"
+              },
+              "children": [
+                {
+                  "tagName": "a",
+                  "attributes": {
+                    "href": "#link-338"
+                  },
+                  "children": [
+                    {
+                      "content": "3"
+                    }
+                  ],
+                  "hash": "95e5fd"
+                }
+              ],
+              "hash": "a49ce4"
+            }
+          ],
+          "hash": "c0f45b"
+        },
+        {
+          "content": " Terror (as well as error) was the child of both revolutions, and Mary’s novel records the terrorizing effects of the birth of the new revolutionary age, in the shadows of which we still live."
+        }
+      ],
+      "hash": "022ad7"
+    },
+    {
+      "tagName": "p",
+      "children": [
+        {
+          "content": "Frankenstein presents us with a world full of shadows and darkness and terror: we frequently read these three words and their variants in the text of "
+        },
+        {
+          "tagName": "i",
+          "children": [
+            {
+              "content": "Frankenstein"
+            }
+          ],
+          "hash": "b7bb42"
+        },
+        {
+          "content": "; we encounter the visuals of these three words in the many hundreds of stage and screen adaptations of this novel, often figured by the Boris Karloff neck-bolted monster; and we experience the shadows and darkness and terror when we read the many news reports about cloning, genetic engineering, Frankenfoods, and the most recently unearthed Frankenvirus announced in September 2015. All of these references derive their metaphoric origin from a teenager named Mary Godwin, who eloped to the Continent with the already married poet Percy Bysshe Shelley (1792–1822) in late July 1814, when she was sixteen; began writing her novel about Victor and his creature in Geneva in mid-June 1816, when she was eighteen; married Percy in London in late December 1816 after his first wife, Harriet, committed suicide; finished her novel in April or May 1817, when she was nineteen; and published it on 1 January 1818, when she was twenty years old. And this STEAM edition of the novel is being prepared exactly two hundred years later in commemoration of the bicentennial of this young woman’s achievements."
+        }
+      ],
+      "hash": "330a65"
+    },
+    {
+      "tagName": "p",
+      "children": [
+        {
+          "content": "It needs to be firmly stated here that Mary was not a Luddite opposed to new technologies. In fact, she was very interested in scientific matters, probably as a consequence of her parents, Mary Wollstonecraft (1759–1797) and William Godwin (1756–1836). Wollstonecraft was a famous political philosopher and feminist who died eleven days after her daughter was born as Mary Godwin, but the daughter was nurtured by reading her mother’s works, including "
+        },
+        {
+          "tagName": "i",
+          "children": [
+            {
+              "content": "Thoughts on the Education of Daughters"
+            }
+          ],
+          "hash": "690715"
+        },
+        {
+          "content": " (1787) and the more famous "
+        },
+        {
+          "tagName": "i",
+          "children": [
+            {
+              "content": "Vindication of the Rights of Woman"
+            }
+          ],
+          "hash": "028d8d"
+        },
+        {
+          "content": " (1792), in which she argued that elementary school girls of the period should perform the simple experiments in “natural philosophy” or science that boys of the same age performed. Mary also received a scientific education indirectly from her father, a famous novelist and political philosopher who was visited at home by many famous writers and intellectuals, including the scientist and inventor William Nicholson (1753–1815). As a young girl, Mary almost certainly met Nicholson during his many visits to Godwin up through February 1810, and she likely knew of his publications, which included "
+        },
+        {
+          "tagName": "i",
+          "children": [
+            {
+              "content": "The First Principles of Chemistry"
+            }
+          ],
+          "hash": "13c94f"
+        },
+        {
+          "content": " (1790; third edition, 1796) and his earlier student textbook "
+        },
+        {
+          "tagName": "i",
+          "children": [
+            {
+              "content": "Introduction to Natural Philosophy"
+            }
+          ],
+          "hash": "db3e20"
+        },
+        {
+          "content": " (2 vols., 1782; fifth edition, 1805). As William St. Clair has remarked in his authoritative biography of the Godwins and the Shelleys, William Godwin turned to Nicholson “for information on the latest theories in chemistry, physics, optics, biology, and the other natural sciences” and for “his advice on scientific method” ([1989] 1991, 61)."
+        }
+      ],
+      "hash": "24e48f"
+    },
+    {
+      "tagName": "p",
+      "children": [
+        {
+          "content": "When Mary met Percy Shelley, she learned that he had been encouraged in his scientific studies at Eton by Dr. James Lind (1736–1812), who was a member of the Lunar Society, a club that included scientists such as James Watt; the physician and poet and natural philosopher Erasmus Darwin (1731–1802), who published "
+        },
+        {
+          "tagName": "i",
+          "children": [
+            {
+              "content": "Zoonomia"
+            }
+          ],
+          "hash": "212dc7"
+        },
+        {
+          "content": " (1794–1801), a medical-philosophical treatise dealing with such matters as reproduction, development, sensation, and disease; and the dissenting minister and political activist Joseph Priestley (1733–1804), who knew Benjamin Franklin and published "
+        },
+        {
+          "tagName": "i",
+          "children": [
+            {
+              "content": "The History and Present State of Electricity, with Original Experiments"
+            }
+          ],
+          "hash": "f87df8"
+        },
+        {
+          "content": " (1767)."
+        },
+        {
+          "tagName": "sup",
+          "children": [
+            {
+              "tagName": "span",
+              "attributes": {
+                "id": "link-307"
+              },
+              "children": [
+                {
+                  "tagName": "a",
+                  "attributes": {
+                    "href": "#link-339"
+                  },
+                  "children": [
+                    {
+                      "content": "4"
+                    }
+                  ],
+                  "hash": "b4e997"
+                }
+              ],
+              "hash": "e54d33"
+            }
+          ],
+          "hash": "053e55"
+        },
+        {
+          "content": " Mary also must have known that at Oxford in 1810–1811 Percy had constructed his own electrical kite, made sparks by an electrical apparatus, and stored the “fluid” of electricity in Leyden jars: these actions provide the basis for the electrical experiments by Victor’s father, Alphonse, in "
+        },
+        {
+          "tagName": "i",
+          "children": [
+            {
+              "content": "Frankenstein"
+            }
+          ],
+          "hash": "b7bb42"
+        },
+        {
+          "content": ". The two Shelleys attended at least one of the many lectures in London on chemistry and electricity at this time, Mary recording on 28 December 1814 that they attended the “Theatre of Grand Philosophical Recreations” at the Great Room, Spring Gardens, where the famous balloon ascender and parachute descender “Professor Garnerin” gave a lecture titled “Electricity, Gas, Aerostation, Phantasmagoria, and Hydraulic Sports.”"
+        },
+        {
+          "tagName": "sup",
+          "children": [
+            {
+              "tagName": "span",
+              "attributes": {
+                "id": "link-308"
+              },
+              "children": [
+                {
+                  "tagName": "a",
+                  "attributes": {
+                    "href": "#link-340"
+                  },
+                  "children": [
+                    {
+                      "content": "5"
+                    }
+                  ],
+                  "hash": "f66774"
+                }
+              ],
+              "hash": "c35057"
+            }
+          ],
+          "hash": "f53517"
+        },
+        {
+          "content": " In Geneva in June 1816, during the coldest summer on record, Mary listened to conversations between Lord Byron and Percy about possibly discovering “the nature of the principle of life” (pp. 191–192), about galvanism and the experiments of Erasmus Darwin, and about the possible reanimation of a corpse."
+        },
+        {
+          "tagName": "sup",
+          "children": [
+            {
+              "tagName": "span",
+              "attributes": {
+                "id": "link-309"
+              },
+              "children": [
+                {
+                  "tagName": "a",
+                  "attributes": {
+                    "href": "#link-341"
+                  },
+                  "children": [
+                    {
+                      "content": "6"
+                    }
+                  ],
+                  "hash": "ff08b6"
+                }
+              ],
+              "hash": "8eb756"
+            }
+          ],
+          "hash": "07e190"
+        },
+        {
+          "content": " And in early August 1816, she made Percy a balloon and purchased a telescope for his birthday."
+        },
+        {
+          "tagName": "sup",
+          "children": [
+            {
+              "tagName": "span",
+              "attributes": {
+                "id": "link-310"
+              },
+              "children": [
+                {
+                  "tagName": "a",
+                  "attributes": {
+                    "href": "#link-342"
+                  },
+                  "children": [
+                    {
+                      "content": "7"
+                    }
+                  ],
+                  "hash": "3867c9"
+                }
+              ],
+              "hash": "8bdf4d"
+            }
+          ],
+          "hash": "28089c"
+        },
+        {
+          "content": " Within a few months, by 28 October, she recorded her familiarity with the science of Sir Humphry Davy (1778–1829), whose book "
+        },
+        {
+          "tagName": "i",
+          "children": [
+            {
+              "content": "Elements of Chemical Philoso"
+            }
+          ],
+          "hash": "313a31"
+        },
+        {
+          "tagName": "span",
+          "children": [
+            {
+              "content": "phy"
+            }
+          ],
+          "hash": "653f2a"
+        },
+        {
+          "content": " (1812)"
+        },
+        {
+          "tagName": "sup",
+          "children": [
+            {
+              "tagName": "span",
+              "attributes": {
+                "id": "link-311"
+              },
+              "children": [
+                {
+                  "tagName": "a",
+                  "attributes": {
+                    "href": "#link-343"
+                  },
+                  "children": [
+                    {
+                      "content": "8"
+                    }
+                  ],
+                  "hash": "83ffae"
+                }
+              ],
+              "hash": "f3ee0a"
+            }
+          ],
+          "hash": "95196e"
+        },
+        {
+          "content": " she read while she was drafting the first chapters of "
+        },
+        {
+          "tagName": "i",
+          "children": [
+            {
+              "content": "Frankenstein"
+            }
+          ],
+          "hash": "b7bb42"
+        },
+        {
+          "content": " in the fall of 1816."
+        }
+      ],
+      "hash": "9dc4c2"
+    },
+    {
+      "tagName": "p",
+      "children": [
+        {
+          "content": "During the two-year period before Mary began to write "
+        },
+        {
+          "tagName": "i",
+          "children": [
+            {
+              "content": "Frankenstein"
+            }
+          ],
+          "hash": "b7bb42"
+        },
+        {
+          "content": ", she was almost certainly aware, by way of Percy, of the famous vitalist controversy on the definition of life between two prominent scientists, John Abernethy (1764–1831) and his pupil, William Lawrence (1783–1867), the two professors of anatomy and surgery at London’s Royal College of Surgeons."
+        },
+        {
+          "tagName": "sup",
+          "children": [
+            {
+              "tagName": "span",
+              "attributes": {
+                "id": "link-312"
+              },
+              "children": [
+                {
+                  "tagName": "a",
+                  "attributes": {
+                    "href": "#link-344"
+                  },
+                  "children": [
+                    {
+                      "content": "9"
+                    }
+                  ],
+                  "hash": "b93128"
+                }
+              ],
+              "hash": "29d550"
+            }
+          ],
+          "hash": "9f794a"
+        },
+        {
+          "content": " Percy had attended some of Abernethy’s lectures in 1811, and Lawrence was Percy’s personal physician."
+        },
+        {
+          "tagName": "sup",
+          "children": [
+            {
+              "tagName": "span",
+              "attributes": {
+                "id": "link-313"
+              },
+              "children": [
+                {
+                  "tagName": "a",
+                  "attributes": {
+                    "href": "#link-345"
+                  },
+                  "children": [
+                    {
+                      "content": "10"
+                    }
+                  ],
+                  "hash": "c339f3"
+                }
+              ],
+              "hash": "3e5d07"
+            }
+          ],
+          "hash": "e15e5d"
+        },
+        {
+          "content": " Moreover, Mary had met Lawrence at least twice when she accompanied her father to tea on 1 June 1812 and 5 March 1813 at the home of John Frank Newton, known for his vegetarianism."
+        },
+        {
+          "tagName": "sup",
+          "children": [
+            {
+              "tagName": "span",
+              "attributes": {
+                "id": "link-314"
+              },
+              "children": [
+                {
+                  "tagName": "a",
+                  "attributes": {
+                    "href": "#link-346"
+                  },
+                  "children": [
+                    {
+                      "content": "11"
+                    }
+                  ],
+                  "hash": "035b88"
+                }
+              ],
+              "hash": "bc62bd"
+            }
+          ],
+          "hash": "66b567"
+        },
+        {
+          "content": " Lawrence and Abernethy had become opponents by 1814: the former argued for a materialist explanation of life and against Abernethy’s theory of vitalism, which explained life in terms of “some ‘superadded’ force … , some ‘subtile, mobile, invisible substance,’ analogous on the one hand to soul and on the other to electricity.”"
+        },
+        {
+          "tagName": "sup",
+          "children": [
+            {
+              "tagName": "span",
+              "attributes": {
+                "id": "link-315"
+              },
+              "children": [
+                {
+                  "tagName": "a",
+                  "attributes": {
+                    "href": "#link-347"
+                  },
+                  "children": [
+                    {
+                      "content": "12"
+                    }
+                  ],
+                  "hash": "411c58"
+                }
+              ],
+              "hash": "1b941d"
+            }
+          ],
+          "hash": "6470dc"
+        },
+        {
+          "content": " This debate between Lawrence and Abernethy may have inspired Mary’s depiction of Victor’s relationships with his two different professors at the University of Ingolstadt (1472–1800), an actual Bavarian institution that had faculties of science, humanities, and medicine."
+        },
+        {
+          "tagName": "sup",
+          "children": [
+            {
+              "tagName": "span",
+              "attributes": {
+                "id": "link-316"
+              },
+              "children": [
+                {
+                  "tagName": "a",
+                  "attributes": {
+                    "href": "#link-348"
+                  },
+                  "children": [
+                    {
+                      "content": "13"
+                    }
+                  ],
+                  "hash": "89ba04"
+                }
+              ],
+              "hash": "867340"
+            }
+          ],
+          "hash": "d326dc"
+        },
+        {
+          "content": " Victor first encountered and rejected “M. Krempe, professor of natural philosophy” (p. 28), who ridiculed him for his concentration on the alchemical philosophers Albertus Magnus (c. 1193–1280) and Paracelsus (1493–1541) and who recommended the latest books on natural philosophy. Victor was not naive, but his negative reaction to Krempe was dictated by the professor’s physiognomy (appearance is a thematic motif in this novel: witness the horrified reactions to the deformed creature). As Victor himself explains, “I had long considered those authors useless whom the professor had so strongly reprobated; but I did not feel much inclined to study the books which I procured at his recommendation. M. Krempe was a little squat man, with a gruff voice and repulsive countenance; the teacher, therefore, did not prepossess me in favour of his doctrine. Besides, I had a contempt for the uses of modern natural philosophy” (p. 29)."
+        }
+      ],
+      "hash": "d8e945"
+    },
+    {
+      "tagName": "p",
+      "children": [
+        {
+          "content": "Victor changed his opinion about modern science once he heard M. Waldman (also modeled on Percy Shelley’s kindly Etonian professor, Dr. Lind) deliver a lecture about the history of science, a lecture that most STEM students need to hear today:"
+        }
+      ],
+      "hash": "53f7d2"
+    },
+    {
+      "tagName": "blockquote",
+      "children": [
+        {
+          "content": "M. Waldman entered shortly after. This professor was very unlike his colleague. He appeared about fifty years of age, but with an aspect expressive of the greatest benevolence. … He began his lecture by a recapitulation of the history of chemistry and the various improvements made by different men of learning, pronouncing with fervour the names of the most distinguished discoverers. He then took a cursory view of the present state of the science, and explained many of its elementary terms. After having made a few preparatory experiments, he concluded with a panegyric upon modern chemistry, the terms of which I shall never forget:—"
+        }
+      ],
+      "hash": "cf33f8"
+    },
+    {
+      "tagName": "blockquote",
+      "children": [
+        {
+          "content": "“The ancient teachers of this science,” said he, “promised impossibilities, and performed nothing. The modern masters promise very little; they know that metals cannot be transmuted, and that the elixir of life is a chimera. But these philosophers, whose hands seem only made to dabble in dirt, and their eyes to pore over the microscope or crucible, have indeed performed miracles. They penetrate into the recesses of nature, and shew how she works in her hiding places. They ascend into the heavens; they have discovered how the blood circulates, and the nature of the air we breathe. They have acquired new and almost unlimited powers; they can command the thunders of heaven, mimic the earthquake, and even mock the invisible world with its own shadows.” (p. 30)"
+        }
+      ],
+      "hash": "c46603"
+    },
+    {
+      "tagName": "p",
+      "children": [
+        {
+          "content": "That same evening Victor seeks out Waldman in his own house and discovers that his new mentor is exceptionally kind and affable:"
+        }
+      ],
+      "hash": "60b6f9"
+    },
+    {
+      "tagName": "blockquote",
+      "children": [
+        {
+          "content": "He heard with attention my little narration concerning my studies, and smiled at the names of Cornelius Agrippa, and Paracelsus, but without the contempt that M. Krempe had exhibited. He said, that “these were men to whose indefatigable zeal modern philosophers were indebted for most of the foundations of their knowledge. They had left to us, as an easier task, to give new names, and arrange in connected classifications, the facts which they in a great degree had been the instruments of bringing to light. The labours of men of genius, however erroneously directed, scarcely ever fail in ultimately turning to the solid advantage of mankind.” … [I] added, that his lecture had removed my prejudices against modern chemists; and I, at the same time, requested his advice concerning the books I ought to procure. (pp. 30–31)"
+        }
+      ],
+      "hash": "810ff5"
+    },
+    {
+      "tagName": "p",
+      "children": [
+        {
+          "content": "Before inviting Victor to use the machines in his laboratory, Waldman gives him a message that speaks across the decades to the STEM students of the twenty-first century:"
+        }
+      ],
+      "hash": "5f863a"
+    },
+    {
+      "tagName": "blockquote",
+      "children": [
+        {
+          "content": "“Chemistry is that branch of natural philosophy in which the greatest improvements have been and may be made; it is on that account that I have made it my peculiar study; but at the same time I have not neglected the other branches of science. A man would make but a very sorry chemist, if he attended to that department of human knowledge alone. If your wish is to become really a man of science, and not merely a petty experimentalist, I should advise you to apply to every branch of natural philosophy, including mathematics.” (p. 30)"
+        }
+      ],
+      "hash": "0aae3d"
+    },
+    {
+      "tagName": "p",
+      "children": [
+        {
+          "content": "Despite these endorsements of chemistry and natural philosophy in her novel, Mary realized that science could be abused, as is certainly evident in Victor’s reckless and selfish experiments, which do not account for their consequences. Even Victor is aware of the distinction between his selfish actions and his selfless actions. In his initial conversation with the scientific explorer Robert Walton, the narrator of this frame-tale novel,"
+        },
+        {
+          "tagName": "sup",
+          "children": [
+            {
+              "tagName": "span",
+              "attributes": {
+                "id": "link-317"
+              },
+              "children": [
+                {
+                  "tagName": "a",
+                  "attributes": {
+                    "href": "#link-349"
+                  },
+                  "children": [
+                    {
+                      "content": "14"
+                    }
+                  ],
+                  "hash": "8d60b2"
+                }
+              ],
+              "hash": "015546"
+            }
+          ],
+          "hash": "24b7f5"
+        },
+        {
+          "content": " he refuses to share his secret knowledge: “I will not lead you on, unguarded and ardent as I then was, to your destruction and infallible misery.” Victor continues: “Learn from me, if not by my precepts, at least by my example, how dangerous is the acquirement of knowledge, and how much happier that man is who believes his native town to be the world, than he who aspires to become greater than his nature will allow” (p. 35). On his death bed at the end of the novel, Victor addresses a similar warning to Walton: “Seek happiness in tranquillity, and avoid ambition, even if it be only the apparently innocent one of distinguishing yourself in science and discoveries. Yet why do I say this? I have myself been blasted in these hopes, yet another may succeed” (p. 182)."
+        }
+      ],
+      "hash": "a56e66"
+    },
+    {
+      "tagName": "p",
+      "children": [
+        {
+          "content": "Although Mary seems to be leaving the door open here for a future when selflessness and science will mutually serve each other, the novel’s basic argument is that science can be as destructive as it is constructive. That argument about the dangers of knowledge is emphasized when the creature “found a "
+        },
+        {
+          "tagName": "i",
+          "children": [
+            {
+              "content": "fire"
+            }
+          ],
+          "hash": "1b61a9"
+        },
+        {
+          "content": " which had been left by some wandering beggars, and was overcome with delight at the warmth I experienced from it. In my joy I thrust my hand into the live embers, but quickly drew it out again with a cry of pain. How strange, I thought, that the "
+        },
+        {
+          "tagName": "i",
+          "children": [
+            {
+              "content": "same cause should produce such opposite effects!"
+            }
+          ],
+          "hash": "24d2b4"
+        },
+        {
+          "content": "” (p. 84, my italics)."
+        },
+        {
+          "tagName": "sup",
+          "children": [
+            {
+              "tagName": "span",
+              "attributes": {
+                "id": "link-318"
+              },
+              "children": [
+                {
+                  "tagName": "a",
+                  "attributes": {
+                    "href": "#link-350"
+                  },
+                  "children": [
+                    {
+                      "content": "15"
+                    }
+                  ],
+                  "hash": "5bdcbe"
+                }
+              ],
+              "hash": "f971a7"
+            }
+          ],
+          "hash": "e857c2"
+        },
+        {
+          "content": " By her subtitle "
+        },
+        {
+          "tagName": "i",
+          "children": [
+            {
+              "content": "The Modern Prometheus"
+            }
+          ],
+          "hash": "5c224c"
+        },
+        {
+          "content": ", Mary is asking her reader to recall the Promethean myth, in which the Titan Prometheus steals fire (representing knowledge) from the Olympian Zeus to give to primal and prerational man, only to suffer the consequences of his actions. Zeus chains Prometheus, the creator of rational man, to a rock, where he is visited daily by a vulture/eagle that devours his liver/heart, only to have the same punishment repeated each day. So knowledge does cause sorrow, and fire does cause pain; and the etymology of the name “Prometheus” (Forethought) is ironic: Victor, “the modern Prometheus,” lacks forethought and fails to understand the destructive consequences of his actions in constructing his creature. Although Mary did not make the corollary myth explicit in her narrative, Prometheus’s brother Epimetheus (Afterthought) is associated with all the evils released from Pandora’s box: fulfilling that myth have been the technocratic decisions leading to the pesticide DDT, the atom bomb, Three Mile Island, Chernobyl, and the British government’s permission, reported in the British newspapers on 1 February 2016, that a stem cell scientist could perform genome editing despite objections that ethical issues were being ignored."
+        }
+      ],
+      "hash": "616d2c"
+    },
+    {
+      "tagName": "p",
+      "children": [
+        {
+          "content": "Prometheus is not the only myth that Mary used to develop her theme. Even more noticeable are her many references to the Book of Genesis, with its Garden of Eden and the Tree of the Knowledge of Good and Evil. The epigraph on the title page of the first edition of "
+        },
+        {
+          "tagName": "i",
+          "children": [
+            {
+              "content": "Frankenstein"
+            }
+          ],
+          "hash": "b7bb42"
+        },
+        {
+          "content": " in 1818 is taken from John Milton’s famous epic poem "
+        },
+        {
+          "tagName": "i",
+          "children": [
+            {
+              "content": "Paradise Lost"
+            }
+          ],
+          "hash": "ec3ac4"
+        },
+        {
+          "content": ", one of the books from which the creature learns to read. He is a “quick study” when he reads that Adam and Eve, tempted by Satan to be like God in knowing good and evil, ate of the tree and were exiled from paradise. Knowledge led to sorrow and the fall of humankind from the sin of pride or hubris. The attentive reader will notice that Victor’s Edenic childhood in Geneva is lost when he goes off to university to study science: he laments the loss of his “native town” (p. 53) in the same way that the creature laments his loss after he learns the “godlike science” of speech (p. 91) and “the science of letters [reading]” (p. 97): “sorrow only increased with knowledge. Oh, that I had for ever remained in my native wood, nor known or felt beyond the sensations of hunger, thirst, and heat!” (p. 99)."
+        },
+        {
+          "tagName": "sup",
+          "children": [
+            {
+              "tagName": "span",
+              "attributes": {
+                "id": "link-319"
+              },
+              "children": [
+                {
+                  "tagName": "a",
+                  "attributes": {
+                    "href": "#link-351"
+                  },
+                  "children": [
+                    {
+                      "content": "16"
+                    }
+                  ],
+                  "hash": "49dce9"
+                }
+              ],
+              "hash": "8f0e37"
+            }
+          ],
+          "hash": "d265d7"
+        }
+      ],
+      "hash": "22408b"
+    },
+    {
+      "tagName": "p",
+      "children": [
+        {
+          "content": "The parallels between Victor’s and the creature’s statements about the dangers of knowledge draw our attention to the doppelgänger or double theme of this novel in which the physical ugliness of the creature reflects the psychological ugliness of his creator, Victor. As Victor himself expresses that relationship, “I considered the being whom I had cast among mankind, and endowed with the will and power to effect purposes of horror, such as the deed which he had now done, nearly in the light of my own vampire, my own spirit let loose from the grave, and forced to destroy all that was dear to me” (p. 59). If man was made in God’s image, it is only appropriate that the creature would be made in the image of his psychologically disfigured creator, one whose head or reason has destroyed his heart or emotions in the persons of Elizabeth and Clerval: in the 1831 edition, Victor identifies his Elizabeth as the “living spirit of love” that he needs for psychic completion; and in both the 1818 and 1831 editions, Victor “saw the image of [his] former [and better] self” in Clerval (p. 134). A diagram helps to demonstrate the symbolic relations among all of the major characters as they externalize Victor’s internal conflict:"
+        }
+      ],
+      "hash": "16cc66"
+    },
+    {
+      "tagName": "p",
+      "children": [
+        {
+          "content": "Once Victor destroys the female creature, it is inevitable that the creature himself will destroy Elizabeth and Clerval; in effect, the novel “ends” the night that Victor constructs his creature, and the rest of the plot merely literalizes and externalizes Victor’s self-destructive acts when he rules love out of his heart and, in the form of his monstrous self, kills Elizabeth and Clerval in what may be read as an act of suicide."
+        }
+      ],
+      "hash": "4c75e9"
+    },
+    {
+      "tagName": "p",
+      "children": [
+        {
+          "content": "This reading of "
+        },
+        {
+          "tagName": "i",
+          "children": [
+            {
+              "content": "Frankenstein"
+            }
+          ],
+          "hash": "b7bb42"
+        },
+        {
+          "content": " is but one among the many that this novel allows. Victor constructing his monstrous creature may also be read as political science or political philosophers creating the destructive French Revolution or the science of natural philosophy creating the dehumanizing Industrial Revolution. Yet another reading of the novel is that it is about the creating of the novel itself: just as Victor assembles bones and muscles and sinews and other body parts of his creature, so also Mary assembled the words and images and symbols and punctuation of her novel. To make this point, she used birthing metaphors in her introduction to the 1831 edition: she did “"
+        },
+        {
+          "tagName": "span",
+          "children": [
+            {
+              "content": "dilate"
+            }
+          ],
+          "hash": "b78171"
+        },
+        {
+          "content": " upon, so very hideous an idea”: “I bid my hideous "
+        },
+        {
+          "tagName": "i",
+          "children": [
+            {
+              "content": "progeny"
+            }
+          ],
+          "hash": "ed4b87"
+        },
+        {
+          "content": " go forth and prosper. I have an affection for it, for it was the "
+        },
+        {
+          "tagName": "i",
+          "children": [
+            {
+              "content": "off"
+            }
+          ],
+          "hash": "a663ef"
+        },
+        {
+          "tagName": "span",
+          "children": [
+            {
+              "content": "spring"
+            }
+          ],
+          "hash": "309901"
+        },
+        {
+          "content": " of happy days” (pp. 189, 193, my italics)."
+        },
+        {
+          "tagName": "sup",
+          "children": [
+            {
+              "tagName": "span",
+              "attributes": {
+                "id": "link-320"
+              },
+              "children": [
+                {
+                  "tagName": "a",
+                  "attributes": {
+                    "href": "#link-352"
+                  },
+                  "children": [
+                    {
+                      "content": "17"
+                    }
+                  ],
+                  "hash": "c56640"
+                }
+              ],
+              "hash": "35bbe3"
+            }
+          ],
+          "hash": "467f20"
+        }
+      ],
+      "hash": "610897"
+    },
+    {
+      "tagName": "p",
+      "children": [
+        {
+          "content": "Those happy days involved collaboration with Percy Shelley in 1816 and 1817, when the novel was written—and there is a lesson to STEM students in the facts of that collaboration, which is often essential for most scientific discovery. As I have outlined in other publications,"
+        },
+        {
+          "tagName": "sup",
+          "children": [
+            {
+              "tagName": "span",
+              "attributes": {
+                "id": "link-321"
+              },
+              "children": [
+                {
+                  "tagName": "a",
+                  "attributes": {
+                    "href": "#link-353"
+                  },
+                  "children": [
+                    {
+                      "content": "18"
+                    }
+                  ],
+                  "hash": "6e530e"
+                }
+              ],
+              "hash": "72ade2"
+            }
+          ],
+          "hash": "afaebf"
+        },
+        {
+          "content": " Percy edited Mary’s novel, suggesting that she expand a shorter version of it into the novel we now read, in the margins of the draft manuscript advising about some of the plot, rewriting parts of the concluding pages as he fair copied the draft into the pages that would be submitted to the publisher, advising her about transforming her thirty-three-chapter draft into a twenty-three-chapter “fair copy,” and writing at least five thousand of the seventy-two thousand words of this novel. In general, Mary relied on Percy for some of her accomplishments in the first edition of the novel she published on 1 January 1818."
+        },
+        {
+          "tagName": "sup",
+          "children": [
+            {
+              "tagName": "span",
+              "attributes": {
+                "id": "link-322"
+              },
+              "children": [
+                {
+                  "tagName": "a",
+                  "attributes": {
+                    "href": "#link-354"
+                  },
+                  "children": [
+                    {
+                      "content": "19"
+                    }
+                  ],
+                  "hash": "75b6f7"
+                }
+              ],
+              "hash": "bc1fab"
+            }
+          ],
+          "hash": "613884"
+        },
+        {
+          "content": " In doing so, she implicitly honored the character of Clerval, who, as a social scientist and linguist staying in Geneva to honor his father’s wishes and leaving there with the hopes of pursuing his own education, only to end up nursing Victor, offers an example to the reader: Clerval, whose “science” involves other people, does not isolate himself as Victor does in his pursuit of knowledge. As Victor describes him later, “Clerval! beloved friend! … He was a being formed in the ‘very poetry of nature.’ His wild and enthusiastic imagination was chastened by the sensibility of his heart” (p. 132). It is likely that Percy wrote these words in a late addition to the proofs of the novel, and the reference to “imagination” (the head or reason chastened or directed by the heart) will help bring this introduction to what I hope is an illuminating end."
+        }
+      ],
+      "hash": "63f758"
+    },
+    {
+      "tagName": "p",
+      "children": [
+        {
+          "content": "The chastened or creative imagination is at the heart of English romanticism, and its various definitions somehow involve or evolve from the famous and short thirteenth chapter of "
+        },
+        {
+          "tagName": "i",
+          "children": [
+            {
+              "content": "Biographia literaria"
+            }
+          ],
+          "hash": "880460"
+        },
+        {
+          "content": " (1817) by Samuel Taylor Coleridge (1772–1834), in which he simply states that the “primary imagination [is] the living power and prime agent of all human perception, and … a repetition in the finite mind of the eternal act of creation in the infinite I am” ([1817] 1907, 202). Just as God ontologically created or fashioned this universe from chaotic matter, so also does the human mind or imagination epistemologically creates its own universe from the chaotic sensory data that a person receives from the external world. Man is not God (although Victor tries to be); rather, man is like unto God in each and every one of the creative perceptions that take place every second of a human being’s existence. What this means is that we never know the thing in itself—we know only our creative constructs of a thing. Percy Shelley put it most bluntly: “nothing exists but as it is perceived,” and “All things exist as they are perceived.”"
+        },
+        {
+          "tagName": "sup",
+          "children": [
+            {
+              "tagName": "span",
+              "attributes": {
+                "id": "link-323"
+              },
+              "children": [
+                {
+                  "tagName": "a",
+                  "attributes": {
+                    "href": "#link-355"
+                  },
+                  "children": [
+                    {
+                      "content": "20"
+                    }
+                  ],
+                  "hash": "cfc51a"
+                }
+              ],
+              "hash": "52886a"
+            }
+          ],
+          "hash": "36e83a"
+        },
+        {
+          "content": " These statements mean that for Percy Shelley, rather than an ontology (or theory of being) determining what our epistemology (or theory of knowledge) might be, epistemology is primary or privileged in all human experience. If creative perception determines existence, then it is fair to say that a novel is just as real or true as a scientific theory—both are constructs by the human imagination to give form to the chaos of our experiences. Such reasoning puts the A back into STEM and demonstrates that there really are not Two Cultures, science and the humanities"
+        },
+        {
+          "tagName": "sup",
+          "children": [
+            {
+              "tagName": "span",
+              "attributes": {
+                "id": "link-324"
+              },
+              "children": [
+                {
+                  "tagName": "a",
+                  "attributes": {
+                    "href": "#link-356"
+                  },
+                  "children": [
+                    {
+                      "content": "21"
+                    }
+                  ],
+                  "hash": "bbeaed"
+                }
+              ],
+              "hash": "9b606a"
+            }
+          ],
+          "hash": "1aaf09"
+        },
+        {
+          "content": "—there is only one unified theory of being created by us as a means to give form to a reality that we never fully know in itself. The Shelleys are attempting to tell us that the humanities, including in this case "
+        },
+        {
+          "tagName": "i",
+          "children": [
+            {
+              "content": "Frankenstein"
+            }
+          ],
+          "hash": "b7bb42"
+        },
+        {
+          "content": ", offer a representation of the world that is just as valid as an engineer’s blueprint."
+        }
+      ],
+      "hash": "9934ac"
+    },
+    {
+      "tagName": "p",
+      "children": [
+        {
+          "content": "Thus, "
+        },
+        {
+          "tagName": "i",
+          "children": [
+            {
+              "content": "Frankenstein"
+            }
+          ],
+          "hash": "b7bb42"
+        },
+        {
+          "content": " and this introduction encourage STEM students to respect the humanities as offering a valid means of defining and even improving the world, much as science hopes to do. "
+        },
+        {
+          "tagName": "i",
+          "children": [
+            {
+              "content": "Frankenstein"
+            }
+          ],
+          "hash": "b7bb42"
+        },
+        {
+          "content": " is certainly not the only work of art that addresses these issues, but it has become a metaphor for science that ignores human consequences and values. Every day some blog or newspaper or magazine or book or movie or television show alludes to "
+        },
+        {
+          "tagName": "i",
+          "children": [
+            {
+              "content": "Frankenstein "
+            }
+          ],
+          "hash": "5621dc"
+        },
+        {
+          "content": "in order to describe science gone bad. But these allusions to the evils of science can teach us much about our human condition. In fact, some recent Frankenstein-inspired “moving pictures” (the first "
+        },
+        {
+          "tagName": "i",
+          "children": [
+            {
+              "content": "Frankenstein "
+            }
+          ],
+          "hash": "5621dc"
+        },
+        {
+          "content": "film was produced in 1910 by the inventor Thomas Edison) actually show a nonhuman being gaining respect for human life and human values. Ignoring the usual suspects among the many “Frankenstein” movies, including Mel Brooks’s wonderful "
+        },
+        {
+          "tagName": "i",
+          "children": [
+            {
+              "content": "Young Frankenstein "
+            }
+          ],
+          "hash": "ee7e75"
+        },
+        {
+          "content": "(1974),"
+        },
+        {
+          "tagName": "sup",
+          "children": [
+            {
+              "tagName": "span",
+              "attributes": {
+                "id": "link-325"
+              },
+              "children": [
+                {
+                  "tagName": "a",
+                  "attributes": {
+                    "href": "#link-357"
+                  },
+                  "children": [
+                    {
+                      "content": "22"
+                    }
+                  ],
+                  "hash": "cb7ccd"
+                }
+              ],
+              "hash": "456dfe"
+            }
+          ],
+          "hash": "4521fe"
+        },
+        {
+          "content": " I conclude here by mentioning two of my favorite allusive works of art: James Cameron’s film "
+        },
+        {
+          "tagName": "i",
+          "children": [
+            {
+              "content": "Terminator 2: Judgment Day"
+            }
+          ],
+          "hash": "c759ab"
+        },
+        {
+          "content": " (1991) and the CBS television series "
+        },
+        {
+          "tagName": "i",
+          "children": [
+            {
+              "content": "Person of Interest"
+            }
+          ],
+          "hash": "c7d8a0"
+        },
+        {
+          "content": " (2011–2016), which centers on an artificial intelligence (AI) machine."
+        }
+      ],
+      "hash": "167eac"
+    },
+    {
+      "tagName": "p",
+      "children": [
+        {
+          "content": "Most people do not realize that "
+        },
+        {
+          "tagName": "i",
+          "children": [
+            {
+              "content": "T-2"
+            }
+          ],
+          "hash": "ae82df"
+        },
+        {
+          "content": " is an homage to Mary and her novel, but the viewer is reminded of "
+        },
+        {
+          "tagName": "i",
+          "children": [
+            {
+              "content": "Frankenstein"
+            }
+          ],
+          "hash": "b7bb42"
+        },
+        {
+          "content": " by the opening electric flashes as the nonhuman android Arnold Schwarzenegger materializes, comes back from the future, and reveals that he has apparently developed the equivalent of a heart that can feel for humanity. Even more allusive is his selfless destruction of the computer chip that conveniently saves Los Angeles and the world from the thermonuclear destruction that would occur on August 29, 1997, the day before Mary’s two hundredth birthday—so that we could celebrate her bicentennial without holding her responsible for starting the scientific revolution that eventually led to the computer chip that led to the microprocessor that led to Skynet that led to the destruction of billions of lives."
+        }
+      ],
+      "hash": "5b1c01"
+    },
+    {
+      "tagName": "p",
+      "children": [
+        {
+          "content": "Less allusive but equally compelling is the plot of "
+        },
+        {
+          "tagName": "i",
+          "children": [
+            {
+              "content": "Person of Interest"
+            }
+          ],
+          "hash": "c7d8a0"
+        },
+        {
+          "content": ", in which computer programmer, engineering genius, and tech billionaire Harold Finch (he also goes by other bird names) creates an AI machine for the government to prevent terrorist attacks. At the same time that the government abuses the power of this all-seeing and all-hearing AI machine, Finch and his associates use it to predict and prevent local murders and other acts of nonterrorist violence. The amoral Machine, which electronically monitors every cell phone and email message and surveillance camera in the world to detect terrorism, teaches itself and apparently develops, as the Terminator did, compassion for the local victims of violence. As it is pursued by various antagonists and attacked by a competitor machine called Samaritan, it hides itself in the national power grid. At the end of season 4, as Samaritan shuts down the power grid starting on the West Coast, the Machine retreats to a large electrical substation in Brooklyn until Finch and associates download enough of the computer code into a hard drive that will be carried away in a suitcase—in hopes of saving the world from Samaritan’s machinations (as it were). Electricity, technology, and the “Frankenstein” myth seem to come full circle at this moment of the plot: from Benjamin Franklin’s kites and electrical storms to Joseph Priestley’s history of electricity that led to late eighteenth-century and early nineteenth-century scientific experiments, to "
+        },
+        {
+          "tagName": "i",
+          "children": [
+            {
+              "content": "Frankenstein"
+            }
+          ],
+          "hash": "b7bb42"
+        },
+        {
+          "content": ", to Hollywood adaptations of "
+        },
+        {
+          "tagName": "i",
+          "children": [
+            {
+              "content": "Frankenstein"
+            }
+          ],
+          "hash": "b7bb42"
+        },
+        {
+          "content": " that use lightning to power the electrical machines that generate the creature, and to the most recent adaptations that feature computers and codes and algorithms and hard drives and a final apocalyptic machine on which the fate of the world depends."
+        },
+        {
+          "tagName": "sup",
+          "children": [
+            {
+              "tagName": "span",
+              "attributes": {
+                "id": "link-326"
+              },
+              "children": [
+                {
+                  "tagName": "a",
+                  "attributes": {
+                    "href": "#link-358"
+                  },
+                  "children": [
+                    {
+                      "content": "23"
+                    }
+                  ],
+                  "hash": "249e5a"
+                }
+              ],
+              "hash": "b7fa3d"
+            }
+          ],
+          "hash": "2acbb3"
+        }
+      ],
+      "hash": "8b8ccd"
+    },
+    {
+      "tagName": "p",
+      "children": [
+        {
+          "tagName": "b",
+          "children": [
+            {
+              "content": "University of Delaware"
+            }
+          ],
+          "hash": "28644a"
+        }
+      ],
+      "hash": "385437"
+    }
+  ]
+}

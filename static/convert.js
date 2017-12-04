@@ -7,6 +7,7 @@ const hash = require('object-hash');
 
 const bookHtml = fs.readFileSync('static/bookSource.html', { encoding: 'utf8' });
 const essaysHtml = fs.readFileSync('static/essaysSource.html', { encoding: 'utf8' });
+const introHtml = fs.readFileSync('static/introSource.html', { encoding: 'utf8' });
 
 
 function removeEmptyNodes (nodes) {
@@ -50,5 +51,11 @@ const essaysJSON = himalaya.parse(essaysHtml);
 const cleanEssaysJSON = removeWhitespace(essaysJSON);
 fs.writeFile('static/essaysSource.json', JSON.stringify(cleanEssaysJSON[0], null, 2), 'utf8', ()=> {
 	console.log('Finished Processing Essays');
+});
+
+const introJSON = himalaya.parse(introHtml);
+const cleanIntroJSON = removeWhitespace(introJSON);
+fs.writeFile('static/introSource.json', JSON.stringify(cleanIntroJSON[0], null, 2), 'utf8', ()=> {
+	console.log('Finished Processing Intro');
 });
 
