@@ -65,6 +65,7 @@ class DiscussionInput extends Component {
 	}
 
 	render() {
+		const saveText = this.props.isReply ? 'Save Reply' : 'Save Annotation';
 		return (
 			<div className={'discussion-input'}>
 				<div className={'input-text'} tabIndex={-1} role={'textbox'}>
@@ -97,7 +98,7 @@ class DiscussionInput extends Component {
 							type={'submit'}
 							className={'pt-button pt-intent-primary pt-small'}
 							onClick={this.onSubmit}
-							text={this.props.isReply ? 'Save Reply' : 'Save Annotation'}
+							text={this.props.userId ? saveText : 'Login to Submit'}
 							disabled={this.state.submitDisabled}
 							loading={this.props.submitIsLoading}
 						/>

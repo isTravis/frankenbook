@@ -126,12 +126,12 @@ class DiscussionItem extends Component {
 					</div>
 
 					<div className={'buttons'}>
-						{isAuthor &&
+						{isAuthor && this.props.handleEditSubmit &&
 							<button className={'pt-button pt-small'} onClick={this.toggleEditing}>
 								{this.state.isEditing ? 'Cancel' : `Edit`}
 							</button>
 						}
-						{!item.parentId &&
+						{!item.parentId && (this.props.handleReplySubmit || !!replies.length) &&
 							<button className={'pt-button pt-small'} onClick={this.toggleReply}>
 								{this.state.replyOpen ? 'Close' : `Reply · ${replies.length}`}
 							</button>
@@ -190,7 +190,7 @@ class DiscussionItem extends Component {
 						</div>
 					}
 
-					{this.state.replyOpen &&
+					{this.state.replyOpen && this.props.handleReplySubmit &&
 						<div className={'reply-input'}>
 							<DiscussionInput
 								handleSubmit={this.onReplySubmit}

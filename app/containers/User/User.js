@@ -18,7 +18,6 @@ const propTypes = {
 class User extends Component {
 	constructor(props) {
 		super(props);
-		this.renderContent = this.renderContent.bind(this);
 	}
 	componentWillMount() {
 		this.props.dispatch(getUserData(this.props.match.params.slug));
@@ -27,47 +26,6 @@ class User extends Component {
 		if (nextProps.match.params.slug !== this.props.match.params.slug) {
 			this.props.dispatch(getUserData(nextProps.match.params.slug));
 		}
-	}
-
-	renderContent(content) {
-		if (!content) { return <div>Empty content</div>; }
-		if (content.content) {
-			return content.content;
-		}
-		if (content.children) {
-			const childrenContent = content.children.map((child)=> {
-				return this.renderContent(child);
-			});
-			const attributes = {
-				children: childrenContent,
-			};
-			switch (content.tagName) {
-			case 'h1':
-				return <h1 {...attributes} />;
-			case 'h2':
-				return <h2 {...attributes} />;
-			case 'h3':
-				return <h3 {...attributes} />;
-			case 'div':
-				return <div {...attributes} />;
-			case 'p':
-				return <p {...attributes} />;
-			case 'span':
-				return <span {...attributes} />;
-			case 'i':
-				return <i {...attributes} />;
-			case 'a':
-				return <a {...attributes} />;
-			case 'sup':
-				// return <sup {...attributes} />;
-				return null;
-			case 'blockquote':
-				return <blockquote {...attributes} />;
-			default:
-				return <div {...attributes} />;
-			}
-		}
-		return null;
 	}
 
 	render() {
@@ -102,6 +60,7 @@ class User extends Component {
 						</div>
 					</div>
 				</div>
+
 				<div className={'container narrow nav'}>
 					<div className={'row'}>
 						<div className={'col-12'}>
@@ -118,7 +77,14 @@ class User extends Component {
 								if (foo.createdAt > bar.createdAt) { return -1; }
 								return 0;
 							}).map((item)=> {
-								return <DiscussionItem key={`disc-${item.id}`} discussion={item} isProfile={true} />;
+								return (
+									<div key={`disc-${item.id}`} className={'discussion-item-wrapper'}>
+										<DiscussionItem
+											discussion={item}
+											isProfile={true}
+										/>
+									</div>
+								);
 							})}
 						</div>
 					</div>
