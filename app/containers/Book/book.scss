@@ -1,6 +1,19 @@
 .book {
     max-width: 100vw;
     overflow: hidden;
+    .intro-content {
+    	padding: 3em 2vw;
+    	text-align: center;
+    	.subtitle {
+	    	font-weight: 100;
+	    	line-height: 1.2;
+	    	font-size: 50px;
+	    	letter-spacing: -0.5px;
+	    	max-width: 800px;
+			margin: 0 auto;
+    	}
+    	
+    }
     .book-wrapper {
 		overflow: hidden;
 		overflow-y: scroll;

@@ -8,6 +8,7 @@ import { Editor } from '@pubpub/editor';
 import HighlightQuote from '@pubpub/editor/addons/HighlightQuote';
 import Image from '@pubpub/editor/addons/Image';
 import Video from '@pubpub/editor/addons/Video';
+import Iframe from '@pubpub/editor/addons/Iframe';
 import { getResizedUrl } from 'utilities';
 
 require('./discussionItem.scss');
@@ -153,6 +154,7 @@ class DiscussionItem extends Component {
 									handleResizeUrl={(url)=> { return getResizedUrl(url, 'fit-in', '800x0'); }}
 								/>
 								<Video />
+								<Iframe />
 							</Editor>
 						}
 						{this.state.isEditing &&

@@ -79,12 +79,11 @@ class Book extends Component {
 				<div className={'book-wrapper'}>
 					<div className={'container'}>
 						<div className={'row'}>
-							<div className={'col-12'}>
-								{/* <h1>Frankenstein Header Content</h1> */}
+							<div className={'col-12 intro-content'}>
+								<div className={'subtitle'}>A collaborative reading experiment with Mary Shelley’s classic novel.</div>
 							</div>
 						</div>
 					</div>
-
 
 					<div className={'book-content'}>
 						{/* Main Frankenstein Book Image */}
@@ -93,7 +92,7 @@ class Book extends Component {
 						{/* Collapsable section for introduction material */}
 						<div className={'collapsable-section'}>
 							<button className={'pt-button pt-fill pt-large'} onClick={this.toggleIntroOpen}>
-								{this.state.introOpen ? 'Hide' : 'Show'} Introduction
+								{this.state.introOpen ? 'Hide' : 'Show'} Front Matter
 							</button>
 							<Collapse isOpen={this.state.introOpen}>
 								<IntroContent />

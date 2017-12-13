@@ -51,7 +51,7 @@ class ScrollBar extends Component {
 		const items = [];
 		const totalHeight = this.wrapperElem.scrollHeight;
 
-		const headers = document.querySelectorAll('h1,h2');
+		const headers = this.wrapperElem.querySelectorAll('h1,h2');
 		for (let index = 0; index < headers.length; index++) {
 			const topOffset = headers[index].offsetTop;
 			const percentage = (topOffset / totalHeight) * 100;

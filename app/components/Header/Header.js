@@ -109,8 +109,8 @@ const Header = function(props) {
 									<button className="pt-button lens-dropdown">
 										{activeLenses[0] !== 'none' &&
 											<span>
-												Active Lenses:
-												{activeLenses.sort((foo, bar)=> {
+												{activeLenses.length} Active Theme{activeLenses.length === 1 ? '' : 's'}
+												{/*activeLenses.sort((foo, bar)=> {
 													if (foo > bar) { return 1; }
 													if (foo < bar) { return -1; }
 													return 0;
@@ -118,11 +118,11 @@ const Header = function(props) {
 													const data = lensDataObject[item];
 													// return <span>{lensDataObject[item]}</span>;
 													return <span key={`mini-${data.slug}`} className={`pt-icon-standard pt-icon-${data.icon}`} style={{ color: data.color, paddingLeft: '0.5em' }} />;
-												})}
+												})*/}
 											</span>
 										}
 										{activeLenses[0] === 'none' &&
-											<span>No Active Lenses</span>
+											<span>No Active Themes</span>
 										}
 										<span className="pt-icon-standard pt-icon-caret-down pt-align-right" />
 									</button>

@@ -7,6 +7,7 @@ import HighlightQuote from '@pubpub/editor/addons/HighlightQuote';
 import InsertMenu from '@pubpub/editor/addons/InsertMenu';
 import Image from '@pubpub/editor/addons/Image';
 import Video from '@pubpub/editor/addons/Video';
+import Iframe from '@pubpub/editor/addons/Iframe';
 import { s3Upload, getResizedUrl } from 'utilities';
 
 require('./discussionInput.scss');
@@ -88,6 +89,7 @@ class DiscussionInput extends Component {
 						<Video
 							handleFileUpload={s3Upload}
 						/>
+						<Iframe />
 					</Editor>
 				</div>
 				<div className={'buttons'}>
