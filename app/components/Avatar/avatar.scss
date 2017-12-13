@@ -12,7 +12,8 @@
 	font-weight: bold;
 	vertical-align: middle;
 	user-select: none;
-	&.endorsed {
-		box-shadow: 0px 0px 8px 4px #E29E25;
-	}
+	position: relative;
+	// &.endorsed {
+	// 	box-shadow: 0px 0px 8px 4px #E29E25;
+	// }
 }

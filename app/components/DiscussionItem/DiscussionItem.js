@@ -114,12 +114,20 @@ class DiscussionItem extends Component {
 								endorsed={item.endorsed}
 							/>
 						</Link>
+						{/* item.endorsed &&
+							<img className={'endorsed-image'} alt={'Editorially Approved'} src={'/headerLogo_old.png'} />
+						*/}
 					</div>
 
 					<div className={'author'}>
 						<Link replace={this.props.isProfile} to={`/user/${item.author.slug}`} className={'name'}>{item.author.fullName}</Link>
 						<TimeAgo date={item.createdAt} className={'date'} />
 						<div>
+							{item.endorsed &&
+								<div className={'pt-tag editorial-tag'}>
+									<img alt={'Editorially Approved'} src={'headerLogo.png'} />
+								</div>
+							}
 							{labels.map((label)=> {
 								return <div key={`${item.id}-${label.id}`} className={`pt-tag ${label.slug}`}>{label.title}</div>;
 							})}

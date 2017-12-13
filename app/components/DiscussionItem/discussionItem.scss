@@ -27,6 +27,11 @@
 				width: 100%;
 				border-radius: 24px;
 			}
+			// .endorsed-image {
+			// 	background-color: #EAEAE4;
+			// 	border-radius: 2px;
+			// 	margin-top: 5px;
+			// }
 		}
 		.author {
 			line-height: 24px;
@@ -43,6 +48,16 @@
 				font-size: 0.85em;
 				opacity: 0.85;
 				font-weight: 400;
+			}
+			.editorial-tag {
+				background-color: #EAEAE4;
+				vertical-align: bottom;
+				img {
+					height: 16px;
+					padding: 2px 0px;
+					margin-top: 0px;
+					display: block;
+				}
 			}
 		}
 		.buttons {
