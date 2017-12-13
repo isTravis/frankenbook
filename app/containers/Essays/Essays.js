@@ -51,7 +51,7 @@ class Essays extends Component {
 		};
 
 		return (
-			<div className={'book'}>
+			<div className={'book essays'}>
 				<style>
 					{lensesData.map((lens)=> {
 						return `.pt-tag.${lens.slug} { background-color: ${lens.color}; } `;

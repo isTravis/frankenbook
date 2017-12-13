@@ -4,14 +4,11 @@ import { connect } from 'react-redux';
 import PropTypes from 'prop-types';
 import { withRouter } from 'react-router-dom';
 import queryString from 'query-string';
-// import { Collapse } from '@blueprintjs/core';
 import { Editor } from '@pubpub/editor';
 import HighlightMenu from '@pubpub/editor/addons/HighlightMenu';
 import Image from '@pubpub/editor/addons/Image';
 import ScrollBar from 'components/ScrollBarAddon/ScrollBarAddon';
 import DiscussionAddon from 'components/DiscussionAddon/DiscussionAddon';
-// import EssaysContent from 'components/EssaysContent/EssaysContent';
-// import IntroContent from 'components/IntroContent/IntroContent';
 import { s3Upload, getResizedUrl } from 'utilities';
 
 const bookContent = require('bookSourceEditor.json');
@@ -33,14 +30,9 @@ class Book extends Component {
 		super(props);
 		this.state = {
 			introOpen: false,
-			// essaysOpen: false,
 		};
-		// this.toggleEssaysOpen = this.toggleEssaysOpen.bind(this);
 		this.toggleIntroOpen = this.toggleIntroOpen.bind(this);
 	}
-	// toggleEssaysOpen() {
-	// 	this.setState({ essaysOpen: !this.state.essaysOpen });
-	// }
 	toggleIntroOpen() {
 		this.setState({ introOpen: !this.state.introOpen });
 	}
@@ -99,14 +91,11 @@ class Book extends Component {
 						{/* Main Frankenstein Book Image */}
 						<img src="images/cover.jpg" alt="Frankenstein cover" />
 
-						{/* Collapsable section for introduction material */}
+						{/* Toggle for introduction material */}
 						<div className={'collapsable-section'}>
 							<button className={'pt-button pt-fill pt-large'} onClick={this.toggleIntroOpen}>
 								{this.state.introOpen ? 'Hide' : 'Show'} Front Matter
 							</button>
-							{/*<Collapse isOpen={this.state.introOpen}>
-								<IntroContent />
-							</Collapse>*/}
 						</div>
 
 						{/* Book content */}
@@ -131,16 +120,6 @@ class Book extends Component {
 								hoverBackgroundColor={'aqua'}
 							/>
 						</Editor>
-
-						{/* Collapsable section for essay material */}
-						{/*<div className={'collapsable-section bottom'}>
-							<button className={'pt-button pt-fill pt-large'} onClick={this.toggleEssaysOpen}>
-								{this.state.essaysOpen ? 'Hide' : 'Show'} Essays
-							</button>
-							<Collapse isOpen={this.state.essaysOpen}>
-								<EssaysContent />
-							</Collapse>
-						</div>*/}
 					</div>
 
 				</div>
