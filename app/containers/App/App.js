@@ -16,6 +16,7 @@ require('./app.scss');
 
 const About = () => <Async load={import('containers/About/About')} />;
 const Book = () => <Async load={import('containers/Book/Book')} />;
+const Essays = () => <Async load={import('containers/Essays/Essays')} />;
 const Login = () => <Async load={import('containers/Login/Login')} />;
 const Media = () => <Async load={import('containers/Media/Media')} />;
 const NoMatch = () => <Async load={import('containers/NoMatch/NoMatch')} />;
@@ -101,6 +102,7 @@ class App extends Component {
 
 					<Route exact path="/" component={Book} />
 					<Route exact path="/about" component={About} />
+					<Route exact path="/essays" component={Essays} />
 					<Route exact path="/media" component={Media} />
 					<Route exact path="/login" component={Login} />
 					<Route exact path="/signup" component={Signup} />

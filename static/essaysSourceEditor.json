@@ -12,18 +12,6 @@
       "content": [
         {
           "type": "text",
-          "text": "Essays"
-        }
-      ]
-    },
-    {
-      "type": "heading",
-      "attrs": {
-        "level": 1
-      },
-      "content": [
-        {
-          "type": "text",
           "text": "Traumatic Responsibility"
         }
       ]

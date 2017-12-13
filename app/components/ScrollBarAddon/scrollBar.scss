@@ -7,6 +7,9 @@
 		.tab, .bar, .current {
 			opacity: 1;
 		}
+		.tab {
+			max-width: none;
+		}
 		background-color: rgba(255, 255, 255, 0.8);
 	}
 	
@@ -52,6 +55,8 @@
 			font-size: 14px;
 			top: -12px;
 			border-radius: 2px;
+			user-select: none;
+			pointer-events: none;
 		}
 	}
 	.tab {
@@ -63,6 +68,9 @@
 		text-align: right;
 		white-space: nowrap;
 		color: #888;
+		max-width: 100px;
+		user-select: none;
+		pointer-events: none;
 		&.h1 {
 			background-color: white;
 			z-index: 2;

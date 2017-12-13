@@ -2,13 +2,13 @@
   "tagName": "div",
   "children": [
     {
-      "tagName": "h1",
+      "tagName": "h2",
       "children": [
         {
           "content": "Editors’ Preface"
         }
       ],
-      "hash": "86fe30"
+      "hash": "075db3"
     },
     {
       "tagName": "p",
@@ -809,13 +809,13 @@
       "hash": "ca5eef"
     },
     {
-      "tagName": "h1",
+      "tagName": "h2",
       "children": [
         {
           "content": "Acknowledgments"
         }
       ],
-      "hash": "a8a300"
+      "hash": "dded43"
     },
     {
       "tagName": "p",
@@ -893,13 +893,13 @@
       "hash": "861056"
     },
     {
-      "tagName": "h1",
+      "tagName": "h2",
       "children": [
         {
           "content": "Introduction"
         }
       ],
-      "hash": "b2d177"
+      "hash": "1e8cf5"
     },
     {
       "tagName": "h3",
@@ -2304,21 +2304,6 @@
         }
       ],
       "hash": "8b8ccd"
-    },
-    {
-      "tagName": "p",
-      "children": [
-        {
-          "tagName": "b",
-          "children": [
-            {
-              "content": "University of Delaware"
-            }
-          ],
-          "hash": "28644a"
-        }
-      ],
-      "hash": "385437"
     }
   ]
 }

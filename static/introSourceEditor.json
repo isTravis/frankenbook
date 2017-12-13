@@ -7,7 +7,7 @@
     {
       "type": "heading",
       "attrs": {
-        "level": 1
+        "level": 2
       },
       "content": [
         {
@@ -939,7 +939,7 @@
     {
       "type": "heading",
       "attrs": {
-        "level": 1
+        "level": 2
       },
       "content": [
         {
@@ -1069,7 +1069,7 @@
     {
       "type": "heading",
       "attrs": {
-        "level": 1
+        "level": 2
       },
       "content": [
         {
@@ -2439,26 +2439,6 @@
           "type": "discussion",
           "attrs": {
             "parentHash": "8b8ccd"
-          }
-        }
-      ]
-    },
-    {
-      "type": "paragraph",
-      "content": [
-        {
-          "type": "text",
-          "text": "University of Delaware",
-          "marks": [
-            {
-              "type": "strong"
-            }
-          ]
-        },
-        {
-          "type": "discussion",
-          "attrs": {
-            "parentHash": "385437"
           }
         }
       ]
