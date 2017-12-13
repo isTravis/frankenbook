@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Helmet from 'react-helmet';
-import { withRouter, Link } from 'react-router-dom';
+
+require('./media.scss');
 
 class Media extends Component {
 

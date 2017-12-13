@@ -5,7 +5,6 @@
 	width: 100%;
 	top: 0;
 	z-index: 1000;
-	
 	.headerItems {
 		height: 40px;
 		display: flex;
@@ -19,6 +18,7 @@
 	}
 	.headerLogo {
 		height: 40px;
+		padding: 5px 0px;
 	}
 	.homeLogo {
 		height: 150px;
@@ -27,9 +27,19 @@
 		padding: 0px 5px;
 	}
 	.lens-dropdown {
-		margin-left: 50px;
+		margin-left: 30px;
 	}
 
+}
+
+.pt-menu-item.helper {
+	background-color: rgba(181, 181, 181, 0.3) !important;
+	cursor: default !important;
+	padding: 10px 7px;
+	margin-bottom: 15px;
+	a {
+		text-decoration: underline;
+	}
 }
 
 @media only screen and (max-width: 45em) {  /* 720px */

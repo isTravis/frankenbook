@@ -1,6 +1,7 @@
 .lens-dropdown-item.pt-menu-item {
 	display: flex;
 	opacity: 0.5;
+	align-items: center;
 	&.active {
 		opacity: 1;
 	}
@@ -17,7 +18,7 @@
 			display: block;
 			font-weight: 600;
 			font-size: 1.1em;
-			padding-bottom: 5px;
+			// padding-bottom: 5px;
 		}
 	}
 }

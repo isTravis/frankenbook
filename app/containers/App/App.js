@@ -14,8 +14,8 @@ import { getLogout } from 'actions/login';
 
 require('./app.scss');
 
+const About = () => <Async load={import('containers/About/About')} />;
 const Book = () => <Async load={import('containers/Book/Book')} />;
-const Book2 = () => <Async load={import('containers/Book/Book')} />;
 const Login = () => <Async load={import('containers/Login/Login')} />;
 const Media = () => <Async load={import('containers/Media/Media')} />;
 const NoMatch = () => <Async load={import('containers/NoMatch/NoMatch')} />;
@@ -99,8 +99,8 @@ class App extends Component {
 						About
 					*/}
 
-					<Route exact path="/" component={Book2} />
-					<Route exact path="/book2" component={Book} />
+					<Route exact path="/" component={Book} />
+					<Route exact path="/about" component={About} />
 					<Route exact path="/media" component={Media} />
 					<Route exact path="/login" component={Login} />
 					<Route exact path="/signup" component={Signup} />

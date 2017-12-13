@@ -84,6 +84,9 @@ const Header = function(props) {
 								<Popover
 									content={
 										<Menu>
+											<div className={'pt-menu-item helper'}>
+												Themes group annotations by topic.<br/><Link to={'/about'}>Learn more.</Link>
+											</div>
 											{props.lensesData.sort((foo, bar)=> {
 												if (foo.slug > bar.slug) { return 1; }
 												if (foo.slug < bar.slug) { return -1; }
@@ -133,7 +136,8 @@ const Header = function(props) {
 						{!props.appLoading &&
 							<div className={'headerItems headerItemsRight'}>
 								<Link to={'/media'} className="pt-button pt-large pt-minimal">Media</Link>
-								<a href={'https://docs.google.com/document/d/14iyybF3AOg7uNFjI0PqXfHejBq3pKL_niVGARKQdGR0/edit?usp=sharing'} target={'_blank'} className="pt-button pt-large pt-minimal">Dev Notes</a>
+								<Link to={'/about'} className="pt-button pt-large pt-minimal">About</Link>
+								{/* <a href={'https://docs.google.com/document/d/14iyybF3AOg7uNFjI0PqXfHejBq3pKL_niVGARKQdGR0/edit?usp=sharing'} target={'_blank'} className="pt-button pt-large pt-minimal">Dev Notes</a> */}
 
 								{/* User avatar and menu */}
 								{loggedIn &&
@@ -166,7 +170,7 @@ const Header = function(props) {
 
 								{/* Login or Signup button */}
 								{!loggedIn &&
-									<Link to={'/login'} className="pt-button pt-large pt-minimal">Login or Signup</Link>
+									<Link to={'/login'} className="pt-button pt-large pt-minimal">Login</Link>
 								}
 							</div>
 						}
