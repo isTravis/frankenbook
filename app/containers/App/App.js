@@ -15,6 +15,7 @@ import { getLogout } from 'actions/login';
 require('./app.scss');
 
 const About = () => <Async load={import('containers/About/About')} />;
+const Admin = () => <Async load={import('containers/Admin/Admin')} />;
 const Book = () => <Async load={import('containers/Book/Book')} />;
 const Essays = () => <Async load={import('containers/Essays/Essays')} />;
 const Login = () => <Async load={import('containers/Login/Login')} />;
@@ -102,6 +103,7 @@ class App extends Component {
 
 					<Route exact path="/" component={Book} />
 					<Route exact path="/about" component={About} />
+					<Route exact path="/admin" component={Admin} />
 					<Route exact path="/essays" component={Essays} />
 					<Route exact path="/media" component={Media} />
 					<Route exact path="/login" component={Login} />
