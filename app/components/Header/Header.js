@@ -84,9 +84,9 @@ const Header = function(props) {
 								<Popover
 									content={
 										<Menu>
-											<div className={'pt-menu-item helper'}>
-												Themes group annotations by topic.<br/><Link to={'/about'}>Learn more.</Link>
-											</div>
+											<Link to={'/about'} className={'pt-menu-item helper'}>
+												Themes group annotations by topic.<br/>Click here to learn more.
+											</Link>
 											{props.lensesData.sort((foo, bar)=> {
 												if (foo.slug > bar.slug) { return 1; }
 												if (foo.slug < bar.slug) { return -1; }

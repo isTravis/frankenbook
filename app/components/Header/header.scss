@@ -33,13 +33,11 @@
 }
 
 .pt-menu-item.helper {
-	background-color: rgba(181, 181, 181, 0.3) !important;
-	cursor: default !important;
-	padding: 10px 7px;
+	background-color: rgba(200, 200, 200, 0.3);
+	padding: 7px;
 	margin-bottom: 15px;
-	a {
-		text-decoration: underline;
-	}
+	line-height: 1.4;
+	text-align: center;
 }
 
 @media only screen and (max-width: 45em) {  /* 720px */
