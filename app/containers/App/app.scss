@@ -31,6 +31,20 @@ body {
 	z-index: 1001;
 }
 
+.updates-available-note {
+	position: fixed;
+	top: 0px;
+	right: 0px;
+	margin: 10px;
+	text-align: right;
+	max-width: 400px;
+	z-index: 9999;
+	p {
+		text-align: left;
+		font-size: 16px;
+	}
+}
+
 @media print {
 	body {
 		padding-top: 0;
