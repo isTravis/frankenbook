@@ -65,7 +65,7 @@ export default function reducer(state = defaultState, action) {
 				discussions: state.data.discussions.map((discussion)=> {
 					if (discussion.id === action.result.id) {
 						return {
-							...discussion, 
+							...discussion,
 							...action.result
 						};
 					}
@@ -91,7 +91,7 @@ export default function reducer(state = defaultState, action) {
 				discussions: state.data.discussions.map((discussion)=> {
 					if (discussion.id === action.result.discussionId) {
 						return {
-							...discussion, 
+							...discussion,
 							labels: [
 								...discussion.labels,
 								action.result.labelData
@@ -114,7 +114,7 @@ export default function reducer(state = defaultState, action) {
 				discussions: state.data.discussions.map((discussion)=> {
 					if (discussion.id === action.result.discussionId) {
 						return {
-							...discussion, 
+							...discussion,
 							labels: discussion.labels.filter((label)=> {
 								return label.id !== action.result.labelId;
 							})
