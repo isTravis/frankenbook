@@ -31,6 +31,7 @@ class ScrollBar extends Component {
 	componentDidMount() {
 		this.wrapperElem.addEventListener('scroll', this.scrollEvent);
 		document.getElementsByClassName('scroll-bar')[0].addEventListener('mousedown', this.mouseDownEvent);
+		document.getElementsByClassName('scroll-bar')[0].addEventListener('touchstart', this.mouseDownEvent);
 		if (!this.state.items.length) {
 			this.generateItems();
 		}
@@ -45,6 +46,7 @@ class ScrollBar extends Component {
 	componentWillUnmount() {
 		this.wrapperElem.removeEventListener('scroll', this.scrollEvent);
 		document.getElementsByClassName('scroll-bar')[0].removeEventListener('mousedown', this.mouseDownEvent);
+		document.getElementsByClassName('scroll-bar')[0].removeEventListener('touchstart', this.mouseDownEvent);
 	}
 
 	generateItems() {
@@ -82,17 +84,22 @@ class ScrollBar extends Component {
 
 	mouseDownEvent(evt) {
 		const topPadding = 56;
-		const clientClick = evt.clientY;
+		const clientClick = evt.clientY || evt.touches[0].clientY;
 		const clientHeight = document.documentElement.clientHeight;
 		const percentage = (clientClick - topPadding) / (clientHeight - topPadding);
 		this.wrapperElem.scrollTop = percentage * this.wrapperElem.scrollHeight;
-		document.getElementsByClassName('scroll-bar')[0].addEventListener('mousemove', this.mouseMoveEvent);
-		document.getElementsByClassName('scroll-bar')[0].addEventListener('mouseup', this.mouseUpEvent);
+		if (evt.touches) {
+			document.getElementsByClassName('scroll-bar')[0].addEventListener('touchmove', this.mouseMoveEvent);
+			document.getElementsByClassName('scroll-bar')[0].addEventListener('touchend', this.mouseUpEvent);
+		} else {
+			document.getElementsByClassName('scroll-bar')[0].addEventListener('mousemove', this.mouseMoveEvent);
+			document.getElementsByClassName('scroll-bar')[0].addEventListener('mouseup', this.mouseUpEvent);
+		}
 	}
 
 	mouseMoveEvent(evt) {
 		const topPadding = 56;
-		const clientClick = evt.clientY;
+		const clientClick = evt.clientY || evt.touches[0].clientY;
 		const clientHeight = document.documentElement.clientHeight;
 		const percentage = (clientClick - topPadding) / (clientHeight - topPadding);
 		this.wrapperElem.scrollTop = percentage * this.wrapperElem.scrollHeight;
@@ -101,6 +108,8 @@ class ScrollBar extends Component {
 	mouseUpEvent() {
 		document.getElementsByClassName('scroll-bar')[0].removeEventListener('mousemove', this.mouseMoveEvent);
 		document.getElementsByClassName('scroll-bar')[0].removeEventListener('mouseup', this.mouseUpEvent);
+		document.getElementsByClassName('scroll-bar')[0].removeEventListener('touchmove', this.mouseMoveEvent);
+		document.getElementsByClassName('scroll-bar')[0].removeEventListener('touchend', this.mouseUpEvent);
 	}
 
 	render() {
