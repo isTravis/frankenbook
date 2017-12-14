@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import { Link } from 'react-router-dom';
 import Avatar from 'components/Avatar/Avatar';
 import LensDropdownItem from 'components/LensDropdownItem/LensDropdownItem';
-import { Popover, PopoverInteractionKind, Position, Menu, MenuItem, MenuDivider } from '@blueprintjs/core';
+import { Popover, PopoverInteractionKind, Position, Menu, MenuItem } from '@blueprintjs/core';
 import queryString from 'query-string';
 import { defaultLenses } from 'utilities';
 

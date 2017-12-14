@@ -20,6 +20,7 @@ const propTypes = {
 	saveDiscussionLoading: PropTypes.string,
 	userId: PropTypes.string,
 	isProfile: PropTypes.bool,
+	rightButtons: PropTypes.node
 };
 
 const defaultProps = {
@@ -28,6 +29,7 @@ const defaultProps = {
 	saveDiscussionLoading: false,
 	userId: undefined,
 	isProfile: false,
+	rightButtons: undefined,
 };
 
 class DiscussionItem extends Component {
@@ -145,6 +147,7 @@ class DiscussionItem extends Component {
 								{this.state.replyOpen ? 'Close' : `Reply · ${replies.length}`}
 							</button>
 						}
+						{this.props.rightButtons}
 					</div>
 				</div>
 

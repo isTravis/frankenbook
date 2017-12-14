@@ -65,6 +65,9 @@
 			button {
 				margin-left: 0.5em;
 			}
+			.pt-button.pt-small, .pt-small .pt-button {
+				line-height: 14px;
+			}
 		}
 	}
 	.pt-tag {

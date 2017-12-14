@@ -20,7 +20,7 @@
     "convert-annotations": "node static/convertAnnotations.js"
   },
   "dependencies": {
-    "@blueprintjs/core": "^1.25.1",
+    "@blueprintjs/core": "^1.35.0",
     "@pubpub/editor": "^4.1.1",
     "@storybook/addon-options": "^3.2.6",
     "@storybook/react": "^3.2.8",

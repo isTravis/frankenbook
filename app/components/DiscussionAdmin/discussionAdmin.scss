@@ -1,0 +1,26 @@
+.discussion-admin-wrapper {
+	
+}
+
+.admin-labels-menu {
+	.pt-menu-item {
+		display: flex;
+		align-items: center;
+	}
+	.pt-menu-item:before {
+		color: inherit;
+		font-size: 24px;
+	}
+	.admin-lens-title {
+		flex-grow: 1;
+		flex-shrink: 1;
+		padding-right: 0.5em;
+	}
+	.pt-control.pt-checkbox {
+		margin-bottom: 0;
+		text-align: right;
+	}
+	.pt-disabled {
+		pointed-events: none;
+	}	
+}
