@@ -113,15 +113,6 @@ const Header = function(props) {
 										{activeLenses[0] !== 'none' &&
 											<span>
 												{activeLenses.length} Active Theme{activeLenses.length === 1 ? '' : 's'}
-												{/*activeLenses.sort((foo, bar)=> {
-													if (foo > bar) { return 1; }
-													if (foo < bar) { return -1; }
-													return 0;
-												}).map((item)=> {
-													const data = lensDataObject[item];
-													// return <span>{lensDataObject[item]}</span>;
-													return <span key={`mini-${data.slug}`} className={`pt-icon-standard pt-icon-${data.icon}`} style={{ color: data.color, paddingLeft: '0.5em' }} />;
-												})*/}
 											</span>
 										}
 										{activeLenses[0] === 'none' &&
