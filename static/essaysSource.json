@@ -512,6 +512,65 @@
       "hash": "8fe629"
     },
     {
+      "tagName": "h3",
+      "children": [
+        {
+          "content": "Questions"
+        }
+      ],
+      "hash": "7c52da"
+    },
+    {
+      "tagName": "p",
+      "attributes": {
+        "className": [
+          "question"
+        ]
+      },
+      "children": [
+        {
+          "content": "The novel portrays an extreme case of scientific responsibility, but all of us are implicated in situations where we are responsible to moral standards, to particular ideas, and to other people. What kinds of responsibility do you have as a scientist, a citizen, a creator, a human being? How do you define these responsibilities? And what does it mean to “feel” them?"
+        }
+      ],
+      "hash": "1bca8f"
+    },
+    {
+      "tagName": "p",
+      "attributes": {
+        "clas": "question"
+      },
+      "children": [
+        {
+          "content": "Johnston argues that Victor experiences two forms of responsibility: responsibility "
+        },
+        {
+          "tagName": "i",
+          "children": [
+            {
+              "content": "for"
+            }
+          ],
+          "hash": "5260d1"
+        },
+        {
+          "content": " and responsibility "
+        },
+        {
+          "tagName": "i",
+          "children": [
+            {
+              "content": "to"
+            }
+          ],
+          "hash": "37b67d"
+        },
+        {
+          "content": ". Are there other kinds of responsibility, in particular forms of shared or collective responsibility?"
+        }
+      ],
+      "hash": "9355cf"
+    },
+    {
       "tagName": "h1",
       "children": [
         {
@@ -1109,6 +1168,73 @@
       "hash": "333d4a"
     },
     {
+      "tagName": "h3",
+      "children": [
+        {
+          "content": "Questions"
+        }
+      ],
+      "hash": "7c52da"
+    },
+    {
+      "tagName": "p",
+      "attributes": {
+        "className": [
+          "question"
+        ]
+      },
+      "children": [
+        {
+          "content": "Doctorow’s essay argues that science fiction is not really about predicting the future but rather about understanding the present. What does Mary’s novel, which was presumably written for a present two hundred years old, have to tell us about scientific practices today? Is it still relevant, or do we need new stories to confront the present?"
+        }
+      ],
+      "hash": "6cb096"
+    },
+    {
+      "tagName": "p",
+      "attributes": {
+        "className": [
+          "question"
+        ]
+      },
+      "children": [
+        {
+          "content": "According to the theory of the “adjacent possible,” technological change comes “when enough of the necessary stuff is in place” ("
+        },
+        {
+          "tagName": "a",
+          "attributes": {
+            "href": "/essays?from=23458&to=23527",
+            "target": "_blank"
+          },
+          "children": [
+            {
+              "content": "here"
+            }
+          ],
+          "hash": "6e50d5"
+        },
+        {
+          "content": "). According to this logic, discovery can proceed only through so many pathways, and what’s coming always depends on what has come. Do you agree with this view, or do you think that true surprise and serendipity are possible? Is the direction of scientific progress somehow predetermined?"
+        }
+      ],
+      "hash": "4e3de1"
+    },
+    {
+      "tagName": "p",
+      "attributes": {
+        "className": [
+          "question"
+        ]
+      },
+      "children": [
+        {
+          "content": "Doctorow argues that although technological changes are often the result of individual choices, how they are used becomes a collective choice. Using the example of Facebook, he talks about how disavowing a surveillance society is a difficult social choice—but still one that you can make as an individual. What collective choices concerning contemporary technologies do you disagree with, and what would it take for you to opt out?"
+        }
+      ],
+      "hash": "f635b3"
+    },
+    {
       "tagName": "h1",
       "children": [
         {
@@ -1574,6 +1700,69 @@
       "hash": "449ff7"
     },
     {
+      "tagName": "h3",
+      "children": [
+        {
+          "content": "Questions"
+        }
+      ],
+      "hash": "7c52da"
+    },
+    {
+      "tagName": "p",
+      "attributes": {
+        "className": [
+          "question"
+        ]
+      },
+      "children": [
+        {
+          "content": "Maienschein and MacCord believe that Mary’s story is both “restrictive” and “instructive.” What do you think they mean by this? Do you agree with their assertion? Does "
+        },
+        {
+          "tagName": "i",
+          "children": [
+            {
+              "content": "Frankenstein"
+            }
+          ],
+          "hash": "b7bb42"
+        },
+        {
+          "content": " go beyond these parameters?"
+        }
+      ],
+      "hash": "f5be58"
+    },
+    {
+      "tagName": "p",
+      "attributes": {
+        "className": [
+          "question"
+        ]
+      },
+      "children": [
+        {
+          "content": "What is your answer to the authors’ question “Is the creature human?”? If the creature is not human by the end of the novel, is there any way for it to become so?"
+        }
+      ],
+      "hash": "e5070c"
+    },
+    {
+      "tagName": "p",
+      "attributes": {
+        "className": [
+          "question"
+        ]
+      },
+      "children": [
+        {
+          "content": "What do you think the relationship is between what the authors call the biological concept of “human” and the social concept of “person”? Can one easily or neatly demarcate the social from the biological in this way?"
+        }
+      ],
+      "hash": "8e9a81"
+    },
+    {
       "tagName": "h1",
       "children": [
         {
@@ -1934,6 +2123,85 @@
       "hash": "1e1cfa"
     },
     {
+      "tagName": "h3",
+      "children": [
+        {
+          "content": "Questions"
+        }
+      ],
+      "hash": "7c52da"
+    },
+    {
+      "tagName": "p",
+      "attributes": {
+        "className": [
+          "question"
+        ]
+      },
+      "children": [
+        {
+          "content": "Nordmann’s essay suggests that modern incarnations of the creature, such as “Frankenfoods” and “Frankenmaterials,” are not scientific outcomes but a throwback to alchemy and the supernatural. What is the relationship between science and belief today? When we entrust ourselves to an airplane or an algorithmic credit-scoring system, are we engaging in an act of reason or a leap of faith?"
+        }
+      ],
+      "hash": "6e8356"
+    },
+    {
+      "tagName": "p",
+      "attributes": {
+        "className": [
+          "question"
+        ]
+      },
+      "children": [
+        {
+          "content": "The publication of Mary’s novel predated the modern term "
+        },
+        {
+          "tagName": "i",
+          "children": [
+            {
+              "content": "scientist"
+            }
+          ],
+          "hash": "ea222b"
+        },
+        {
+          "content": " by almost twenty years, and Nordmann argues that her novel is “not one of modern science” ("
+        },
+        {
+          "tagName": "a",
+          "attributes": {
+            "href": "/essays?from=54648&to=54689",
+            "target": "_blank"
+          },
+          "children": [
+            {
+              "content": "here"
+            }
+          ],
+          "hash": "6239cd"
+        },
+        {
+          "content": "). Is Victor a scientist? Would we recognize him as one today? If not, how would you describe him in contemporary terms?"
+        }
+      ],
+      "hash": "983d44"
+    },
+    {
+      "tagName": "p",
+      "attributes": {
+        "className": [
+          "question"
+        ]
+      },
+      "children": [
+        {
+          "content": "Nordmann argues that contemporary technoscience is “undisturbed by reality”; in other words, we are creating materials, ideas, and life-forms that have no corollary in nature. At its most fundamental level, is science about understanding the natural world or about creating a structure of knowledge that may or may not resemble the reality we perceive?"
+        }
+      ],
+      "hash": "000cde"
+    },
+    {
       "tagName": "h1",
       "children": [
         {
@@ -2255,6 +2523,69 @@
       "hash": "a9eeb1"
     },
     {
+      "tagName": "h3",
+      "children": [
+        {
+          "content": "Questions"
+        }
+      ],
+      "hash": "7c52da"
+    },
+    {
+      "tagName": "p",
+      "attributes": {
+        "className": [
+          "question"
+        ]
+      },
+      "children": [
+        {
+          "content": "Bear suggests that Victor’s central character flaw is his lack of empathy. Do you agree? Is empathy an important faculty for the conducting of scientific research?"
+        }
+      ],
+      "hash": "08c0d9"
+    },
+    {
+      "tagName": "p",
+      "attributes": {
+        "className": [
+          "question"
+        ]
+      },
+      "children": [
+        {
+          "content": "The other great character flaw that Bear highlights is Victor’s narcissism. The great critique of scientific reason at the dawn of the Enlightenment was precisely this: that it was pure hubris for humanity to imagine itself at the center of the universe, to displace the external existence of God for a structure of knowledge built within our minds. Do you think the pursuit of scientific discovery is a fundamentally narcissistic enterprise or a humbling one? Can one be a successful "
+        },
+        {
+          "tagName": "i",
+          "children": [
+            {
+              "content": "and"
+            }
+          ],
+          "hash": "49d482"
+        },
+        {
+          "content": " humble scientist, engineer, or creator?"
+        }
+      ],
+      "hash": "1afd12"
+    },
+    {
+      "tagName": "p",
+      "attributes": {
+        "className": [
+          "question"
+        ]
+      },
+      "children": [
+        {
+          "content": "Bear talks about the fact that Victor’s beauty, his handsomeness, leads people to treat him better than they treat his creature. What role do you think beauty plays or should play in scientific discovery? Is the search for truth also a search for beauty, to paraphrase the poet Jonathan Keats, Mary’s contemporary?"
+        }
+      ],
+      "hash": "4aaf4f"
+    },
+    {
       "tagName": "h1",
       "children": [
         {
@@ -2496,6 +2827,102 @@
         }
       ],
       "hash": "a13755"
+    },
+    {
+      "tagName": "h3",
+      "children": [
+        {
+          "content": "Questions"
+        }
+      ],
+      "hash": "7c52da"
+    },
+    {
+      "tagName": "p",
+      "attributes": {
+        "className": [
+          "question"
+        ]
+      },
+      "children": [
+        {
+          "tagName": "i",
+          "children": [
+            {
+              "content": "Frankenstein"
+            }
+          ],
+          "hash": "b7bb42"
+        },
+        {
+          "content": " was initially published anonymously, and some critics or reviewers speculated that Percy Shelley wrote it. Do you think a man could have written "
+        },
+        {
+          "tagName": "i",
+          "children": [
+            {
+              "content": "Frankenstein"
+            }
+          ],
+          "hash": "b7bb42"
+        },
+        {
+          "content": " as Mary Shelley wrote it?"
+        }
+      ],
+      "hash": "8557c4"
+    },
+    {
+      "tagName": "p",
+      "attributes": {
+        "className": [
+          "question"
+        ]
+      },
+      "children": [
+        {
+          "content": "Given Mellor’s interpretation of the novel, what do you make of contemporary accounts that change Victor’s gender—for example, the PBS digital series "
+        },
+        {
+          "tagName": "i",
+          "children": [
+            {
+              "content": "Frankenstein, MD"
+            }
+          ],
+          "hash": "36ffde"
+        },
+        {
+          "content": ", featuring a Victoria Frankenstein, or the children’s book series "
+        },
+        {
+          "tagName": "i",
+          "children": [
+            {
+              "content": "Franny K. Stein"
+            }
+          ],
+          "hash": "eda998"
+        },
+        {
+          "content": " by Jim Benton? If the creator at the center of the story was raised and socialized as a woman, in Shelley’s time or today, would her relationship with her creation change? If so, how?"
+        }
+      ],
+      "hash": "99a231"
+    },
+    {
+      "tagName": "p",
+      "attributes": {
+        "className": [
+          "question"
+        ]
+      },
+      "children": [
+        {
+          "content": "Are today’s scientists and engineers who are involved in synthetic biology and other similar endeavors engaged in motherless creation?"
+        }
+      ],
+      "hash": "5aa490"
     },
     {
       "tagName": "h1",
@@ -2781,6 +3208,57 @@
         }
       ],
       "hash": "7ce27a"
+    },
+    {
+      "tagName": "h3",
+      "children": [
+        {
+          "content": "Questions"
+        }
+      ],
+      "hash": "7c52da"
+    },
+    {
+      "tagName": "p",
+      "attributes": {
+        "className": [
+          "question"
+        ]
+      },
+      "children": [
+        {
+          "content": "How close is the analogy between Victor’s work and the work of the atomic scientists in the 1930s and 1940s?"
+        }
+      ],
+      "hash": "cb62a3"
+    },
+    {
+      "tagName": "p",
+      "attributes": {
+        "className": [
+          "question"
+        ]
+      },
+      "children": [
+        {
+          "content": "Do you believe that the pursuit of “technical sweetness” is one reason why Victor completes his experiment?"
+        }
+      ],
+      "hash": "092385"
+    },
+    {
+      "tagName": "p",
+      "attributes": {
+        "className": [
+          "question"
+        ]
+      },
+      "children": [
+        {
+          "content": "If creating life is so technically sweet and technical sweetness is important in making the creature, why doesn’t Victor make the creature a mate?"
+        }
+      ],
+      "hash": "de9d14"
     }
   ]
 }

@@ -40,6 +40,9 @@ const convertNode = (node, isAnnotation)=> {
 		const content = [
 			{
 				type: 'paragraph',
+				attrs: {
+					class: node.attributes && node.attributes.className ? node.attributes.className[0] : null,
+				},
 				content: [
 					...node.children.map((item)=> { return convertNode(item, isAnnotation); })
 				]

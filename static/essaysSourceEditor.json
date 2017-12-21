@@ -42,6 +42,9 @@
     },
     {
       "type": "paragraph",
+      "attrs": {
+        "class": null
+      },
       "content": [
         {
           "type": "text",
@@ -109,6 +112,9 @@
     },
     {
       "type": "paragraph",
+      "attrs": {
+        "class": null
+      },
       "content": [
         {
           "type": "text",
@@ -129,6 +135,9 @@
     },
     {
       "type": "paragraph",
+      "attrs": {
+        "class": null
+      },
       "content": [
         {
           "type": "text",
@@ -183,6 +192,9 @@
     },
     {
       "type": "paragraph",
+      "attrs": {
+        "class": null
+      },
       "content": [
         {
           "type": "text",
@@ -211,6 +223,9 @@
     },
     {
       "type": "paragraph",
+      "attrs": {
+        "class": null
+      },
       "content": [
         {
           "type": "text",
@@ -265,6 +280,9 @@
     },
     {
       "type": "paragraph",
+      "attrs": {
+        "class": null
+      },
       "content": [
         {
           "type": "text",
@@ -293,6 +311,9 @@
     },
     {
       "type": "paragraph",
+      "attrs": {
+        "class": null
+      },
       "content": [
         {
           "type": "text",
@@ -313,6 +334,9 @@
     },
     {
       "type": "paragraph",
+      "attrs": {
+        "class": null
+      },
       "content": [
         {
           "type": "text",
@@ -341,6 +365,9 @@
     },
     {
       "type": "paragraph",
+      "attrs": {
+        "class": null
+      },
       "content": [
         {
           "type": "text",
@@ -356,6 +383,9 @@
     },
     {
       "type": "paragraph",
+      "attrs": {
+        "class": null
+      },
       "content": [
         {
           "type": "text",
@@ -371,6 +401,9 @@
     },
     {
       "type": "paragraph",
+      "attrs": {
+        "class": null
+      },
       "content": [
         {
           "type": "text",
@@ -386,6 +419,9 @@
     },
     {
       "type": "paragraph",
+      "attrs": {
+        "class": null
+      },
       "content": [
         {
           "type": "text",
@@ -401,6 +437,9 @@
     },
     {
       "type": "paragraph",
+      "attrs": {
+        "class": null
+      },
       "content": [
         {
           "type": "text",
@@ -421,6 +460,9 @@
     },
     {
       "type": "paragraph",
+      "attrs": {
+        "class": null
+      },
       "content": [
         {
           "type": "text",
@@ -462,6 +504,9 @@
     },
     {
       "type": "paragraph",
+      "attrs": {
+        "class": null
+      },
       "content": [
         {
           "type": "text",
@@ -477,6 +522,9 @@
     },
     {
       "type": "paragraph",
+      "attrs": {
+        "class": null
+      },
       "content": [
         {
           "type": "text",
@@ -505,6 +553,9 @@
     },
     {
       "type": "paragraph",
+      "attrs": {
+        "class": null
+      },
       "content": [
         {
           "type": "text",
@@ -525,6 +576,9 @@
     },
     {
       "type": "paragraph",
+      "attrs": {
+        "class": null
+      },
       "content": [
         {
           "type": "text",
@@ -540,6 +594,9 @@
     },
     {
       "type": "paragraph",
+      "attrs": {
+        "class": null
+      },
       "content": [
         {
           "type": "text",
@@ -555,6 +612,9 @@
     },
     {
       "type": "paragraph",
+      "attrs": {
+        "class": null
+      },
       "content": [
         {
           "type": "text",
@@ -570,6 +630,9 @@
     },
     {
       "type": "paragraph",
+      "attrs": {
+        "class": null
+      },
       "content": [
         {
           "type": "text",
@@ -585,6 +648,9 @@
     },
     {
       "type": "paragraph",
+      "attrs": {
+        "class": null
+      },
       "content": [
         {
           "type": "text",
@@ -605,6 +671,9 @@
     },
     {
       "type": "paragraph",
+      "attrs": {
+        "class": null
+      },
       "content": [
         {
           "type": "text",
@@ -659,6 +728,9 @@
     },
     {
       "type": "paragraph",
+      "attrs": {
+        "class": null
+      },
       "content": [
         {
           "type": "text",
@@ -674,6 +746,9 @@
     },
     {
       "type": "paragraph",
+      "attrs": {
+        "class": null
+      },
       "content": [
         {
           "type": "text",
@@ -683,6 +758,80 @@
           "type": "discussion",
           "attrs": {
             "parentHash": "8fe629"
+          }
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "Questions"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "class": "question"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "The novel portrays an extreme case of scientific responsibility, but all of us are implicated in situations where we are responsible to moral standards, to particular ideas, and to other people. What kinds of responsibility do you have as a scientist, a citizen, a creator, a human being? How do you define these responsibilities? And what does it mean to “feel” them?"
+        },
+        {
+          "type": "discussion",
+          "attrs": {
+            "parentHash": "1bca8f"
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "class": null
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "Johnston argues that Victor experiences two forms of responsibility: responsibility "
+        },
+        {
+          "type": "text",
+          "text": "for",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": " and responsibility "
+        },
+        {
+          "type": "text",
+          "text": "to",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": ". Are there other kinds of responsibility, in particular forms of shared or collective responsibility?"
+        },
+        {
+          "type": "discussion",
+          "attrs": {
+            "parentHash": "9355cf"
           }
         }
       ]
@@ -713,6 +862,9 @@
     },
     {
       "type": "paragraph",
+      "attrs": {
+        "class": null
+      },
       "content": [
         {
           "type": "text",
@@ -741,6 +893,9 @@
     },
     {
       "type": "paragraph",
+      "attrs": {
+        "class": null
+      },
       "content": [
         {
           "type": "text",
@@ -769,6 +924,9 @@
     },
     {
       "type": "paragraph",
+      "attrs": {
+        "class": null
+      },
       "content": [
         {
           "type": "text",
@@ -823,6 +981,9 @@
     },
     {
       "type": "paragraph",
+      "attrs": {
+        "class": null
+      },
       "content": [
         {
           "type": "text",
@@ -864,6 +1025,9 @@
     },
     {
       "type": "paragraph",
+      "attrs": {
+        "class": null
+      },
       "content": [
         {
           "type": "text",
@@ -892,6 +1056,9 @@
     },
     {
       "type": "paragraph",
+      "attrs": {
+        "class": null
+      },
       "content": [
         {
           "type": "text",
@@ -933,6 +1100,9 @@
     },
     {
       "type": "paragraph",
+      "attrs": {
+        "class": null
+      },
       "content": [
         {
           "type": "text",
@@ -957,6 +1127,9 @@
     },
     {
       "type": "paragraph",
+      "attrs": {
+        "class": null
+      },
       "content": [
         {
           "type": "text",
@@ -976,6 +1149,9 @@
     },
     {
       "type": "paragraph",
+      "attrs": {
+        "class": null
+      },
       "content": [
         {
           "type": "text",
@@ -995,6 +1171,9 @@
     },
     {
       "type": "paragraph",
+      "attrs": {
+        "class": null
+      },
       "content": [
         {
           "type": "text",
@@ -1014,6 +1193,9 @@
     },
     {
       "type": "paragraph",
+      "attrs": {
+        "class": null
+      },
       "content": [
         {
           "type": "text",
@@ -1042,6 +1224,9 @@
     },
     {
       "type": "paragraph",
+      "attrs": {
+        "class": null
+      },
       "content": [
         {
           "type": "text",
@@ -1057,6 +1242,9 @@
     },
     {
       "type": "paragraph",
+      "attrs": {
+        "class": null
+      },
       "content": [
         {
           "type": "text",
@@ -1077,6 +1265,9 @@
     },
     {
       "type": "paragraph",
+      "attrs": {
+        "class": null
+      },
       "content": [
         {
           "type": "text",
@@ -1105,6 +1296,9 @@
     },
     {
       "type": "paragraph",
+      "attrs": {
+        "class": null
+      },
       "content": [
         {
           "type": "text",
@@ -1120,6 +1314,9 @@
     },
     {
       "type": "paragraph",
+      "attrs": {
+        "class": null
+      },
       "content": [
         {
           "type": "text",
@@ -1135,6 +1332,9 @@
     },
     {
       "type": "paragraph",
+      "attrs": {
+        "class": null
+      },
       "content": [
         {
           "type": "text",
@@ -1150,6 +1350,9 @@
     },
     {
       "type": "paragraph",
+      "attrs": {
+        "class": null
+      },
       "content": [
         {
           "type": "text",
@@ -1178,6 +1381,9 @@
     },
     {
       "type": "paragraph",
+      "attrs": {
+        "class": null
+      },
       "content": [
         {
           "type": "text",
@@ -1193,6 +1399,9 @@
     },
     {
       "type": "paragraph",
+      "attrs": {
+        "class": null
+      },
       "content": [
         {
           "type": "text",
@@ -1213,6 +1422,9 @@
     },
     {
       "type": "paragraph",
+      "attrs": {
+        "class": null
+      },
       "content": [
         {
           "type": "text",
@@ -1228,6 +1440,9 @@
     },
     {
       "type": "paragraph",
+      "attrs": {
+        "class": null
+      },
       "content": [
         {
           "type": "text",
@@ -1243,6 +1458,9 @@
     },
     {
       "type": "paragraph",
+      "attrs": {
+        "class": null
+      },
       "content": [
         {
           "type": "text",
@@ -1258,6 +1476,9 @@
     },
     {
       "type": "paragraph",
+      "attrs": {
+        "class": null
+      },
       "content": [
         {
           "type": "text",
@@ -1273,6 +1494,9 @@
     },
     {
       "type": "paragraph",
+      "attrs": {
+        "class": null
+      },
       "content": [
         {
           "type": "text",
@@ -1301,6 +1525,9 @@
     },
     {
       "type": "paragraph",
+      "attrs": {
+        "class": null
+      },
       "content": [
         {
           "type": "text",
@@ -1316,6 +1543,9 @@
     },
     {
       "type": "paragraph",
+      "attrs": {
+        "class": null
+      },
       "content": [
         {
           "type": "text",
@@ -1331,6 +1561,9 @@
     },
     {
       "type": "paragraph",
+      "attrs": {
+        "class": null
+      },
       "content": [
         {
           "type": "text",
@@ -1359,6 +1592,9 @@
     },
     {
       "type": "paragraph",
+      "attrs": {
+        "class": null
+      },
       "content": [
         {
           "type": "text",
@@ -1387,6 +1623,9 @@
     },
     {
       "type": "paragraph",
+      "attrs": {
+        "class": null
+      },
       "content": [
         {
           "type": "text",
@@ -1402,6 +1641,9 @@
     },
     {
       "type": "paragraph",
+      "attrs": {
+        "class": null
+      },
       "content": [
         {
           "type": "text",
@@ -1417,6 +1659,9 @@
     },
     {
       "type": "paragraph",
+      "attrs": {
+        "class": null
+      },
       "content": [
         {
           "type": "text",
@@ -1432,6 +1677,9 @@
     },
     {
       "type": "paragraph",
+      "attrs": {
+        "class": null
+      },
       "content": [
         {
           "type": "text",
@@ -1447,6 +1695,9 @@
     },
     {
       "type": "paragraph",
+      "attrs": {
+        "class": null
+      },
       "content": [
         {
           "type": "text",
@@ -1488,6 +1739,9 @@
     },
     {
       "type": "paragraph",
+      "attrs": {
+        "class": null
+      },
       "content": [
         {
           "type": "text",
@@ -1497,6 +1751,89 @@
           "type": "discussion",
           "attrs": {
             "parentHash": "333d4a"
+          }
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "Questions"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "class": "question"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "Doctorow’s essay argues that science fiction is not really about predicting the future but rather about understanding the present. What does Mary’s novel, which was presumably written for a present two hundred years old, have to tell us about scientific practices today? Is it still relevant, or do we need new stories to confront the present?"
+        },
+        {
+          "type": "discussion",
+          "attrs": {
+            "parentHash": "6cb096"
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "class": "question"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "According to the theory of the “adjacent possible,” technological change comes “when enough of the necessary stuff is in place” ("
+        },
+        {
+          "type": "text",
+          "text": "here",
+          "marks": [
+            {
+              "type": "link",
+              "attrs": {
+                "href": "/essays?from=23458&to=23527",
+                "target": "_blank"
+              }
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "). According to this logic, discovery can proceed only through so many pathways, and what’s coming always depends on what has come. Do you agree with this view, or do you think that true surprise and serendipity are possible? Is the direction of scientific progress somehow predetermined?"
+        },
+        {
+          "type": "discussion",
+          "attrs": {
+            "parentHash": "4e3de1"
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "class": "question"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "Doctorow argues that although technological changes are often the result of individual choices, how they are used becomes a collective choice. Using the example of Facebook, he talks about how disavowing a surveillance society is a difficult social choice—but still one that you can make as an individual. What collective choices concerning contemporary technologies do you disagree with, and what would it take for you to opt out?"
+        },
+        {
+          "type": "discussion",
+          "attrs": {
+            "parentHash": "f635b3"
           }
         }
       ]
@@ -1527,6 +1864,9 @@
     },
     {
       "type": "paragraph",
+      "attrs": {
+        "class": null
+      },
       "content": [
         {
           "type": "text",
@@ -1547,6 +1887,9 @@
     },
     {
       "type": "paragraph",
+      "attrs": {
+        "class": null
+      },
       "content": [
         {
           "type": "text",
@@ -1588,6 +1931,9 @@
     },
     {
       "type": "paragraph",
+      "attrs": {
+        "class": null
+      },
       "content": [
         {
           "type": "text",
@@ -1603,6 +1949,9 @@
     },
     {
       "type": "paragraph",
+      "attrs": {
+        "class": null
+      },
       "content": [
         {
           "type": "text",
@@ -1631,6 +1980,9 @@
     },
     {
       "type": "paragraph",
+      "attrs": {
+        "class": null
+      },
       "content": [
         {
           "type": "text",
@@ -1646,6 +1998,9 @@
     },
     {
       "type": "paragraph",
+      "attrs": {
+        "class": null
+      },
       "content": [
         {
           "type": "text",
@@ -1661,6 +2016,9 @@
     },
     {
       "type": "paragraph",
+      "attrs": {
+        "class": null
+      },
       "content": [
         {
           "type": "text",
@@ -1681,6 +2039,9 @@
     },
     {
       "type": "paragraph",
+      "attrs": {
+        "class": null
+      },
       "content": [
         {
           "type": "text",
@@ -1696,6 +2057,9 @@
     },
     {
       "type": "paragraph",
+      "attrs": {
+        "class": null
+      },
       "content": [
         {
           "type": "text",
@@ -1711,6 +2075,9 @@
     },
     {
       "type": "paragraph",
+      "attrs": {
+        "class": null
+      },
       "content": [
         {
           "type": "text",
@@ -1739,6 +2106,9 @@
     },
     {
       "type": "paragraph",
+      "attrs": {
+        "class": null
+      },
       "content": [
         {
           "type": "text",
@@ -1754,6 +2124,9 @@
     },
     {
       "type": "paragraph",
+      "attrs": {
+        "class": null
+      },
       "content": [
         {
           "type": "text",
@@ -1774,6 +2147,9 @@
     },
     {
       "type": "paragraph",
+      "attrs": {
+        "class": null
+      },
       "content": [
         {
           "type": "text",
@@ -1789,6 +2165,9 @@
     },
     {
       "type": "paragraph",
+      "attrs": {
+        "class": null
+      },
       "content": [
         {
           "type": "text",
@@ -1804,6 +2183,9 @@
     },
     {
       "type": "paragraph",
+      "attrs": {
+        "class": null
+      },
       "content": [
         {
           "type": "text",
@@ -1832,6 +2214,9 @@
     },
     {
       "type": "paragraph",
+      "attrs": {
+        "class": null
+      },
       "content": [
         {
           "type": "text",
@@ -1860,6 +2245,9 @@
     },
     {
       "type": "paragraph",
+      "attrs": {
+        "class": null
+      },
       "content": [
         {
           "type": "text",
@@ -1880,6 +2268,9 @@
     },
     {
       "type": "paragraph",
+      "attrs": {
+        "class": null
+      },
       "content": [
         {
           "type": "text",
@@ -1895,6 +2286,9 @@
     },
     {
       "type": "paragraph",
+      "attrs": {
+        "class": null
+      },
       "content": [
         {
           "type": "text",
@@ -1910,6 +2304,9 @@
     },
     {
       "type": "paragraph",
+      "attrs": {
+        "class": null
+      },
       "content": [
         {
           "type": "text",
@@ -1925,6 +2322,9 @@
     },
     {
       "type": "paragraph",
+      "attrs": {
+        "class": null
+      },
       "content": [
         {
           "type": "text",
@@ -1940,6 +2340,9 @@
     },
     {
       "type": "paragraph",
+      "attrs": {
+        "class": null
+      },
       "content": [
         {
           "type": "text",
@@ -1960,6 +2363,9 @@
     },
     {
       "type": "paragraph",
+      "attrs": {
+        "class": null
+      },
       "content": [
         {
           "type": "text",
@@ -1975,6 +2381,9 @@
     },
     {
       "type": "paragraph",
+      "attrs": {
+        "class": null
+      },
       "content": [
         {
           "type": "text",
@@ -1990,6 +2399,9 @@
     },
     {
       "type": "paragraph",
+      "attrs": {
+        "class": null
+      },
       "content": [
         {
           "type": "text",
@@ -2005,6 +2417,9 @@
     },
     {
       "type": "paragraph",
+      "attrs": {
+        "class": null
+      },
       "content": [
         {
           "type": "text",
@@ -2033,6 +2448,9 @@
     },
     {
       "type": "paragraph",
+      "attrs": {
+        "class": null
+      },
       "content": [
         {
           "type": "text",
@@ -2048,6 +2466,9 @@
     },
     {
       "type": "paragraph",
+      "attrs": {
+        "class": null
+      },
       "content": [
         {
           "type": "text",
@@ -2063,6 +2484,9 @@
     },
     {
       "type": "paragraph",
+      "attrs": {
+        "class": null
+      },
       "content": [
         {
           "type": "text",
@@ -2083,6 +2507,9 @@
     },
     {
       "type": "paragraph",
+      "attrs": {
+        "class": null
+      },
       "content": [
         {
           "type": "text",
@@ -2098,6 +2525,9 @@
     },
     {
       "type": "paragraph",
+      "attrs": {
+        "class": null
+      },
       "content": [
         {
           "type": "text",
@@ -2113,6 +2543,9 @@
     },
     {
       "type": "paragraph",
+      "attrs": {
+        "class": null
+      },
       "content": [
         {
           "type": "text",
@@ -2128,6 +2561,9 @@
     },
     {
       "type": "paragraph",
+      "attrs": {
+        "class": null
+      },
       "content": [
         {
           "type": "text",
@@ -2156,6 +2592,9 @@
     },
     {
       "type": "paragraph",
+      "attrs": {
+        "class": null
+      },
       "content": [
         {
           "type": "text",
@@ -2171,6 +2610,9 @@
     },
     {
       "type": "paragraph",
+      "attrs": {
+        "class": null
+      },
       "content": [
         {
           "type": "text",
@@ -2180,6 +2622,85 @@
           "type": "discussion",
           "attrs": {
             "parentHash": "449ff7"
+          }
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "Questions"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "class": "question"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "Maienschein and MacCord believe that Mary’s story is both “restrictive” and “instructive.” What do you think they mean by this? Do you agree with their assertion? Does "
+        },
+        {
+          "type": "text",
+          "text": "Frankenstein",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": " go beyond these parameters?"
+        },
+        {
+          "type": "discussion",
+          "attrs": {
+            "parentHash": "f5be58"
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "class": "question"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "What is your answer to the authors’ question “Is the creature human?”? If the creature is not human by the end of the novel, is there any way for it to become so?"
+        },
+        {
+          "type": "discussion",
+          "attrs": {
+            "parentHash": "e5070c"
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "class": "question"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "What do you think the relationship is between what the authors call the biological concept of “human” and the social concept of “person”? Can one easily or neatly demarcate the social from the biological in this way?"
+        },
+        {
+          "type": "discussion",
+          "attrs": {
+            "parentHash": "8e9a81"
           }
         }
       ]
@@ -2222,6 +2743,9 @@
     },
     {
       "type": "paragraph",
+      "attrs": {
+        "class": null
+      },
       "content": [
         {
           "type": "text",
@@ -2242,6 +2766,9 @@
     },
     {
       "type": "paragraph",
+      "attrs": {
+        "class": null
+      },
       "content": [
         {
           "type": "text",
@@ -2275,6 +2802,9 @@
     },
     {
       "type": "paragraph",
+      "attrs": {
+        "class": null
+      },
       "content": [
         {
           "type": "text",
@@ -2290,6 +2820,9 @@
     },
     {
       "type": "paragraph",
+      "attrs": {
+        "class": null
+      },
       "content": [
         {
           "type": "text",
@@ -2327,6 +2860,9 @@
     },
     {
       "type": "paragraph",
+      "attrs": {
+        "class": null
+      },
       "content": [
         {
           "type": "text",
@@ -2351,6 +2887,9 @@
     },
     {
       "type": "paragraph",
+      "attrs": {
+        "class": null
+      },
       "content": [
         {
           "type": "text",
@@ -2375,6 +2914,9 @@
     },
     {
       "type": "paragraph",
+      "attrs": {
+        "class": null
+      },
       "content": [
         {
           "type": "text",
@@ -2390,6 +2932,9 @@
     },
     {
       "type": "paragraph",
+      "attrs": {
+        "class": null
+      },
       "content": [
         {
           "type": "text",
@@ -2410,6 +2955,9 @@
     },
     {
       "type": "paragraph",
+      "attrs": {
+        "class": null
+      },
       "content": [
         {
           "type": "text",
@@ -2425,6 +2973,9 @@
     },
     {
       "type": "paragraph",
+      "attrs": {
+        "class": null
+      },
       "content": [
         {
           "type": "text",
@@ -2466,6 +3017,9 @@
     },
     {
       "type": "paragraph",
+      "attrs": {
+        "class": null
+      },
       "content": [
         {
           "type": "text",
@@ -2481,6 +3035,9 @@
     },
     {
       "type": "paragraph",
+      "attrs": {
+        "class": null
+      },
       "content": [
         {
           "type": "text",
@@ -2496,6 +3053,9 @@
     },
     {
       "type": "paragraph",
+      "attrs": {
+        "class": null
+      },
       "content": [
         {
           "type": "text",
@@ -2516,6 +3076,9 @@
     },
     {
       "type": "paragraph",
+      "attrs": {
+        "class": null
+      },
       "content": [
         {
           "type": "text",
@@ -2531,6 +3094,9 @@
     },
     {
       "type": "paragraph",
+      "attrs": {
+        "class": null
+      },
       "content": [
         {
           "type": "text",
@@ -2577,6 +3143,9 @@
     },
     {
       "type": "paragraph",
+      "attrs": {
+        "class": null
+      },
       "content": [
         {
           "type": "text",
@@ -2597,6 +3166,9 @@
     },
     {
       "type": "paragraph",
+      "attrs": {
+        "class": null
+      },
       "content": [
         {
           "type": "text",
@@ -2612,6 +3184,9 @@
     },
     {
       "type": "paragraph",
+      "attrs": {
+        "class": null
+      },
       "content": [
         {
           "type": "text",
@@ -2636,6 +3211,9 @@
     },
     {
       "type": "paragraph",
+      "attrs": {
+        "class": null
+      },
       "content": [
         {
           "type": "text",
@@ -2645,6 +3223,102 @@
           "type": "discussion",
           "attrs": {
             "parentHash": "1e1cfa"
+          }
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "Questions"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "class": "question"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "Nordmann’s essay suggests that modern incarnations of the creature, such as “Frankenfoods” and “Frankenmaterials,” are not scientific outcomes but a throwback to alchemy and the supernatural. What is the relationship between science and belief today? When we entrust ourselves to an airplane or an algorithmic credit-scoring system, are we engaging in an act of reason or a leap of faith?"
+        },
+        {
+          "type": "discussion",
+          "attrs": {
+            "parentHash": "6e8356"
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "class": "question"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "The publication of Mary’s novel predated the modern term "
+        },
+        {
+          "type": "text",
+          "text": "scientist",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": " by almost twenty years, and Nordmann argues that her novel is “not one of modern science” ("
+        },
+        {
+          "type": "text",
+          "text": "here",
+          "marks": [
+            {
+              "type": "link",
+              "attrs": {
+                "href": "/essays?from=54648&to=54689",
+                "target": "_blank"
+              }
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "). Is Victor a scientist? Would we recognize him as one today? If not, how would you describe him in contemporary terms?"
+        },
+        {
+          "type": "discussion",
+          "attrs": {
+            "parentHash": "983d44"
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "class": "question"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "Nordmann argues that contemporary technoscience is “undisturbed by reality”; in other words, we are creating materials, ideas, and life-forms that have no corollary in nature. At its most fundamental level, is science about understanding the natural world or about creating a structure of knowledge that may or may not resemble the reality we perceive?"
+        },
+        {
+          "type": "discussion",
+          "attrs": {
+            "parentHash": "000cde"
           }
         }
       ]
@@ -2675,6 +3349,9 @@
     },
     {
       "type": "paragraph",
+      "attrs": {
+        "class": null
+      },
       "content": [
         {
           "type": "text",
@@ -2703,6 +3380,9 @@
     },
     {
       "type": "paragraph",
+      "attrs": {
+        "class": null
+      },
       "content": [
         {
           "type": "text",
@@ -2718,6 +3398,9 @@
     },
     {
       "type": "paragraph",
+      "attrs": {
+        "class": null
+      },
       "content": [
         {
           "type": "text",
@@ -2733,6 +3416,9 @@
     },
     {
       "type": "paragraph",
+      "attrs": {
+        "class": null
+      },
       "content": [
         {
           "type": "text",
@@ -2748,6 +3434,9 @@
     },
     {
       "type": "paragraph",
+      "attrs": {
+        "class": null
+      },
       "content": [
         {
           "type": "text",
@@ -2763,6 +3452,9 @@
     },
     {
       "type": "paragraph",
+      "attrs": {
+        "class": null
+      },
       "content": [
         {
           "type": "text",
@@ -2778,6 +3470,9 @@
     },
     {
       "type": "paragraph",
+      "attrs": {
+        "class": null
+      },
       "content": [
         {
           "type": "text",
@@ -2793,6 +3488,9 @@
     },
     {
       "type": "paragraph",
+      "attrs": {
+        "class": null
+      },
       "content": [
         {
           "type": "text",
@@ -2847,6 +3545,9 @@
     },
     {
       "type": "paragraph",
+      "attrs": {
+        "class": null
+      },
       "content": [
         {
           "type": "text",
@@ -2875,6 +3576,9 @@
     },
     {
       "type": "paragraph",
+      "attrs": {
+        "class": null
+      },
       "content": [
         {
           "type": "text",
@@ -2890,6 +3594,9 @@
     },
     {
       "type": "paragraph",
+      "attrs": {
+        "class": null
+      },
       "content": [
         {
           "type": "text",
@@ -2905,6 +3612,9 @@
     },
     {
       "type": "paragraph",
+      "attrs": {
+        "class": null
+      },
       "content": [
         {
           "type": "text",
@@ -2920,6 +3630,9 @@
     },
     {
       "type": "paragraph",
+      "attrs": {
+        "class": null
+      },
       "content": [
         {
           "type": "text",
@@ -2935,6 +3648,9 @@
     },
     {
       "type": "paragraph",
+      "attrs": {
+        "class": null
+      },
       "content": [
         {
           "type": "text",
@@ -2950,6 +3666,9 @@
     },
     {
       "type": "paragraph",
+      "attrs": {
+        "class": null
+      },
       "content": [
         {
           "type": "text",
@@ -2965,6 +3684,9 @@
     },
     {
       "type": "paragraph",
+      "attrs": {
+        "class": null
+      },
       "content": [
         {
           "type": "text",
@@ -2980,6 +3702,9 @@
     },
     {
       "type": "paragraph",
+      "attrs": {
+        "class": null
+      },
       "content": [
         {
           "type": "text",
@@ -2995,6 +3720,9 @@
     },
     {
       "type": "paragraph",
+      "attrs": {
+        "class": null
+      },
       "content": [
         {
           "type": "text",
@@ -3010,6 +3738,9 @@
     },
     {
       "type": "paragraph",
+      "attrs": {
+        "class": null
+      },
       "content": [
         {
           "type": "text",
@@ -3025,6 +3756,9 @@
     },
     {
       "type": "paragraph",
+      "attrs": {
+        "class": null
+      },
       "content": [
         {
           "type": "text",
@@ -3040,6 +3774,9 @@
     },
     {
       "type": "paragraph",
+      "attrs": {
+        "class": null
+      },
       "content": [
         {
           "type": "text",
@@ -3055,6 +3792,9 @@
     },
     {
       "type": "paragraph",
+      "attrs": {
+        "class": null
+      },
       "content": [
         {
           "type": "text",
@@ -3070,6 +3810,9 @@
     },
     {
       "type": "paragraph",
+      "attrs": {
+        "class": null
+      },
       "content": [
         {
           "type": "text",
@@ -3085,6 +3828,9 @@
     },
     {
       "type": "paragraph",
+      "attrs": {
+        "class": null
+      },
       "content": [
         {
           "type": "text",
@@ -3100,6 +3846,9 @@
     },
     {
       "type": "paragraph",
+      "attrs": {
+        "class": null
+      },
       "content": [
         {
           "type": "text",
@@ -3115,6 +3864,9 @@
     },
     {
       "type": "paragraph",
+      "attrs": {
+        "class": null
+      },
       "content": [
         {
           "type": "text",
@@ -3130,6 +3882,9 @@
     },
     {
       "type": "paragraph",
+      "attrs": {
+        "class": null
+      },
       "content": [
         {
           "type": "text",
@@ -3139,6 +3894,85 @@
           "type": "discussion",
           "attrs": {
             "parentHash": "a9eeb1"
+          }
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "Questions"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "class": "question"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "Bear suggests that Victor’s central character flaw is his lack of empathy. Do you agree? Is empathy an important faculty for the conducting of scientific research?"
+        },
+        {
+          "type": "discussion",
+          "attrs": {
+            "parentHash": "08c0d9"
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "class": "question"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "The other great character flaw that Bear highlights is Victor’s narcissism. The great critique of scientific reason at the dawn of the Enlightenment was precisely this: that it was pure hubris for humanity to imagine itself at the center of the universe, to displace the external existence of God for a structure of knowledge built within our minds. Do you think the pursuit of scientific discovery is a fundamentally narcissistic enterprise or a humbling one? Can one be a successful "
+        },
+        {
+          "type": "text",
+          "text": "and",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": " humble scientist, engineer, or creator?"
+        },
+        {
+          "type": "discussion",
+          "attrs": {
+            "parentHash": "1afd12"
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "class": "question"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "Bear talks about the fact that Victor’s beauty, his handsomeness, leads people to treat him better than they treat his creature. What role do you think beauty plays or should play in scientific discovery? Is the search for truth also a search for beauty, to paraphrase the poet Jonathan Keats, Mary’s contemporary?"
+        },
+        {
+          "type": "discussion",
+          "attrs": {
+            "parentHash": "4aaf4f"
           }
         }
       ]
@@ -3169,6 +4003,9 @@
     },
     {
       "type": "paragraph",
+      "attrs": {
+        "class": null
+      },
       "content": [
         {
           "type": "text",
@@ -3197,6 +4034,9 @@
     },
     {
       "type": "paragraph",
+      "attrs": {
+        "class": null
+      },
       "content": [
         {
           "type": "text",
@@ -3225,6 +4065,9 @@
     },
     {
       "type": "paragraph",
+      "attrs": {
+        "class": null
+      },
       "content": [
         {
           "type": "text",
@@ -3240,6 +4083,9 @@
     },
     {
       "type": "paragraph",
+      "attrs": {
+        "class": null
+      },
       "content": [
         {
           "type": "text",
@@ -3268,6 +4114,9 @@
     },
     {
       "type": "paragraph",
+      "attrs": {
+        "class": null
+      },
       "content": [
         {
           "type": "text",
@@ -3309,6 +4158,9 @@
     },
     {
       "type": "paragraph",
+      "attrs": {
+        "class": null
+      },
       "content": [
         {
           "type": "text",
@@ -3324,6 +4176,9 @@
     },
     {
       "type": "paragraph",
+      "attrs": {
+        "class": null
+      },
       "content": [
         {
           "type": "text",
@@ -3339,6 +4194,9 @@
     },
     {
       "type": "paragraph",
+      "attrs": {
+        "class": null
+      },
       "content": [
         {
           "type": "text",
@@ -3372,6 +4230,9 @@
     },
     {
       "type": "paragraph",
+      "attrs": {
+        "class": null
+      },
       "content": [
         {
           "type": "text",
@@ -3387,6 +4248,9 @@
     },
     {
       "type": "paragraph",
+      "attrs": {
+        "class": null
+      },
       "content": [
         {
           "type": "text",
@@ -3402,6 +4266,9 @@
     },
     {
       "type": "paragraph",
+      "attrs": {
+        "class": null
+      },
       "content": [
         {
           "type": "text",
@@ -3417,6 +4284,9 @@
     },
     {
       "type": "paragraph",
+      "attrs": {
+        "class": null
+      },
       "content": [
         {
           "type": "text",
@@ -3432,6 +4302,9 @@
     },
     {
       "type": "paragraph",
+      "attrs": {
+        "class": null
+      },
       "content": [
         {
           "type": "text",
@@ -3447,6 +4320,9 @@
     },
     {
       "type": "paragraph",
+      "attrs": {
+        "class": null
+      },
       "content": [
         {
           "type": "text",
@@ -3462,6 +4338,9 @@
     },
     {
       "type": "paragraph",
+      "attrs": {
+        "class": null
+      },
       "content": [
         {
           "type": "text",
@@ -3484,6 +4363,120 @@
           "type": "discussion",
           "attrs": {
             "parentHash": "a13755"
+          }
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "Questions"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "class": "question"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "Frankenstein",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": " was initially published anonymously, and some critics or reviewers speculated that Percy Shelley wrote it. Do you think a man could have written "
+        },
+        {
+          "type": "text",
+          "text": "Frankenstein",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": " as Mary Shelley wrote it?"
+        },
+        {
+          "type": "discussion",
+          "attrs": {
+            "parentHash": "8557c4"
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "class": "question"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "Given Mellor’s interpretation of the novel, what do you make of contemporary accounts that change Victor’s gender—for example, the PBS digital series "
+        },
+        {
+          "type": "text",
+          "text": "Frankenstein, MD",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": ", featuring a Victoria Frankenstein, or the children’s book series "
+        },
+        {
+          "type": "text",
+          "text": "Franny K. Stein",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": " by Jim Benton? If the creator at the center of the story was raised and socialized as a woman, in Shelley’s time or today, would her relationship with her creation change? If so, how?"
+        },
+        {
+          "type": "discussion",
+          "attrs": {
+            "parentHash": "99a231"
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "class": "question"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "Are today’s scientists and engineers who are involved in synthetic biology and other similar endeavors engaged in motherless creation?"
+        },
+        {
+          "type": "discussion",
+          "attrs": {
+            "parentHash": "5aa490"
           }
         }
       ]
@@ -3514,6 +4507,9 @@
     },
     {
       "type": "paragraph",
+      "attrs": {
+        "class": null
+      },
       "content": [
         {
           "type": "text",
@@ -3533,6 +4529,9 @@
     },
     {
       "type": "paragraph",
+      "attrs": {
+        "class": null
+      },
       "content": [
         {
           "type": "text",
@@ -3548,6 +4547,9 @@
     },
     {
       "type": "paragraph",
+      "attrs": {
+        "class": null
+      },
       "content": [
         {
           "type": "text",
@@ -3563,6 +4565,9 @@
     },
     {
       "type": "paragraph",
+      "attrs": {
+        "class": null
+      },
       "content": [
         {
           "type": "text",
@@ -3591,6 +4596,9 @@
     },
     {
       "type": "paragraph",
+      "attrs": {
+        "class": null
+      },
       "content": [
         {
           "type": "text",
@@ -3606,6 +4614,9 @@
     },
     {
       "type": "paragraph",
+      "attrs": {
+        "class": null
+      },
       "content": [
         {
           "type": "text",
@@ -3621,6 +4632,9 @@
     },
     {
       "type": "paragraph",
+      "attrs": {
+        "class": null
+      },
       "content": [
         {
           "type": "text",
@@ -3636,6 +4650,9 @@
     },
     {
       "type": "paragraph",
+      "attrs": {
+        "class": null
+      },
       "content": [
         {
           "type": "text",
@@ -3651,6 +4668,9 @@
     },
     {
       "type": "paragraph",
+      "attrs": {
+        "class": null
+      },
       "content": [
         {
           "type": "text",
@@ -3679,6 +4699,9 @@
     },
     {
       "type": "paragraph",
+      "attrs": {
+        "class": null
+      },
       "content": [
         {
           "type": "text",
@@ -3694,6 +4717,9 @@
     },
     {
       "type": "paragraph",
+      "attrs": {
+        "class": null
+      },
       "content": [
         {
           "type": "text",
@@ -3709,6 +4735,9 @@
     },
     {
       "type": "paragraph",
+      "attrs": {
+        "class": null
+      },
       "content": [
         {
           "type": "text",
@@ -3724,6 +4753,9 @@
     },
     {
       "type": "paragraph",
+      "attrs": {
+        "class": null
+      },
       "content": [
         {
           "type": "text",
@@ -3739,6 +4771,9 @@
     },
     {
       "type": "paragraph",
+      "attrs": {
+        "class": null
+      },
       "content": [
         {
           "type": "text",
@@ -3754,6 +4789,9 @@
     },
     {
       "type": "paragraph",
+      "attrs": {
+        "class": null
+      },
       "content": [
         {
           "type": "text",
@@ -3825,6 +4863,9 @@
     },
     {
       "type": "paragraph",
+      "attrs": {
+        "class": null
+      },
       "content": [
         {
           "type": "text",
@@ -3866,6 +4907,9 @@
     },
     {
       "type": "paragraph",
+      "attrs": {
+        "class": null
+      },
       "content": [
         {
           "type": "text",
@@ -3875,6 +4919,72 @@
           "type": "discussion",
           "attrs": {
             "parentHash": "7ce27a"
+          }
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "Questions"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "class": "question"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "How close is the analogy between Victor’s work and the work of the atomic scientists in the 1930s and 1940s?"
+        },
+        {
+          "type": "discussion",
+          "attrs": {
+            "parentHash": "cb62a3"
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "class": "question"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "Do you believe that the pursuit of “technical sweetness” is one reason why Victor completes his experiment?"
+        },
+        {
+          "type": "discussion",
+          "attrs": {
+            "parentHash": "092385"
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "class": "question"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "If creating life is so technically sweet and technical sweetness is important in making the creature, why doesn’t Victor make the creature a mate?"
+        },
+        {
+          "type": "discussion",
+          "attrs": {
+            "parentHash": "de9d14"
           }
         }
       ]
