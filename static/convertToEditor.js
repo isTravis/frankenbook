@@ -84,6 +84,21 @@ const convertNode = (node, isAnnotation)=> {
 			]
 		};
 	}
+	if (node.tagName === 'a') {
+		return {
+			type: 'text',
+			text: node.children[0].content,
+			marks: [
+				{
+					type: 'link',
+					attrs: {
+						href: node.attributes.href,
+						target: node.attributes.target,
+					}
+				}
+			]
+		};
+	}
 	if (node.tagName === 'b') {
 		return {
 			type: 'text',

@@ -31,6 +31,7 @@ function checkForFootnotes(nodes) {
 
 function footnoteLink(node) {
 	if (!node.children && node.tagName !== 'a') { return null; }
+	if (node.tagName === 'a' && node.attributes.href.indexOf('#link-') === -1) { return null; }
 	if (node.tagName === 'a' && node.attributes.href.indexOf('#link-') > -1) { return node.attributes.href; }
 	return node.children.reduce((prev, curr)=> {
 		const currLink = footnoteLink(curr);
@@ -152,7 +153,6 @@ checkForFootnotes(cleanedJSON);
 const goodFootnotes = footnotes.filter((item)=> {
 	return footnoteLink(item);
 });
-
 // const labelOptions = [
 // 	['Engineering'],
 // 	['Ethics'],
@@ -172,6 +172,7 @@ const goodFootnoteObjects = goodFootnotes.map((item)=> {
 });
 
 // console.log(JSON.stringify(goodFootnoteObjects, null, 2));
+console.log('Good length', goodFootnoteObjects.length);
 
 // Create Users based on unique names
 // Turn discussions into objects. { anchor, content, author(uuid) }
