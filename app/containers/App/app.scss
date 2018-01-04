@@ -45,6 +45,10 @@ body {
 	}
 }
 
+sup {
+	display: none;
+}
+
 @media print {
 	body {
 		padding-top: 0;

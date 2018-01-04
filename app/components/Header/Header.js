@@ -84,7 +84,7 @@ const Header = function(props) {
 								<Popover
 									content={
 										<Menu>
-											<Link to={'/about'} className={'pt-menu-item helper'}>
+											<Link to={'/about#about-themes'} className={'pt-menu-item helper'}>
 												Themes group annotations by topic.<br/>Click here to learn more.
 											</Link>
 											{props.lensesData.sort((foo, bar)=> {
