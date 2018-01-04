@@ -26,7 +26,7 @@ class About extends Component {
 					<div className={'row'}>
 						<div className={'col-12'}>
 							<h1>About Frankenbook</h1>
-							
+
 							<p><i>Frankenbook</i> is a collective reading and collaborative annotation experience of the original 1818 text of <i>Frankenstein; or, The Modern Prometheus</i>, by Mary Wollstonecraft Shelley. The project launched in January 2018, as part of Arizona State University’s celebration of the novel’s 200th anniversary. Even two centuries later, Shelley’s modern myth continues to shape the way people imagine science, technology, and their moral consequences. <i>Frankenbook</i> gives readers the opportunity to trace the scientific, technological, political, and ethical dimensions of the novel, and to learn more about its historical context and enduring legacy.</p>
 
 							<p>To learn more about Arizona State University’s celebration of Frankenstein's bicentennial, visit <a href="http://frankenstein.asu.edu/">frankenstein.asu.edu</a>.</p>
