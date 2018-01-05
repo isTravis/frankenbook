@@ -127,7 +127,7 @@ class DiscussionItem extends Component {
 						<div>
 							{item.endorsed &&
 								<div className={'pt-tag editorial-tag'}>
-									<img alt={'Editorially Approved'} src={'headerLogo.png'} />
+									<img alt={'Editorially Approved'} src={'/headerLogo.png'} />
 								</div>
 							}
 							{labels.map((label)=> {
