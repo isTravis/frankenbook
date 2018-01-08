@@ -21,6 +21,7 @@ const Essays = () => <Async load={import('containers/Essays/Essays')} />;
 const Login = () => <Async load={import('containers/Login/Login')} />;
 const Media = () => <Async load={import('containers/Media/Media')} />;
 const NoMatch = () => <Async load={import('containers/NoMatch/NoMatch')} />;
+const PasswordReset = () => <Async load={import('containers/PasswordReset/PasswordReset')} />;
 const Signup = () => <Async load={import('containers/Signup/Signup')} />;
 const User = () => <Async load={import('containers/User/User')} />;
 const UserCreate = () => <Async load={import('containers/UserCreate/UserCreate')} />;
@@ -107,6 +108,8 @@ class App extends Component {
 					<Route exact path="/essays" component={Essays} />
 					<Route exact path="/media" component={Media} />
 					<Route exact path="/login" component={Login} />
+					<Route exact path="/password-reset" component={PasswordReset} />
+					<Route exact path="/password-reset/:resetHash/:slug" component={PasswordReset} />
 					<Route exact path="/signup" component={Signup} />
 					<Route exact path="/user/create/:hash" component={UserCreate} />
 					<Route exact path="/user/:slug" component={User} />
