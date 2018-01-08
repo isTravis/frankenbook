@@ -41,7 +41,8 @@ const UserHeader = function(props) {
 			</div>
 			<div className={'details'}>
 				<h1>{props.userData.fullName}</h1>
-				<div className={'bio'}>{props.userData.bio}</div>
+				{/* <div className={'bio'}>{props.userData.bio}</div> */}
+				<div className="bio" dangerouslySetInnerHTML={{ __html: props.userData.bio }} />
 
 				<div className={'links'}>
 					{links.filter((link)=> {
