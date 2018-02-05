@@ -73,6 +73,21 @@ class About extends Component {
 
 							<p>Frankenbook is powered by <a href="https://www.pubpub.org">PubPub</a>, an open-source digital publication platform developed at The MIT Media Lab and The MIT Press. The project is edited and moderated by the <a href="http://csi.asu.edu/books/vvev/">Center for Science and the Imagination</a> at Arizona State University, in partnership with MIT.</p>
 							<p>The foundation for the experience is the book <a href="https://mitpress.mit.edu/books/frankenstein">Frankenstein: Annotated for Scientists, Engineers, and Creators of All Kinds</a>, published by The MIT Press in 2017. Frankenbook builds on that foundation with new multimedia content and an expanded set of annotations, sorted into lenses dedicated to specific themes and subjects, which can be switched on and off at will.</p>
+
+							<h1>Community Guidelines</h1>
+							<p>Frankenbook is both a digital reading experience and a place to build community around Mary Wollstonecraft Shelley’s Frankenstein and its reverberations throughout culture, politics, philosophy, science, technology, and society. We encourage members to engage in thoughtful, constructive, and sometimes playful conversations around the text, building on one another’s ideas and illuminating the interplay between creativity and responsibility that animates the novel. Frankenbook is a place for imaginative intellectual engagement, open and inclusive discussion, and an exchange of information, ideas, and diverse perspectives. We welcome everyone to join the Frankenbook community, from literature scholars, historians, and bioengineers to students, artists, Frankenstein aficionados, monster movie fans, and book lovers of all stripes. </p>
+							<p>Members of the Frankenbook community agree to the following guidelines, to ensure that the site is an inclusive and welcoming place for all kinds of people. Remember that your use of Frankenbook is subject to these Community Guidelines and our <Link to="/terms">Terms of Service</Link>:</p>
+							<ul>
+								<li>You are responsible for all activity that occurs under your user name.  </li>
+								<li>You must not make comments that are threatening, knowingly false, or unlawful, or engage in personal attacks.</li>
+								<li>You must not impersonate any person or entity or create a false identity on Frankenbook.</li>
+								<li>You must not harass, threaten, stalk, embarrass or cause distress, unwanted attention or discomfort to any user of Frankenbook. </li>
+								<li>You must not disseminate or transmit spam, unsolicited messages, chain letters, advertisements, solicitations, or other unsolicited commercial communications, including (but not limited to) communications describing investment opportunities.</li>
+								<li>You must not post material that infringes a copyright, trademark or patent right, trade secret or other legal right of any person, corporation or institution.</li>
+								<li>You must not knowingly disseminate or transmit viruses, Trojan horses, worms, defects, date bombs, time bombs, malware, spyware, or other items of a destructive nature or any other malicious code or program.</li>
+								<li>Frankenbook reserves the right, in its sole and absolute discretion, to reject, refuse to post or remove any posting by you, or to restrict, suspend, or terminate your access to all of any part of Frankenbook at any time, for any or no reason, without prior notice or warning, and without liability.  </li>
+							</ul>
+
 						</div>
 					</div>
 				</div>

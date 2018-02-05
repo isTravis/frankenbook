@@ -1,0 +1,17 @@
+.privacy-wrapper {
+	padding: 3em 0em;
+	h1 {
+		margin: 20px 0em;
+		&:not(:first-of-type) {
+			margin: 60px 0em 20px;
+		}
+	}
+	p, li {
+		margin: 20px 0em;
+		font-size: 18px;
+		line-height: 1.5;
+	}
+	a {
+		text-decoration: underline;
+	}
+}

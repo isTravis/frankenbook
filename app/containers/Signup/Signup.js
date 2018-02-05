@@ -3,7 +3,7 @@ import { connect } from 'react-redux';
 import Helmet from 'react-helmet';
 import PropTypes from 'prop-types';
 import { withRouter, Link } from 'react-router-dom';
-import { Button, NonIdealState } from '@blueprintjs/core';
+import { Button, NonIdealState, Checkbox } from '@blueprintjs/core';
 import InputField from 'components/InputField/InputField';
 import { postSignup } from 'actions/signup';
 
@@ -20,9 +20,11 @@ class Signup extends Component {
 		this.state = {
 			email: '',
 			isSuccessful: false,
+			isChecked: false,
 		};
 		this.onSignupSubmit = this.onSignupSubmit.bind(this);
 		this.onEmailChange = this.onEmailChange.bind(this);
+		this.onCheckChange = this.onCheckChange.bind(this);
 	}
 
 	componentWillReceiveProps(nextProps) {
@@ -38,6 +40,10 @@ class Signup extends Component {
 
 	onEmailChange(evt) {
 		this.setState({ email: evt.target.value });
+	}
+
+	onCheckChange(evt) {
+		this.setState({ isChecked: evt.target.checked });
 	}
 
 	render() {
@@ -61,13 +67,20 @@ class Signup extends Component {
 											onChange={this.onEmailChange}
 											error={this.props.signupData.error}
 										/>
+										<div className="checkbox-wrapper">
+											<Checkbox
+												checked={this.state.isChecked}
+												onChange={this.onCheckChange}
+											/>
+											<span>I certify I have read and agree to the <Link to={'/terms'}>Terms of Service</Link></span>
+										</div>
 										<Button
 											name={'signup'}
 											type={'submit'}
 											className={'pt-button pt-intent-primary'}
 											onClick={this.onSignupSubmit}
 											text={'Signup'}
-											disabled={!this.state.email}
+											disabled={!this.state.email || !this.state.isChecked}
 											loading={this.props.signupData.isLoading}
 										/>
 									</form>
