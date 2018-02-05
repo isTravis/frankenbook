@@ -72,7 +72,7 @@ class Signup extends Component {
 												checked={this.state.isChecked}
 												onChange={this.onCheckChange}
 											/>
-											<span>I certify I have read and agree to the <Link to={'/terms'}>Terms of Service</Link></span>
+											<span>I agree to the <Link to={'/terms'}>Terms of Service</Link></span>
 										</div>
 										<Button
 											name={'signup'}
