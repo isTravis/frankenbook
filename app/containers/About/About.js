@@ -88,6 +88,7 @@ class About extends Component {
 								<li>Frankenbook reserves the right, in its sole and absolute discretion, to reject, refuse to post or remove any posting by you, or to restrict, suspend, or terminate your access to all of any part of Frankenbook at any time, for any or no reason, without prior notice or warning, and without liability.  </li>
 							</ul>
 
+							<p>A full list of credits for the project can be found on the <Link to="/credits">Credits page</Link>.</p>
 						</div>
 					</div>
 				</div>
