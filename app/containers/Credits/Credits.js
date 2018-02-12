@@ -21,7 +21,7 @@ class Credits extends Component {
 					<div className={'row'}>
 						<div className={'col-12'}>
 							<h1>Credits</h1>
-							<i>Frankenbook</i> is proudly presented by the Center for Science and the Imagination at Arizona State University, in partnership with The MIT Press and MIT Media Lab. The project is made possible by a generous grant from the Alfred P. Sloan Foundation. 
+							<p><i>Frankenbook</i> is proudly presented by the Center for Science and the Imagination at Arizona State University, in partnership with The MIT Press and MIT Media Lab. The project is made possible by a generous grant from the Alfred P. Sloan Foundation. </p>
 
 							<h3>Editors</h3>
 							<p>
