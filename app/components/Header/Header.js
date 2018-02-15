@@ -128,7 +128,6 @@ const Header = function(props) {
 							<div className={'headerItems headerItemsRight'}>
 								<Link to={'/essays'} className="pt-button pt-large pt-minimal">Essays</Link>
 								{/* <Link to={'/media'} className="pt-button pt-large pt-minimal">Media</Link> */}
-								{/* <Link to={'/about'} className="pt-button pt-large pt-minimal">About</Link> */}
 								<Popover
 									content={
 										<Menu>
