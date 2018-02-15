@@ -128,7 +128,35 @@ const Header = function(props) {
 							<div className={'headerItems headerItemsRight'}>
 								<Link to={'/essays'} className="pt-button pt-large pt-minimal">Essays</Link>
 								{/* <Link to={'/media'} className="pt-button pt-large pt-minimal">Media</Link> */}
-								<Link to={'/about'} className="pt-button pt-large pt-minimal">About</Link>
+								{/* <Link to={'/about'} className="pt-button pt-large pt-minimal">About</Link> */}
+								<Popover
+									content={
+										<Menu>
+											<li>
+												<Link to={'/about'} className="pt-menu-item pt-popover-dismiss">About Frankenbook</Link>
+											</li>
+											<li>
+												<Link to={'/credits'} className="pt-menu-item pt-popover-dismiss">Credits</Link>
+											</li>
+											<li>
+												<Link to={'/terms'} className="pt-menu-item pt-popover-dismiss">Terms of Service</Link>
+											</li>
+											<li>
+												<Link to={'/privacy'} className="pt-menu-item pt-popover-dismiss">Privacy Policy</Link>
+											</li>
+										</Menu>
+									}
+									interactionKind={PopoverInteractionKind.HOVER}
+									position={Position.BOTTOM_RIGHT}
+									transitionDuration={-1}
+									inheritDarkTheme={false}
+									popoverClassName="pt-minimal"
+								>
+									<button className="pt-button pt-large pt-minimal dropdown-button">
+										About
+										<span className="pt-icon-standard pt-icon-caret-down pt-align-right" />
+									</button>
+								</Popover>
 								{/* <a href={'https://docs.google.com/document/d/14iyybF3AOg7uNFjI0PqXfHejBq3pKL_niVGARKQdGR0/edit?usp=sharing'} target={'_blank'} className="pt-button pt-large pt-minimal">Dev Notes</a> */}
 
 								{/* User avatar and menu */}
