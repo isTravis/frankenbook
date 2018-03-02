@@ -16,7 +16,14 @@ class Media extends Component {
 						<div className={'col-12'}>
 							<h1>Media</h1>
 
-							<iframe width="100%" height="350" src="https://www.youtube.com/embed/v3sQMFGxZTM" frameBorder="0" allowFullScreen />
+							<h2>A Year Without a Summer</h2>
+							<iframe width="100%" height="300" scrolling="no" frameBorder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/269203861&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true" />
+
+							<h2>Lab Assistant</h2>
+							<a href="https://lizfiacco.itch.io/lab-assistant">
+								<img alt="Lab Assistant" src="/images/lab-assistant.jpg" width="100%" />
+							</a>
+							<p><a href="https://lizfiacco.itch.io/lab-assistant">Click to play Lab Assistant</a></p>
 						</div>
 					</div>
 				</div>

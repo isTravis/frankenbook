@@ -63,87 +63,87 @@ class Credits extends Component {
 
 							<h3>Annotators</h3>
 							<p>
-								Athena Aktipis<br />
-								Braden Allenby<br />
-								Ariel Anbar<br />
-								Samuel Arbesman<br />
-								Miguel Astor-Aguilera<br />
-								Bob Beard<br />
-								Dominic Berry<br />
-								Ron Broglio<br />
-								Sara Brownell<br />
-								Noa Bruhis<br />
-								Carlos Castillo-Chavez<br />
-								Adam Chodorow<br />
-								Robert Cook-Deegan<br />
-								Mary Drago<br />
-								Lawrence Dritsas<br />
-								Jason W. Ellis<br />
-								Joey Eschrich<br />
-								Ed Finn<br />
-								James Fiacco<br />
-								Liz Fiacco<br />
-								Mary Margaret Fonow<br />
-								Joel Gereboff<br />
-								Eileen Gunn<br />
-								David H. Guston<br />
-								Judith Guston<br />
-								Kim Hammond<br />
-								Chris Hanlon<br />
-								Dehlia Hannah<br />
-								Sean A. Hays<br />
-								Julie Lekstrom Himes<br />
-								Amanda Holderread Heggen<br />
-								Nicole Herbots<br />
-								Adam Hosein<br />
-								Andrew Dana Hudson<br />
-								Allison Kavey<br />
-								Jonathon Keats<br />
-								Douglas Kelley<br />
-								Sally Kitch<br />
-								Joel A. Klein<br />
-								Sheldon Krimsky<br />
-								Stacey Kuznetsov<br />
-								JJ LaTourelle<br />
-								Devoney Looser<br />
-								Arthur B. Markman<br />
-								Sean McCafferty<br />
-								Patrick McGurrin<br />
+								<Link to="/user/c-athena-aktipis">Athena Aktipis</Link><br />
+								<Link to="/user/braden-allenby">Braden Allenby</Link><br />
+								<Link to="/user/ariel-anbar">Ariel Anbar</Link><br />
+								<Link to="/user/samuel-arbesman">Samuel Arbesman</Link><br />
+								<Link to="/user/miguel-astor-aguilera">Miguel Astor-Aguilera</Link><br />
+								<Link to="/user/bob-beard">Bob Beard</Link><br />
+								<Link to="/user/dominic-berry">Dominic Berry</Link><br />
+								<Link to="/user/ron-broglio">Ron Broglio</Link><br />
+								<Link to="/user/sara-brownell">Sara Brownell</Link><br />
+								<Link to="/user/noa-bruhis">Noa Bruhis</Link><br />
+								<Link to="/user/carlos-castillo-chavez">Carlos Castillo-Chavez</Link><br />
+								<Link to="/user/adam-chodorow">Adam Chodorow</Link><br />
+								<Link to="/user/robert-cook-deegan">Robert Cook-Deegan</Link><br />
+								<Link to="/user/mary-drago">Mary Drago</Link><br />
+								<Link to="/user/lawrence-dritsas">Lawrence Dritsas</Link><br />
+								<Link to="/user/jason-ellis">Lawrence Dritsas</Link><br />
+								<Link to="/user/joey-eschrich">Joey Eschrich</Link><br />
+								<Link to="/user/ed-finn">Ed Finn</Link><br />
+								<Link to="/user/liz-and-james-fiacco">James Fiacco</Link><br />
+								<Link to="/user/liz-and-james-fiacco">Liz Fiacco</Link><br />
+								<Link to="/user/mary-margaret-fonow">Mary Margaret Fonow</Link><br />
+								<Link to="/user/joel-gereboff">Joel Gereboff</Link><br />
+								<Link to="/user/eileen-gunn">Eileen Gunn</Link><br />
+								<Link to="/user/david-h-guston-and-robert-cook-deegan">David H Guston</Link><br />
+								<Link to="/user/judith-guston">Judith Guston</Link><br />
+								<Link to="/user/kim-hammond">Kim Hammond</Link><br />
+								<Link to="/user/chris-hanlon">Chris Hanlon</Link><br />
+								<Link to="/user/dehlia-hannah">Dehlia Hannah</Link><br />
+								<Link to="/user/sean-a-hayes">Sean A. Hayes</Link><br />
+								<Link to="/user/julie-lekstrom-himes">Julie Lekstrom Himes</Link><br />
+								<Link to="/user/amanda-holderread-heggen">Amanda Holderread Heggen</Link><br />
+								<Link to="/user/nicole-herbots">Nicole Herbots</Link><br />
+								<Link to="/user/adam-hosein">Adam Hosein</Link><br />
+								<Link to="/user/andrew-dana-hudson">Andrew Dana Hudson</Link><br />
+								<Link to="/user/allison-kavey">Allison Kavey</Link><br />
+								<Link to="/user/jonathon-keats">Jonathon Keats</Link><br />
+								<Link to="/user/douglas-kelley">Douglas Kelley</Link><br />
+								<Link to="/user/sally-kitch">Sally Kitch</Link><br />
+								<Link to="/user/joel-a-klein">Joel A. Klein</Link><br />
+								<Link to="/user/sheldon-krimsky">Sheldon Krimsky</Link><br />
+								<Link to="/user/stacey-kuznetsov">Stacey Kuznetsov</Link><br />
+								<Link to="/user/jj-latourelle">JJ LaTourelle</Link><br />
+								<Link to="/user/devoney-looser">Devoney Looser</Link><br />
+								<Link to="/user/arthur-b-markman">Arthur B. Markman</Link><br />
+								<Link to="/user/sean-mccafferty">Sean McCafferty</Link><br />
+								<Link to="/user/patrick-mcgurrin">Patrick McGurrin</Link><br />
 								Manjana Milkoreit<br />
-								April Miller<br />
-								Ben Minteer<br />
-								Peter Nagy<br />
-								Stephanie Naufel<br />
-								Annalee Newitz<br />
-								Robert Oppenheimer<br />
-								Nicole Piemonte<br />
-								Corey Pressman<br />
-								Alecia Radatz<br />
-								Ramsey Eric Ramsey<br />
-								Emily Redman<br />
-								Samuel J. Redman<br />
-								Jason Scott Robert<br />
-								Hannah Rogers<br />
-								Heather Ross<br />
-								Kevin Sandler<br />
-								Daniel Sarewitz<br />
-								Pablo Schyfter<br />
-								Verena Schulze-Greiving<br />
-								Richard C. Sha<br />
-								Michelle N. Shiota<br />
-								Michael Simeone<br />
-								Kerri Slatus<br />
-								Mike Stanford<br />
-								William K. Storey<br />
-								Jameien Taylor<br />
-								Tiffany Trent<br />
-								Nora S. Vaage<br />
-								Erin Walker<br />
-								Steven Weiner<br />
-								Damien Patrick Williams<br />
-								Melissa Wilson Sayres<br />
-								Stephani Etheridge Woodson<br />
-								Lisa Yaszek<br />
+								<Link to="/user/april-miller">April Miller</Link><br />
+								<Link to="/user/ben-minteer">Ben Minteer</Link><br />
+								<Link to="/user/peter-nagy">Peter Nagy</Link><br />
+								<Link to="/user/stephanie-naufel">Stephanie Naufel</Link><br />
+								<Link to="/user/annalee-newitz">Annalee Newitz</Link><br />
+								<Link to="/user/robert-oppenheimer">Robert Oppenheimer</Link><br />
+								<Link to="/user/nicole-piemonte">Nicole Piemonte</Link><br />
+								<Link to="/user/corey-pressman">Corey Pressman</Link><br />
+								<Link to="/user/alecia-radatz">Alecia Radatz</Link><br />
+								<Link to="/user/ramsey-eric-ramsey">Ramsey Eric Ramsey</Link><br />
+								<Link to="/user/emily-redman">Emily Redman</Link><br />
+								<Link to="/user/samuel-redman">Samuel J. Redman</Link><br />
+								<Link to="/user/jason-scott-robert">Jason Scott Robert</Link><br />
+								<Link to="/user/hannah-rogers">Hannah Rogers</Link><br />
+								<Link to="/user/heather-ross">Heather Ross</Link><br />
+								<Link to="/user/kevin-sandler">Kevin Sandler</Link><br />
+								<Link to="/user/daniel-sarewitz">Daniel Sarewitz</Link><br />
+								<Link to="/user/pablo-schyfter">Pablo Schyfter</Link><br />
+								<Link to="/user/verena-schulze-greiving">Verena Schulze-Greiving</Link><br />
+								<Link to="/user/richard-c-sha">Richard C. Sha</Link><br />
+								<Link to="/user/michelle-n-shiota">Michelle N. Shiota</Link><br />
+								<Link to="/user/michael-simeone">Michael Simeone</Link><br />
+								<Link to="/user/kerri-slatus">Kerri Slatus</Link><br />
+								<Link to="/user/mike-stanford">Mike Stanford</Link><br />
+								<Link to="/user/william-k-storey">William K. Storey</Link><br />
+								<Link to="/user/jameien-taylor">Jameien Taylor</Link><br />
+								<Link to="/user/tiffany-trent">Tiffany Trent</Link><br />
+								<Link to="/user/nora-s-vaage">Nora S. Vaage</Link><br />
+								<Link to="/user/erin-walker">Erin Walker</Link><br />
+								<Link to="/user/steven-weiner">Steven Weiner</Link><br />
+								<Link to="/user/damien-patrick-williams">Damien Patrick Williams</Link><br />
+								<Link to="/user/melissa-wilson-sayres">Melissa Wilson Sayres</Link><br />
+								<Link to="/user/stephani-etheridge-woodson">Stephani Etheridge Woodson</Link><br />
+								<Link to="/user/lisa-yaszek">Lisa Yaszek</Link><br />
 							</p>
 						</div>
 					</div>
